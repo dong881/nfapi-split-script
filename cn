@@ -1,0 +1,2 @@
+cd ~/oai-cn5g
+docker compose up -d
