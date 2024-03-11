@@ -1,0 +1,34 @@
+# Common path
+Target_PATH="."
+LOG_PATH="$Target_PATH/LOG"
+
+#######################   For First time
+# mkdir $LOG_PATH
+# sudo apt-get install moreutils
+
+echo "execute OAI Core Network"
+./cn
+sudo echo "Start TCPdump..."
+sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump.pcap &
+echo "execute OAI VNF"
+stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
+echo "execute OAI PNF"
+stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
+echo "execute OAI UE"
+stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
+
+wait_sec=5
+echo "The script automatically execute Ping after $wait_sec seconds..."
+sleep $wait_sec
+echo "execute Ping OAI UE"
+./ping
+echo "Time to $wait_sec seconds..."
+
+# wait_sec=5
+# echo "The script automatically closes after $wait_sec seconds..."
+# # Wait for the specified number of seconds
+# sleep $wait_sec
+bash "$Target_PATH/exit"
+# echo "Time to $wait_sec seconds..."
+
+echo "END"

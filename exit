@@ -1,0 +1,15 @@
+#!/bin/bash
+Target_PATH="."
+
+# ps aux | grep "nr-softmodem" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+ps aux | grep "nr-softmodem\|tcpdump" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+
+# 讀取PID檔案
+while read -r pid; do
+    # 關閉背景進程
+    sudo kill -15 "$pid"  # SIGTERM
+    echo "kill $pid"
+done < $Target_PATH/pids.txt
+
+# 刪除PID檔案
+rm $Target_PATH/pids.txt
