@@ -21,7 +21,7 @@ wait_sec=5
 echo "The script automatically execute Ping after $wait_sec seconds..."
 sleep $wait_sec
 echo "execute Ping OAI UE"
-stdbuf -oL ./ping 2>&1 | ts &> "$LOG_PATH/PING-nfapi-fixes.log"
+stdbuf -oL ./ping 2>&1 | ts &> "$LOG_PATH/ping-nfapi-fixes.log"
 echo "Time to $wait_sec seconds..."
 
 # wait_sec=5
