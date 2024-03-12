@@ -1,2 +1,2 @@
 sudo echo "Start TCPdump..."
-sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump.pcap
+sudo tcpdump -i any -nn '(proto SCTP) or (proto UDP)'  -w $LOG_PATH/nFAPI_TCPdump.pcap
