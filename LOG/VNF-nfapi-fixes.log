@@ -1,649 +1,654 @@
-mars 11 11:24:22 1710152662.133069 [HW]   # /dev/cpu_dma_latency set to 2 us
-mars 11 11:24:22 [0m1710152662.198575 [ENB_APP]   nfapi running mode: VNF
-mars 11 11:24:22 [0m1710152662.198719 [GNB_APP]   Getting GNBSParams
-mars 11 11:24:23 [0m1710152663.199002 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-mars 11 11:24:23 [0m1710152663.199046 [ITTI]   Starting itti queue: TASK_TIMER as task 1
-mars 11 11:24:23 [0m1710152663.199057 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
-mars 11 11:24:23 [0m1710152663.199067 [ITTI]   Starting itti queue: TASK_BM as task 3
-mars 11 11:24:23 [0m1710152663.199077 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-mars 11 11:24:23 [0m1710152663.199087 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
-mars 11 11:24:23 [0m1710152663.199098 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-mars 11 11:24:23 [0m1710152663.199108 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-mars 11 11:24:23 [0m1710152663.199118 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-mars 11 11:24:23 [0m1710152663.199128 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
-mars 11 11:24:23 [0m1710152663.199142 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
-mars 11 11:24:23 [0m1710152663.199155 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
-mars 11 11:24:23 [0m1710152663.199166 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
-mars 11 11:24:23 [0m1710152663.199177 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
-mars 11 11:24:23 [0m1710152663.199187 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
-mars 11 11:24:23 [0m1710152663.199197 [ITTI]   Starting itti queue: TASK_S1AP as task 15
-mars 11 11:24:23 [0m1710152663.199207 [ITTI]   Starting itti queue: TASK_NGAP as task 16
-mars 11 11:24:23 [0m1710152663.199219 [ITTI]   Starting itti queue: TASK_X2AP as task 17
-mars 11 11:24:23 [0m1710152663.199230 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
-mars 11 11:24:23 [0m1710152663.199241 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
-mars 11 11:24:23 [0m1710152663.199264 [ITTI]   Starting itti queue: TASK_M3AP as task 20
-mars 11 11:24:23 [0m1710152663.199277 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
-mars 11 11:24:23 [0m1710152663.199287 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
-mars 11 11:24:23 [0m1710152663.199297 [ITTI]   Starting itti queue: TASK_SCTP as task 23
-mars 11 11:24:23 [0m1710152663.199307 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
-mars 11 11:24:23 [0m1710152663.199317 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
-mars 11 11:24:23 [0m1710152663.199334 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
-mars 11 11:24:23 [0m1710152663.199351 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
-mars 11 11:24:23 [0m1710152663.199363 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-mars 11 11:24:23 [0m1710152663.199378 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-mars 11 11:24:23 [0m1710152663.199394 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-mars 11 11:24:23 [0m1710152663.199407 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-mars 11 11:24:23 [0m1710152663.199417 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-mars 11 11:24:23 [0m1710152663.199427 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-mars 11 11:24:23 [0m1710152663.199437 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-mars 11 11:24:23 [0m1710152663.199447 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-mars 11 11:24:23 [0m1710152663.199457 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-mars 11 11:24:23 [0m1710152663.199467 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-mars 11 11:24:23 [0m1710152663.199478 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-mars 11 11:24:23 [0m1710152663.199487 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
-mars 11 11:24:23 [0m1710152663.199498 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
-mars 11 11:24:23 [0m1710152663.199509 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
-mars 11 11:24:23 [0m1710152663.199519 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
-mars 11 11:24:23 [0m1710152663.199530 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
-mars 11 11:24:23 [0m1710152663.199541 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
-mars 11 11:24:23 [0m1710152663.199552 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
-mars 11 11:24:23 [0m1710152663.199582 [OPT]   OPT disabled
-mars 11 11:24:23 [0m1710152663.199586 [HW]   Version: Branch: nfapi-fixes Abrev. Hash: f50933751c Date: Tue Feb 20 16:33:03 2024 +0100
-mars 11 11:24:23 [0m1710152663.199828 [PHY]   create_gNB_tasks() Task ready initialize structures
-mars 11 11:24:23 [0m1710152663.199944 [NR_PHY]   RC.gNB = 0x55f5029550b0
-mars 11 11:24:23 [0m1710152663.199948 [PHY]   No prs_config configuration found..!!
-mars 11 11:24:23 [0m1710152663.200183 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
-mars 11 11:24:23 [0m1710152663.200188 [GNB_APP]   minTXRXTIME 6
-mars 11 11:24:23 [0m1710152663.200190 [GNB_APP]   SIB1 TDA 1
-mars 11 11:24:23 [0m1710152663.200193 [GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
-mars 11 11:24:23 [0m1710152663.200629 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
-mars 11 11:24:23 [0m1710152663.200634 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.200638 [RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
-mars 11 11:24:23 [0m1710152663.200642 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.200645 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 11 11:24:23 [0m1710152663.200649 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.200652 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 11 11:24:23 [0m1710152663.200945 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
-mars 11 11:24:23 [0m1710152663.200969 [UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
-mars 11 11:24:23 [0m1710152663.203548 [UTIL]   threadCreate for MAC_STATS, affinity ffffffff, priority 2
-mars 11 11:24:23 [0m1710152663.213773 [PHY]   Installing callbacks for IF_Module - UL_indication
-mars 11 11:24:23 [0m1710152663.213786 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x55f5029701a0
-mars 11 11:24:23 [0m1710152663.213794 [NR_MAC]   Configuring common parameters from NR ServingCellConfig
-mars 11 11:24:23 [0m1710152663.213799 [NR_MAC]   DL_Bandwidth:40
-mars 11 11:24:23 [0m1710152663.213802 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.213806 [NR_MAC]   DL_Bandwidth:40
-mars 11 11:24:23 [0m1710152663.213809 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.213812 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.213815 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 11 11:24:23 [0m1710152663.213820 [NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
-mars 11 11:24:23 [0m1710152663.213823 [NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
-mars 11 11:24:23 [0m1710152663.213826 [NR_MAC]   Setting TDD configuration period to 6
-mars 11 11:24:23 [0m1710152663.213833 [NR_MAC]   TDD has been properly configurated
-mars 11 11:24:23 [0m1710152663.213857 [NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
-mars 11 11:24:23 [0m1710152663.213863 [ENB_APP]   nfapi running mode: VNF
-mars 11 11:24:23 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--sa" "--log_config.global_log_options" "wall_clock" "--emulate-l1" 
-mars 11 11:24:23 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
-mars 11 11:24:23 [CONFIG] function config_libconfig_init returned 0
-mars 11 11:24:23 [CONFIG] config module libconfig loaded
-mars 11 11:24:23 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
-mars 11 11:24:23 [CONFIG] debug flags: 0x00000000
-mars 11 11:24:23 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
-mars 11 11:24:23 [LIBCONFIG] log_config: 53/53 parameters successfully set, (52 to default value)
-mars 11 11:24:23 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
-mars 11 11:24:23 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-mars 11 11:24:23 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-mars 11 11:24:23 log init done
-mars 11 11:24:23 Reading in command-line options
-mars 11 11:24:23 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
-mars 11 11:24:23 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
-mars 11 11:24:23 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:23 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [CONFIG] parallel_conf is set to 2
-mars 11 11:24:23 [CONFIG] worker_conf is set to 1
-mars 11 11:24:23 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
-mars 11 11:24:23 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
-mars 11 11:24:23 configuring for RAU/RRU
-mars 11 11:24:23 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:23 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:23 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:23 [LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:23 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
-mars 11 11:24:23 [LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:23 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:23 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:23 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:23 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:23 **************** vnf_port:50001
-mars 11 11:24:23 6625708542 [I]  396972032: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
-mars 11 11:24:23 6625708547 [I]  396972032: configure_nr_nfapi_vnf: [VNF] configure_nr_nfapi_vnf() vnf.p7_vnfs[0].config:0x55f502976550 VNF ADDRESS:127.0.0.2:50001
-mars 11 11:24:23 6625708551 [I]  396972032: configure_nr_nfapi_vnf: [VNF] Creating VNF NFAPI start thread configure_nr_nfapi_vnf
-mars 11 11:24:23 6625710870 [I]  396972032: configure_nr_nfapi_vnf: [VNF] Created VNF NFAPI start thread configure_nr_nfapi_vnf
-mars 11 11:24:23 **************** RETURNED FROM configure_nfapi_vnf() vnf_port:50001
-mars 11 11:24:23 6625710877 [I]  350205504: vnf_nr_start_thread: [VNF] VNF NFAPI thread - nfapi_vnf_start()vnf_nr_start_thread
-mars 11 11:24:23 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:23 6625710903 [I]  350205504: nfapi_nr_vnf_start: nfapi_nr_vnf_start()
-mars 11 11:24:23 6625710908 [I]  350205504: nfapi_nr_vnf_start: Starting P5 VNF connection on port 50001
-mars 11 11:24:23 6625710932 [I]  350205504: nfapi_nr_vnf_start: P5 socket created... 99
-mars 11 11:24:23 6625710938 [N]  350205504: nfapi_nr_vnf_start: VNF Setting the SCTP_INITMSG
-mars 11 11:24:23 6625710947 [I]  350205504: nfapi_nr_vnf_start: IPV4 binding to port 50001
-mars 11 11:24:23 6625710954 [I]  350205504: nfapi_nr_vnf_start: bind succeeded..99.
-mars 11 11:24:23 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:23 6625710970 [I]  350205504: nfapi_nr_vnf_start: listen succeeded...
-mars 11 11:24:23 [93m1710152663.216357 [GNB_APP]   no slices transported via F1 Setup Request!
-mars 11 11:24:23 [0m1710152663.216366 [NR_RRC]   SIB1 freq: offsetToPointA 86
-mars 11 11:24:23 [0m1710152663.216398 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:23 [0m1710152663.216402 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 11 11:24:23 [0m1710152663.216453 [GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 1/1/2 cellID 12345678
-mars 11 11:24:23 [0m1710152663.216457 [GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
-mars 11 11:24:23 [0m1710152663.216486 [PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
-mars 11 11:24:23 [0m1710152663.216490 [GNB_APP]   Allocating gNB_RRC_INST for 1 instances
-mars 11 11:24:23 [0m1710152663.216836 [GNB_APP]   SDAP layer is disabled
-mars 11 11:24:23 [0m1710152663.216840 [GNB_APP]   Data Radio Bearer count 1
-mars 11 11:24:23 [0m1710152663.216904 [NR_RRC]   do_SIB23_NR, size 9 
-mars 11 11:24:23  [0m1710152663.217621 [PDCP]   pdcp init,usegtp 
-mars 11 11:24:23 [0m1710152663.217880 [GNB_APP]   default drx 0
-mars 11 11:24:23 [0m1710152663.217888 [GNB_APP]   [gNB 0] gNB_app_register for instance 0
-mars 11 11:24:23 [0m1710152663.217894 [UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
-mars 11 11:24:23 [0m1710152663.220192 [UTIL]   threadCreate for TASK_SCTP, affinity ffffffff, priority 50
-mars 11 11:24:23 [0m1710152663.222549 [ITTI]   Created Posix thread TASK_SCTP
-mars 11 11:24:23 [0m1710152663.222559 [X2AP]   X2AP is disabled.
-mars 11 11:24:23 [0m1710152663.222637 [UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
-mars 11 11:24:23 [0m1710152663.224887 [UTIL]   threadCreate for TASK_NGAP, affinity ffffffff, priority 50
-mars 11 11:24:23 [0m1710152663.227186 [ITTI]   Created Posix thread TASK_NGAP
-mars 11 11:24:23 [0m1710152663.227202 [UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
-mars 11 11:24:23 [0m1710152663.227250 [NGAP]   Registered new gNB[0] and macro gNB id 3584
-mars 11 11:24:23 [0m1710152663.227257 [NGAP]   [gNB 0] check the amf registration state
-mars 11 11:24:23 [0m1710152663.228009 [NGAP]   3584 -> 0000e000
-mars 11 11:24:23 [0m1710152663.230399 [UTIL]   threadCreate for TASK_GNB_APP, affinity ffffffff, priority 50
-mars 11 11:24:23 [0m1710152663.233975 [ITTI]   Created Posix thread TASK_GNB_APP
-mars 11 11:24:23 [0m1710152663.233991 [UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
-mars 11 11:24:23 [0m1710152663.234208 [GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 1
-mars 11 11:24:23 [0m1710152663.236397 [UTIL]   threadCreate for TASK_RRC_GNB, affinity ffffffff, priority 50
-mars 11 11:24:23 [0m1710152663.239977 [ITTI]   Created Posix thread TASK_RRC_GNB
-mars 11 11:24:23 [0m1710152663.240019 [NR_RRC]   Entering main loop of NR_RRC message task
-mars 11 11:24:23 [0m1710152663.240027 [NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
-mars 11 11:24:23 [0m1710152663.240096 [RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
-mars 11 11:24:23 [0m1710152663.240102 [RRC]   DU uses RRC version 17.3.0
-mars 11 11:24:23 [0m1710152663.240113 [MAC]   received F1 Setup Response from CU (null)
-mars 11 11:24:23 [0m1710152663.240117 [MAC]   CU uses RRC version 17.3.0
-mars 11 11:24:23 [0m1710152663.240139 [GTPU]   Configuring GTPu
-mars 11 11:24:23 [0m1710152663.240206 [GTPU]   SA mode 
-mars 11 11:24:23 [0m1710152663.240213 [GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
-mars 11 11:24:23 [0m1710152663.240219 [GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
-mars 11 11:24:23 [0m1710152663.240257 [GTPU]   Created gtpu instance id: 101
-mars 11 11:24:23 [0m1710152663.240271 [UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
-mars 11 11:24:23 [0m1710152663.240275 [NR_RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
-mars 11 11:24:23 [0m1710152663.242700 [UTIL]   threadCreate for TASK_GTPV1_U, affinity ffffffff, priority 50
-mars 11 11:24:23 [0m1710152663.246251 [ITTI]   Created Posix thread TASK_GTPV1_U
-mars 11 11:24:25 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 NRRRC 0: Southbound Transport local_mac
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:25 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:25 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:25 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:25 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:25 [LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
-mars 11 11:24:25 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
-mars 11 11:24:25 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
-mars 11 11:24:25 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
-mars 11 11:24:25 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-mars 11 11:24:25 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
-mars 11 11:24:25 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
-mars 11 11:24:25 START MAIN THREADS
-mars 11 11:24:25 RC.nb_nr_L1_inst:0
-mars 11 11:24:25 wait_gNBs()
-mars 11 11:24:25 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
-mars 11 11:24:25 gNB L1 are configured
-mars 11 11:24:25 About to Init RU threads RC.nb_RU:0
-mars 11 11:24:25 Entering ITTI signals handler
-mars 11 11:24:25 TYPE <CTRL-C> TO TERMINATE
-mars 11 11:24:25 6627708416 [I]  350205504: nfapi_nr_vnf_start: Accepting connection from PNF...
-mars 11 11:24:25 6627708443 [I]  350205504: nfapi_nr_vnf_start: PNF connection (fd:102) accepted from 127.0.0.1:51780 
-mars 11 11:24:25 6627708526 [I]  350205504: nfapi_nr_vnf_start: MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7fc6fc000b70
-mars 11 11:24:25 6627708530 [I]  350205504: pnf_nr_connection_indication_cb: [VNF] pnf connection indication idx:0
-mars 11 11:24:25 6627708533 [I]  350205504: oai_create_gnb: oai_create_gnb() gNB is now configured
-mars 11 11:24:25 6627708578 [I]  350205504: nfapi_nr_vnf_start: VNF Association ID = 64
-mars 11 11:24:25 6627708582 [I]  350205504: nfapi_nr_vnf_start: VNF Receiver window size = 67108856
-mars 11 11:24:25 6627708586 [I]  350205504: nfapi_nr_vnf_start: VNF In Streams = 5
-mars 11 11:24:25 6627708588 [I]  350205504: nfapi_nr_vnf_start: VNF Out Streams = 5
-mars 11 11:24:25 6627708640 [I]  350205504: vnf_nr_handle_pnf_param_response: Received PNF_PARAM.reponse
-mars 11 11:24:25 6627708647 [I]  350205504: pnf_nr_param_resp_cb: [VNF] pnf param response idx:0 error:0
-mars 11 11:24:25 6627708650 [I]  350205504: pnf_nr_param_resp_cb: [VNF] (PHY:0) phy_config_idx:0
-mars 11 11:24:25 6627708653 [I]  350205504: nfapi_vnf_phy_info_list_add: Adding phy p5_idx:0 phy_id:1
-mars 11 11:24:25 6627708655 [I]  350205504: pnf_nr_param_resp_cb: [VNF] (PHY:0) (RF0) 0
-mars 11 11:24:25 6627708658 [I]  350205504: pnf_nr_param_resp_cb: [VNF] (PHY:0) (RF1) 0
-mars 11 11:24:25 6627708661 [I]  350205504: pnf_nr_param_resp_cb: Hard coded num phy rf to 2
-mars 11 11:24:25 6627708725 [I]  350205504: vnf_nr_handle_pnf_config_response: Received PNF_CONFIG_RESPONSE
-mars 11 11:24:25 6627708730 [I]  350205504: pnf_nr_config_resp_cb: [VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:1]]
-mars 11 11:24:25 6627708801 [I]  350205504: vnf_nr_handle_pnf_start_response: Received PNF_START_RESPONSE
-mars 11 11:24:25 6627708805 [I]  350205504: pnf_nr_start_resp_cb: [VNF] pnf start response idx:0 config:0x55f5029766a0 user_data:0x55f501b06e20 p7_vnf[config:0x55f502976550 thread_started:0]
-mars 11 11:24:25 6627711023 [I]  350205504: pnf_nr_start_resp_cb: [VNF] Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
-mars 11 11:24:25 Calling sched_setscheduler(79)
-mars 11 11:24:25 6627711055 [I]  226469440: vnf_nr_p7_thread_start: [VNF] Creating VNF NFAPI P7 start thread vnf_nr_p7_thread_start
-mars 11 11:24:25 6627711164 [I]  350205504: vnf_nr_handle_param_response: Received PARAM_RESPONSE
-mars 11 11:24:25 6627711183 [I]  350205504: vnf_nr_handle_param_response: PNF P7 IPv4 address: 127.0.0.1
-mars 11 11:24:25 6627711187 [I]  350205504: vnf_nr_handle_param_response: PNF P7 IPv6 address: ::
-mars 11 11:24:25 6627711190 [I]  350205504: vnf_nr_handle_param_response: PNF P7 Port: 23235
-mars 11 11:24:25 6627711193 [I]  350205504: nr_param_resp_cb: [VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
-mars 11 11:24:25 6627711197 [I]  350205504: nr_param_resp_cb: [VNF] 0.1 pnf p7 127.0.0.1:23235 timing 30 1 0 1
-mars 11 11:24:25 6627711202 [I]  350205504: nfapi_vnf_p7_add_pnf: nfapi_vnf_p7_add_pnf(config:0x55f502976550 phy_id:1 pnf_addr:127.0.0.1 pnf_p7_port:23235)
-mars 11 11:24:25 6627711207 [I]  350205504: vnf_p7_connection_info_list_add: vnf_p7_connection_info_list_add()
-mars 11 11:24:25 6627711211 [I]  350205504: nr_param_resp_cb: [VNF] Send NFAPI_CONFIG_REQUEST
-mars 11 11:24:25 6627711213 [I]  350205504: nr_param_resp_cb: [VNF] Local_port:23491
-mars 11 11:24:25 6627711216 [I]  350205504: nr_param_resp_cb: [VNF] Local_addr:127.0.0.2
-mars 11 11:24:25 6627711220 [I]  350205504: nr_param_resp_cb: 
-mars 11 11:24:25 [VNF]Timing window tag : 286 Timing window:30
-mars 11 11:24:25 carrier_config
-mars 11 11:24:25   bw t 4097 l 0 v 40
-mars 11 11:24:25   freq t 4098 l 0 v 3600120
-mars 11 11:24:25   dl_k0[0] t 0 l 0 v 0
-mars 11 11:24:25   dl_k0[1] t 4099 l 0 v 0
-mars 11 11:24:25   dl_k0[2] t 0 l 0 v 0
-mars 11 11:24:25   dl_k0[3] t 0 l 0 v 0
-mars 11 11:24:25   dl_k0[4] t 0 l 0 v 0
-mars 11 11:24:25   dl_grid_size[0] t 0 l 0 v 0
-mars 11 11:24:25   dl_grid_size[1] t 4100 l 0 v 106
-mars 11 11:24:25   dl_grid_size[2] t 0 l 0 v 0
-mars 11 11:24:25   dl_grid_size[3] t 0 l 0 v 0
-mars 11 11:24:25   dl_grid_size[4] t 0 l 0 v 0
-mars 11 11:24:25   num_tx_ant t 4101 l 0 v 1
-mars 11 11:24:25   uplink_bandwidth t 4102 l 0 v 40
-mars 11 11:24:25   uplink_frequency t 4103 l 0 v 3600120
-mars 11 11:24:25   ul_k0[0] t 0 l 0 v 0
-mars 11 11:24:25   ul_k0[1] t 4104 l 0 v 0
-mars 11 11:24:25   ul_k0[2] t 0 l 0 v 0
-mars 11 11:24:25   ul_k0[3] t 0 l 0 v 0
-mars 11 11:24:25   ul_k0[4] t 0 l 0 v 0
-mars 11 11:24:25   ul_grid_size[0] t 0 l 0 v 0
-mars 11 11:24:25   ul_grid_size[1] t 4105 l 0 v 106
-mars 11 11:24:25   ul_grid_size[2] t 0 l 0 v 0
-mars 11 11:24:25   ul_grid_size[3] t 0 l 0 v 0
-mars 11 11:24:25   ul_grid_size[4] t 0 l 0 v 0
-mars 11 11:24:25   num_rx_ant t 4106 l 0 v 1
-mars 11 11:24:25   frequency_shift_7p5khz t 0 l 0 v 0
-mars 11 11:24:25 prach_config
-mars 11 11:24:25   prach_sequence_length t 4113 l 0 v 1
-mars 11 11:24:25   prach_sub_c_spacing t 4114 l 0 v 1
-mars 11 11:24:25   restricted_set_config t 4115 l 0 v 0
-mars 11 11:24:25   num_prach_fd_occasions t 4116 l 0 v 1
-mars 11 11:24:25   prach_ConfigurationIndex t 4137 l 0 v 98
-mars 11 11:24:25     prach_root_sequence_index t 4117 l 0 v 1
-mars 11 11:24:25     num_root_sequences t 4118 l 0 v 16
-mars 11 11:24:25     k1 t 4119 l 0 v 0
-mars 11 11:24:25     prach_zero_corr_conf t 4120 l 0 v 13
-mars 11 11:24:25     num_unused_root_sequences t 4121 l 0 v 0
-mars 11 11:24:25   ssb_per_rach t 4123 l 0 v 3
-mars 11 11:24:25   prach_multiple_carriers_in_a_band t 0 l 0 v 0
-mars 11 11:24:25 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:127
-mars 11 11:24:25 6627712570 [I]  350205504: vnf_nr_handle_config_response: Received CONFIG_RESPONSE
-mars 11 11:24:25 6627712581 [I]  350205504: nr_config_resp_cb: [VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
-mars 11 11:24:25 6627712585 [I]  350205504: nr_config_resp_cb: [VNF] Calling oai_enb_init()
-mars 11 11:24:25 6627713623 [I]  218076736: vnf_nr_p7_start_thread: vnf_nr_p7_start_thread()
-mars 11 11:24:25 6627713637 [I]  218076736: nfapi_nr_vnf_p7_start: nfapi_nr_vnf_p7_start()
-mars 11 11:24:25 6627713641 [I]  218076736: nfapi_nr_vnf_p7_start: Initialising VNF P7 port:50011
-mars 11 11:24:25 6627713661 [I]  218076736: nfapi_nr_vnf_p7_start: VNF P7 socket created...
-mars 11 11:24:25 6627713669 [I]  218076736: nfapi_nr_vnf_p7_start: VNF P7 setsockopt succeeded...
-mars 11 11:24:25 6627713673 [I]  218076736: nfapi_nr_vnf_p7_start: VNF P7 binding too 0.0.0.0:50011
-mars 11 11:24:25 6627713681 [I]  218076736: nfapi_nr_vnf_p7_start: VNF P7 bind succeeded...
-mars 11 11:24:30 6633100664 [I]  350205504: vnf_nr_handle_start_response: Received START_RESPONSE
-mars 11 11:24:30 6633100677 [I]  350205504: nr_start_resp_cb: [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
-mars 11 11:24:30 6633100681 [I]  350205504: nfapi_vnf_p7_add_pnf: nfapi_vnf_p7_add_pnf(config:0x55f502976550 phy_id:1 pnf_addr:127.0.0.1 pnf_p7_port:23235)
-mars 11 11:24:30 6633100687 [I]  350205504: vnf_p7_connection_info_list_add: vnf_p7_connection_info_list_add()
-mars 11 11:24:30 6633108165 [N]  218076736: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 20
-mars 11 11:24:30 6633117553 [N]  218076736: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 76
-mars 11 11:24:34 1710152674.869200 [NR_MAC]   Frame.Slot 128.0
-mars 11 11:24:34 
-mars 11 11:24:35 [0m6638434557 [I]  218076736: vnf_handle_nr_rach_indication: vnf_handle_nr_rach_indication: Handling RACH Indication
-mars 11 11:24:35 1710152675.940635 [MAC]   UL_info[Frame 168, Slot 7] Calling initiate_ra_proc RACH:SFN/SLOT:167/19
-mars 11 11:24:35 [0m1710152675.940661 [NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 167 Activating Msg2 generation in frame 168, slot 7 using RA rnti 10b SSB, new rnti e88d index 0 RA index 0
-mars 11 11:24:35 [0m[32m1710152675.940673 [NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 168, slotP 7: Generating RA-Msg2 DCI, rnti 0x10b, state 1, CoreSetType 0
-mars 11 11:24:35 [0m1710152675.940682 [NR_MAC]   [RAPROC] Msg3 slot 17: current slot 7 Msg3 frame 168 k2 7 Msg3_tda_id 3
-mars 11 11:24:35 [0m1710152675.965291 [NR_MAC]   Adding new UE context with RNTI 0xe88d
-mars 11 11:24:35 [0m1710152675.966190 [NR_MAC]   [gNB 0][RAPROC] PUSCH with TC_RNTI 0xe88d received correctly, adding UE MAC Context RNTI 0xe88d
-mars 11 11:24:35 [0m[32m1710152675.966203 [NR_MAC]   [RAPROC] RA-Msg3 received (sdu_lenP 7)
-mars 11 11:24:35 [0m1710152675.966228 [RLC]   activated srb0 for UE with RNTI 0xe88d
-mars 11 11:24:35 [0m1710152675.966234 [RLC]   Added srb 1 to UE with RNTI 0xe88d
-mars 11 11:24:35 [0m1710152675.966317 [NR_MAC]   Activating scheduling RA-Msg4 for TC_RNTI 0xe88d (state 2)
-mars 11 11:24:35 [0m[93m1710152675.966321 [NR_MAC]   Unexpected ULSCH HARQ PID 0 (have -1) for RNTI 0xe88d (ignore this warning for RA)
-mars 11 11:24:35 [0m1710152675.966325 [NR_RRC]   Decoding CCCH: RNTI e88d, payload_size 6
-mars 11 11:24:35 [0m1710152675.966585 [NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 59533 (rnti: e88d, random ue id b2cd03883b000000)
-mars 11 11:24:35 [0m1710152675.966591 [RRC]   activate SRB 1 of UE 1
-mars 11 11:24:35 [0m1710152675.966598 [NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI e88d
-mars 11 11:24:35 [0m1710152675.966610 [NR_MAC]   No CU UE ID stored for UE RNTI e88d, adding CU UE ID 1
-mars 11 11:24:35 [0m1710152675.972850 [NR_MAC]   UE e88d Generate msg4: feedback at  169.17, payload 149 bytes, next state WAIT_Msg4_ACK
-mars 11 11:24:35 [0m[32m1710152675.995387 [NR_MAC]   (UE RNTI 0xe88d) Received Ack of RA-Msg4. CBRA procedure succeeded!
-mars 11 11:24:36 [0m1710152676.081177 [NR_RRC]   5g_s_TMSI: 0x123456789ABC, amf_set_id: 0x48 (72), amf_pointer: 0x34 (52), 5g TMSI: 0x56789ABC 
-mars 11 11:24:36 [0m[32m1710152676.081190 [NR_RRC]   UE 1 Processing NR_RRCSetupComplete from UE
-mars 11 11:24:36 [0m1710152676.081201 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] UE State = NR_RRC_CONNECTED 
-mars 11 11:24:36 [0m1710152676.081213 [NGAP]   UE 1: Chose AMF 'OAI-AMF' (assoc_id 61) through selected PLMN Identity index 0 MCC 1 MNC 1
-mars 11 11:24:36 [0m[93m1710152676.315173 [NGAP]   could not find NGAP_ProtocolIE_ID_id_UEAggregateMaximumBitRate
-mars 11 11:24:36 [0m1710152676.315204 [NR_RRC]   [gNB 0][UE 1] Selected security algorithms (0x7fc708004c7c): ciphering 0, integrity 2 (algorithms changed)
-mars 11 11:24:36 [0m1710152676.315218 [NR_RRC]   [gNB 0][UE e88d] Saved security key A0CE69055C471F80F30789ED9601A80B02311FAC59B289D89B3F64DF6BF216E2
-mars 11 11:24:36 [0m1710152676.321524 [NR_RRC]   UE 1 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
-mars 11 11:24:36 [0m1710152676.323350 [NR_MAC]   Number of DRBs = 0 and SRBs = 0
-mars 11 11:24:36 [0m1710152676.380433 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] received securityModeComplete on UL-DCCH 1 from UE
-mars 11 11:24:36 [0m1710152676.386100 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 11 11:24:36 [0m1710152676.386112 [NR_MAC]   Searching for nr band 78 DL Carrier frequency 3619200000 bw 40000000
-mars 11 11:24:36 [0m1710152676.386240 [NR_RRC]   UE 1: Generate RRCReconfiguration (bytes 229, xid 1)
-mars 11 11:24:36 [0m1710152676.467357 [NR_RRC]   UE 1: Receive RRC Reconfiguration Complete message (xid 1)
-mars 11 11:24:36 [0m1710152676.467427 [NR_RRC]   Send message to sctp: NGAP_InitialContextSetupResponse
-mars 11 11:24:36 [0m1710152676.467603 [NR_RRC]   UE 1: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 2)
-mars 11 11:24:36 [0m[93m1710152676.494757 [NR_MAC]   UE e88d expected HARQ pid 0 feedback at  184. 7, but is at  187. 7 instead (HARQ feedback is in the past)
-mars 11 11:24:36 [0m[93m1710152676.494776 [NR_MAC]   UE e88d expected HARQ pid 8 feedback at  184. 7, but is at  187. 7 instead (HARQ feedback is in the past)
-mars 11 11:24:36 [0m1710152676.538268 [NR_RRC]   UE 1: received UE capabilities (xid 2)
-mars 11 11:24:36 [0m1710152676.538302 [NR_RRC]   Send message to ngap: NGAP_UE_CAPABILITIES_IND
-mars 11 11:24:36 [0m6639323886 [N]  218076736: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 152
-mars 11 11:24:37 1710152677.682435 [NGAP]   PDUSESSIONSetup initiating message
-mars 11 11:24:37 [0m1710152677.682472 [NR_RRC]   [gNB 0] gNB_ue_ngap_id 1 
-mars 11 11:24:37 [0m1710152677.682479 [NR_RRC]   Adding pdusession 10, total nb of sessions 1
-mars 11 11:24:37 [0m1710152677.685178 [NR_RRC]   UE 1: configure DRB ID 1 for PDU session ID 10
-mars 11 11:24:37 [0m[32m1710152677.685191 [RRC]   selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
-mars 11 11:24:37 [0m1710152677.685197 [RRC]   UE 1 associating to CU-UP assoc_id -1 out of 1 CU-UPs
-mars 11 11:24:37 [0m1710152677.685207 [GTPU]   [101] Created tunnel for UE ID 1, teid for incoming: 48585445, teid for outgoing 7 to remote IPv4: 192.168.70.134, IPv6 ::
-mars 11 11:24:37 [0m1710152677.685217 [PDCP]   added drb 1 to UE ID 1
-mars 11 11:24:37 [0m1710152677.685240 [SDAP]   Default DRB for the created SDAP entity: 1 
-mars 11 11:24:37 [0m1710152677.685271 [RRC]   activate SRB 2 of UE 1
-mars 11 11:24:37 [0m1710152677.688782 [RLC]   Added srb 2 to UE with RNTI 0xe88d
-mars 11 11:24:37 [0m1710152677.688797 [RLC]   /home/hsu/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:838:add_drb_am: added drb 1 to UE with RNTI 0xe88d
-mars 11 11:24:37 [0m1710152677.688802 [RLC]   /home/hsu/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:908: added DRB to UE with RNTI 0xe88d
-mars 11 11:24:37 [0m1710152677.688805 [NR_MAC]   UE e88d: received capabilities, updating CellGroupConfig
-mars 11 11:24:37 [0m1710152677.688860 [NR_MAC]   Number of DRBs = 1 and SRBs = 1
-mars 11 11:24:37 [0m1710152677.688865 [NR_MAC]   number of QOS flows mapped to DRB_id 1: 1
-mars 11 11:24:37 [0m1710152677.688870 [NR_MAC]   Setting NSSAI sst: 1, sd: 16777215 for DRB: 1
-mars 11 11:24:37 [0m1710152677.688887 [E1AP]   UE 1: updating PDU session ID 10 (1 bearers)
-mars 11 11:24:37 [0m1710152677.688992 [RRC]   UE e88d replacing existing CellGroupConfig with new one received from DU
-mars 11 11:24:37 [0m1710152677.689067 [NR_RRC]   UE 1: Generate RRCReconfiguration (bytes 368, xid 3)
-mars 11 11:24:37 [0m1710152677.689095 [RRC]   UE 1: PDU session ID 10 modified 1 bearers
-mars 11 11:24:37 [0m[93m1710152677.710277 [NR_MAC]   UE e88d expected HARQ pid 1 feedback at  224. 7, but is at  230.18 instead (HARQ feedback is in the past)
-mars 11 11:24:37 [0m1710152677.766911 [NR_RRC]   UE 1: Receive RRC Reconfiguration Complete message (xid 3)
-mars 11 11:24:37 [0m1710152677.766956 [NR_RRC]   msg index 0, pdu_sessions index 0, status 2, xid 3): nb_of_pdusessions 1,  pdusession_id 10, teid: 1213748293 
-mars 11 11:24:37  [0m1710152677.766964 [NR_RRC]   NGAP_PDUSESSION_SETUP_RESP: sending the message
-mars 11 11:24:38 [0m1710152678.396189 [NR_MAC]   Frame.Slot 256.0
-mars 11 11:24:38 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (10 meas)
-mars 11 11:24:38 UE e88d: dlsch_rounds 23/3/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10145 MCS (0) 9
-mars 11 11:24:38 UE e88d: ulsch_rounds 38/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.05314 MCS (0) 9
-mars 11 11:24:38 UE e88d: MAC:    TX           3203 RX           1268 bytes
-mars 11 11:24:38 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:38 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:38 UE e88d: LCID 4: TX              3 RX             88 bytes
-mars 11 11:24:38 
-mars 11 11:24:39 [0m6642357020 [N]  218076736: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 213
-mars 11 11:24:40 [93m1710152680.999368 [NR_MAC]   UE e88d expected HARQ pid 7 feedback at  344. 7, but is at  349. 7 instead (HARQ feedback is in the past)
-mars 11 11:24:41 [0m1710152681.961267 [NR_MAC]   Frame.Slot 384.0
-mars 11 11:24:41 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:24:41 UE e88d: dlsch_rounds 48/4/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10679 MCS (0) 9
-mars 11 11:24:41 UE e88d: ulsch_rounds 87/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01668 MCS (0) 9
-mars 11 11:24:41 UE e88d: MAC:    TX           6266 RX           3581 bytes
-mars 11 11:24:41 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:41 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:41 UE e88d: LCID 4: TX            387 RX           1226 bytes
-mars 11 11:24:41 
-mars 11 11:24:42 [0m6645355586 [N]  218076736: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 408
-mars 11 11:24:45 1710152685.534759 [NR_MAC]   Frame.Slot 512.0
-mars 11 11:24:45 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:24:45 UE e88d: dlsch_rounds 72/4/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02714 MCS (0) 9
-mars 11 11:24:45 UE e88d: ulsch_rounds 139/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00523 MCS (0) 9
-mars 11 11:24:45 UE e88d: MAC:    TX           9218 RX           6120 bytes
-mars 11 11:24:45 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:45 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:45 UE e88d: LCID 4: TX            768 RX           2318 bytes
-mars 11 11:24:45 
-mars 11 11:24:49 [0m1710152689.118728 [NR_MAC]   Frame.Slot 640.0
-mars 11 11:24:49 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:24:49 UE e88d: dlsch_rounds 93/4/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00690 MCS (0) 9
-mars 11 11:24:49 UE e88d: ulsch_rounds 173/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00164 MCS (0) 9
-mars 11 11:24:49 UE e88d: MAC:    TX          11789 RX           7848 bytes
-mars 11 11:24:49 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:49 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:49 UE e88d: LCID 4: TX           1053 RX           2859 bytes
-mars 11 11:24:49 
-mars 11 11:24:50 [0m[93m1710152690.491827 [NR_MAC]   UE e88d expected HARQ pid 3 feedback at  689. 7, but is at  689. 8 instead (HARQ feedback is in the past)
-mars 11 11:24:50 [0m[93m1710152690.491956 [NR_MAC]   UE e88d expected HARQ pid 4 feedback at  689. 7, but is at  689. 8 instead (HARQ feedback is in the past)
-mars 11 11:24:52 [0m1710152692.672494 [NR_MAC]   Frame.Slot 768.0
-mars 11 11:24:52 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:24:52 UE e88d: dlsch_rounds 113/6/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10824 MCS (0) 6
-mars 11 11:24:52 UE e88d: ulsch_rounds 210/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00057 MCS (0) 9
-mars 11 11:24:52 UE e88d: MAC:    TX          13876 RX           9737 bytes
-mars 11 11:24:52 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:52 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:52 UE e88d: LCID 4: TX           1425 RX           3291 bytes
-mars 11 11:24:52 
-mars 11 11:24:55 [0m[93m1710152695.499447 [NR_MAC]   UE e88d expected HARQ pid 14 feedback at  869. 7, but is at  869. 8 instead (HARQ feedback is in the past)
-mars 11 11:24:55 [0m[93m1710152695.499515 [NR_MAC]   UE e88d expected HARQ pid 15 feedback at  869. 7, but is at  869. 8 instead (HARQ feedback is in the past)
-mars 11 11:24:56 [0m1710152696.232359 [NR_MAC]   Frame.Slot 896.0
-mars 11 11:24:56 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:24:56 UE e88d: dlsch_rounds 132/8/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.20751 MCS (0) 6
-mars 11 11:24:56 UE e88d: ulsch_rounds 245/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00018 MCS (0) 9
-mars 11 11:24:56 UE e88d: MAC:    TX          15489 RX          11670 bytes
-mars 11 11:24:56 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:56 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:56 UE e88d: LCID 4: TX           1704 RX           3630 bytes
-mars 11 11:24:56 
-mars 11 11:24:59 [0m1710152699.856660 [NR_MAC]   Frame.Slot 0.0
-mars 11 11:24:59 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:24:59 UE e88d: dlsch_rounds 157/8/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.05275 MCS (0) 6
-mars 11 11:24:59 UE e88d: ulsch_rounds 283/1/1/1, ulsch_errors 1, ulsch_DTX 1, BLER 0.01672 MCS (0) 9
-mars 11 11:24:59 UE e88d: MAC:    TX          17639 RX          13525 bytes
-mars 11 11:24:59 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:24:59 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:24:59 UE e88d: LCID 4: TX           2189 RX           4150 bytes
-mars 11 11:24:59 
-mars 11 11:25:00 [0m[93m1710152700.630221 [NR_MAC]   Unexpected ULSCH HARQ PID 5 (have 4) for RNTI 0xe88d (ignore this warning for RA)
-mars 11 11:25:00 [0m[93m1710152700.660543 [NR_MAC]   Unexpected ULSCH HARQ PID 3 (have 4) for RNTI 0xe88d (ignore this warning for RA)
-mars 11 11:25:03 [0m1710152703.423509 [NR_MAC]   Frame.Slot 128.0
-mars 11 11:25:03 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:03 UE e88d: dlsch_rounds 178/8/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.01341 MCS (0) 6
-mars 11 11:25:03 UE e88d: ulsch_rounds 329/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.02182 MCS (0) 9
-mars 11 11:25:03 UE e88d: MAC:    TX          19443 RX          15400 bytes
-mars 11 11:25:03 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:03 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:03 UE e88d: LCID 4: TX           2564 RX           4656 bytes
-mars 11 11:25:03 
-mars 11 11:25:06 [0m1710152706.977816 [NR_MAC]   Frame.Slot 256.0
-mars 11 11:25:06 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:06 UE e88d: dlsch_rounds 199/8/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00341 MCS (0) 6
-mars 11 11:25:06 UE e88d: ulsch_rounds 368/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00685 MCS (0) 9
-mars 11 11:25:06 UE e88d: MAC:    TX          21242 RX          17188 bytes
-mars 11 11:25:06 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:06 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:06 UE e88d: LCID 4: TX           2936 RX           5080 bytes
-mars 11 11:25:06 
-mars 11 11:25:10 [0m1710152710.554676 [NR_MAC]   Frame.Slot 384.0
-mars 11 11:25:10 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:10 UE e88d: dlsch_rounds 219/8/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00096 MCS (0) 6
-mars 11 11:25:10 UE e88d: ulsch_rounds 405/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00193 MCS (0) 9
-mars 11 11:25:10 UE e88d: MAC:    TX          22956 RX          19064 bytes
-mars 11 11:25:10 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:10 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:10 UE e88d: LCID 4: TX           3308 RX           5509 bytes
-mars 11 11:25:10 
-mars 11 11:25:11 [0m[93m1710152711.443022 [NR_MAC]   UE e88d expected HARQ pid 13 feedback at  415. 7, but is at  415. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:11 [0m[93m1710152711.443158 [NR_MAC]   UE e88d expected HARQ pid 2 feedback at  415. 7, but is at  415. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:11 [0m[93m1710152711.720100 [NR_MAC]   UE e88d expected HARQ pid 13 feedback at  416. 7, but is at  425. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:11 [0m[93m1710152711.720130 [NR_MAC]   UE e88d expected HARQ pid 2 feedback at  416. 7, but is at  425. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:14 [0m1710152714.143671 [NR_MAC]   Frame.Slot 512.0
-mars 11 11:25:14 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:14 UE e88d: dlsch_rounds 238/10/2/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.08634 MCS (0) 6
-mars 11 11:25:14 UE e88d: ulsch_rounds 435/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00055 MCS (0) 9
-mars 11 11:25:14 UE e88d: MAC:    TX          24559 RX          20820 bytes
-mars 11 11:25:14 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:14 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:14 UE e88d: LCID 4: TX           3587 RX           5824 bytes
-mars 11 11:25:14 
-mars 11 11:25:17 [0m1710152717.717627 [NR_MAC]   Frame.Slot 640.0
-mars 11 11:25:17 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:17 UE e88d: dlsch_rounds 259/10/2/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02195 MCS (0) 6
-mars 11 11:25:17 UE e88d: ulsch_rounds 478/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00015 MCS (0) 9
-mars 11 11:25:17 UE e88d: MAC:    TX          26358 RX          22680 bytes
-mars 11 11:25:17 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:17 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:17 UE e88d: LCID 4: TX           3959 RX           6286 bytes
-mars 11 11:25:17 
-mars 11 11:25:18 [0m[93m1710152718.450608 [NR_MAC]   UE e88d expected HARQ pid 4 feedback at  665. 7, but is at  665. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:18 [0m[93m1710152718.450683 [NR_MAC]   UE e88d expected HARQ pid 6 feedback at  665. 7, but is at  665. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:19 [0m[93m1710152719.573606 [NR_MAC]   UE e88d expected HARQ pid 8 feedback at  704. 7, but is at  705. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:19 [0m[93m1710152719.573640 [NR_MAC]   UE e88d expected HARQ pid 11 feedback at  704. 7, but is at  705. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:21 [0m1710152721.287721 [NR_MAC]   Frame.Slot 768.0
-mars 11 11:25:21 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:21 UE e88d: dlsch_rounds 278/14/2/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.20116 MCS (0) 6
-mars 11 11:25:21 UE e88d: ulsch_rounds 513/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00004 MCS (0) 9
-mars 11 11:25:21 UE e88d: MAC:    TX          27966 RX          24440 bytes
-mars 11 11:25:21 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:21 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:21 UE e88d: LCID 4: TX           4238 RX           6628 bytes
-mars 11 11:25:21 
-mars 11 11:25:23 [0m[93m1710152723.743466 [NR_MAC]   UE e88d expected HARQ pid 1 feedback at  848. 7, but is at  855. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:23 [0m[93m1710152723.743499 [NR_MAC]   UE e88d expected HARQ pid 5 feedback at  848. 7, but is at  855. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:24 [0m[93m1710152724.020319 [NR_MAC]   UE e88d expected HARQ pid 1 feedback at  856. 7, but is at  865. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:24 [0m[93m1710152724.020347 [NR_MAC]   UE e88d expected HARQ pid 5 feedback at  856. 7, but is at  865. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:24 [0m1710152724.856120 [NR_MAC]   Frame.Slot 896.0
-mars 11 11:25:24 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:24 UE e88d: dlsch_rounds 299/16/4/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.19693 MCS (0) 6
-mars 11 11:25:24 UE e88d: ulsch_rounds 558/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00001 MCS (0) 9
-mars 11 11:25:24 UE e88d: MAC:    TX          29765 RX          26164 bytes
-mars 11 11:25:24 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:24 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:24 UE e88d: LCID 4: TX           4610 RX           7096 bytes
-mars 11 11:25:24 
-mars 11 11:25:28 [0m1710152728.415612 [NR_MAC]   Frame.Slot 0.0
-mars 11 11:25:28 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:28 UE e88d: dlsch_rounds 317/16/4/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.05562 MCS (0) 6
-mars 11 11:25:28 UE e88d: ulsch_rounds 592/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:28 UE e88d: MAC:    TX          31293 RX          27900 bytes
-mars 11 11:25:28 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:28 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:28 UE e88d: LCID 4: TX           4889 RX           7435 bytes
-mars 11 11:25:28 
-mars 11 11:25:28 [0m[93m1710152728.469246 [NR_MAC]   UE e88d expected HARQ pid 11 feedback at    1. 7, but is at    1. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:28 [0m[93m1710152728.469264 [NR_MAC]   UE e88d expected HARQ pid 14 feedback at    1. 7, but is at    1. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:29 [0m[93m1710152729.587002 [NR_MAC]   UE e88d expected HARQ pid 9 feedback at   40. 7, but is at   41. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:29 [0m[93m1710152729.587020 [NR_MAC]   UE e88d expected HARQ pid 1 feedback at   40. 7, but is at   41. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:31 [0m1710152731.967481 [NR_MAC]   Frame.Slot 128.0
-mars 11 11:25:31 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:31 UE e88d: dlsch_rounds 339/20/4/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.17256 MCS (0) 6
-mars 11 11:25:31 UE e88d: ulsch_rounds 634/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:31 UE e88d: MAC:    TX          33167 RX          29828 bytes
-mars 11 11:25:31 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:31 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:31 UE e88d: LCID 4: TX           5264 RX           7939 bytes
-mars 11 11:25:31 
-mars 11 11:25:33 [0m[93m1710152733.474301 [NR_MAC]   UE e88d expected HARQ pid 0 feedback at  181. 7, but is at  181. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:33 [0m[93m1710152733.474317 [NR_MAC]   UE e88d expected HARQ pid 12 feedback at  181. 7, but is at  181. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:35 [0m1710152735.542591 [NR_MAC]   Frame.Slot 256.0
-mars 11 11:25:35 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:35 UE e88d: dlsch_rounds 360/22/4/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.15015 MCS (0) 6
-mars 11 11:25:35 UE e88d: ulsch_rounds 676/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:35 UE e88d: MAC:    TX          34966 RX          31732 bytes
-mars 11 11:25:35 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:35 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:35 UE e88d: LCID 4: TX           5636 RX           8398 bytes
-mars 11 11:25:35 
-mars 11 11:25:35 [0m[93m1710152735.702774 [NR_MAC]   UE e88d expected HARQ pid 4 feedback at  256. 7, but is at  261. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:35 [0m[93m1710152735.702793 [NR_MAC]   UE e88d expected HARQ pid 6 feedback at  256. 7, but is at  261. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:37 [0m[93m1710152737.652484 [NR_MAC]   UE e88d expected HARQ pid 2 feedback at  328. 7, but is at  331. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:37 [0m[93m1710152737.652517 [NR_MAC]   UE e88d expected HARQ pid 3 feedback at  328. 7, but is at  331. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:39 [0m1710152739.120747 [NR_MAC]   Frame.Slot 384.0
-mars 11 11:25:39 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:39 UE e88d: dlsch_rounds 379/26/4/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.23215 MCS (0) 6
-mars 11 11:25:39 UE e88d: ulsch_rounds 719/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:39 UE e88d: MAC:    TX          36579 RX          33432 bytes
-mars 11 11:25:39 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:39 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:39 UE e88d: LCID 4: TX           5915 RX           8776 bytes
-mars 11 11:25:39 
-mars 11 11:25:40 [0m[93m1710152740.460719 [NR_MAC]   UE e88d expected HARQ pid 5 feedback at  431. 7, but is at  431. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:40 [0m[93m1710152740.460735 [NR_MAC]   UE e88d expected HARQ pid 2 feedback at  431. 7, but is at  431. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:40 [0m[93m1710152740.735657 [NR_MAC]   UE e88d expected HARQ pid 5 feedback at  432. 7, but is at  441. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:40 [0m[93m1710152740.735691 [NR_MAC]   UE e88d expected HARQ pid 2 feedback at  432. 7, but is at  441. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:41 [0m[93m1710152741.567036 [NR_MAC]   UE e88d expected HARQ pid 4 feedback at  471. 7, but is at  471. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:41 [0m[93m1710152741.567058 [NR_MAC]   UE e88d expected HARQ pid 6 feedback at  471. 7, but is at  471. 8 instead (HARQ feedback is in the past)
-mars 11 11:25:41 [0m[93m1710152741.840840 [NR_MAC]   UE e88d expected HARQ pid 4 feedback at  472. 7, but is at  481. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:41 [0m[93m1710152741.840874 [NR_MAC]   UE e88d expected HARQ pid 6 feedback at  472. 7, but is at  481. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:42 [0m[93m1710152742.669642 [NR_MAC]   UE e88d expected HARQ pid 15 feedback at  504. 7, but is at  511. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:42 [0m[93m1710152742.669673 [NR_MAC]   UE e88d expected HARQ pid 11 feedback at  504. 7, but is at  511. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:42 [0m1710152742.676716 [NR_MAC]   Frame.Slot 512.0
-mars 11 11:25:42 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:42 UE e88d: dlsch_rounds 400/32/8/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.30047 MCS (0) 6
-mars 11 11:25:42 UE e88d: ulsch_rounds 756/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:42 UE e88d: MAC:    TX          38373 RX          35240 bytes
-mars 11 11:25:42 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:42 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:42 UE e88d: LCID 4: TX           6287 RX           9214 bytes
-mars 11 11:25:42 
-mars 11 11:25:42 [0m[93m1710152742.955982 [NR_MAC]   UE e88d expected HARQ pid 15 feedback at  512. 7, but is at  521. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:42 [0m[93m1710152742.956020 [NR_MAC]   UE e88d expected HARQ pid 11 feedback at  512. 7, but is at  521. 7 instead (HARQ feedback is in the past)
-mars 11 11:25:46 [0m1710152746.263009 [NR_MAC]   Frame.Slot 640.0
-mars 11 11:25:46 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:46 UE e88d: dlsch_rounds 418/32/10/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.14762 MCS (0) 6
-mars 11 11:25:46 UE e88d: ulsch_rounds 793/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:46 UE e88d: MAC:    TX          39901 RX          36956 bytes
-mars 11 11:25:46 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:46 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:46 UE e88d: LCID 4: TX           6566 RX           9559 bytes
-mars 11 11:25:46 
-mars 11 11:25:49 [0m1710152749.852338 [NR_MAC]   Frame.Slot 768.0
-mars 11 11:25:49 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:49 UE e88d: dlsch_rounds 441/32/10/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.03752 MCS (0) 6
-mars 11 11:25:49 UE e88d: ulsch_rounds 833/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:49 UE e88d: MAC:    TX          41886 RX          38863 bytes
-mars 11 11:25:49 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:49 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:49 UE e88d: LCID 4: TX           7031 RX          10015 bytes
-mars 11 11:25:49 
-mars 11 11:25:53 [0m1710152753.310026 [NR_MAC]   Frame.Slot 896.0
-mars 11 11:25:53 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:53 UE e88d: dlsch_rounds 460/32/10/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00954 MCS (0) 6
-mars 11 11:25:53 UE e88d: ulsch_rounds 865/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:53 UE e88d: MAC:    TX          43494 RX          40551 bytes
-mars 11 11:25:53 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:53 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:53 UE e88d: LCID 4: TX           7310 RX          10354 bytes
-mars 11 11:25:53 
-mars 11 11:25:56 [0m1710152756.687739 [NR_MAC]   Frame.Slot 0.0
-mars 11 11:25:56 UE RNTI e88d CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
-mars 11 11:25:56 UE e88d: dlsch_rounds 481/32/10/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00242 MCS (0) 6
-mars 11 11:25:56 UE e88d: ulsch_rounds 915/3/3/3, ulsch_errors 3, ulsch_DTX 3, BLER 0.00000 MCS (0) 9
-mars 11 11:25:56 UE e88d: MAC:    TX          45298 RX          42671 bytes
-mars 11 11:25:56 UE e88d: LCID 1: TX            966 RX            326 bytes
-mars 11 11:25:56 UE e88d: LCID 2: TX              0 RX              0 bytes
-mars 11 11:25:56 UE e88d: LCID 4: TX           7682 RX          10846 bytes
-mars 11 11:25:56 
-mars 11 11:25:58 [0m
-mars 11 11:25:58 ** Caught SIGTERM, shutting down
-mars 11 11:25:58 Returned from ITTI signal handler
-mars 11 11:25:58 oai_exit=1
-mars 11 11:25:58 Bye.
+mars 12 10:03:21 1710234201.877069 [HW]   # /dev/cpu_dma_latency set to 2 us
+mars 12 10:03:21 [0m1710234201.904372 [ENB_APP]   nfapi running mode: VNF
+mars 12 10:03:21 [0m1710234201.904401 [GNB_APP]   Getting GNBSParams
+mars 12 10:03:22 [0m1710234202.904594 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+mars 12 10:03:22 [0m1710234202.904621 [ITTI]   Starting itti queue: TASK_TIMER as task 1
+mars 12 10:03:22 [0m1710234202.904633 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
+mars 12 10:03:22 [0m1710234202.904647 [ITTI]   Starting itti queue: TASK_BM as task 3
+mars 12 10:03:22 [0m1710234202.904659 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+mars 12 10:03:22 [0m1710234202.904673 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+mars 12 10:03:22 [0m1710234202.904685 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+mars 12 10:03:22 [0m1710234202.904697 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+mars 12 10:03:22 [0m1710234202.904711 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+mars 12 10:03:22 [0m1710234202.904723 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+mars 12 10:03:22 [0m1710234202.904735 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+mars 12 10:03:22 [0m1710234202.904748 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+mars 12 10:03:22 [0m1710234202.904760 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+mars 12 10:03:22 [0m1710234202.904773 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+mars 12 10:03:22 [0m1710234202.904786 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+mars 12 10:03:22 [0m1710234202.904799 [ITTI]   Starting itti queue: TASK_S1AP as task 15
+mars 12 10:03:22 [0m1710234202.904811 [ITTI]   Starting itti queue: TASK_NGAP as task 16
+mars 12 10:03:22 [0m1710234202.904823 [ITTI]   Starting itti queue: TASK_X2AP as task 17
+mars 12 10:03:22 [0m1710234202.904836 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+mars 12 10:03:22 [0m1710234202.904848 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+mars 12 10:03:22 [0m1710234202.904861 [ITTI]   Starting itti queue: TASK_M3AP as task 20
+mars 12 10:03:22 [0m1710234202.904873 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+mars 12 10:03:22 [0m1710234202.904886 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+mars 12 10:03:22 [0m1710234202.904899 [ITTI]   Starting itti queue: TASK_SCTP as task 23
+mars 12 10:03:22 [0m1710234202.904912 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+mars 12 10:03:22 [0m1710234202.904924 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+mars 12 10:03:22 [0m1710234202.904936 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+mars 12 10:03:22 [0m1710234202.904948 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
+mars 12 10:03:22 [0m1710234202.904961 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+mars 12 10:03:22 [0m1710234202.904974 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+mars 12 10:03:22 [0m1710234202.904989 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+mars 12 10:03:22 [0m1710234202.905002 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+mars 12 10:03:22 [0m1710234202.905014 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+mars 12 10:03:22 [0m1710234202.905027 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+mars 12 10:03:22 [0m1710234202.905040 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+mars 12 10:03:22 [0m1710234202.905053 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+mars 12 10:03:22 [0m1710234202.905066 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+mars 12 10:03:22 [0m1710234202.905078 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+mars 12 10:03:22 [0m1710234202.905091 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+mars 12 10:03:22 [0m1710234202.905103 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+mars 12 10:03:22 [0m1710234202.905116 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+mars 12 10:03:22 [0m1710234202.905129 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+mars 12 10:03:22 [0m1710234202.905142 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+mars 12 10:03:22 [0m1710234202.905155 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+mars 12 10:03:22 [0m1710234202.905167 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+mars 12 10:03:22 [0m1710234202.905179 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+mars 12 10:03:22 [0m1710234202.905212 [OPT]   OPT disabled
+mars 12 10:03:22 [0m1710234202.905216 [HW]   Version: Branch: nfapi-fixes Abrev. Hash: f50933751c Date: Tue Feb 20 16:33:03 2024 +0100
+mars 12 10:03:22 [0m1710234202.905547 [PHY]   create_gNB_tasks() Task ready initialize structures
+mars 12 10:03:22 [0m1710234202.905694 [NR_PHY]   RC.gNB = 0x5aa28b5110b0
+mars 12 10:03:22 [0m1710234202.905701 [PHY]   No prs_config configuration found..!!
+mars 12 10:03:22 [0m1710234202.905998 [GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+mars 12 10:03:22 [0m1710234202.906003 [GNB_APP]   minTXRXTIME 6
+mars 12 10:03:22 [0m1710234202.906007 [GNB_APP]   SIB1 TDA 1
+mars 12 10:03:22 [0m1710234202.906010 [GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
+mars 12 10:03:22 [0m1710234202.906543 [RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
+mars 12 10:03:22 [0m1710234202.906550 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.906555 [RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
+mars 12 10:03:22 [0m1710234202.906560 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.906564 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 12 10:03:22 [0m1710234202.906569 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.906573 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 12 10:03:22 [0m1710234202.906946 [MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+mars 12 10:03:22 [0m1710234202.906977 [UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
+mars 12 10:03:22 [0m1710234202.909203 [UTIL]   threadCreate for MAC_STATS, affinity ffffffff, priority 2
+mars 12 10:03:22 [0m1710234202.919742 [PHY]   Installing callbacks for IF_Module - UL_indication
+mars 12 10:03:22 [0m1710234202.919773 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5aa28b52c1a0
+mars 12 10:03:22 [0m1710234202.919783 [NR_MAC]   Configuring common parameters from NR ServingCellConfig
+mars 12 10:03:22 [0m1710234202.919788 [NR_MAC]   DL_Bandwidth:40
+mars 12 10:03:22 [0m1710234202.919793 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.919797 [NR_MAC]   DL_Bandwidth:40
+mars 12 10:03:22 [0m1710234202.919799 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.919804 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.919807 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 12 10:03:22 [0m1710234202.919812 [NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
+mars 12 10:03:22 [0m1710234202.919815 [NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
+mars 12 10:03:22 [0m1710234202.919819 [NR_MAC]   Setting TDD configuration period to 6
+mars 12 10:03:22 [0m1710234202.919827 [NR_MAC]   TDD has been properly configurated
+mars 12 10:03:22 [0m1710234202.919853 [NR_MAC]   PUSCH Target 200, PUCCH Target 150, PUCCH Failure 10, PUSCH Failure 10
+mars 12 10:03:22 [0m1710234202.919860 [ENB_APP]   nfapi running mode: VNF
+mars 12 10:03:22 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf" "--nfapi" "VNF" "--sa" "--log_config.global_log_options" "wall_clock" "--emulate-l1" 
+mars 12 10:03:22 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+mars 12 10:03:22 [CONFIG] function config_libconfig_init returned 0
+mars 12 10:03:22 [CONFIG] config module libconfig loaded
+mars 12 10:03:22 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+mars 12 10:03:22 [CONFIG] debug flags: 0x00000000
+mars 12 10:03:22 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+mars 12 10:03:22 [LIBCONFIG] log_config: 53/53 parameters successfully set, (52 to default value)
+mars 12 10:03:22 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+mars 12 10:03:22 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+mars 12 10:03:22 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+mars 12 10:03:22 log init done
+mars 12 10:03:22 Reading in command-line options
+mars 12 10:03:22 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+mars 12 10:03:22 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+mars 12 10:03:22 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:22 [LIBCONFIG] list L1s not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [LIBCONFIG] list RUs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [CONFIG] parallel_conf is set to 2
+mars 12 10:03:22 [CONFIG] worker_conf is set to 1
+mars 12 10:03:22 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+mars 12 10:03:22 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+mars 12 10:03:22 configuring for RAU/RRU
+mars 12 10:03:22 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+mars 12 10:03:22 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:22 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:22 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:22 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:22 [LIBCONFIG] list prs_config not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:22 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:22 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:22 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+mars 12 10:03:22 [LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:22 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:22 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:22 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:22 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:22 **************** vnf_port:50001
+mars 12 10:03:22 856890478 [I]  365326336: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+mars 12 10:03:22 856890483 [I]  365326336: configure_nr_nfapi_vnf: [VNF] configure_nr_nfapi_vnf() vnf.p7_vnfs[0].config:0x5aa28b532550 VNF ADDRESS:127.0.0.2:50001
+mars 12 10:03:22 856890488 [I]  365326336: configure_nr_nfapi_vnf: [VNF] Creating VNF NFAPI start thread configure_nr_nfapi_vnf
+mars 12 10:03:22 856893247 [I]  365326336: configure_nr_nfapi_vnf: [VNF] Created VNF NFAPI start thread configure_nr_nfapi_vnf
+mars 12 10:03:22 **************** RETURNED FROM configure_nfapi_vnf() vnf_port:50001
+mars 12 10:03:22 856893254 [I]  243254848: vnf_nr_start_thread: [VNF] VNF NFAPI thread - nfapi_vnf_start()vnf_nr_start_thread
+mars 12 10:03:22 856893372 [I]  243254848: nfapi_nr_vnf_start: nfapi_nr_vnf_start()
+mars 12 10:03:22 856893377 [I]  243254848: nfapi_nr_vnf_start: Starting P5 VNF connection on port 50001
+mars 12 10:03:22 856893399 [I]  243254848: nfapi_nr_vnf_start: P5 socket created... 99
+mars 12 10:03:22 856893407 [N]  243254848: nfapi_nr_vnf_start: VNF Setting the SCTP_INITMSG
+mars 12 10:03:22 856893416 [I]  243254848: nfapi_nr_vnf_start: IPV4 binding to port 50001
+mars 12 10:03:22 856893425 [I]  243254848: nfapi_nr_vnf_start: bind succeeded..99.
+mars 12 10:03:22 856893443 [I]  243254848: nfapi_nr_vnf_start: listen succeeded...
+mars 12 10:03:22 [93m1710234202.922971 [GNB_APP]   no slices transported via F1 Setup Request!
+mars 12 10:03:22 [0m1710234202.922980 [NR_RRC]   SIB1 freq: offsetToPointA 86
+mars 12 10:03:22 [0m1710234202.923017 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:22 [0m1710234202.923022 [NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 12 10:03:22 [0m1710234202.923089 [GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-Eurecom-5GNRBox, TAC 1 MCC/MNC/length 1/1/2 cellID 12345678
+mars 12 10:03:22 [0m1710234202.923095 [GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+mars 12 10:03:22 [0m1710234202.923133 [PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
+mars 12 10:03:22 [0m1710234202.923138 [GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+mars 12 10:03:22 [0m1710234202.923486 [GNB_APP]   SDAP layer is disabled
+mars 12 10:03:22 [0m1710234202.923492 [GNB_APP]   Data Radio Bearer count 1
+mars 12 10:03:22 [0m1710234202.923578 [NR_RRC]   do_SIB23_NR, size 9 
+mars 12 10:03:22  [0m1710234202.924285 [PDCP]   pdcp init,usegtp 
+mars 12 10:03:22 [0m1710234202.924543 [GNB_APP]   default drx 0
+mars 12 10:03:22 [0m1710234202.924552 [GNB_APP]   [gNB 0] gNB_app_register for instance 0
+mars 12 10:03:22 [0m1710234202.924560 [UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+mars 12 10:03:22 [0m1710234202.932961 [UTIL]   threadCreate for TASK_SCTP, affinity ffffffff, priority 50
+mars 12 10:03:22 [0m1710234202.935251 [ITTI]   Created Posix thread TASK_SCTP
+mars 12 10:03:22 [0m1710234202.935262 [X2AP]   X2AP is disabled.
+mars 12 10:03:22 [0m1710234202.935320 [UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
+mars 12 10:03:22 [0m1710234202.937694 [UTIL]   threadCreate for TASK_NGAP, affinity ffffffff, priority 50
+mars 12 10:03:22 [0m1710234202.941098 [ITTI]   Created Posix thread TASK_NGAP
+mars 12 10:03:22 [0m1710234202.941114 [UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+mars 12 10:03:22 [0m1710234202.941135 [NGAP]   Registered new gNB[0] and macro gNB id 3584
+mars 12 10:03:22 [0m1710234202.941144 [NGAP]   [gNB 0] check the amf registration state
+mars 12 10:03:22 [0m1710234202.941771 [NGAP]   3584 -> 0000e000
+mars 12 10:03:22 [0m1710234202.944197 [UTIL]   threadCreate for TASK_GNB_APP, affinity ffffffff, priority 50
+mars 12 10:03:22 [0m1710234202.947809 [ITTI]   Created Posix thread TASK_GNB_APP
+mars 12 10:03:22 [0m1710234202.947826 [UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+mars 12 10:03:22 [0m1710234202.948062 [GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 1
+mars 12 10:03:22 [0m1710234202.950260 [UTIL]   threadCreate for TASK_RRC_GNB, affinity ffffffff, priority 50
+mars 12 10:03:22 [0m1710234202.952529 [ITTI]   Created Posix thread TASK_RRC_GNB
+mars 12 10:03:22 [0m1710234202.952592 [NR_RRC]   Entering main loop of NR_RRC message task
+mars 12 10:03:22 [0m1710234202.952598 [NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (gNB-Eurecom-5GNRBox) on assoc_id -1
+mars 12 10:03:22 [0m1710234202.952659 [RRC]   Accepting DU 3584 (gNB-Eurecom-5GNRBox), sending F1 Setup Response
+mars 12 10:03:22 [0m1710234202.952662 [GTPU]   Configuring GTPu
+mars 12 10:03:22 [0m1710234202.952663 [RRC]   DU uses RRC version 17.3.0
+mars 12 10:03:22 [0m1710234202.952672 [MAC]   received F1 Setup Response from CU (null)
+mars 12 10:03:22 [0m1710234202.952675 [MAC]   CU uses RRC version 17.3.0
+mars 12 10:03:22 [0m1710234202.952737 [GTPU]   SA mode 
+mars 12 10:03:22 [0m1710234202.952743 [GTPU]   Configuring GTPu address : 192.168.70.129, port : 2152
+mars 12 10:03:22 [0m1710234202.952747 [GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+mars 12 10:03:22 [0m1710234202.952775 [GTPU]   Created gtpu instance id: 101
+mars 12 10:03:22 [0m1710234202.952786 [UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
+mars 12 10:03:22 [0m1710234202.952790 [NR_RRC]   Accepting new CU-UP ID 3584 name gNB-Eurecom-5GNRBox (assoc_id -1)
+mars 12 10:03:22 [0m1710234202.955053 [UTIL]   threadCreate for TASK_GTPV1_U, affinity ffffffff, priority 50
+mars 12 10:03:22 [0m1710234202.957256 [ITTI]   Created Posix thread TASK_GTPV1_U
+mars 12 10:03:24 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 NRRRC 0: Southbound Transport local_mac
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:24 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:24 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:24 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:24 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:24 [LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+mars 12 10:03:24 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (24 to default value)
+mars 12 10:03:24 [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf 
+mars 12 10:03:24 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0]: 30/30 parameters successfully set, (20 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (1 to default value)
+mars 12 10:03:24 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+mars 12 10:03:24 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+mars 12 10:03:24 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+mars 12 10:03:24 START MAIN THREADS
+mars 12 10:03:24 RC.nb_nr_L1_inst:0
+mars 12 10:03:24 wait_gNBs()
+mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+mars 12 10:03:24 gNB L1 are configured
+mars 12 10:03:24 About to Init RU threads RC.nb_RU:0
+mars 12 10:03:24 Entering ITTI signals handler
+mars 12 10:03:24 TYPE <CTRL-C> TO TERMINATE
+mars 12 10:03:24 858879134 [I]  243254848: nfapi_nr_vnf_start: Accepting connection from PNF...
+mars 12 10:03:24 858879164 [I]  243254848: nfapi_nr_vnf_start: PNF connection (fd:102) accepted from 127.0.0.1:52283 
+mars 12 10:03:24 858879279 [I]  243254848: nfapi_nr_vnf_start: MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7fb0f0000b70
+mars 12 10:03:24 858879285 [I]  243254848: pnf_nr_connection_indication_cb: [VNF] pnf connection indication idx:0
+mars 12 10:03:24 858879288 [I]  243254848: oai_create_gnb: oai_create_gnb() gNB is now configured
+mars 12 10:03:24 858879349 [I]  243254848: nfapi_nr_vnf_start: VNF Association ID = 22
+mars 12 10:03:24 858879354 [I]  243254848: nfapi_nr_vnf_start: VNF Receiver window size = 67108856
+mars 12 10:03:24 858879356 [I]  243254848: nfapi_nr_vnf_start: VNF In Streams = 5
+mars 12 10:03:24 858879359 [I]  243254848: nfapi_nr_vnf_start: VNF Out Streams = 5
+mars 12 10:03:24 858879396 [I]  243254848: vnf_nr_handle_pnf_param_response: Received PNF_PARAM.reponse
+mars 12 10:03:24 858879402 [I]  243254848: pnf_nr_param_resp_cb: [VNF] pnf param response idx:0 error:0
+mars 12 10:03:24 858879405 [I]  243254848: pnf_nr_param_resp_cb: [VNF] (PHY:0) phy_config_idx:0
+mars 12 10:03:24 858879409 [I]  243254848: nfapi_vnf_phy_info_list_add: Adding phy p5_idx:0 phy_id:1
+mars 12 10:03:24 858879412 [I]  243254848: pnf_nr_param_resp_cb: [VNF] (PHY:0) (RF0) 0
+mars 12 10:03:24 858879415 [I]  243254848: pnf_nr_param_resp_cb: [VNF] (PHY:0) (RF1) 0
+mars 12 10:03:24 858879418 [I]  243254848: pnf_nr_param_resp_cb: Hard coded num phy rf to 2
+mars 12 10:03:24 858879491 [I]  243254848: vnf_nr_handle_pnf_config_response: Received PNF_CONFIG_RESPONSE
+mars 12 10:03:24 858879496 [I]  243254848: pnf_nr_config_resp_cb: [VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:1]]
+mars 12 10:03:24 858879567 [I]  243254848: vnf_nr_handle_pnf_start_response: Received PNF_START_RESPONSE
+mars 12 10:03:24 858879571 [I]  243254848: pnf_nr_start_resp_cb: [VNF] pnf start response idx:0 config:0x5aa28b5326a0 user_data:0x5aa28a568e20 p7_vnf[config:0x5aa28b532550 thread_started:0]
+mars 12 10:03:24 858882095 [I]  243254848: pnf_nr_start_resp_cb: [VNF] Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
+mars 12 10:03:24 Calling sched_setscheduler(79)
+mars 12 10:03:24 858882123 [I] 4278179392: vnf_nr_p7_thread_start: [VNF] Creating VNF NFAPI P7 start thread vnf_nr_p7_thread_start
+mars 12 10:03:24 858882269 [I]  243254848: vnf_nr_handle_param_response: Received PARAM_RESPONSE
+mars 12 10:03:24 858882283 [I]  243254848: vnf_nr_handle_param_response: PNF P7 IPv4 address: 127.0.0.1
+mars 12 10:03:24 858882288 [I]  243254848: vnf_nr_handle_param_response: PNF P7 IPv6 address: ::
+mars 12 10:03:24 858882291 [I]  243254848: vnf_nr_handle_param_response: PNF P7 Port: 23235
+mars 12 10:03:24 858882294 [I]  243254848: nr_param_resp_cb: [VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
+mars 12 10:03:24 858882299 [I]  243254848: nr_param_resp_cb: [VNF] 0.1 pnf p7 127.0.0.1:23235 timing 30 1 0 1
+mars 12 10:03:24 858882303 [I]  243254848: nfapi_vnf_p7_add_pnf: nfapi_vnf_p7_add_pnf(config:0x5aa28b532550 phy_id:1 pnf_addr:127.0.0.1 pnf_p7_port:23235)
+mars 12 10:03:24 858882308 [I]  243254848: vnf_p7_connection_info_list_add: vnf_p7_connection_info_list_add()
+mars 12 10:03:24 858882311 [I]  243254848: nr_param_resp_cb: [VNF] Send NFAPI_CONFIG_REQUEST
+mars 12 10:03:24 858882314 [I]  243254848: nr_param_resp_cb: [VNF] Local_port:23491
+mars 12 10:03:24 858882316 [I]  243254848: nr_param_resp_cb: [VNF] Local_addr:127.0.0.2
+mars 12 10:03:24 858882319 [I]  243254848: nr_param_resp_cb: 
+mars 12 10:03:24 [VNF]Timing window tag : 286 Timing window:30
+mars 12 10:03:24 carrier_config
+mars 12 10:03:24   bw t 4097 l 0 v 40
+mars 12 10:03:24   freq t 4098 l 0 v 3600120
+mars 12 10:03:24   dl_k0[0] t 0 l 0 v 0
+mars 12 10:03:24   dl_k0[1] t 4099 l 0 v 0
+mars 12 10:03:24   dl_k0[2] t 0 l 0 v 0
+mars 12 10:03:24   dl_k0[3] t 0 l 0 v 0
+mars 12 10:03:24   dl_k0[4] t 0 l 0 v 0
+mars 12 10:03:24   dl_grid_size[0] t 0 l 0 v 0
+mars 12 10:03:24   dl_grid_size[1] t 4100 l 0 v 106
+mars 12 10:03:24   dl_grid_size[2] t 0 l 0 v 0
+mars 12 10:03:24   dl_grid_size[3] t 0 l 0 v 0
+mars 12 10:03:24   dl_grid_size[4] t 0 l 0 v 0
+mars 12 10:03:24   num_tx_ant t 4101 l 0 v 1
+mars 12 10:03:24   uplink_bandwidth t 4102 l 0 v 40
+mars 12 10:03:24   uplink_frequency t 4103 l 0 v 3600120
+mars 12 10:03:24   ul_k0[0] t 0 l 0 v 0
+mars 12 10:03:24   ul_k0[1] t 4104 l 0 v 0
+mars 12 10:03:24   ul_k0[2] t 0 l 0 v 0
+mars 12 10:03:24   ul_k0[3] t 0 l 0 v 0
+mars 12 10:03:24   ul_k0[4] t 0 l 0 v 0
+mars 12 10:03:24   ul_grid_size[0] t 0 l 0 v 0
+mars 12 10:03:24   ul_grid_size[1] t 4105 l 0 v 106
+mars 12 10:03:24   ul_grid_size[2] t 0 l 0 v 0
+mars 12 10:03:24   ul_grid_size[3] t 0 l 0 v 0
+mars 12 10:03:24   ul_grid_size[4] t 0 l 0 v 0
+mars 12 10:03:24   num_rx_ant t 4106 l 0 v 1
+mars 12 10:03:24   frequency_shift_7p5khz t 0 l 0 v 0
+mars 12 10:03:24 prach_config
+mars 12 10:03:24   prach_sequence_length t 4113 l 0 v 1
+mars 12 10:03:24   prach_sub_c_spacing t 4114 l 0 v 1
+mars 12 10:03:24   restricted_set_config t 4115 l 0 v 0
+mars 12 10:03:24   num_prach_fd_occasions t 4116 l 0 v 1
+mars 12 10:03:24   prach_ConfigurationIndex t 4137 l 0 v 98
+mars 12 10:03:24     prach_root_sequence_index t 4117 l 0 v 1
+mars 12 10:03:24     num_root_sequences t 4118 l 0 v 16
+mars 12 10:03:24     k1 t 4119 l 0 v 0
+mars 12 10:03:24     prach_zero_corr_conf t 4120 l 0 v 13
+mars 12 10:03:24     num_unused_root_sequences t 4121 l 0 v 0
+mars 12 10:03:24   ssb_per_rach t 4123 l 0 v 3
+mars 12 10:03:24   prach_multiple_carriers_in_a_band t 0 l 0 v 0
+mars 12 10:03:24 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:127
+mars 12 10:03:24 858883917 [I]  243254848: vnf_nr_handle_config_response: Received CONFIG_RESPONSE
+mars 12 10:03:24 858883926 [I]  243254848: nr_config_resp_cb: [VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+mars 12 10:03:24 858883931 [I]  243254848: nr_config_resp_cb: [VNF] Calling oai_enb_init()
+mars 12 10:03:24 858885273 [I] 4269786688: vnf_nr_p7_start_thread: vnf_nr_p7_start_thread()
+mars 12 10:03:24 858885288 [I] 4269786688: nfapi_nr_vnf_p7_start: nfapi_nr_vnf_p7_start()
+mars 12 10:03:24 858885292 [I] 4269786688: nfapi_nr_vnf_p7_start: Initialising VNF P7 port:50011
+mars 12 10:03:24 858885313 [I] 4269786688: nfapi_nr_vnf_p7_start: VNF P7 socket created...
+mars 12 10:03:24 858885320 [I] 4269786688: nfapi_nr_vnf_p7_start: VNF P7 setsockopt succeeded...
+mars 12 10:03:24 858885326 [I] 4269786688: nfapi_nr_vnf_p7_start: VNF P7 binding too 0.0.0.0:50011
+mars 12 10:03:24 858885334 [I] 4269786688: nfapi_nr_vnf_p7_start: VNF P7 bind succeeded...
+mars 12 10:03:30 864272903 [I]  243254848: vnf_nr_handle_start_response: Received START_RESPONSE
+mars 12 10:03:30 864272930 [I]  243254848: nr_start_resp_cb: [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
+mars 12 10:03:30 864272936 [I]  243254848: nfapi_vnf_p7_add_pnf: nfapi_vnf_p7_add_pnf(config:0x5aa28b532550 phy_id:1 pnf_addr:127.0.0.1 pnf_p7_port:23235)
+mars 12 10:03:30 864272942 [I]  243254848: vnf_p7_connection_info_list_add: vnf_p7_connection_info_list_add()
+mars 12 10:03:30 864280487 [N] 4269786688: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 20
+mars 12 10:03:30 864289853 [N] 4269786688: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 76
+mars 12 10:03:34 1710234214.553161 [NR_MAC]   Frame.Slot 128.0
+mars 12 10:03:34 
+mars 12 10:03:35 [0m
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:35 [NTUST] dl_tti_request_body.nGroup:0869593358 [I] 4269786688: vnf_handle_nr_rach_indication: vnf_handle_nr_rach_indication: Handling RACH Indication
+mars 12 10:03:35 1710234215.623523 [MAC]   UL_info[Frame 168, Slot 7] Calling initiate_ra_proc RACH:SFN/SLOT:167/19
+mars 12 10:03:35 [0m1710234215.623536 [NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 167 Activating Msg2 generation in frame 168, slot 7 using RA rnti 10b SSB, new rnti 1706 index 0 RA index 0
+mars 12 10:03:35 [0m[32m1710234215.623547 [NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 168, slotP 7: Generating RA-Msg2 DCI, rnti 0x10b, state 1, CoreSetType 0
+mars 12 10:03:35 [0m1710234215.623557 [NR_MAC]   [RAPROC] Msg3 slot 17: current slot 7 Msg3 frame 168 k2 7 Msg3_tda_id 3
+mars 12 10:03:35 [0m1710234215.648211 [NR_MAC]   Adding new UE context with RNTI 0x1706
+mars 12 10:03:35 [0m1710234215.649072 [NR_MAC]   [gNB 0][RAPROC] PUSCH with TC_RNTI 0x1706 received correctly, adding UE MAC Context RNTI 0x1706
+mars 12 10:03:35 [0m[32m1710234215.649087 [NR_MAC]   [RAPROC] RA-Msg3 received (sdu_lenP 7)
+mars 12 10:03:35 [0m1710234215.649110 [RLC]   activated srb0 for UE with RNTI 0x1706
+mars 12 10:03:35 [0m1710234215.649117 [RLC]   Added srb 1 to UE with RNTI 0x1706
+mars 12 10:03:35 [0m1710234215.649197 [NR_MAC]   Activating scheduling RA-Msg4 for TC_RNTI 0x1706 (state 2)
+mars 12 10:03:35 [0m[93m1710234215.649202 [NR_MAC]   Unexpected ULSCH HARQ PID 0 (have -1) for RNTI 0x1706 (ignore this warning for RA)
+mars 12 10:03:35 [0m1710234215.649207 [NR_RRC]   Decoding CCCH: RNTI 1706, payload_size 6
+mars 12 10:03:35 [0m1710234215.649439 [NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 5894 (rnti: 1706, random ue id 1c54c47a96000000)
+mars 12 10:03:35 [0m1710234215.649446 [RRC]   activate SRB 1 of UE 1
+mars 12 10:03:35 [0m1710234215.649454 [NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI 1706
+mars 12 10:03:35 [0m1710234215.649467 [NR_MAC]   No CU UE ID stored for UE RNTI 1706, adding CU UE ID 1
+mars 12 10:03:35 [0m1710234215.655762 [NR_MAC]   UE 1706 Generate msg4: feedback at  169.17, payload 149 bytes, next state WAIT_Msg4_ACK
+mars 12 10:03:35 [0m[32m1710234215.678168 [NR_MAC]   (UE RNTI 0x1706) Received Ack of RA-Msg4. CBRA procedure succeeded!
+mars 12 10:03:35 [0m1710234215.760673 [NR_RRC]   5g_s_TMSI: 0x123456789ABC, amf_set_id: 0x48 (72), amf_pointer: 0x34 (52), 5g TMSI: 0x56789ABC 
+mars 12 10:03:35 [0m[32m1710234215.760686 [NR_RRC]   UE 1 Processing NR_RRCSetupComplete from UE
+mars 12 10:03:35 [0m1710234215.760695 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] UE State = NR_RRC_CONNECTED 
+mars 12 10:03:35 [0m1710234215.760707 [NGAP]   UE 1: Chose AMF 'OAI-AMF' (assoc_id 19) through selected PLMN Identity index 0 MCC 1 MNC 1
+mars 12 10:03:35 [0m[93m1710234215.992988 [NGAP]   could not find NGAP_ProtocolIE_ID_id_UEAggregateMaximumBitRate
+mars 12 10:03:35 [0m1710234215.993028 [NR_RRC]   [gNB 0][UE 1] Selected security algorithms (0x7fb108004c7c): ciphering 0, integrity 2 (algorithms changed)
+mars 12 10:03:35 [0m1710234215.993056 [NR_RRC]   [gNB 0][UE 1706] Saved security key A9311E3327965E169BA8B55535BFB11863CD0CD356D3AD5FD37D91D3AC01ACC0
+mars 12 10:03:35 [0m1710234215.999255 [NR_RRC]   UE 1 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+mars 12 10:03:35 [0m1710234216.001105 [NR_MAC]   Number of DRBs = 0 and SRBs = 0
+mars 12 10:03:36 [0m1710234216.056629 [NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] received securityModeComplete on UL-DCCH 1 from UE
+mars 12 10:03:36 [0m1710234216.062200 [NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 12 10:03:36 [0m1710234216.062220 [NR_MAC]   Searching for nr band 78 DL Carrier frequency 3619200000 bw 40000000
+mars 12 10:03:36 [0m1710234216.062367 [NR_RRC]   UE 1: Generate RRCReconfiguration (bytes 229, xid 1)
+mars 12 10:03:36 [0m1710234216.142725 [NR_RRC]   UE 1: Receive RRC Reconfiguration Complete message (xid 1)
+mars 12 10:03:36 [0m1710234216.142786 [NR_RRC]   Send message to sctp: NGAP_InitialContextSetupResponse
+mars 12 10:03:36 [0m1710234216.143024 [NR_RRC]   UE 1: Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8, xid 2)
+mars 12 10:03:36 [0m[93m1710234216.171142 [NR_MAC]   UE 1706 expected HARQ pid 0 feedback at  184. 7, but is at  187. 7 instead (HARQ feedback is in the past)
+mars 12 10:03:36 [0m[93m1710234216.171176 [NR_MAC]   UE 1706 expected HARQ pid 8 feedback at  184. 7, but is at  187. 7 instead (HARQ feedback is in the past)
+mars 12 10:03:36 [0m1710234216.213227 [NR_RRC]   UE 1: received UE capabilities (xid 2)
+mars 12 10:03:36 [0m1710234216.213264 [NR_RRC]   Send message to ngap: NGAP_UE_CAPABILITIES_IND
+mars 12 10:03:36 [0m
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:36 [NTUST] dl_tti_request_body.nGroup:0870473815 [N] 4269786688: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 152
+mars 12 10:03:37 1710234217.350919 [NGAP]   PDUSESSIONSetup initiating message
+mars 12 10:03:37 [0m1710234217.350946 [NR_RRC]   [gNB 0] gNB_ue_ngap_id 1 
+mars 12 10:03:37 [0m1710234217.350955 [NR_RRC]   Adding pdusession 10, total nb of sessions 1
+mars 12 10:03:37 [0m1710234217.353644 [NR_RRC]   UE 1: configure DRB ID 1 for PDU session ID 10
+mars 12 10:03:37 [0m[32m1710234217.353657 [RRC]   selecting CU-UP ID 3584 based on exact NSSAI match (1:0xffffff)
+mars 12 10:03:37 [0m1710234217.353663 [RRC]   UE 1 associating to CU-UP assoc_id -1 out of 1 CU-UPs
+mars 12 10:03:37 [0m1710234217.353674 [GTPU]   [101] Created tunnel for UE ID 1, teid for incoming: b8cc59f8, teid for outgoing 3 to remote IPv4: 192.168.70.134, IPv6 ::
+mars 12 10:03:37 [0m1710234217.353685 [PDCP]   added drb 1 to UE ID 1
+mars 12 10:03:37 [0m1710234217.353707 [SDAP]   Default DRB for the created SDAP entity: 1 
+mars 12 10:03:37 [0m1710234217.353722 [RRC]   activate SRB 2 of UE 1
+mars 12 10:03:37 [0m1710234217.357136 [RLC]   Added srb 2 to UE with RNTI 0x1706
+mars 12 10:03:37 [0m1710234217.357149 [RLC]   /home/hsu/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:838:add_drb_am: added drb 1 to UE with RNTI 0x1706
+mars 12 10:03:37 [0m1710234217.357154 [RLC]   /home/hsu/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:908: added DRB to UE with RNTI 0x1706
+mars 12 10:03:37 [0m1710234217.357158 [NR_MAC]   UE 1706: received capabilities, updating CellGroupConfig
+mars 12 10:03:37 [0m1710234217.357209 [NR_MAC]   Number of DRBs = 1 and SRBs = 1
+mars 12 10:03:37 [0m1710234217.357214 [NR_MAC]   number of QOS flows mapped to DRB_id 1: 1
+mars 12 10:03:37 [0m1710234217.357217 [NR_MAC]   Setting NSSAI sst: 1, sd: 16777215 for DRB: 1
+mars 12 10:03:37 [0m1710234217.357230 [E1AP]   UE 1: updating PDU session ID 10 (1 bearers)
+mars 12 10:03:37 [0m1710234217.357310 [RRC]   UE 1706 replacing existing CellGroupConfig with new one received from DU
+mars 12 10:03:37 [0m1710234217.357365 [NR_RRC]   UE 1: Generate RRCReconfiguration (bytes 368, xid 3)
+mars 12 10:03:37 [0m1710234217.357407 [RRC]   UE 1: PDU session ID 10 modified 1 bearers
+mars 12 10:03:37 [0m[93m1710234217.378224 [NR_MAC]   UE 1706 expected HARQ pid 1 feedback at  224. 7, but is at  230.18 instead (HARQ feedback is in the past)
+mars 12 10:03:37 [0m1710234217.434612 [NR_RRC]   UE 1: Receive RRC Reconfiguration Complete message (xid 3)
+mars 12 10:03:37 [0m1710234217.434639 [NR_RRC]   msg index 0, pdu_sessions index 0, status 2, xid 3): nb_of_pdusessions 1,  pdusession_id 10, teid: 3100400120 
+mars 12 10:03:37  [0m1710234217.434644 [NR_RRC]   NGAP_PDUSESSION_SETUP_RESP: sending the message
+mars 12 10:03:38 [0m1710234218.066883 [NR_MAC]   Frame.Slot 256.0
+mars 12 10:03:38 UE RNTI 1706 CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (10 meas)
+mars 12 10:03:38 UE 1706: dlsch_rounds 23/3/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10145 MCS (0) 9
+mars 12 10:03:38 UE 1706: ulsch_rounds 36/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.05314 MCS (0) 9
+mars 12 10:03:38 UE 1706: MAC:    TX           3203 RX           1244 bytes
+mars 12 10:03:38 UE 1706: LCID 1: TX            966 RX            326 bytes
+mars 12 10:03:38 UE 1706: LCID 2: TX              0 RX              0 bytes
+mars 12 10:03:38 UE 1706: LCID 4: TX              3 RX             69 bytes
+mars 12 10:03:38 
+mars 12 10:03:41 [0m
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_bo1710234221.643336 [NR_MAC]   Frame.Slot 384.0
+mars 12 10:03:41 UE RNTI 1706 CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -44 (16 meas)
+mars 12 10:03:41 UE 1706: dlsch_rounds 36/3/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02579 MCS (0) 9
+mars 12 10:03:41 UE 1706: ulsch_rounds 49/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01351 MCS (0) 9
+mars 12 10:03:41 UE 1706: MAC:    TX           4802 RX           2752 bytes
+mars 12 10:03:41 UE 1706: LCID 1: TX            966 RX            326 bytes
+mars 12 10:03:41 UE 1706: LCID 2: TX              0 RX              0 bytes
+mars 12 10:03:41 UE 1706: LCID 4: TX              3 RX             69 bytes
+mars 12 10:03:41 
+mars 12 10:03:41 [0m
+mars 12 10:03:41 ** Caught SIGTERM, shutting down
+mars 12 10:03:41 dy.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0
+mars 12 10:03:41 [NTUST] dl_tti_request_body.nGroup:0Returned from ITTI signal handler
+mars 12 10:03:41 oai_exit=1
+mars 12 10:03:41 Bye.
