@@ -1,699 +1,1569 @@
-mars 12 10:03:21 1710234201.860523 [HW]   # /dev/cpu_dma_latency set to 2 us
-mars 12 10:03:21 [0m1710234201.900866 [ENB_APP]   nfapi running mode: PNF
-mars 12 10:03:21 [0m1710234201.900908 [GNB_APP]   Getting GNBSParams
-mars 12 10:03:22 [0m1710234202.901129 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-mars 12 10:03:22 [0m1710234202.901151 [ITTI]   Starting itti queue: TASK_TIMER as task 1
-mars 12 10:03:22 [0m1710234202.901162 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
-mars 12 10:03:22 [0m1710234202.901172 [ITTI]   Starting itti queue: TASK_BM as task 3
-mars 12 10:03:22 [0m1710234202.901182 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-mars 12 10:03:22 [0m1710234202.901192 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
-mars 12 10:03:22 [0m1710234202.901202 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-mars 12 10:03:22 [0m1710234202.901212 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-mars 12 10:03:22 [0m1710234202.901223 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-mars 12 10:03:22 [0m1710234202.901232 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
-mars 12 10:03:22 [0m1710234202.901242 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
-mars 12 10:03:22 [0m1710234202.901254 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
-mars 12 10:03:22 [0m1710234202.901264 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
-mars 12 10:03:22 [0m1710234202.901274 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
-mars 12 10:03:22 [0m1710234202.901285 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
-mars 12 10:03:22 [0m1710234202.901295 [ITTI]   Starting itti queue: TASK_S1AP as task 15
-mars 12 10:03:22 [0m1710234202.901304 [ITTI]   Starting itti queue: TASK_NGAP as task 16
-mars 12 10:03:22 [0m1710234202.901314 [ITTI]   Starting itti queue: TASK_X2AP as task 17
-mars 12 10:03:22 [0m1710234202.901325 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
-mars 12 10:03:22 [0m1710234202.901334 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
-mars 12 10:03:22 [0m1710234202.901345 [ITTI]   Starting itti queue: TASK_M3AP as task 20
-mars 12 10:03:22 [0m1710234202.901356 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
-mars 12 10:03:22 [0m1710234202.901366 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
-mars 12 10:03:22 [0m1710234202.901376 [ITTI]   Starting itti queue: TASK_SCTP as task 23
-mars 12 10:03:22 [0m1710234202.901386 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
-mars 12 10:03:22 [0m1710234202.901412 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
-mars 12 10:03:22 [0m1710234202.901424 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
-mars 12 10:03:22 [0m1710234202.901435 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
-mars 12 10:03:22 [0m1710234202.901445 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-mars 12 10:03:22 [0m1710234202.901455 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-mars 12 10:03:22 [0m1710234202.901467 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-mars 12 10:03:22 [0m1710234202.901477 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-mars 12 10:03:22 [0m1710234202.901487 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-mars 12 10:03:22 [0m1710234202.901498 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-mars 12 10:03:22 [0m1710234202.901508 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-mars 12 10:03:22 [0m1710234202.901518 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-mars 12 10:03:22 [0m1710234202.901528 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-mars 12 10:03:22 [0m1710234202.901538 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-mars 12 10:03:22 [0m1710234202.901549 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-mars 12 10:03:22 [0m1710234202.901558 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
-mars 12 10:03:22 [0m1710234202.901568 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
-mars 12 10:03:22 [0m1710234202.901578 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
-mars 12 10:03:22 [0m1710234202.901587 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
-mars 12 10:03:22 [0m1710234202.901598 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
-mars 12 10:03:22 [0m1710234202.901608 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
-mars 12 10:03:22 [0m1710234202.901618 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
-mars 12 10:03:22 [0m1710234202.901647 [OPT]   OPT disabled
-mars 12 10:03:22 [0m1710234202.901651 [HW]   Version: Branch: nfapi-fixes Abrev. Hash: f50933751c Date: Tue Feb 20 16:33:03 2024 +0100
-mars 12 10:03:22 [0m1710234202.901658 [NR_PHY]   RC.gNB = 0x5f8dd30c4570
-mars 12 10:03:22 [0m1710234202.902317 [PHY]   L1_RX_THREAD_CORE -1 (16)
-mars 12 10:03:22 [0m1710234202.902324 [PHY]   TX_AMP = 519 (-36 dBFS)
-mars 12 10:03:22 [0m1710234202.902328 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
-mars 12 10:03:22 [0m1710234202.902331 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
-mars 12 10:03:22 [0m1710234202.902334 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
-mars 12 10:03:22 [0m1710234202.902338 [ENB_APP]   nfapi running mode: PNF
-mars 12 10:03:22 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--log_config.global_log_options" "wall_clock" "--sa" 
-mars 12 10:03:22 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
-mars 12 10:03:22 [CONFIG] function config_libconfig_init returned 0
-mars 12 10:03:22 [CONFIG] config module libconfig loaded
-mars 12 10:03:22 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
-mars 12 10:03:22 [CONFIG] debug flags: 0x00000000
-mars 12 10:03:22 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
-mars 12 10:03:22 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
-mars 12 10:03:22 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
-mars 12 10:03:22 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-mars 12 10:03:22 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-mars 12 10:03:22 log init done
-mars 12 10:03:22 Reading in command-line options
-mars 12 10:03:22 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
-mars 12 10:03:22 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
-mars 12 10:03:22 [LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
-mars 12 10:03:22 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
-mars 12 10:03:22 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
-mars 12 10:03:22 [CONFIG] parallel_conf is set to 2
-mars 12 10:03:22 [CONFIG] worker_conf is set to 1
-mars 12 10:03:22 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
-mars 12 10:03:22 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
-mars 12 10:03:22 configuring for RAU/RRU
-mars 12 10:03:22 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
-mars 12 10:03:22 [LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
-mars 12 10:03:22 [LIBCONFIG] L1s.[0]: 20/20 parameters successfully set, (11 to default value)
-mars 12 10:03:22 configure_nr_nfapi_pnf() PNF
-mars 12 10:03:22 
-mars 12 10:03:22 
-mars 12 10:03:22 
-mars 12 10:03:22 
-mars 12 10:03:22 
-mars 12 10:03:22 configure_nr_nfapi_pnf() VNF:127.0.0.2:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.2:50011 rx:50010]
-mars 12 10:03:22 856872957 [I] 3115012096: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
-mars 12 10:03:22 856872961 [I] 3115012096: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
-mars 12 10:03:22 856875121 [I] 3099346496: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
-mars 12 10:03:22 856875139 [I] 3099346496: nfapi_nr_pnf_start: nfapi_nr_pnf_start
-mars 12 10:03:22 856875143 [I] 3099346496: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.2:50001
-mars 12 10:03:22 1710234202.904543 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-mars 12 10:03:22 [0m1710234202.904549 [PHY]   Installing callbacks for IF_Module - UL_indication
-mars 12 10:03:22 [0m1710234202.904553 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5f8dd30c78e0
-mars 12 10:03:22 [0m1710234202.904556 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-mars 12 10:03:22 [0mInitializing northbound interface for L1
-mars 12 10:03:22 856878801 [N] 3099346496: pnf_connect: PNF Setting the SCTP_INITMSG
-mars 12 10:03:22 856878818 [I] 3099346496: pnf_connect: P5 socket created...
-mars 12 10:03:22 856878912 [E] 3099346496: pnf_connect: After connect (address:127.0.0.2 port:50001) errno: 111
-mars 12 10:03:22 1710234202.909150 [PHY]   Initializing gNB 0 single_thread_flag:1
-mars 12 10:03:22 [0m1710234202.909157 [PHY]   Initializing gNB 0
-mars 12 10:03:22 [0m1710234202.909162 [PHY]   Registering with MAC interface module (before 0x5f8dd30c78e0)
-mars 12 10:03:22 [0m1710234202.909165 [PHY]   Installing callbacks for IF_Module - UL_indication
-mars 12 10:03:22 [0m1710234202.909168 [PHY]   Registering with MAC interface module (after 0x5f8dd30c78e0)
-mars 12 10:03:22 [0m1710234202.909172 [PHY]   Setting indication lists
-mars 12 10:03:22 [0m1710234202.909176 [PHY]   [nr-gnb.c] gNB structure allocated
-mars 12 10:03:24 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
-mars 12 10:03:24 START MAIN THREADS
-mars 12 10:03:24 RC.nb_nr_L1_inst:1
-mars 12 10:03:24 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
-mars 12 10:03:24 wait_gNBs()
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 858878946 [I] 3099346496: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.2:50001
-mars 12 10:03:24 858878976 [N] 3099346496: pnf_connect: PNF Setting the SCTP_INITMSG
-mars 12 10:03:24 858878986 [I] 3099346496: pnf_connect: P5 socket created...
-mars 12 10:03:24 858879135 [I] 3099346496: pnf_connect: connect succeeded...
-mars 12 10:03:24 858879139 [N] 3099346496: pnf_connect: After connect loop
-mars 12 10:03:24 858879145 [I] 3099346496: pnf_connect: Association ID = 21
-mars 12 10:03:24 858879148 [I] 3099346496: pnf_connect: Receiver window size = 67108864
-mars 12 10:03:24 858879151 [I] 3099346496: pnf_connect: In Streams = 5
-mars 12 10:03:24 858879155 [I] 3099346496: pnf_connect: Out Streams = 5
-mars 12 10:03:24 858879157 [N] 3099346496: pnf_connect: Socket CONNECTED
-mars 12 10:03:24 858879350 [I] 3099346496: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
-mars 12 10:03:24 [PNF] pnf param request
-mars 12 10:03:24 858879453 [I] 3099346496: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
-mars 12 10:03:24 [PNF] pnf config request
-mars 12 10:03:24 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
-mars 12 10:03:24 [PNF] Sent pnf_config_resp
-mars 12 10:03:24 858879533 [I] 3099346496: pnf_nr_handle_pnf_start_request: PNF_START.request Received
-mars 12 10:03:24 Received NFAPI_PNF_START_REQUEST
-mars 12 10:03:24 [PNF] Sent NFAPI_PNF_START_RESP
-mars 12 10:03:24 858882213 [I] 3099346496: pnf_nr_handle_param_request: PARAM.request received
-mars 12 10:03:24 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
-mars 12 10:03:24 TAG value :2
-mars 12 10:03:24 RUNNING pack_param_response
-mars 12 10:03:24 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
-mars 12 10:03:24 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-mars 12 10:03:24 858882397 [I] 3099346496: pnf_nr_handle_config_request: CONFIG.request received
-mars 12 10:03:24 7f 10 01 00 02 00 28 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 28 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 22 00 04 80 00 00 00 10 22 00 04 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 02 01 02 00 02 c3 5b 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 f0 02 00 04 00 00 07 e0 
-mars 12 10:03:24 *** have tag 1001, idx 0
-mars 12 10:03:24 *** have tag 1002, idx 1
-mars 12 10:03:24 *** have tag 1005, idx 4
-mars 12 10:03:24 *** have tag 1006, idx 5
-mars 12 10:03:24 *** have tag 1007, idx 6
-mars 12 10:03:24 *** have tag 100a, idx 9
-mars 12 10:03:24 *** have tag 100c, idx 11
-mars 12 10:03:24 *** have tag 100d, idx 12
-mars 12 10:03:24 *** have tag 100e, idx 13
-mars 12 10:03:24 *** have tag 100f, idx 14
-mars 12 10:03:24 *** have tag 1010, idx 15
-mars 12 10:03:24 *** have tag 1011, idx 16
-mars 12 10:03:24 *** have tag 1012, idx 17
-mars 12 10:03:24 *** have tag 1013, idx 18
-mars 12 10:03:24 *** have tag 1014, idx 19
-mars 12 10:03:24 *** have tag 1029, idx 20
-mars 12 10:03:24 *** have tag 101b, idx 27
-mars 12 10:03:24 *** have tag 101d, idx 29
-mars 12 10:03:24 *** have tag 101f, idx 31
-mars 12 10:03:24 *** have tag 1020, idx 32
-mars 12 10:03:24 *** have tag 1026, idx 38
-mars 12 10:03:24 *** have tag 100, idx 41
-mars 12 10:03:24 *** have tag 102, idx 43
-mars 12 10:03:24 *** have tag 11e, idx 44
-mars 12 10:03:24 *** have tag 11f, idx 45
-mars 12 10:03:24 *** have tag 120, idx 46
-mars 12 10:03:24 [PNF] vnf p7 0.1.4.0:50011
-mars 12 10:03:24 carrier_config
-mars 12 10:03:24   bw t 4097 l 2 v 40
-mars 12 10:03:24   freq t 4098 l 4 v 3600120
-mars 12 10:03:24   dl_k0[0] t 0 l 0 v 0
-mars 12 10:03:24   dl_k0[1] t 4099 l 10 v 0
-mars 12 10:03:24   dl_k0[2] t 0 l 0 v 0
-mars 12 10:03:24   dl_k0[3] t 0 l 0 v 0
-mars 12 10:03:24   dl_k0[4] t 0 l 0 v 0
-mars 12 10:03:24   dl_grid_size[0] t 0 l 0 v 0
-mars 12 10:03:24   dl_grid_size[1] t 4100 l 10 v 106
-mars 12 10:03:24   dl_grid_size[2] t 0 l 0 v 0
-mars 12 10:03:24   dl_grid_size[3] t 0 l 0 v 0
-mars 12 10:03:24   dl_grid_size[4] t 0 l 0 v 0
-mars 12 10:03:24   num_tx_ant t 4101 l 2 v 1
-mars 12 10:03:24   uplink_bandwidth t 4102 l 2 v 40
-mars 12 10:03:24   uplink_frequency t 4103 l 4 v 3600120
-mars 12 10:03:24   ul_k0[0] t 0 l 0 v 0
-mars 12 10:03:24   ul_k0[1] t 4104 l 10 v 0
-mars 12 10:03:24   ul_k0[2] t 0 l 0 v 0
-mars 12 10:03:24   ul_k0[3] t 0 l 0 v 0
-mars 12 10:03:24   ul_k0[4] t 0 l 0 v 0
-mars 12 10:03:24   ul_grid_size[0] t 0 l 0 v 0
-mars 12 10:03:24   ul_grid_size[1] t 4105 l 10 v 106
-mars 12 10:03:24   ul_grid_size[2] t 0 l 0 v 0
-mars 12 10:03:24   ul_grid_size[3] t 0 l 0 v 0
-mars 12 10:03:24   ul_grid_size[4] t 0 l 0 v 0
-mars 12 10:03:24   num_rx_ant t 4106 l 2 v 1
-mars 12 10:03:24   frequency_shift_7p5khz t 0 l 0 v 0
-mars 12 10:03:24 prach_config
-mars 12 10:03:24   prach_sequence_length t 4113 l 1 v 1
-mars 12 10:03:24   prach_sub_c_spacing t 4114 l 1 v 1
-mars 12 10:03:24   restricted_set_config t 4115 l 1 v 0
-mars 12 10:03:24   num_prach_fd_occasions t 4116 l 1 v 1
-mars 12 10:03:24   prach_ConfigurationIndex t 4137 l 1 v 98
-mars 12 10:03:24     prach_root_sequence_index t 4117 l 2 v 1
-mars 12 10:03:24     num_root_sequences t 4118 l 1 v 16
-mars 12 10:03:24     k1 t 4119 l 2 v 0
-mars 12 10:03:24     prach_zero_corr_conf t 4120 l 1 v 13
-mars 12 10:03:24     num_unused_root_sequences t 4121 l 2 v 0
-mars 12 10:03:24   ssb_per_rach t 4123 l 1 v 3
-mars 12 10:03:24   prach_multiple_carriers_in_a_band t 0 l 0 v 0
-mars 12 10:03:24 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
-mars 12 10:03:24 
-mars 12 10:03:24 Timing window tag: 286
-mars 12 10:03:24 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
-mars 12 10:03:24 timing info mode:3
-mars 12 10:03:24 timing info period provided value:10
-mars 12 10:03:24 858883491 [E] 3099346496: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
-mars 12 10:03:24 1710234204.912888 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
-mars 12 10:03:24 [0m[32m1710234204.912895 [PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
-mars 12 10:03:24 [0m1710234204.912900 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
-mars 12 10:03:24 [0m[93m1710234204.912905 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-mars 12 10:03:24 [0m1710234204.913195 [PHY]   gNB 0 configured
-mars 12 10:03:24 [0m1710234204.913201 [PHY]   fp->scs=30000
-mars 12 10:03:24 [0m1710234204.913205 [PHY]   fp->ofdm_symbol_size=2048
-mars 12 10:03:24 [0m1710234204.913210 [PHY]   fp->nb_prefix_samples0=176
-mars 12 10:03:24 [0m1710234204.913213 [PHY]   fp->nb_prefix_samples=144
-mars 12 10:03:24 [0m1710234204.913217 [PHY]   fp->slots_per_subframe=2
-mars 12 10:03:24 [0m1710234204.913221 [PHY]   fp->samples_per_subframe_wCP=57344
-mars 12 10:03:24 [0m1710234204.913225 [PHY]   fp->samples_per_frame_wCP=573440
-mars 12 10:03:24 [0m1710234204.913229 [PHY]   fp->samples_per_subframe=61440
-mars 12 10:03:24 [0m1710234204.913233 [PHY]   fp->samples_per_frame=614400
-mars 12 10:03:24 [0m1710234204.913237 [PHY]   fp->dl_CarrierFreq=3619200000
-mars 12 10:03:24 [0m1710234204.913240 [PHY]   fp->ul_CarrierFreq=3619200000
-mars 12 10:03:24 [0m[PNF] CONFIG_REQUEST[num_tlv:127] TLVs processed:6
-mars 12 10:03:24 [PNF] Simulating PHY CONFIG
-mars 12 10:03:24 DL frequency 3619200000: band 48, UL frequency 3619200000
-mars 12 10:03:24 [PNF] 1 vnf p7 127.0.0.2:50011 timing 30 3 10
-mars 12 10:03:24 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
-mars 12 10:03:24 858883979 [I] 3099346496: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
-mars 12 10:03:24 [PNF] Received NFAPI_START_REQ phy_id:1
-mars 12 10:03:24 [PNF] P7 remote:127.0.0.2:50011 local:127.0.0.1:50010
-mars 12 10:03:24 subframe_buffer_size configured using phy_info->timing_window:30
-mars 12 10:03:24 858883988 [I] 3099346496: nr_start_request: [PNF] Creating P7 thread nr_start_request
-mars 12 10:03:24 858886605 [I] 3099346496: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
-mars 12 10:03:24 1710234204.916007 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-mars 12 10:03:24 [0m858886613 [I] 3019896384: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
-mars 12 10:03:24 1710234204.916014 [PHY]   Installing callbacks for IF_Module - UL_indication
-mars 12 10:03:24 [0mCalling sched_setscheduler(79)
-mars 12 10:03:24 1710234204.916019 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-mars 12 10:03:24 [0m858886634 [I] 3099346496: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
-mars 12 10:03:24 858886640 [I] 3019896384: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
-mars 12 10:03:24 858886657 [I] 3019896384: pnf_nr_p7_message_pump: PNF P7 socket created (99)...
-mars 12 10:03:24 858886666 [I] 3019896384: pnf_nr_p7_message_pump: PNF P7 binding 99 too 127.0.0.1:50010
-mars 12 10:03:24 858886674 [I] 3019896384: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
-mars 12 10:03:24 1710234204.962320 [PHY]   RU GPIO control set as 'generic'
-mars 12 10:03:24 [0m1710234204.962328 [PHY]   Setting clock source to internal
-mars 12 10:03:24 [0m1710234204.962331 [PHY]   Setting time source to internal
-mars 12 10:03:24 [0m1710234204.962363 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 4
-mars 12 10:03:24 [0m1710234204.962368 [PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
-mars 12 10:03:24 [0m1710234204.962647 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
-mars 12 10:03:24 [0m1710234204.962653 [PHY]   RU Thread pool size 2
-mars 12 10:03:24 [0m1710234204.962657 [PHY]   RU thread-pool core string -1,-1
-mars 12 10:03:24 [0m1710234204.962665 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-mars 12 10:03:24 [0m1710234204.964895 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-mars 12 10:03:24 [0m1710234204.967018 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-mars 12 10:03:24 [0m1710234204.969207 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-mars 12 10:03:24 [0m1710234204.971373 [UTIL]   Creating thread ru_thread with affinity -1 and priority 97
-mars 12 10:03:24 [0m1710234204.973572 [UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
-mars 12 10:03:24 [0m1710234204.975685 [PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 1
-mars 12 10:03:24 [0m1710234204.975696 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
-mars 12 10:03:24 [0m[93m1710234204.975704 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-mars 12 10:03:24 [0m1710234204.975708 [PHY]   fp->scs=30000
-mars 12 10:03:24 [0m1710234204.975711 [PHY]   fp->ofdm_symbol_size=2048
-mars 12 10:03:24 [0m1710234204.975713 [PHY]   fp->nb_prefix_samples0=176
-mars 12 10:03:24 [0m1710234204.975716 [PHY]   fp->nb_prefix_samples=144
-mars 12 10:03:24 [0m1710234204.975719 [PHY]   fp->slots_per_subframe=2
-mars 12 10:03:24 [0m1710234204.975722 [PHY]   fp->samples_per_subframe_wCP=57344
-mars 12 10:03:24 [0m1710234204.975726 [PHY]   fp->samples_per_frame_wCP=573440
-mars 12 10:03:24 [0m1710234204.975729 [PHY]   fp->samples_per_subframe=61440
-mars 12 10:03:24 [0m1710234204.975731 [PHY]   fp->samples_per_frame=614400
-mars 12 10:03:24 [0m1710234204.975733 [PHY]   fp->dl_CarrierFreq=3619200000
-mars 12 10:03:24 [0m1710234204.975736 [PHY]   fp->ul_CarrierFreq=3619200000
-mars 12 10:03:24 [0m1710234204.975740 [PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
-mars 12 10:03:24 [0m1710234204.976633 [PHY]   [INIT] common.txdata[0] = 0x7bfdb816b040 (2458880 bytes,sf_extension 320)
-mars 12 10:03:24 [0m1710234204.976640 [PHY]   [INIT] common.txdata[0] = 0x7bfdb816b540 
-mars 12 10:03:24 [0m1710234204.977339 [PHY]   nb_tx 1
-mars 12 10:03:24 [0m1710234204.977660 [PHY]   rxdata_7_5kHz[0] 0x7bfdb807a040 for RU 0
-mars 12 10:03:24 [0m1710234204.978299 [PHY]   [INIT] common.txdata_BF= 0x7bfdac000ac0 (8 bytes)
-mars 12 10:03:24 [0m1710234204.978393 [PHY]   txdataF_BF[0] 0x7bfdb9a56040 for RU 0
-mars 12 10:03:24 [0m1710234204.978539 [PHY]   rxdataF[0] 0x7bfdb9469040 for RU 0
-mars 12 10:03:24 [0m1710234204.983820 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
-mars 12 10:03:24 [0m1710234204.984467 [PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
-mars 12 10:03:24 [0m1710234204.984474 [PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
-mars 12 10:03:24 [0m1710234204.984483 [PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3619200000 Hz
-mars 12 10:03:24 [0m1710234204.984487 [PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
-mars 12 10:03:24 [0m[93m1710234204.984746 [HW]   sample_rate 61440000.000000
-mars 12 10:03:24 [0m1710234204.984754 [HW]   Running as server waiting opposite rfsimulators to connect
-mars 12 10:03:24 [0m1710234204.984880 [HW]   [RAU] has loaded RFSIMULATOR device.
-mars 12 10:03:24 [0m1710234204.984885 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
-mars 12 10:03:24 [0m1710234204.984890 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
-mars 12 10:03:29 [0m1710234209.916041 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
-mars 12 10:03:29 [0m1710234209.916054 [PHY]   RC.nb_nr_CC[inst:0]:0x7bfdb8bc5010
-mars 12 10:03:29 [0m1710234209.916058 [PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
-mars 12 10:03:30 [0m1710234210.162278 [PHY]   Initialise nr transport
-mars 12 10:03:30 [0m1710234210.239598 [PHY]   Mapping RX ports from 1 RUs to gNB 0
-mars 12 10:03:30 [0m1710234210.239613 [PHY]   gNB->num_RU:1
-mars 12 10:03:30 [0m1710234210.239616 [PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
-mars 12 10:03:30 [0m1710234210.239641 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.241907 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.244063 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.246270 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.248432 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.250648 [UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.252812 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.255030 [UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.257167 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.259342 [UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.261529 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.263842 [UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.266161 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.268276 [UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.270453 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.272567 [UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.274724 [UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.276864 [UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.279006 [UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
-mars 12 10:03:30 [0m1710234210.281156 [UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
-mars 12 10:03:30 [0m1710234210.297795 [UTIL]   Creating thread L1_stats with affinity -1 and priority 1
-mars 12 10:03:30 [0m1710234210.299990 [UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
-mars 12 10:03:30 [0m1710234210.302196 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
-mars 12 10:03:30 [0m1710234210.302206 [PHY]   RUs configured
-mars 12 10:03:30 [0mgNB L1 are configured
-mars 12 10:03:30 About to Init RU threads RC.nb_RU:1
-mars 12 10:03:30 Initializing RU threads
-mars 12 10:03:30 configuring RU from file
-mars 12 10:03:30 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
-mars 12 10:03:30 Set RU mask to 1
-mars 12 10:03:30 Creating RC.ru[0]:0x5f8dd30ca4f0
-mars 12 10:03:30 Setting function for RU 0 to gNodeB_3GPP
-mars 12 10:03:30 [RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
-mars 12 10:03:30 [RU 0] Setting half-slot parallelization to 1
-mars 12 10:03:30 configuring ru_id 0 (start_rf 0x5f8dcf8d4bc0)
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 waiting for NFAPI PNF connection and population of global structure (main?)
-mars 12 10:03:30 [LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
-mars 12 10:03:30 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
-mars 12 10:03:30 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
-mars 12 10:03:30 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
-mars 12 10:03:30 shlib_path librfsimulator.so
-mars 12 10:03:30 [LOADER] library librfsimulator.so successfully loaded
-mars 12 10:03:30 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
-mars 12 10:03:30 Initializing random number generator, seed 12425329572100111120
-mars 12 10:03:30 setup_RU_buffers: frame_parms = 0x7bfdb90af010
-mars 12 10:03:30 waiting for sync (ru_thread,-1/0x5f8dd04970b4,0x5f8dd0d39fc0,0x5f8dd0d39f80)
-mars 12 10:03:30 [PNF] waiting for OAI to be configured (eNB/RU)
-mars 12 10:03:30 [PNF] OAI eNB/RU configured
-mars 12 10:03:30 [PNF] About to call init_eNB_afterRU()
-mars 12 10:03:30 [LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
-mars 12 10:03:30 shlib_path libdfts.so
-mars 12 10:03:30 [LOADER] library libdfts.so successfully loaded
-mars 12 10:03:30 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
-mars 12 10:03:30 shlib_path libldpc.so
-mars 12 10:03:30 [LOADER] library libldpc.so successfully loaded
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 create a thread for core -1
-mars 12 10:03:30 waiting for sync (L1_stats_thread,-1/0x5f8dd04970b4,0x5f8dd0d39fc0,0x5f8dd0d39f80)
-mars 12 10:03:30 [PNF] Sending PNF_START_RESP
-mars 12 10:03:30 Sending NFAPI_START_RESPONSE config:0x5f8dd30c5660 phy_id:1
-mars 12 10:03:30 NFAPI: got sync (main?)
-mars 12 10:03:30 wait RUs
-mars 12 10:03:30 ALL RUs READY!
-mars 12 10:03:30 RC.nb_RU:1
-mars 12 10:03:30 ALL RUs ready - init gNBs
-mars 12 10:03:30 NFAPI mode - DO NOT call init_gNB_afterRU()
-mars 12 10:03:30 ALL RUs ready - ALL gNBs ready
-mars 12 10:03:30 Sending sync to all threads
-mars 12 10:03:30 Entering ITTI signals handler
-mars 12 10:03:30 TYPE <CTRL-C> TO TERMINATE
-mars 12 10:03:30 got sync (ru_thread)
-mars 12 10:03:30 got sync (L1_stats_thread)
-mars 12 10:03:30 [93m1710234210.302273 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
-mars 12 10:03:30 [0m[93m1710234210.304261 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
-mars 12 10:03:30 [0m[93m1710234210.305874 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
-mars 12 10:03:30 [0m[93m1710234210.307319 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
-mars 12 10:03:30 [0m1710234210.308777 [PHY]   RU 0 rf device ready
-mars 12 10:03:30 [0m1710234210.308784 [PHY]   RU 0 RF started opp_enabled 0
-mars 12 10:03:30 [0m[93m1710234210.308790 [HW]   No connected device, generating void samples...
-mars 12 10:03:30 [0m[PNF] Sending first P7 slot indication
-mars 12 10:03:30 [PNF] Sent first P7 slot ind
-mars 12 10:03:30 864313853 [N] 3019896384: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 42
-mars 12 10:03:30 864315515 [N] 3019896384: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
-mars 12 10:03:30 
-mars 12 10:03:30 Assertion (harq->pdu!=((void *)0)) failed!
-mars 12 10:03:30 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
-mars 12 10:03:30 harq->pdu is null
-mars 12 10:03:30 1710234210.388097 [PHY]   Process tx_data SFN/slot 4.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.429875 [PHY]   Process tx_data SFN/slot 6.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.471617 [PHY]   Process tx_data SFN/slot 8.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.513388 [PHY]   Process tx_data SFN/slot 10.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.555155 [PHY]   Process tx_data SFN/slot 12.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.596885 [PHY]   Process tx_data SFN/slot 14.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.638639 [PHY]   Process tx_data SFN/slot 16.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.680370 [PHY]   Process tx_data SFN/slot 18.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.722102 [PHY]   Process tx_data SFN/slot 20.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.763840 [PHY]   Process tx_data SFN/slot 22.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.805553 [PHY]   Process tx_data SFN/slot 24.0 buffer index: 0 
-mars 12 10:03:30 [0m1710234210.824584 [HW]   A client connects, sending the current time
-mars 12 10:03:31 [0m1710234211.851890 [PHY]   Process tx_data SFN/slot 26.0 buffer index: 0 
-mars 12 10:03:31 [0m1710234211.901815 [PHY]   Process tx_data SFN/slot 28.0 buffer index: 0 
-mars 12 10:03:31 [0m1710234211.951552 [PHY]   Process tx_data SFN/slot 30.0 buffer index: 0 
-mars 12 10:03:31 [0m1710234211.999587 [PHY]   Process tx_data SFN/slot 32.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.047827 [PHY]   Process tx_data SFN/slot 34.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.095671 [PHY]   Process tx_data SFN/slot 36.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.148278 [PHY]   Process tx_data SFN/slot 38.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.201530 [PHY]   Process tx_data SFN/slot 40.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.254366 [PHY]   Process tx_data SFN/slot 42.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.307327 [PHY]   Process tx_data SFN/slot 44.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.360306 [PHY]   Process tx_data SFN/slot 46.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.413354 [PHY]   Process tx_data SFN/slot 48.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.466110 [PHY]   Process tx_data SFN/slot 50.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.519457 [PHY]   Process tx_data SFN/slot 52.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.572623 [PHY]   Process tx_data SFN/slot 54.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.627032 [PHY]   Process tx_data SFN/slot 56.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.679942 [PHY]   Process tx_data SFN/slot 58.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.734857 [PHY]   Process tx_data SFN/slot 60.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.790064 [PHY]   Process tx_data SFN/slot 62.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.845563 [PHY]   Process tx_data SFN/slot 64.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.901782 [PHY]   Process tx_data SFN/slot 66.0 buffer index: 0 
-mars 12 10:03:32 [0m1710234212.954547 [PHY]   Process tx_data SFN/slot 68.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.007971 [PHY]   Process tx_data SFN/slot 70.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.061248 [PHY]   Process tx_data SFN/slot 72.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.114200 [PHY]   Process tx_data SFN/slot 74.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.167481 [PHY]   Process tx_data SFN/slot 76.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.220232 [PHY]   Process tx_data SFN/slot 78.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.273288 [PHY]   Process tx_data SFN/slot 80.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.326102 [PHY]   Process tx_data SFN/slot 82.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.379842 [PHY]   Process tx_data SFN/slot 84.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.434285 [PHY]   Process tx_data SFN/slot 86.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.489125 [PHY]   Process tx_data SFN/slot 88.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.543915 [PHY]   Process tx_data SFN/slot 90.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.598711 [PHY]   Process tx_data SFN/slot 92.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.653282 [PHY]   Process tx_data SFN/slot 94.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.706355 [PHY]   Process tx_data SFN/slot 96.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.759662 [PHY]   Process tx_data SFN/slot 98.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.812645 [PHY]   Process tx_data SFN/slot 100.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.865723 [PHY]   Process tx_data SFN/slot 102.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.918271 [PHY]   Process tx_data SFN/slot 104.0 buffer index: 0 
-mars 12 10:03:33 [0m1710234213.971285 [PHY]   Process tx_data SFN/slot 106.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.024171 [PHY]   Process tx_data SFN/slot 108.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.077309 [PHY]   Process tx_data SFN/slot 110.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.130982 [PHY]   Process tx_data SFN/slot 112.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.185028 [PHY]   Process tx_data SFN/slot 114.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.237848 [PHY]   Process tx_data SFN/slot 116.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.290996 [PHY]   Process tx_data SFN/slot 118.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.343606 [PHY]   Process tx_data SFN/slot 120.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.396302 [PHY]   Process tx_data SFN/slot 122.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.449720 [PHY]   Process tx_data SFN/slot 124.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.502751 [PHY]   Process tx_data SFN/slot 126.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.555764 [PHY]   Process tx_data SFN/slot 128.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.608250 [PHY]   Process tx_data SFN/slot 130.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.661353 [PHY]   Process tx_data SFN/slot 132.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.714213 [PHY]   Process tx_data SFN/slot 134.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.768810 [PHY]   Process tx_data SFN/slot 136.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.822243 [PHY]   Process tx_data SFN/slot 138.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.874988 [PHY]   Process tx_data SFN/slot 140.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.927903 [PHY]   Process tx_data SFN/slot 142.0 buffer index: 0 
-mars 12 10:03:34 [0m1710234214.980734 [PHY]   Process tx_data SFN/slot 144.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.033845 [PHY]   Process tx_data SFN/slot 146.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.086672 [PHY]   Process tx_data SFN/slot 148.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.139162 [PHY]   Process tx_data SFN/slot 150.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.191974 [PHY]   Process tx_data SFN/slot 152.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.244849 [PHY]   Process tx_data SFN/slot 154.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.297754 [PHY]   Process tx_data SFN/slot 156.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.350936 [PHY]   Process tx_data SFN/slot 158.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.404541 [PHY]   Process tx_data SFN/slot 160.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.457507 [PHY]   Process tx_data SFN/slot 162.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.510355 [PHY]   Process tx_data SFN/slot 164.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.563562 [PHY]   Process tx_data SFN/slot 166.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.616471 [PHY]   Process tx_data SFN/slot 168.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.622487 [NR_PHY]   [gNB 0][RAPROC] Frame 167, slot 19 Initiating RA procedure with preamble 3, energy 56.4 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
-mars 12 10:03:35 [0m1710234215.627051 [PHY]   Process tx_data SFN/slot 168.7 buffer index: 7 
-mars 12 10:03:35 [0m1710234215.658379 [PHY]   Process tx_data SFN/slot 169.10 buffer index: 10 
-mars 12 10:03:35 [0m1710234215.673182 [PHY]   Process tx_data SFN/slot 170.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.728333 [PHY]   Process tx_data SFN/slot 172.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.763397 [PHY]   Process tx_data SFN/slot 173.5 buffer index: 5 
-mars 12 10:03:35 [0m869752765 [N] 3019896384: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 342
-mars 12 10:03:35 1710234215.784805 [PHY]   Process tx_data SFN/slot 174.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.840362 [PHY]   Process tx_data SFN/slot 176.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.862124 [PHY]   Process tx_data SFN/slot 176.15 buffer index: 15 
-mars 12 10:03:35 [0m1710234215.883518 [PHY]   Process tx_data SFN/slot 177.10 buffer index: 10 
-mars 12 10:03:35 [0m1710234215.897071 [PHY]   Process tx_data SFN/slot 178.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.924840 [PHY]   Process tx_data SFN/slot 179.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.952790 [PHY]   Process tx_data SFN/slot 180.0 buffer index: 0 
-mars 12 10:03:35 [0m1710234215.988098 [PHY]   Process tx_data SFN/slot 181.5 buffer index: 5 
-mars 12 10:03:35 [0m1710234216.004147 [PHY]   Process tx_data SFN/slot 181.16 buffer index: 16 
-mars 12 10:03:36 [0m1710234216.009667 [PHY]   Process tx_data SFN/slot 182.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.059399 [PHY]   Process tx_data SFN/slot 183.15 buffer index: 15 
-mars 12 10:03:36 [0m1710234216.066164 [PHY]   Process tx_data SFN/slot 184.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.067720 [PHY]   Process tx_data SFN/slot 184.1 buffer index: 1 
-mars 12 10:03:36 [0m1710234216.123333 [PHY]   Process tx_data SFN/slot 186.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.145553 [PHY]   Process tx_data SFN/slot 186.15 buffer index: 15 
-mars 12 10:03:36 [0m1710234216.146821 [PHY]   Process tx_data SFN/slot 186.16 buffer index: 16 
-mars 12 10:03:36 [0m1710234216.173929 [PHY]   Process tx_data SFN/slot 187.15 buffer index: 15 
-mars 12 10:03:36 [0m1710234216.175151 [PHY]   Process tx_data SFN/slot 187.16 buffer index: 16 
-mars 12 10:03:36 [0m1710234216.180544 [PHY]   Process tx_data SFN/slot 188.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.215742 [PHY]   Process tx_data SFN/slot 189.5 buffer index: 5 
-mars 12 10:03:36 [0m1710234216.236645 [PHY]   Process tx_data SFN/slot 190.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.291672 [PHY]   Process tx_data SFN/slot 192.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.319186 [PHY]   Process tx_data SFN/slot 193.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.346891 [PHY]   Process tx_data SFN/slot 194.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.401955 [PHY]   Process tx_data SFN/slot 196.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.456738 [PHY]   Process tx_data SFN/slot 198.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.511928 [PHY]   Process tx_data SFN/slot 200.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.567536 [PHY]   Process tx_data SFN/slot 202.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.595548 [PHY]   Process tx_data SFN/slot 203.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.623331 [PHY]   Process tx_data SFN/slot 204.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.678317 [PHY]   Process tx_data SFN/slot 206.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.733507 [PHY]   Process tx_data SFN/slot 208.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.788599 [PHY]   Process tx_data SFN/slot 210.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.843191 [PHY]   Process tx_data SFN/slot 212.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.871374 [PHY]   Process tx_data SFN/slot 213.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.899185 [PHY]   Process tx_data SFN/slot 214.0 buffer index: 0 
-mars 12 10:03:36 [0m1710234216.953990 [PHY]   Process tx_data SFN/slot 216.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.009221 [PHY]   Process tx_data SFN/slot 218.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.065008 [PHY]   Process tx_data SFN/slot 220.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.120480 [PHY]   Process tx_data SFN/slot 222.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.149234 [PHY]   Process tx_data SFN/slot 223.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.170878 [PHY]   Process tx_data SFN/slot 223.15 buffer index: 15 
-mars 12 10:03:37 [0m1710234217.177527 [PHY]   Process tx_data SFN/slot 224.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.233114 [PHY]   Process tx_data SFN/slot 226.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.288026 [PHY]   Process tx_data SFN/slot 228.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.343058 [PHY]   Process tx_data SFN/slot 230.0 buffer index: 0 
-mars 12 10:03:37 [0m871328532 [N] 3019896384: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 422
-mars 12 10:03:37 1710234217.360968 [PHY]   Process tx_data SFN/slot 230.12 buffer index: 12 
-mars 12 10:03:37 [0m1710234217.382106 [PHY]   Process tx_data SFN/slot 231.6 buffer index: 6 
-mars 12 10:03:37 [0m1710234217.401712 [PHY]   Process tx_data SFN/slot 232.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.437188 [PHY]   Process tx_data SFN/slot 233.5 buffer index: 5 
-mars 12 10:03:37 [0m1710234217.458716 [PHY]   Process tx_data SFN/slot 234.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.513763 [PHY]   Process tx_data SFN/slot 236.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.569335 [PHY]   Process tx_data SFN/slot 238.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.597266 [PHY]   Process tx_data SFN/slot 239.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.625732 [PHY]   Process tx_data SFN/slot 240.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.633104 [PHY]   Process tx_data SFN/slot 240.5 buffer index: 5 
-mars 12 10:03:37 [0m1710234217.683477 [PHY]   Process tx_data SFN/slot 242.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.738589 [PHY]   Process tx_data SFN/slot 244.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.794029 [PHY]   Process tx_data SFN/slot 246.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.848723 [PHY]   Process tx_data SFN/slot 248.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.876343 [PHY]   Process tx_data SFN/slot 249.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.904121 [PHY]   Process tx_data SFN/slot 250.0 buffer index: 0 
-mars 12 10:03:37 [0m1710234217.959196 [PHY]   Process tx_data SFN/slot 252.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.014281 [PHY]   Process tx_data SFN/slot 254.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.069470 [PHY]   Process tx_data SFN/slot 256.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.124504 [PHY]   Process tx_data SFN/slot 258.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.152234 [PHY]   Process tx_data SFN/slot 259.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.179602 [PHY]   Process tx_data SFN/slot 260.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.234705 [PHY]   Process tx_data SFN/slot 262.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.289996 [PHY]   Process tx_data SFN/slot 264.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.344647 [PHY]   Process tx_data SFN/slot 266.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.399080 [PHY]   Process tx_data SFN/slot 268.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.426799 [PHY]   Process tx_data SFN/slot 269.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.454762 [PHY]   Process tx_data SFN/slot 270.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.509870 [PHY]   Process tx_data SFN/slot 272.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.565237 [PHY]   Process tx_data SFN/slot 274.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.620158 [PHY]   Process tx_data SFN/slot 276.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.675940 [PHY]   Process tx_data SFN/slot 278.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.704428 [PHY]   Process tx_data SFN/slot 279.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.733053 [PHY]   Process tx_data SFN/slot 280.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.789660 [PHY]   Process tx_data SFN/slot 282.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.845490 [PHY]   Process tx_data SFN/slot 284.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.900477 [PHY]   Process tx_data SFN/slot 286.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.955668 [PHY]   Process tx_data SFN/slot 288.0 buffer index: 0 
-mars 12 10:03:38 [0m1710234218.983204 [PHY]   Process tx_data SFN/slot 289.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.010884 [PHY]   Process tx_data SFN/slot 290.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.066359 [PHY]   Process tx_data SFN/slot 292.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.121468 [PHY]   Process tx_data SFN/slot 294.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.176711 [PHY]   Process tx_data SFN/slot 296.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.233670 [PHY]   Process tx_data SFN/slot 298.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.262590 [PHY]   Process tx_data SFN/slot 299.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.290858 [PHY]   Process tx_data SFN/slot 300.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.347004 [PHY]   Process tx_data SFN/slot 302.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.401748 [PHY]   Process tx_data SFN/slot 304.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.456836 [PHY]   Process tx_data SFN/slot 306.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.512085 [PHY]   Process tx_data SFN/slot 308.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.540422 [PHY]   Process tx_data SFN/slot 309.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.567686 [PHY]   Process tx_data SFN/slot 310.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.622942 [PHY]   Process tx_data SFN/slot 312.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.677771 [PHY]   Process tx_data SFN/slot 314.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.732745 [PHY]   Process tx_data SFN/slot 316.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.787912 [PHY]   Process tx_data SFN/slot 318.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.815704 [PHY]   Process tx_data SFN/slot 319.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.843670 [PHY]   Process tx_data SFN/slot 320.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.898706 [PHY]   Process tx_data SFN/slot 322.0 buffer index: 0 
-mars 12 10:03:39 [0m1710234219.953907 [PHY]   Process tx_data SFN/slot 324.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.011721 [PHY]   Process tx_data SFN/slot 326.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.068416 [PHY]   Process tx_data SFN/slot 328.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.096573 [PHY]   Process tx_data SFN/slot 329.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.124661 [PHY]   Process tx_data SFN/slot 330.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.179780 [PHY]   Process tx_data SFN/slot 332.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.234833 [PHY]   Process tx_data SFN/slot 334.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.289840 [PHY]   Process tx_data SFN/slot 336.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.344965 [PHY]   Process tx_data SFN/slot 338.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.372916 [PHY]   Process tx_data SFN/slot 339.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.400539 [PHY]   Process tx_data SFN/slot 340.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.456076 [PHY]   Process tx_data SFN/slot 342.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.511584 [PHY]   Process tx_data SFN/slot 344.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.567537 [PHY]   Process tx_data SFN/slot 346.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.623056 [PHY]   Process tx_data SFN/slot 348.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.650804 [PHY]   Process tx_data SFN/slot 349.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.678562 [PHY]   Process tx_data SFN/slot 350.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.734708 [PHY]   Process tx_data SFN/slot 352.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.789992 [PHY]   Process tx_data SFN/slot 354.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.846752 [PHY]   Process tx_data SFN/slot 356.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.901380 [PHY]   Process tx_data SFN/slot 358.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.929133 [PHY]   Process tx_data SFN/slot 359.0 buffer index: 0 
-mars 12 10:03:40 [0m1710234220.957383 [PHY]   Process tx_data SFN/slot 360.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.015047 [PHY]   Process tx_data SFN/slot 362.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.076092 [PHY]   Process tx_data SFN/slot 364.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.136211 [PHY]   Process tx_data SFN/slot 366.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.193110 [PHY]   Process tx_data SFN/slot 368.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.221981 [PHY]   Process tx_data SFN/slot 369.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.251318 [PHY]   Process tx_data SFN/slot 370.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.308119 [PHY]   Process tx_data SFN/slot 372.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.364521 [PHY]   Process tx_data SFN/slot 374.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.420710 [PHY]   Process tx_data SFN/slot 376.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.477441 [PHY]   Process tx_data SFN/slot 378.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.504883 [PHY]   Process tx_data SFN/slot 379.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.533404 [PHY]   Process tx_data SFN/slot 380.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.590306 [PHY]   Process tx_data SFN/slot 382.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.646367 [PHY]   Process tx_data SFN/slot 384.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.702867 [PHY]   Process tx_data SFN/slot 386.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.710638 [PHY]   Process tx_data SFN/slot 386.5 buffer index: 5 
-mars 12 10:03:41 [0m1710234221.759331 [PHY]   Process tx_data SFN/slot 388.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.787572 [PHY]   Process tx_data SFN/slot 389.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.815592 [PHY]   Process tx_data SFN/slot 390.0 buffer index: 0 
-mars 12 10:03:41 [0m1710234221.872177 [PHY]   Process tx_data SFN/slot 392.0 buffer index: 0 
-mars 12 10:03:41 [0m
-mars 12 10:03:41 ** Caught SIGTERM, shutting down
-mars 12 10:03:41 1710234221.906558 [PHY]   Killing gNB 0 processing threads
-mars 12 10:03:41 [0mReturned from ITTI signal handler
-mars 12 10:03:41 oai_exit=1
-mars 12 10:03:41 Exiting ru_thread 
-mars 12 10:03:41 875883982 [W] 3099346496: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
-mars 12 10:03:41 875883994 [W] 3099346496: pnf_nr_read_dispatch_message: Disconnected socket
-mars 12 10:03:41 
-mars 12 10:03:41 ** Caught SIGTERM, shutting down
-mars 12 10:03:41 
-mars 12 10:03:41 ** Caught SIGTERM, shutting down
-mars 12 10:03:42 1710234222.303349 [PHY]   Stopping RU 0 processing threads
-mars 12 10:03:42 [0m1710234222.303455 [PHY]   RU 0 RF device stopped
-mars 12 10:03:42 [0m1710234222.303462 [PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
-mars 12 10:03:42 [0mBye.
+mars 15 13:35:54 1710506154.353319 [HW]   # /dev/cpu_dma_latency set to 2 us
+mars 15 13:35:54 [0m1710506154.410030 [ENB_APP]   nfapi running mode: PNF
+mars 15 13:35:54 [0m1710506154.410065 [GNB_APP]   Getting GNBSParams
+mars 15 13:35:55 [0m1710506155.410274 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+mars 15 13:35:55 [0m1710506155.410326 [ITTI]   Starting itti queue: TASK_TIMER as task 1
+mars 15 13:35:55 [0m1710506155.410343 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
+mars 15 13:35:55 [0m1710506155.410356 [ITTI]   Starting itti queue: TASK_BM as task 3
+mars 15 13:35:55 [0m1710506155.410372 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+mars 15 13:35:55 [0m1710506155.410387 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+mars 15 13:35:55 [0m1710506155.410400 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+mars 15 13:35:55 [0m1710506155.410414 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+mars 15 13:35:55 [0m1710506155.410431 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+mars 15 13:35:55 [0m1710506155.410446 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+mars 15 13:35:55 [0m1710506155.410462 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+mars 15 13:35:55 [0m1710506155.410476 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+mars 15 13:35:55 [0m1710506155.410490 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+mars 15 13:35:55 [0m1710506155.410504 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+mars 15 13:35:55 [0m1710506155.410519 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+mars 15 13:35:55 [0m1710506155.410536 [ITTI]   Starting itti queue: TASK_S1AP as task 15
+mars 15 13:35:55 [0m1710506155.410551 [ITTI]   Starting itti queue: TASK_NGAP as task 16
+mars 15 13:35:55 [0m1710506155.410564 [ITTI]   Starting itti queue: TASK_X2AP as task 17
+mars 15 13:35:55 [0m1710506155.410579 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+mars 15 13:35:55 [0m1710506155.410594 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+mars 15 13:35:55 [0m1710506155.410607 [ITTI]   Starting itti queue: TASK_M3AP as task 20
+mars 15 13:35:55 [0m1710506155.410622 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+mars 15 13:35:55 [0m1710506155.410637 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+mars 15 13:35:55 [0m1710506155.410650 [ITTI]   Starting itti queue: TASK_SCTP as task 23
+mars 15 13:35:55 [0m1710506155.410665 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+mars 15 13:35:55 [0m1710506155.410679 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+mars 15 13:35:55 [0m1710506155.410694 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+mars 15 13:35:55 [0m1710506155.410708 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
+mars 15 13:35:55 [0m1710506155.410722 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+mars 15 13:35:55 [0m1710506155.410746 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+mars 15 13:35:55 [0m1710506155.410759 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+mars 15 13:35:55 [0m1710506155.410774 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+mars 15 13:35:55 [0m1710506155.410788 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+mars 15 13:35:55 [0m1710506155.410802 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+mars 15 13:35:55 [0m1710506155.410817 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+mars 15 13:35:55 [0m1710506155.410831 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+mars 15 13:35:55 [0m1710506155.410845 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+mars 15 13:35:55 [0m1710506155.410860 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+mars 15 13:35:55 [0m1710506155.410874 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+mars 15 13:35:55 [0m1710506155.410889 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+mars 15 13:35:55 [0m1710506155.410905 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+mars 15 13:35:55 [0m1710506155.410919 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+mars 15 13:35:55 [0m1710506155.410933 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+mars 15 13:35:55 [0m1710506155.410949 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+mars 15 13:35:55 [0m1710506155.410962 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+mars 15 13:35:55 [0m1710506155.410976 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+mars 15 13:35:55 [0m1710506155.411012 [OPT]   OPT disabled
+mars 15 13:35:55 [0m1710506155.411018 [HW]   Version: Branch: nfapi-fixes Abrev. Hash: ef42e73761 Date: Thu Mar 14 17:00:50 2024 +0100
+mars 15 13:35:55 [0m1710506155.411026 [NR_PHY]   RC.gNB = 0x5d9dbbc24570
+mars 15 13:35:55 [0m1710506155.412090 [PHY]   L1_RX_THREAD_CORE -1 (16)
+mars 15 13:35:55 [0m1710506155.412231 [PHY]   TX_AMP = 519 (-36 dBFS)
+mars 15 13:35:55 [0m1710506155.412241 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+mars 15 13:35:55 [0m1710506155.412245 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+mars 15 13:35:55 [0m1710506155.412249 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+mars 15 13:35:55 [0m1710506155.412254 [ENB_APP]   nfapi running mode: PNF
+mars 15 13:35:55 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--log_config.global_log_options" "wall_clock" "--sa" 
+mars 15 13:35:55 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+mars 15 13:35:55 [CONFIG] function config_libconfig_init returned 0
+mars 15 13:35:55 [CONFIG] config module libconfig loaded
+mars 15 13:35:55 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+mars 15 13:35:55 [CONFIG] debug flags: 0x00000000
+mars 15 13:35:55 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+mars 15 13:35:55 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
+mars 15 13:35:55 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+mars 15 13:35:55 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+mars 15 13:35:55 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+mars 15 13:35:55 log init done
+mars 15 13:35:55 Reading in command-line options
+mars 15 13:35:55 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+mars 15 13:35:55 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+mars 15 13:35:55 [LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
+mars 15 13:35:55 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+mars 15 13:35:55 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+mars 15 13:35:55 [CONFIG] parallel_conf is set to 2
+mars 15 13:35:55 [CONFIG] worker_conf is set to 1
+mars 15 13:35:55 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
+mars 15 13:35:55 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+mars 15 13:35:55 configuring for RAU/RRU
+mars 15 13:35:55 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+mars 15 13:35:55 [LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+mars 15 13:35:55 [LIBCONFIG] L1s.[0]: 20/20 parameters successfully set, (11 to default value)
+mars 15 13:35:55 configure_nr_nfapi_pnf() PNF
+mars 15 13:35:55 
+mars 15 13:35:55 
+mars 15 13:35:55 
+mars 15 13:35:55 
+mars 15 13:35:55 
+mars 15 13:35:55 configure_nr_nfapi_pnf() VNF:127.0.0.2:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.2:50011 rx:50010]
+mars 15 13:35:55 55456847157 [I] 2647629824: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+mars 15 13:35:55 55456847162 [I] 2647629824: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
+mars 15 13:35:55 1710506155.417708 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+mars 15 13:35:55 [0m1710506155.417722 [PHY]   Installing callbacks for IF_Module - UL_indication
+mars 15 13:35:55 [0m1710506155.417727 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5d9dbbc278e0
+mars 15 13:35:55 [0m1710506155.417732 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+mars 15 13:35:55 [0mInitializing northbound interface for L1
+mars 15 13:35:55 55456857352 [I] 2631681600: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
+mars 15 13:35:55 55456857468 [I] 2631681600: nfapi_nr_pnf_start: nfapi_nr_pnf_start
+mars 15 13:35:55 55456857476 [I] 2631681600: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.2:50001
+mars 15 13:35:55 55456857611 [N] 2631681600: pnf_connect: PNF Setting the SCTP_INITMSG
+mars 15 13:35:55 55456857624 [I] 2631681600: pnf_connect: P5 socket created...
+mars 15 13:35:55 55456857736 [E] 2631681600: pnf_connect: After connect (address:127.0.0.2 port:50001) errno: 111
+mars 15 13:35:55 1710506155.423484 [PHY]   Initializing gNB 0 single_thread_flag:1
+mars 15 13:35:55 [0m1710506155.423493 [PHY]   Initializing gNB 0
+mars 15 13:35:55 [0m1710506155.423497 [PHY]   Registering with MAC interface module (before 0x5d9dbbc278e0)
+mars 15 13:35:55 [0m1710506155.423500 [PHY]   Installing callbacks for IF_Module - UL_indication
+mars 15 13:35:55 [0m1710506155.423504 [PHY]   Registering with MAC interface module (after 0x5d9dbbc278e0)
+mars 15 13:35:55 [0m1710506155.423507 [PHY]   Setting indication lists
+mars 15 13:35:55 [0m1710506155.423510 [PHY]   [nr-gnb.c] gNB structure allocated
+mars 15 13:35:57 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+mars 15 13:35:57 START MAIN THREADS
+mars 15 13:35:57 RC.nb_nr_L1_inst:1
+mars 15 13:35:57 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+mars 15 13:35:57 wait_gNBs()
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 55458857829 [I] 2631681600: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.2:50001
+mars 15 13:35:57 55458857868 [N] 2631681600: pnf_connect: PNF Setting the SCTP_INITMSG
+mars 15 13:35:57 55458857879 [I] 2631681600: pnf_connect: P5 socket created...
+mars 15 13:35:57 55458858099 [I] 2631681600: pnf_connect: connect succeeded...
+mars 15 13:35:57 55458858103 [N] 2631681600: pnf_connect: After connect loop
+mars 15 13:35:57 55458858109 [I] 2631681600: pnf_connect: Association ID = 41
+mars 15 13:35:57 55458858112 [I] 2631681600: pnf_connect: Receiver window size = 67108864
+mars 15 13:35:57 55458858114 [I] 2631681600: pnf_connect: In Streams = 5
+mars 15 13:35:57 55458858116 [I] 2631681600: pnf_connect: Out Streams = 5
+mars 15 13:35:57 55458858119 [N] 2631681600: pnf_connect: Socket CONNECTED
+mars 15 13:35:57 55458859387 [I] 2631681600: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
+mars 15 13:35:57 [PNF] pnf param request
+mars 15 13:35:57 55458859522 [I] 2631681600: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
+mars 15 13:35:57 [PNF] pnf config request
+mars 15 13:35:57 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+mars 15 13:35:57 [PNF] Sent pnf_config_resp
+mars 15 13:35:57 55458859617 [I] 2631681600: pnf_nr_handle_pnf_start_request: PNF_START.request Received
+mars 15 13:35:57 Received NFAPI_PNF_START_REQUEST
+mars 15 13:35:57 [PNF] Sent NFAPI_PNF_START_RESP
+mars 15 13:35:57 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+mars 15 13:35:57 55458863082 [I] 2631681600: pnf_nr_handle_param_request: PARAM.request received
+mars 15 13:35:57 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+mars 15 13:35:57 TAG value :2
+mars 15 13:35:57 RUNNING pack_param_response
+mars 15 13:35:57 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+mars 15 13:35:57 55458863437 [I] 2631681600: pnf_nr_handle_config_request: CONFIG.request received
+mars 15 13:35:57 7f 10 01 00 02 00 28 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 28 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 22 00 04 80 00 00 00 10 22 00 04 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 02 01 02 00 02 c3 5b 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 f0 02 00 04 00 00 07 e0 
+mars 15 13:35:57 *** have tag 1001, idx 0
+mars 15 13:35:57 *** have tag 1002, idx 1
+mars 15 13:35:57 *** have tag 1005, idx 4
+mars 15 13:35:57 *** have tag 1006, idx 5
+mars 15 13:35:57 *** have tag 1007, idx 6
+mars 15 13:35:57 *** have tag 100a, idx 9
+mars 15 13:35:57 *** have tag 100c, idx 11
+mars 15 13:35:57 *** have tag 100d, idx 12
+mars 15 13:35:57 *** have tag 100e, idx 13
+mars 15 13:35:57 *** have tag 100f, idx 14
+mars 15 13:35:57 *** have tag 1010, idx 15
+mars 15 13:35:57 *** have tag 1011, idx 16
+mars 15 13:35:57 *** have tag 1012, idx 17
+mars 15 13:35:57 *** have tag 1013, idx 18
+mars 15 13:35:57 *** have tag 1014, idx 19
+mars 15 13:35:57 *** have tag 1029, idx 20
+mars 15 13:35:57 *** have tag 101b, idx 27
+mars 15 13:35:57 *** have tag 101d, idx 29
+mars 15 13:35:57 *** have tag 101f, idx 31
+mars 15 13:35:57 *** have tag 1020, idx 32
+mars 15 13:35:57 *** have tag 1026, idx 38
+mars 15 13:35:57 *** have tag 100, idx 41
+mars 15 13:35:57 *** have tag 102, idx 43
+mars 15 13:35:57 *** have tag 11e, idx 44
+mars 15 13:35:57 *** have tag 11f, idx 45
+mars 15 13:35:57 *** have tag 120, idx 46
+mars 15 13:35:57 [PNF] vnf p7 0.1.4.0:50011
+mars 15 13:35:57 carrier_config
+mars 15 13:35:57   bw t 4097 l 2 v 40
+mars 15 13:35:57   freq t 4098 l 4 v 3600120
+mars 15 13:35:57   dl_k0[0] t 0 l 0 v 0
+mars 15 13:35:57   dl_k0[1] t 4099 l 10 v 0
+mars 15 13:35:57   dl_k0[2] t 0 l 0 v 0
+mars 15 13:35:57   dl_k0[3] t 0 l 0 v 0
+mars 15 13:35:57   dl_k0[4] t 0 l 0 v 0
+mars 15 13:35:57   dl_grid_size[0] t 0 l 0 v 0
+mars 15 13:35:57   dl_grid_size[1] t 4100 l 10 v 106
+mars 15 13:35:57   dl_grid_size[2] t 0 l 0 v 0
+mars 15 13:35:57   dl_grid_size[3] t 0 l 0 v 0
+mars 15 13:35:57   dl_grid_size[4] t 0 l 0 v 0
+mars 15 13:35:57   num_tx_ant t 4101 l 2 v 1
+mars 15 13:35:57   uplink_bandwidth t 4102 l 2 v 40
+mars 15 13:35:57   uplink_frequency t 4103 l 4 v 3600120
+mars 15 13:35:57   ul_k0[0] t 0 l 0 v 0
+mars 15 13:35:57   ul_k0[1] t 4104 l 10 v 0
+mars 15 13:35:57   ul_k0[2] t 0 l 0 v 0
+mars 15 13:35:57   ul_k0[3] t 0 l 0 v 0
+mars 15 13:35:57   ul_k0[4] t 0 l 0 v 0
+mars 15 13:35:57   ul_grid_size[0] t 0 l 0 v 0
+mars 15 13:35:57   ul_grid_size[1] t 4105 l 10 v 106
+mars 15 13:35:57   ul_grid_size[2] t 0 l 0 v 0
+mars 15 13:35:57   ul_grid_size[3] t 0 l 0 v 0
+mars 15 13:35:57   ul_grid_size[4] t 0 l 0 v 0
+mars 15 13:35:57   num_rx_ant t 4106 l 2 v 1
+mars 15 13:35:57   frequency_shift_7p5khz t 0 l 0 v 0
+mars 15 13:35:57 prach_config
+mars 15 13:35:57   prach_sequence_length t 4113 l 1 v 1
+mars 15 13:35:57   prach_sub_c_spacing t 4114 l 1 v 1
+mars 15 13:35:57   restricted_set_config t 4115 l 1 v 0
+mars 15 13:35:57   num_prach_fd_occasions t 4116 l 1 v 1
+mars 15 13:35:57   prach_ConfigurationIndex t 4137 l 1 v 98
+mars 15 13:35:57     prach_root_sequence_index t 4117 l 2 v 1
+mars 15 13:35:57     num_root_sequences t 4118 l 1 v 16
+mars 15 13:35:57     k1 t 4119 l 2 v 0
+mars 15 13:35:57     prach_zero_corr_conf t 4120 l 1 v 13
+mars 15 13:35:57     num_unused_root_sequences t 4121 l 2 v 0
+mars 15 13:35:57   ssb_per_rach t 4123 l 1 v 3
+mars 15 13:35:57   prach_multiple_carriers_in_a_band t 0 l 0 v 0
+mars 15 13:35:57 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+mars 15 13:35:57 
+mars 15 13:35:57 Timing window tag: 286
+mars 15 13:35:57 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+mars 15 13:35:57 timing info mode:3
+mars 15 13:35:57 timing info period provided value:10
+mars 15 13:35:57 55458864524 [E] 2631681600: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
+mars 15 13:35:57 1710506157.429640 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+mars 15 13:35:57 [0m[32m1710506157.429646 [PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+mars 15 13:35:57 [0m1710506157.429650 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+mars 15 13:35:57 [0m[93m1710506157.429655 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+mars 15 13:35:57 [0m1710506157.429896 [PHY]   gNB 0 configured
+mars 15 13:35:57 [0m1710506157.429905 [PHY]   fp->scs=30000
+mars 15 13:35:57 [0m1710506157.429910 [PHY]   fp->ofdm_symbol_size=2048
+mars 15 13:35:57 [0m1710506157.429913 [PHY]   fp->nb_prefix_samples0=176
+mars 15 13:35:57 [0m1710506157.429917 [PHY]   fp->nb_prefix_samples=144
+mars 15 13:35:57 [0m1710506157.429921 [PHY]   fp->slots_per_subframe=2
+mars 15 13:35:57 [0m1710506157.429927 [PHY]   fp->samples_per_subframe_wCP=57344
+mars 15 13:35:57 [0m1710506157.429931 [PHY]   fp->samples_per_frame_wCP=573440
+mars 15 13:35:57 [0m1710506157.429935 [PHY]   fp->samples_per_subframe=61440
+mars 15 13:35:57 [0m1710506157.429938 [PHY]   fp->samples_per_frame=614400
+mars 15 13:35:57 [0m1710506157.429942 [PHY]   fp->dl_CarrierFreq=3619200000
+mars 15 13:35:57 [0m1710506157.429946 [PHY]   fp->ul_CarrierFreq=3619200000
+mars 15 13:35:57 [0m[PNF] CONFIG_REQUEST[num_tlv:127] TLVs processed:6
+mars 15 13:35:57 [PNF] Simulating PHY CONFIG
+mars 15 13:35:57 DL frequency 3619200000: band 48, UL frequency 3619200000
+mars 15 13:35:57 [PNF] 1 vnf p7 127.0.0.2:50011 timing 30 3 10
+mars 15 13:35:57 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+mars 15 13:35:57 55458865711 [I] 2631681600: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
+mars 15 13:35:57 [PNF] Received NFAPI_START_REQ phy_id:1
+mars 15 13:35:57 [PNF] P7 remote:127.0.0.2:50011 local:127.0.0.1:50010
+mars 15 13:35:57 subframe_buffer_size configured using phy_info->timing_window:30
+mars 15 13:35:57 55458865722 [I] 2631681600: nr_start_request: [PNF] Creating P7 thread nr_start_request
+mars 15 13:35:57 55458868850 [I] 2631681600: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
+mars 15 13:35:57 55458868860 [I] 2550134336: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
+mars 15 13:35:57 1710506157.433975 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+mars 15 13:35:57 [0mCalling sched_setscheduler(79)
+mars 15 13:35:57 1710506157.433983 [PHY]   Installing callbacks for IF_Module - UL_indication
+mars 15 13:35:57 [0m1710506157.433987 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+mars 15 13:35:57 [0m55458868887 [I] 2631681600: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
+mars 15 13:35:57 55458868890 [I] 2550134336: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
+mars 15 13:35:57 55458868915 [I] 2550134336: pnf_nr_p7_message_pump: PNF P7 socket created (99)...
+mars 15 13:35:57 55458868928 [I] 2550134336: pnf_nr_p7_message_pump: PNF P7 binding 99 too 127.0.0.1:50010
+mars 15 13:35:57 55458868938 [I] 2550134336: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
+mars 15 13:35:57 1710506157.477867 [PHY]   RU GPIO control set as 'generic'
+mars 15 13:35:57 [0m1710506157.477875 [PHY]   Setting clock source to internal
+mars 15 13:35:57 [0m1710506157.477880 [PHY]   Setting time source to internal
+mars 15 13:35:57 [0m1710506157.477918 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 4
+mars 15 13:35:57 [0m1710506157.477922 [PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+mars 15 13:35:57 [0m1710506157.478218 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+mars 15 13:35:57 [0m1710506157.478224 [PHY]   RU Thread pool size 2
+mars 15 13:35:57 [0m1710506157.478228 [PHY]   RU thread-pool core string -1,-1
+mars 15 13:35:57 [0m1710506157.478235 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+mars 15 13:35:57 [0m1710506157.480463 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+mars 15 13:35:57 [0m1710506157.482880 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+mars 15 13:35:57 [0m1710506157.485175 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+mars 15 13:35:57 [0m1710506157.487568 [UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+mars 15 13:35:57 [0m1710506157.489874 [UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+mars 15 13:35:57 [0m1710506157.492207 [PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 0
+mars 15 13:35:57 [0m1710506157.492219 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+mars 15 13:35:57 [0m[93m1710506157.492236 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+mars 15 13:35:57 [0m1710506157.492241 [PHY]   fp->scs=30000
+mars 15 13:35:57 [0m1710506157.492244 [PHY]   fp->ofdm_symbol_size=2048
+mars 15 13:35:57 [0m1710506157.492247 [PHY]   fp->nb_prefix_samples0=176
+mars 15 13:35:57 [0m1710506157.492250 [PHY]   fp->nb_prefix_samples=144
+mars 15 13:35:57 [0m1710506157.492252 [PHY]   fp->slots_per_subframe=2
+mars 15 13:35:57 [0m1710506157.492255 [PHY]   fp->samples_per_subframe_wCP=57344
+mars 15 13:35:57 [0m1710506157.492258 [PHY]   fp->samples_per_frame_wCP=573440
+mars 15 13:35:57 [0m1710506157.492261 [PHY]   fp->samples_per_subframe=61440
+mars 15 13:35:57 [0m1710506157.492264 [PHY]   fp->samples_per_frame=614400
+mars 15 13:35:57 [0m1710506157.492267 [PHY]   fp->dl_CarrierFreq=3619200000
+mars 15 13:35:57 [0m1710506157.492269 [PHY]   fp->ul_CarrierFreq=3619200000
+mars 15 13:35:57 [0m1710506157.492273 [PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+mars 15 13:35:57 [0m1710506157.493026 [PHY]   [INIT] common.txdata[0] = 0x7d849c21a040 (2458880 bytes,sf_extension 320)
+mars 15 13:35:57 [0m1710506157.493033 [PHY]   [INIT] common.txdata[0] = 0x7d849c21a540 
+mars 15 13:35:57 [0m1710506157.493834 [PHY]   nb_tx 1
+mars 15 13:35:57 [0m1710506157.494173 [PHY]   rxdata_7_5kHz[0] 0x7d849c129040 for RU 0
+mars 15 13:35:57 [0m1710506157.494881 [PHY]   [INIT] common.txdata_BF= 0x7d8490000ac0 (8 bytes)
+mars 15 13:35:57 [0m1710506157.494977 [PHY]   txdataF_BF[0] 0x7d849dc9b040 for RU 0
+mars 15 13:35:57 [0m1710506157.495120 [PHY]   rxdataF[0] 0x7d849d6a8040 for RU 0
+mars 15 13:35:57 [0m1710506157.500716 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+mars 15 13:35:57 [0m1710506157.501451 [PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+mars 15 13:35:57 [0m1710506157.501459 [PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+mars 15 13:35:57 [0m1710506157.501466 [PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3619200000 Hz
+mars 15 13:35:57 [0m1710506157.501471 [PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+mars 15 13:35:57 [0m[93m1710506157.501759 [HW]   sample_rate 61440000.000000
+mars 15 13:35:57 [0m1710506157.501766 [HW]   Running as server waiting opposite rfsimulators to connect
+mars 15 13:35:57 [0m1710506157.501893 [HW]   [RAU] has loaded RFSIMULATOR device.
+mars 15 13:35:57 [0m1710506157.501898 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+mars 15 13:35:57 [0m1710506157.501903 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
+mars 15 13:36:02 [0m1710506162.434009 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
+mars 15 13:36:02 [0m1710506162.434021 [PHY]   RC.nb_nr_CC[inst:0]:0x7d849cdc5010
+mars 15 13:36:02 [0m1710506162.434027 [PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+mars 15 13:36:02 [0m1710506162.680928 [PHY]   Initialise nr transport
+mars 15 13:36:02 [0m1710506162.763752 [PHY]   Mapping RX ports from 1 RUs to gNB 0
+mars 15 13:36:02 [0m1710506162.763767 [PHY]   gNB->num_RU:1
+mars 15 13:36:02 [0m1710506162.763771 [PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+mars 15 13:36:02 [0m1710506162.763799 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.766260 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.768648 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.770893 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.773218 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.775436 [UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.777753 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.780065 [UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.782422 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.784665 [UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.786962 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.789283 [UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.791645 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.793974 [UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.796384 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.798710 [UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.801007 [UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.803292 [UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.805644 [UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+mars 15 13:36:02 [0m1710506162.808018 [UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+mars 15 13:36:02 [0m1710506162.824717 [UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+mars 15 13:36:02 [0m1710506162.827255 [UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+mars 15 13:36:02 [0m1710506162.829611 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+mars 15 13:36:02 [0m1710506162.829620 [PHY]   RUs configured
+mars 15 13:36:02 [0mgNB L1 are configured
+mars 15 13:36:02 About to Init RU threads RC.nb_RU:1
+mars 15 13:36:02 Initializing RU threads
+mars 15 13:36:02 configuring RU from file
+mars 15 13:36:02 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
+mars 15 13:36:02 Set RU mask to 1
+mars 15 13:36:02 Creating RC.ru[0]:0x5d9dbbc2a4f0
+mars 15 13:36:02 Setting function for RU 0 to gNodeB_3GPP
+mars 15 13:36:02 [RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
+mars 15 13:36:02 [RU 0] Setting half-slot parallelization to 1
+mars 15 13:36:02 configuring ru_id 0 (start_rf 0x5d9db6c82bc0)
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 waiting for NFAPI PNF connection and population of global structure (main?)
+mars 15 13:36:02 [LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+mars 15 13:36:02 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+mars 15 13:36:02 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+mars 15 13:36:02 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+mars 15 13:36:02 shlib_path librfsimulator.so
+mars 15 13:36:02 [LOADER] library librfsimulator.so successfully loaded
+mars 15 13:36:02 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+mars 15 13:36:02 Initializing random number generator, seed 3936326303493394249
+mars 15 13:36:02 setup_RU_buffers: frame_parms = 0x7d849c473010
+mars 15 13:36:02 waiting for sync (ru_thread,-1/0x5d9db78450b4,0x5d9db80e7fc0,0x5d9db80e7f80)
+mars 15 13:36:02 [PNF] waiting for OAI to be configured (eNB/RU)
+mars 15 13:36:02 [PNF] OAI eNB/RU configured
+mars 15 13:36:02 [PNF] About to call init_eNB_afterRU()
+mars 15 13:36:02 [LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+mars 15 13:36:02 shlib_path libdfts.so
+mars 15 13:36:02 [LOADER] library libdfts.so successfully loaded
+mars 15 13:36:02 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+mars 15 13:36:02 shlib_path libldpc.so
+mars 15 13:36:02 [LOADER] library libldpc.so successfully loaded
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 create a thread for core -1
+mars 15 13:36:02 waiting for sync (L1_stats_thread,-1/0x5d9db78450b4,0x5d9db80e7fc0,0x5d9db80e7f80)
+mars 15 13:36:02 [PNF] Sending PNF_START_RESP
+mars 15 13:36:02 Sending NFAPI_START_RESPONSE config:0x5d9dbbc25660 phy_id:1
+mars 15 13:36:02 NFAPI: got sync (main?)
+mars 15 13:36:02 wait RUs
+mars 15 13:36:02 ALL RUs READY!
+mars 15 13:36:02 RC.nb_RU:1
+mars 15 13:36:02 ALL RUs ready - init gNBs
+mars 15 13:36:02 NFAPI mode - DO NOT call init_gNB_afterRU()
+mars 15 13:36:02 ALL RUs ready - ALL gNBs ready
+mars 15 13:36:02 Sending sync to all threads
+mars 15 13:36:02 Entering ITTI signals handler
+mars 15 13:36:02 TYPE <CTRL-C> TO TERMINATE
+mars 15 13:36:02 got sync (L1_stats_thread)
+mars 15 13:36:02 got sync (ru_thread)
+mars 15 13:36:02 [93m1710506162.829743 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+mars 15 13:36:02 [0m[93m1710506162.831391 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+mars 15 13:36:02 [0m[93m1710506162.832834 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+mars 15 13:36:02 [0m[93m1710506162.834337 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+mars 15 13:36:02 [0m1710506162.835864 [PHY]   RU 0 rf device ready
+mars 15 13:36:02 [0m1710506162.835871 [PHY]   RU 0 RF started opp_enabled 0
+mars 15 13:36:02 [0m[93m1710506162.835877 [HW]   No connected device, generating void samples...
+mars 15 13:36:02 [0m[PNF] Sending first P7 slot indication
+mars 15 13:36:02 [PNF] Sent first P7 slot ind
+mars 15 13:36:02 55464305626 [N] 2550134336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 42
+mars 15 13:36:02 55464307336 [N] 2550134336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
+mars 15 13:36:02 
+mars 15 13:36:02 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:02 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:02 harq->pdu is null
+mars 15 13:36:02 1710506162.916235 [PHY]   Process tx_data SFN/slot 4.0 buffer index: 0 
+mars 15 13:36:02 [0m1710506162.958252 [PHY]   Process tx_data SFN/slot 6.0 buffer index: 0 
+mars 15 13:36:02 [0m1710506163.000301 [PHY]   Process tx_data SFN/slot 8.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.042756 [PHY]   Process tx_data SFN/slot 10.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.084740 [PHY]   Process tx_data SFN/slot 12.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.127100 [PHY]   Process tx_data SFN/slot 14.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.169245 [PHY]   Process tx_data SFN/slot 16.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.211207 [PHY]   Process tx_data SFN/slot 18.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.253228 [PHY]   Process tx_data SFN/slot 20.0 buffer index: 0 
+mars 15 13:36:03 [0m1710506163.295259 [PHY]   Process tx_data SFN/slot 22.0 buffer index: 0 
+mars 15 13:36:03 [0m
+mars 15 13:36:03 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:03 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:03 harq->pdu is null
+mars 15 13:36:03 1710506163.344168 [HW]   A client connects, sending the current time
+mars 15 13:36:04 [0m1710506164.389737 [PHY]   Process tx_data SFN/slot 26.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.443066 [PHY]   Process tx_data SFN/slot 28.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.495641 [PHY]   Process tx_data SFN/slot 30.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.548146 [PHY]   Process tx_data SFN/slot 32.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.600735 [PHY]   Process tx_data SFN/slot 34.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.649835 [PHY]   Process tx_data SFN/slot 36.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.704044 [PHY]   Process tx_data SFN/slot 38.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.758361 [PHY]   Process tx_data SFN/slot 40.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.812909 [PHY]   Process tx_data SFN/slot 42.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.867545 [PHY]   Process tx_data SFN/slot 44.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.921909 [PHY]   Process tx_data SFN/slot 46.0 buffer index: 0 
+mars 15 13:36:04 [0m1710506164.976021 [PHY]   Process tx_data SFN/slot 48.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.030271 [PHY]   Process tx_data SFN/slot 50.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.084544 [PHY]   Process tx_data SFN/slot 52.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.138524 [PHY]   Process tx_data SFN/slot 54.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.192604 [PHY]   Process tx_data SFN/slot 56.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.246298 [PHY]   Process tx_data SFN/slot 58.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.300294 [PHY]   Process tx_data SFN/slot 60.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.354708 [PHY]   Process tx_data SFN/slot 62.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.408512 [PHY]   Process tx_data SFN/slot 64.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.462466 [PHY]   Process tx_data SFN/slot 66.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.516306 [PHY]   Process tx_data SFN/slot 68.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.570223 [PHY]   Process tx_data SFN/slot 70.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.624299 [PHY]   Process tx_data SFN/slot 72.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.678239 [PHY]   Process tx_data SFN/slot 74.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.732215 [PHY]   Process tx_data SFN/slot 76.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.785724 [PHY]   Process tx_data SFN/slot 78.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.839685 [PHY]   Process tx_data SFN/slot 80.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.893645 [PHY]   Process tx_data SFN/slot 82.0 buffer index: 0 
+mars 15 13:36:05 [0m1710506165.947563 [PHY]   Process tx_data SFN/slot 84.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.001609 [PHY]   Process tx_data SFN/slot 86.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.057068 [PHY]   Process tx_data SFN/slot 88.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.111842 [PHY]   Process tx_data SFN/slot 90.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.167974 [PHY]   Process tx_data SFN/slot 92.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.222376 [PHY]   Process tx_data SFN/slot 94.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.276313 [PHY]   Process tx_data SFN/slot 96.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.330282 [PHY]   Process tx_data SFN/slot 98.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.384352 [PHY]   Process tx_data SFN/slot 100.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.438423 [PHY]   Process tx_data SFN/slot 102.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.492110 [PHY]   Process tx_data SFN/slot 104.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.546768 [PHY]   Process tx_data SFN/slot 106.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.601228 [PHY]   Process tx_data SFN/slot 108.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.655411 [PHY]   Process tx_data SFN/slot 110.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.709659 [PHY]   Process tx_data SFN/slot 112.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.763497 [PHY]   Process tx_data SFN/slot 114.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.817347 [PHY]   Process tx_data SFN/slot 116.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.871368 [PHY]   Process tx_data SFN/slot 118.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.925294 [PHY]   Process tx_data SFN/slot 120.0 buffer index: 0 
+mars 15 13:36:06 [0m1710506166.979000 [PHY]   Process tx_data SFN/slot 122.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.033635 [PHY]   Process tx_data SFN/slot 124.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.087622 [PHY]   Process tx_data SFN/slot 126.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.141352 [PHY]   Process tx_data SFN/slot 128.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.195170 [PHY]   Process tx_data SFN/slot 130.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.249501 [PHY]   Process tx_data SFN/slot 132.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.303331 [PHY]   Process tx_data SFN/slot 134.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.357809 [PHY]   Process tx_data SFN/slot 136.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.411494 [PHY]   Process tx_data SFN/slot 138.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.465657 [PHY]   Process tx_data SFN/slot 140.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.520296 [PHY]   Process tx_data SFN/slot 142.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.575535 [PHY]   Process tx_data SFN/slot 144.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.630006 [PHY]   Process tx_data SFN/slot 146.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.684146 [PHY]   Process tx_data SFN/slot 148.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.738294 [PHY]   Process tx_data SFN/slot 150.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.792249 [PHY]   Process tx_data SFN/slot 152.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.846765 [PHY]   Process tx_data SFN/slot 154.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.901039 [PHY]   Process tx_data SFN/slot 156.0 buffer index: 0 
+mars 15 13:36:07 [0m1710506167.955516 [PHY]   Process tx_data SFN/slot 158.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.009400 [PHY]   Process tx_data SFN/slot 160.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.063429 [PHY]   Process tx_data SFN/slot 162.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.117488 [PHY]   Process tx_data SFN/slot 164.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.171371 [PHY]   Process tx_data SFN/slot 166.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.225250 [PHY]   Process tx_data SFN/slot 168.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.231491 [NR_PHY]   [gNB 0][RAPROC] Frame 167, slot 19 Initiating RA procedure with preamble 1, energy 56.4 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
+mars 15 13:36:08 [0m1710506168.235992 [PHY]   Process tx_data SFN/slot 168.7 buffer index: 7 
+mars 15 13:36:08 [0m1710506168.268019 [PHY]   Process tx_data SFN/slot 169.10 buffer index: 10 
+mars 15 13:36:08 [0m1710506168.283176 [PHY]   Process tx_data SFN/slot 170.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.340079 [PHY]   Process tx_data SFN/slot 172.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.376148 [PHY]   Process tx_data SFN/slot 173.5 buffer index: 5 
+mars 15 13:36:08 [0m
+mars 15 13:36:08 [NTUST] BG:255469829927 [N] 2550134336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 342
+mars 15 13:36:08 1710506168.397709 [PHY]   Process tx_data SFN/slot 174.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.454605 [PHY]   Process tx_data SFN/slot 176.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.476956 [PHY]   Process tx_data SFN/slot 176.15 buffer index: 15 
+mars 15 13:36:08 [0m1710506168.498454 [PHY]   Process tx_data SFN/slot 177.10 buffer index: 10 
+mars 15 13:36:08 [0m1710506168.512161 [PHY]   Process tx_data SFN/slot 178.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.540284 [PHY]   Process tx_data SFN/slot 179.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.568919 [PHY]   Process tx_data SFN/slot 180.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.604648 [PHY]   Process tx_data SFN/slot 181.5 buffer index: 5 
+mars 15 13:36:08 [0m1710506168.622197 [PHY]   Process tx_data SFN/slot 181.17 buffer index: 17 
+mars 15 13:36:08 [0m1710506168.626318 [PHY]   Process tx_data SFN/slot 182.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.676066 [PHY]   Process tx_data SFN/slot 183.15 buffer index: 15 
+mars 15 13:36:08 [0m1710506168.682689 [PHY]   Process tx_data SFN/slot 184.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.684349 [PHY]   Process tx_data SFN/slot 184.1 buffer index: 1 
+mars 15 13:36:08 [0m1710506168.740115 [PHY]   Process tx_data SFN/slot 186.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.762149 [PHY]   Process tx_data SFN/slot 186.15 buffer index: 15 
+mars 15 13:36:08 [0m1710506168.764863 [PHY]   Process tx_data SFN/slot 186.17 buffer index: 17 
+mars 15 13:36:08 [0m1710506168.790965 [PHY]   Process tx_data SFN/slot 187.15 buffer index: 15 
+mars 15 13:36:08 [0m1710506168.792233 [PHY]   Process tx_data SFN/slot 187.16 buffer index: 16 
+mars 15 13:36:08 [0m1710506168.797595 [PHY]   Process tx_data SFN/slot 188.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.833245 [PHY]   Process tx_data SFN/slot 189.5 buffer index: 5 
+mars 15 13:36:08 [0m1710506168.854408 [PHY]   Process tx_data SFN/slot 190.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.911153 [PHY]   Process tx_data SFN/slot 192.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.939405 [PHY]   Process tx_data SFN/slot 193.0 buffer index: 0 
+mars 15 13:36:08 [0m1710506168.967736 [PHY]   Process tx_data SFN/slot 194.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.024174 [PHY]   Process tx_data SFN/slot 196.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.080860 [PHY]   Process tx_data SFN/slot 198.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.136870 [PHY]   Process tx_data SFN/slot 200.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.193031 [PHY]   Process tx_data SFN/slot 202.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.221282 [PHY]   Process tx_data SFN/slot 203.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.249435 [PHY]   Process tx_data SFN/slot 204.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.305773 [PHY]   Process tx_data SFN/slot 206.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.361953 [PHY]   Process tx_data SFN/slot 208.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.418609 [PHY]   Process tx_data SFN/slot 210.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.475009 [PHY]   Process tx_data SFN/slot 212.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.504000 [PHY]   Process tx_data SFN/slot 213.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.532556 [PHY]   Process tx_data SFN/slot 214.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.589229 [PHY]   Process tx_data SFN/slot 216.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.645535 [PHY]   Process tx_data SFN/slot 218.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.702214 [PHY]   Process tx_data SFN/slot 220.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.759173 [PHY]   Process tx_data SFN/slot 222.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.788375 [PHY]   Process tx_data SFN/slot 223.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.795814 [PHY]   Process tx_data SFN/slot 223.5 buffer index: 5 
+mars 15 13:36:09 [0m1710506169.816910 [PHY]   Process tx_data SFN/slot 224.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.873395 [PHY]   Process tx_data SFN/slot 226.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.930205 [PHY]   Process tx_data SFN/slot 228.0 buffer index: 0 
+mars 15 13:36:09 [0m1710506169.986866 [PHY]   Process tx_data SFN/slot 230.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.043315 [PHY]   Process tx_data SFN/slot 232.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.071790 [PHY]   Process tx_data SFN/slot 233.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.100195 [PHY]   Process tx_data SFN/slot 234.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.156558 [PHY]   Process tx_data SFN/slot 236.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.212873 [PHY]   Process tx_data SFN/slot 238.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.269267 [PHY]   Process tx_data SFN/slot 240.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.326129 [PHY]   Process tx_data SFN/slot 242.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.354303 [PHY]   Process tx_data SFN/slot 243.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.382990 [PHY]   Process tx_data SFN/slot 244.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.439609 [PHY]   Process tx_data SFN/slot 246.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.495911 [PHY]   Process tx_data SFN/slot 248.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.552627 [PHY]   Process tx_data SFN/slot 250.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.608952 [PHY]   Process tx_data SFN/slot 252.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.637358 [PHY]   Process tx_data SFN/slot 253.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.665757 [PHY]   Process tx_data SFN/slot 254.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.722089 [PHY]   Process tx_data SFN/slot 256.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.778480 [PHY]   Process tx_data SFN/slot 258.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.834519 [PHY]   Process tx_data SFN/slot 260.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.890676 [PHY]   Process tx_data SFN/slot 262.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.919158 [PHY]   Process tx_data SFN/slot 263.0 buffer index: 0 
+mars 15 13:36:10 [0m1710506170.947363 [PHY]   Process tx_data SFN/slot 264.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.003972 [PHY]   Process tx_data SFN/slot 266.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.060959 [PHY]   Process tx_data SFN/slot 268.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.117208 [PHY]   Process tx_data SFN/slot 270.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.173450 [PHY]   Process tx_data SFN/slot 272.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.201830 [PHY]   Process tx_data SFN/slot 273.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.230352 [PHY]   Process tx_data SFN/slot 274.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.286673 [PHY]   Process tx_data SFN/slot 276.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.343385 [PHY]   Process tx_data SFN/slot 278.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.399411 [PHY]   Process tx_data SFN/slot 280.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.455997 [PHY]   Process tx_data SFN/slot 282.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.484288 [PHY]   Process tx_data SFN/slot 283.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.512931 [PHY]   Process tx_data SFN/slot 284.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.569318 [PHY]   Process tx_data SFN/slot 286.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.627828 [PHY]   Process tx_data SFN/slot 288.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.687086 [PHY]   Process tx_data SFN/slot 290.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.746131 [PHY]   Process tx_data SFN/slot 292.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.777837 [PHY]   Process tx_data SFN/slot 293.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.806886 [PHY]   Process tx_data SFN/slot 294.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.864678 [PHY]   Process tx_data SFN/slot 296.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.922902 [PHY]   Process tx_data SFN/slot 298.0 buffer index: 0 
+mars 15 13:36:11 [0m1710506171.980201 [PHY]   Process tx_data SFN/slot 300.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.037888 [PHY]   Process tx_data SFN/slot 302.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.066077 [PHY]   Process tx_data SFN/slot 303.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.094781 [PHY]   Process tx_data SFN/slot 304.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.153561 [PHY]   Process tx_data SFN/slot 306.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.210908 [PHY]   Process tx_data SFN/slot 308.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.268769 [PHY]   Process tx_data SFN/slot 310.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.325285 [PHY]   Process tx_data SFN/slot 312.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.353651 [PHY]   Process tx_data SFN/slot 313.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.382303 [PHY]   Process tx_data SFN/slot 314.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.438443 [PHY]   Process tx_data SFN/slot 316.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.495834 [PHY]   Process tx_data SFN/slot 318.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.552412 [PHY]   Process tx_data SFN/slot 320.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.609557 [PHY]   Process tx_data SFN/slot 322.0 buffer index: 0 
+mars 15 13:36:12 [0m
+mars 15 13:36:12 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:12 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:12 harq->pdu is null
+mars 15 13:36:12 1710506172.667389 [PHY]   Process tx_data SFN/slot 324.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.725178 [PHY]   Process tx_data SFN/slot 326.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.782175 [PHY]   Process tx_data SFN/slot 328.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.840337 [PHY]   Process tx_data SFN/slot 330.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.898176 [PHY]   Process tx_data SFN/slot 332.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.928651 [PHY]   Process tx_data SFN/slot 333.0 buffer index: 0 
+mars 15 13:36:12 [0m1710506172.956349 [PHY]   Process tx_data SFN/slot 334.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.012129 [PHY]   Process tx_data SFN/slot 336.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.069913 [PHY]   Process tx_data SFN/slot 338.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.126713 [PHY]   Process tx_data SFN/slot 340.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.183819 [PHY]   Process tx_data SFN/slot 342.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.212543 [PHY]   Process tx_data SFN/slot 343.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.240914 [PHY]   Process tx_data SFN/slot 344.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.298431 [PHY]   Process tx_data SFN/slot 346.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.356215 [PHY]   Process tx_data SFN/slot 348.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.411913 [PHY]   Process tx_data SFN/slot 350.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.470445 [PHY]   Process tx_data SFN/slot 352.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.499236 [PHY]   Process tx_data SFN/slot 353.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.528466 [PHY]   Process tx_data SFN/slot 354.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.585787 [PHY]   Process tx_data SFN/slot 356.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.641346 [PHY]   Process tx_data SFN/slot 358.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.698676 [PHY]   Process tx_data SFN/slot 360.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.755518 [PHY]   Process tx_data SFN/slot 362.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.784691 [PHY]   Process tx_data SFN/slot 363.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.813277 [PHY]   Process tx_data SFN/slot 364.0 buffer index: 0 
+mars 15 13:36:13 [0m1710506173.869759 [PHY]   Process tx_data SFN/slot 366.0 buffer index: 0 
+mars 15 13:36:13 [0m
+mars 15 13:36:13 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:13 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:13 harq->pdu is null
+mars 15 13:36:13 
+mars 15 13:36:13 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:13 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:13 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 1710506174.072062 [PHY]   Process tx_data SFN/slot 373.0 buffer index: 0 
+mars 15 13:36:14 [0m1710506174.098826 [PHY]   Process tx_data SFN/slot 374.0 buffer index: 0 
+mars 15 13:36:14 [0m
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:14 
+mars 15 13:36:14 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:14 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:14 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:15 
+mars 15 13:36:15 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:15 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:15 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:16 
+mars 15 13:36:16 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:16 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:16 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:17 
+mars 15 13:36:17 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:17 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:17 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:18 
+mars 15 13:36:18 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:18 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:18 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:19 
+mars 15 13:36:19 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:19 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:19 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:20 
+mars 15 13:36:20 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:20 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:20 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:21 
+mars 15 13:36:21 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:21 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:21 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:22 
+mars 15 13:36:22 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:22 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:22 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:23 
+mars 15 13:36:23 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:23 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:23 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 Assertion (harq->pdu!=((void *)0)) failed!
+mars 15 13:36:24 In nr_generate_pdsch() /home/hsu/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:114
+mars 15 13:36:24 harq->pdu is null
+mars 15 13:36:24 
+mars 15 13:36:24 ** Caught SIGTERM, shutting down
+mars 15 13:36:24 1710506184.409312 [PHY]   Killing gNB 0 processing threads
+mars 15 13:36:24 [0m
+mars 15 13:36:24 [NTUST] BG:2
+mars 15 13:36:24 [NTUST] BG:2Returned from ITTI signal handler
+mars 15 13:36:24 oai_exit=1
+mars 15 13:36:24 Exiting ru_thread 
+mars 15 13:36:24 55485847726 [W] 2631681600: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+mars 15 13:36:24 55485847742 [W] 2631681600: pnf_nr_read_dispatch_message: Disconnected socket
+mars 15 13:36:24 
+mars 15 13:36:24 ** Caught SIGTERM, shutting down
+mars 15 13:36:24 
+mars 15 13:36:24 ** Caught SIGTERM, shutting down
+mars 15 13:36:24 1710506184.831850 [PHY]   Stopping RU 0 processing threads
+mars 15 13:36:24 [0m1710506184.831951 [PHY]   RU 0 RF device stopped
+mars 15 13:36:24 [0m1710506184.831959 [PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
+mars 15 13:36:24 [0mBye.
