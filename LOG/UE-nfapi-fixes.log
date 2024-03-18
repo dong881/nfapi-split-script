@@ -1,258 +1,1092 @@
- 三  18 18:41:49 Calling sched_setscheduler(79)
- 三  18 18:41:49 [ENB_APP]   nfapi running mode: MONOLITHIC
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 三  18 18:41:49 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 三  18 18:41:49 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 三  18 18:41:50 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 三  18 18:41:50 [0m[OPT]   OPT disabled
- 三  18 18:41:50 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e34ea352a6 Date: Mon Mar 18 18:21:25 2024 +0800
- 三  18 18:41:50 [0m[PDCP]   pdcp init,usegtp usenetlink
- 三  18 18:41:50 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
- 三  18 18:41:50 [0m[PDCP]   UE pdcp will use tun interface
- 三  18 18:41:50 [0m[NR_MAC]   [UE0] Initializing MAC
- 三  18 18:41:50 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 三  18 18:41:50 [0m[RLC]   activated srb0 for UE with RNTI 0x0
- 三  18 18:41:50 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 三  18 18:41:50 , chest-freq 0, chest-time 0
- 三  18 18:41:50 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 三  18 18:41:50 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 三  18 18:41:50 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  18 18:41:50 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  18 18:41:50 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 三  18 18:41:50 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 三  18 18:41:50 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 三  18 18:41:51 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 三  18 18:41:51 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:51 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  18 18:41:51 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
- 三  18 18:41:51 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 三  18 18:41:51 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 三  18 18:41:51 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 三  18 18:41:51 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 三  18 18:41:51 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 三  18 18:41:51 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 三  18 18:41:51 [1;31m[HW]   Can't set cpu frequency
- 三  18 18:41:51 [0m[PHY]   Intializing UE Threads for instance 0 (0x564c4dbaabc0,0x7f404fdfb010)...
- 三  18 18:41:51 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
- 三  18 18:41:51 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
- 三  18 18:41:51 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
- 三  18 18:41:51 [0m[93m[HW]   sample_rate 61440000.000000
- 三  18 18:41:51 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 三  18 18:41:51 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
- 三  18 18:41:51 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 三  18 18:41:51 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
- 三  18 18:41:51 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 三  18 18:41:51 [0m[NR_RRC]   create TASK_RRC_NRUE 
- 三  18 18:41:51 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
- 三  18 18:41:51 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 三  18 18:41:51 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
- 三  18 18:41:51 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 三  18 18:41:51 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
- 三  18 18:41:51 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
- 三  18 18:41:51 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  18 18:41:51 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  18 18:41:51 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
- 三  18 18:41:51 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
- 三  18 18:41:51 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 三  18 18:41:52 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  18 18:41:52 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  18 18:41:53 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  18 18:41:53 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  18 18:41:54 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  18 18:41:54 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  18 18:41:55 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  18 18:41:55 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  18 18:41:56 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  18 18:41:56 [0m[HW]   Connection to 127.0.0.1:4043 established
- 三  18 18:41:56 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  18 18:41:57 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
- 三  18 18:41:57 [0m[93m[NR_PHY]   Starting sync detection
- 三  18 18:41:57 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 三  18 18:41:58 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 421456, val = 8707632712 (99 dB) avg 58 dB, ffo 0.000000
- 三  18 18:41:58 [0m[PHY]   PSS execution duration 117095 microseconds 
- 三  18 18:41:58 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 421456, Nid2 0
- 三  18 18:41:58 [0m[PHY]   sync_pos 421456 ssb_offset 421312 
- 三  18 18:41:58 [0m[PHY]   Calling sss detection (normal CP)
- 三  18 18:41:58 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000521 (15 Hz),  ffo_pss+ffo_sss 0.000521 (15 Hz), nid1: 0, nid2: 0
- 三  18 18:41:58 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
- 三  18 18:41:58 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
- 三  18 18:41:58 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41807, phase 7, pbch 0
- 三  18 18:41:58 [0m[PHY]   [UE0] In synch, rx_offset 416896 samples
- 三  18 18:41:58 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
- 三  18 18:41:58 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  18 18:41:58 [0m[PHY]   Got synch: hw_slot_offset 27, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
- 三  18 18:41:58 [0m[PHY]   UE synchronized decoded_frame_rx=38 UE->init_sync_frame=1 trashed_frames=6
- 三  18 18:41:58 [0m[PHY]   Resynchronizing RX by 416896 samples
- 三  18 18:41:58 [0m[NR_RRC]   [UE 0] Decoding SI
- 三  18 18:41:58 [0m[RRC]   Found SIB2
- 三  18 18:41:58 [0m[NR_PHY]   ============================================
- 三  18 18:41:58 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:41:58 [0m[NR_PHY]   ============================================
- 三  18 18:42:00 [0m[NR_PHY]   ============================================
- 三  18 18:42:00 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:00 [0m[NR_PHY]   ============================================
- 三  18 18:42:02 [0m[NR_PHY]   ============================================
- 三  18 18:42:02 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:02 [0m[NR_PHY]   ============================================
- 三  18 18:42:04 [0m[NR_PHY]   ============================================
- 三  18 18:42:04 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:04 [0m[NR_PHY]   ============================================
- 三  18 18:42:06 [0m[NR_PHY]   ============================================
- 三  18 18:42:06 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:06 [0m[NR_PHY]   ============================================
- 三  18 18:42:08 [0m[NR_PHY]   ============================================
- 三  18 18:42:08 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:08 [0m[NR_PHY]   ============================================
- 三  18 18:42:10 [0m[NR_PHY]   ============================================
- 三  18 18:42:10 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:10 [0m[NR_PHY]   ============================================
- 三  18 18:42:12 [0m[NR_PHY]   ============================================
- 三  18 18:42:12 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:12 [0m[NR_PHY]   ============================================
- 三  18 18:42:13 [0m[NR_PHY]   ============================================
- 三  18 18:42:13 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:13 [0m[NR_PHY]   ============================================
- 三  18 18:42:15 [0m[NR_PHY]   ============================================
- 三  18 18:42:15 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:15 [0m[NR_PHY]   ============================================
- 三  18 18:42:17 [0m[NR_PHY]   ============================================
- 三  18 18:42:17 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:17 [0m[NR_PHY]   ============================================
- 三  18 18:42:19 [0m[NR_PHY]   ============================================
- 三  18 18:42:19 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:19 [0m[NR_PHY]   ============================================
- 三  18 18:42:21 [0m[NR_PHY]   ============================================
- 三  18 18:42:21 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:21 [0m[NR_PHY]   ============================================
- 三  18 18:42:23 [0m[NR_PHY]   ============================================
- 三  18 18:42:23 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:23 [0m[NR_PHY]   ============================================
- 三  18 18:42:25 [0m[NR_PHY]   ============================================
- 三  18 18:42:25 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:25 [0m[NR_PHY]   ============================================
- 三  18 18:42:27 [0m[NR_PHY]   ============================================
- 三  18 18:42:27 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  18 18:42:27 [0m[NR_PHY]   ============================================
- 三  18 18:42:30 [0m[93m[HW]   Lost socket
- 三  18 18:42:30 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 三  18 18:42:30 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
- 三  18 18:42:30 [CONFIG] log_config: 2/3 parameters successfully set 
- 三  18 18:42:30 [CONFIG] log_config: 53/53 parameters successfully set 
- 三  18 18:42:30 [CONFIG] log_config: 53/53 parameters successfully set 
- 三  18 18:42:30 [CONFIG] log_config: 16/16 parameters successfully set 
- 三  18 18:42:30 [CONFIG] log_config: 16/16 parameters successfully set 
- 三  18 18:42:30 log init done
- 三  18 18:42:30 [CONFIG] (root): 30/33 parameters successfully set 
- 三  18 18:42:30 [CONFIG] (root): 37/40 parameters successfully set 
- 三  18 18:42:30 [CONFIG] (root): 5/6 parameters successfully set 
- 三  18 18:42:30 [CONFIG] TTracer: 3/3 parameters successfully set 
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 create a thread for core -1
- 三  18 18:42:30 [CONFIG] opt: 3/3 parameters successfully set 
- 三  18 18:42:30 [CONFIG] loader: 2/2 parameters successfully set 
- 三  18 18:42:30 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
- 三  18 18:42:30 shlib_path libldpc.so
- 三  18 18:42:30 [LOADER] library libldpc.so successfully loaded
- 三  18 18:42:30 [CONFIG] nas.noS1: 3/3 parameters successfully set 
- 三  18 18:42:30 [CONFIG] loader.dfts: 1/2 parameters successfully set 
- 三  18 18:42:30 shlib_path libdfts.so
- 三  18 18:42:30 [LOADER] library libdfts.so successfully loaded
- 三  18 18:42:30 [CONFIG] device.recplay: 8/8 parameters successfully set 
- 三  18 18:42:30 [CONFIG] device: 1/1 parameters successfully set 
- 三  18 18:42:30 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
- 三  18 18:42:30 shlib_path librfsimulator.so
- 三  18 18:42:30 [LOADER] library librfsimulator.so successfully loaded
- 三  18 18:42:30 [CONFIG] rfsimulator: 8/9 parameters successfully set 
- 三  18 18:42:30 Initializing random number generator, seed 15445937216265558458
- 三  18 18:42:30 UE threads created by 2127008
- 三  18 18:42:30 TYPE <CTRL-C> TO TERMINATE
- 三  18 18:42:30 [CONFIG] uicc0: 10/10 parameters successfully set 
- 三  18 18:42:30 Entering ITTI signals handler
- 三  18 18:42:30 TYPE <CTRL-C> TO TERMINATE
+ 三  18 18:47:55 Calling sched_setscheduler(79)
+ 三  18 18:47:55 [ENB_APP]   nfapi running mode: MONOLITHIC
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 三  18 18:47:55 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 三  18 18:47:55 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 三  18 18:47:56 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 三  18 18:47:56 [0m[OPT]   OPT disabled
+ 三  18 18:47:56 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e34ea352a6 Date: Mon Mar 18 18:21:25 2024 +0800
+ 三  18 18:47:56 [0m[PDCP]   pdcp init,usegtp usenetlink
+ 三  18 18:47:56 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+ 三  18 18:47:56 [0m[PDCP]   UE pdcp will use tun interface
+ 三  18 18:47:56 [0m[NR_MAC]   [UE0] Initializing MAC
+ 三  18 18:47:56 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+ 三  18 18:47:56 [0m[RLC]   activated srb0 for UE with RNTI 0x0
+ 三  18 18:47:56 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+ 三  18 18:47:56 , chest-freq 0, chest-time 0
+ 三  18 18:47:56 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+ 三  18 18:47:56 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+ 三  18 18:47:56 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  18 18:47:56 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  18 18:47:56 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 三  18 18:47:56 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+ 三  18 18:47:56 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+ 三  18 18:47:57 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+ 三  18 18:47:57 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:47:57 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  18 18:47:57 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+ 三  18 18:47:57 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  18 18:47:57 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  18 18:47:57 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  18 18:47:57 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  18 18:47:57 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  18 18:47:57 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  18 18:47:57 [1;31m[HW]   Can't set cpu frequency
+ 三  18 18:47:57 [0m[PHY]   Intializing UE Threads for instance 0 (0x55bbc8188bc0,0x7fd6161c6010)...
+ 三  18 18:47:57 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+ 三  18 18:47:57 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+ 三  18 18:47:57 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+ 三  18 18:47:57 [0m[93m[HW]   sample_rate 61440000.000000
+ 三  18 18:47:57 [0m[HW]   Running as client: will connect to a rfsimulator server side
+ 三  18 18:47:57 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
+ 三  18 18:47:57 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 三  18 18:47:57 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+ 三  18 18:47:57 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 三  18 18:47:57 [0m[NR_RRC]   create TASK_RRC_NRUE 
+ 三  18 18:47:57 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+ 三  18 18:47:57 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 三  18 18:47:57 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+ 三  18 18:47:57 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 三  18 18:47:57 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+ 三  18 18:47:57 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+ 三  18 18:47:57 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+ 三  18 18:47:57 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:47:57 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:47:57 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+ 三  18 18:47:57 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+ 三  18 18:47:58 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:47:58 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:47:59 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:47:59 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:48:00 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:48:00 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:48:01 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:48:01 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:48:02 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:48:02 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:48:03 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:48:03 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:48:04 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  18 18:48:04 [0m[HW]   Connection to 127.0.0.1:4043 established
+ 三  18 18:48:04 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  18 18:48:05 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+ 三  18 18:48:05 [0m[93m[NR_PHY]   Starting sync detection
+ 三  18 18:48:05 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+ 三  18 18:48:06 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 188880, val = 8707632712 (99 dB) avg 58 dB, ffo 0.000000
+ 三  18 18:48:06 [0m[PHY]   PSS execution duration 115925 microseconds 
+ 三  18 18:48:06 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 188880, Nid2 0
+ 三  18 18:48:06 [0m[PHY]   sync_pos 188880 ssb_offset 188736 
+ 三  18 18:48:06 [0m[PHY]   Calling sss detection (normal CP)
+ 三  18 18:48:06 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000564 (16 Hz),  ffo_pss+ffo_sss 0.000564 (16 Hz), nid1: 0, nid2: 0
+ 三  18 18:48:06 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
+ 三  18 18:48:06 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+ 三  18 18:48:06 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41803, phase 7, pbch 0
+ 三  18 18:48:06 [0m[PHY]   [UE0] In synch, rx_offset 184320 samples
+ 三  18 18:48:06 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
+ 三  18 18:48:06 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:48:06 [0m[PHY]   Got synch: hw_slot_offset 12, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+ 三  18 18:48:06 [0m[PHY]   UE synchronized decoded_frame_rx=40 UE->init_sync_frame=1 trashed_frames=4
+ 三  18 18:48:06 [0m[PHY]   Resynchronizing RX by 184320 samples
+ 三  18 18:48:06 [0m[32m[NR_RRC]   SIB1 decoded
+ 三  18 18:48:06 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  18 18:48:06 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  18 18:48:06 [0m[NR_PHY]   ============================================
+ 三  18 18:48:06 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+ 三  18 18:48:06 [0m[NR_PHY]   ============================================
+ 三  18 18:48:08 [0m[NR_PHY]   ============================================
+ 三  18 18:48:08 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+ 三  18 18:48:08 [0m[NR_PHY]   ============================================
+ 三  18 18:48:10 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  18 18:48:10 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  18 18:48:10 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+ 三  18 18:48:10 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:10 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:10 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:10 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:10 [0m[NR_PHY]   ============================================
+ 三  18 18:48:10 [0m[NR_PHY]   Harq round stats for Downlink: 2/0/0
+ 三  18 18:48:10 [0m[NR_PHY]   ============================================
+ 三  18 18:48:10 [0m[93m[MAC]   [UE 0][192:9] RAR reception failed 
+ 三  18 18:48:10 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 193, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:10 [0m[PHY]   PRACH [UE 0] in frame.slot 193.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:10 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:10 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:10 [0m[93m[MAC]   [UE 0][202:9] RAR reception failed 
+ 三  18 18:48:11 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 203, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:11 [0m[PHY]   PRACH [UE 0] in frame.slot 203.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:11 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:11 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:11 [0m[93m[MAC]   [UE 0][212:9] RAR reception failed 
+ 三  18 18:48:11 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 213, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:11 [0m[PHY]   PRACH [UE 0] in frame.slot 213.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:11 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:11 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:11 [0m[93m[MAC]   [UE 0][222:9] RAR reception failed 
+ 三  18 18:48:11 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 223, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:11 [0m[PHY]   PRACH [UE 0] in frame.slot 223.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:11 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:11 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:11 [0m[93m[MAC]   [UE 0][232:9] RAR reception failed 
+ 三  18 18:48:11 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 233, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:11 [0m[PHY]   PRACH [UE 0] in frame.slot 233.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:11 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:11 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:12 [0m[93m[MAC]   [UE 0][242:9] RAR reception failed 
+ 三  18 18:48:12 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 243, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:12 [0m[PHY]   PRACH [UE 0] in frame.slot 243.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:12 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:12 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:12 [0m[93m[MAC]   [UE 0][252:9] RAR reception failed 
+ 三  18 18:48:12 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 253, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:12 [0m[PHY]   PRACH [UE 0] in frame.slot 253.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:12 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:12 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:12 [0m[NR_PHY]   ============================================
+ 三  18 18:48:12 [0m[NR_PHY]   Harq round stats for Downlink: 9/0/0
+ 三  18 18:48:12 [0m[NR_PHY]   ============================================
+ 三  18 18:48:12 [0m[93m[MAC]   [UE 0][262:9] RAR reception failed 
+ 三  18 18:48:12 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 263, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:12 [0m[PHY]   PRACH [UE 0] in frame.slot 263.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:12 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:12 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:13 [0m[93m[MAC]   [UE 0][272:9] RAR reception failed 
+ 三  18 18:48:13 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 273, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:13 [0m[PHY]   PRACH [UE 0] in frame.slot 273.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:13 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:13 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:13 [0m[93m[MAC]   [UE 0][282:9] RAR reception failed 
+ 三  18 18:48:13 [0m[93m[MAC]   [UE 0][282:17] RAR reception failed 
+ 三  18 18:48:13 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 283, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:13 [0m[PHY]   PRACH [UE 0] in frame.slot 283.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:13 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:13 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:13 [0m[93m[MAC]   [UE 0][292:9] RAR reception failed 
+ 三  18 18:48:13 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 293, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:13 [0m[PHY]   PRACH [UE 0] in frame.slot 293.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:13 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:13 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:14 [0m[93m[MAC]   [UE 0][302:9] RAR reception failed 
+ 三  18 18:48:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 303, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:14 [0m[PHY]   PRACH [UE 0] in frame.slot 303.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:14 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:14 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:14 [0m[93m[MAC]   [UE 0][312:9] RAR reception failed 
+ 三  18 18:48:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 313, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:14 [0m[PHY]   PRACH [UE 0] in frame.slot 313.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:14 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:14 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:14 [0m[NR_PHY]   ============================================
+ 三  18 18:48:14 [0m[NR_PHY]   Harq round stats for Downlink: 15/0/0
+ 三  18 18:48:14 [0m[NR_PHY]   ============================================
+ 三  18 18:48:14 [0m[93m[MAC]   [UE 0][322:9] RAR reception failed 
+ 三  18 18:48:14 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 323, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:14 [0m[PHY]   PRACH [UE 0] in frame.slot 323.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:14 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:14 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:15 [0m[93m[MAC]   [UE 0][332:9] RAR reception failed 
+ 三  18 18:48:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 333, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:15 [0m[PHY]   PRACH [UE 0] in frame.slot 333.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:15 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:15 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:15 [0m[93m[MAC]   [UE 0][342:9] RAR reception failed 
+ 三  18 18:48:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 343, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:15 [0m[PHY]   PRACH [UE 0] in frame.slot 343.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:15 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:15 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:15 [0m[93m[MAC]   [UE 0][352:9] RAR reception failed 
+ 三  18 18:48:15 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 353, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:15 [0m[PHY]   PRACH [UE 0] in frame.slot 353.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:15 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:15 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:16 [0m[93m[MAC]   [UE 0][362:9] RAR reception failed 
+ 三  18 18:48:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 363, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:16 [0m[PHY]   PRACH [UE 0] in frame.slot 363.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:16 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:16 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:16 [0m[93m[MAC]   [UE 0][372:9] RAR reception failed 
+ 三  18 18:48:16 [0m[93m[MAC]   [UE 0][372:17] RAR reception failed 
+ 三  18 18:48:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 373, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:16 [0m[PHY]   PRACH [UE 0] in frame.slot 373.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:16 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:16 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:16 [0m[93m[MAC]   [UE 0][382:9] RAR reception failed 
+ 三  18 18:48:16 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 383, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:16 [0m[PHY]   PRACH [UE 0] in frame.slot 383.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:16 [0m[NR_PHY]   ============================================
+ 三  18 18:48:16 [0m[NR_PHY]   Harq round stats for Downlink: 21/0/0
+ 三  18 18:48:16 [0m[NR_PHY]   ============================================
+ 三  18 18:48:16 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:16 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:16 [0m[93m[MAC]   [UE 0][392:9] RAR reception failed 
+ 三  18 18:48:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 393, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:17 [0m[PHY]   PRACH [UE 0] in frame.slot 393.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:17 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:17 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:17 [0m[93m[MAC]   [UE 0][402:9] RAR reception failed 
+ 三  18 18:48:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 403, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:17 [0m[PHY]   PRACH [UE 0] in frame.slot 403.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:17 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:17 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:17 [0m[93m[MAC]   [UE 0][412:9] RAR reception failed 
+ 三  18 18:48:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 413, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:17 [0m[PHY]   PRACH [UE 0] in frame.slot 413.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:17 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:17 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:17 [0m[93m[MAC]   [UE 0][422:9] RAR reception failed 
+ 三  18 18:48:17 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 423, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:17 [0m[PHY]   PRACH [UE 0] in frame.slot 423.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:17 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:17 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:18 [0m[93m[MAC]   [UE 0][432:9] RAR reception failed 
+ 三  18 18:48:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 433, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:18 [0m[PHY]   PRACH [UE 0] in frame.slot 433.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+ 三  18 18:48:18 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:18 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:18 [0m[93m[MAC]   [UE 0][442:9] RAR reception failed 
+ 三  18 18:48:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 443, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:18 [0m[PHY]   PRACH [UE 0] in frame.slot 443.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:18 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:18 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:18 [0m[NR_PHY]   ============================================
+ 三  18 18:48:18 [0m[NR_PHY]   Harq round stats for Downlink: 28/0/0
+ 三  18 18:48:18 [0m[NR_PHY]   ============================================
+ 三  18 18:48:18 [0m[93m[MAC]   [UE 0][452:9] RAR reception failed 
+ 三  18 18:48:18 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 453, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:18 [0m[PHY]   PRACH [UE 0] in frame.slot 453.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:18 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:18 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:19 [0m[93m[MAC]   [UE 0][462:9] RAR reception failed 
+ 三  18 18:48:19 [0m[93m[MAC]   [UE 0][462:17] RAR reception failed 
+ 三  18 18:48:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 463, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:19 [0m[PHY]   PRACH [UE 0] in frame.slot 463.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:19 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:19 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:19 [0m[93m[MAC]   [UE 0][472:9] RAR reception failed 
+ 三  18 18:48:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 473, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:19 [0m[PHY]   PRACH [UE 0] in frame.slot 473.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:19 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:19 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:19 [0m[93m[MAC]   [UE 0][482:9] RAR reception failed 
+ 三  18 18:48:19 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 483, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:19 [0m[PHY]   PRACH [UE 0] in frame.slot 483.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:19 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:19 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:20 [0m[93m[MAC]   [UE 0][492:9] RAR reception failed 
+ 三  18 18:48:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 493, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:20 [0m[PHY]   PRACH [UE 0] in frame.slot 493.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:20 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:20 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:20 [0m[93m[MAC]   [UE 0][502:9] RAR reception failed 
+ 三  18 18:48:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 503, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:20 [0m[PHY]   PRACH [UE 0] in frame.slot 503.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:20 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:20 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:20 [0m[NR_PHY]   ============================================
+ 三  18 18:48:20 [0m[NR_PHY]   Harq round stats for Downlink: 34/0/0
+ 三  18 18:48:20 [0m[NR_PHY]   ============================================
+ 三  18 18:48:20 [0m[93m[MAC]   [UE 0][512:9] RAR reception failed 
+ 三  18 18:48:20 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 513, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:20 [0m[PHY]   PRACH [UE 0] in frame.slot 513.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:20 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:20 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:21 [0m[93m[MAC]   [UE 0][522:9] RAR reception failed 
+ 三  18 18:48:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 523, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:21 [0m[PHY]   PRACH [UE 0] in frame.slot 523.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:21 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:21 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:21 [0m[93m[MAC]   [UE 0][532:9] RAR reception failed 
+ 三  18 18:48:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 533, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:21 [0m[PHY]   PRACH [UE 0] in frame.slot 533.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:21 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:21 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:21 [0m[93m[MAC]   [UE 0][542:9] RAR reception failed 
+ 三  18 18:48:21 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 543, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:21 [0m[PHY]   PRACH [UE 0] in frame.slot 543.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:21 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:21 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:22 [0m[93m[MAC]   [UE 0][552:9] RAR reception failed 
+ 三  18 18:48:22 [0m[93m[MAC]   [UE 0][552:17] RAR reception failed 
+ 三  18 18:48:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 553, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:22 [0m[PHY]   PRACH [UE 0] in frame.slot 553.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:22 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:22 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:22 [0m[93m[MAC]   [UE 0][562:9] RAR reception failed 
+ 三  18 18:48:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 563, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:22 [0m[PHY]   PRACH [UE 0] in frame.slot 563.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:22 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:22 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:22 [0m[93m[MAC]   [UE 0][572:9] RAR reception failed 
+ 三  18 18:48:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 573, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:22 [0m[PHY]   PRACH [UE 0] in frame.slot 573.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:22 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:22 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:22 [0m[NR_PHY]   ============================================
+ 三  18 18:48:22 [0m[NR_PHY]   Harq round stats for Downlink: 41/0/0
+ 三  18 18:48:22 [0m[NR_PHY]   ============================================
+ 三  18 18:48:22 [0m[93m[MAC]   [UE 0][582:9] RAR reception failed 
+ 三  18 18:48:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 583, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:23 [0m[PHY]   PRACH [UE 0] in frame.slot 583.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:23 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:23 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:23 [0m[93m[MAC]   [UE 0][592:9] RAR reception failed 
+ 三  18 18:48:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 593, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:23 [0m[PHY]   PRACH [UE 0] in frame.slot 593.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:23 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:23 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:23 [0m[93m[MAC]   [UE 0][602:9] RAR reception failed 
+ 三  18 18:48:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 603, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:23 [0m[PHY]   PRACH [UE 0] in frame.slot 603.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
+ 三  18 18:48:23 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:23 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:23 [0m[93m[MAC]   [UE 0][612:9] RAR reception failed 
+ 三  18 18:48:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 613, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:23 [0m[PHY]   PRACH [UE 0] in frame.slot 613.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:23 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:23 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:24 [0m[93m[MAC]   [UE 0][622:9] RAR reception failed 
+ 三  18 18:48:24 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 623, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:24 [0m[PHY]   PRACH [UE 0] in frame.slot 623.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
+ 三  18 18:48:24 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:24 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:24 [0m[93m[MAC]   [UE 0][632:9] RAR reception failed 
+ 三  18 18:48:24 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 633, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:24 [0m[PHY]   PRACH [UE 0] in frame.slot 633.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:24 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:24 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:24 [0m[NR_PHY]   ============================================
+ 三  18 18:48:24 [0m[NR_PHY]   Harq round stats for Downlink: 47/0/0
+ 三  18 18:48:24 [0m[NR_PHY]   ============================================
+ 三  18 18:48:24 [0m[93m[MAC]   [UE 0][642:9] RAR reception failed 
+ 三  18 18:48:24 [0m[93m[MAC]   [UE 0][642:17] RAR reception failed 
+ 三  18 18:48:24 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 643, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:24 [0m[PHY]   PRACH [UE 0] in frame.slot 643.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:24 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:24 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:25 [0m[93m[MAC]   [UE 0][652:9] RAR reception failed 
+ 三  18 18:48:25 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 653, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:25 [0m[PHY]   PRACH [UE 0] in frame.slot 653.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:25 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:25 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:25 [0m[93m[MAC]   [UE 0][662:9] RAR reception failed 
+ 三  18 18:48:25 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 663, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:25 [0m[PHY]   PRACH [UE 0] in frame.slot 663.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:25 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:25 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:25 [0m[93m[MAC]   [UE 0][672:9] RAR reception failed 
+ 三  18 18:48:25 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 673, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:25 [0m[PHY]   PRACH [UE 0] in frame.slot 673.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:25 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:25 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:26 [0m[93m[MAC]   [UE 0][682:9] RAR reception failed 
+ 三  18 18:48:26 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 683, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:26 [0m[PHY]   PRACH [UE 0] in frame.slot 683.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:26 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:26 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:26 [0m[93m[MAC]   [UE 0][692:9] RAR reception failed 
+ 三  18 18:48:26 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 693, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:26 [0m[PHY]   PRACH [UE 0] in frame.slot 693.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:26 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:26 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:26 [0m[93m[MAC]   [UE 0][702:9] RAR reception failed 
+ 三  18 18:48:26 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 703, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:26 [0m[PHY]   PRACH [UE 0] in frame.slot 703.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:26 [0m[NR_PHY]   ============================================
+ 三  18 18:48:26 [0m[NR_PHY]   Harq round stats for Downlink: 53/0/0
+ 三  18 18:48:26 [0m[NR_PHY]   ============================================
+ 三  18 18:48:26 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:26 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:27 [0m[93m[MAC]   [UE 0][712:9] RAR reception failed 
+ 三  18 18:48:27 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 713, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:27 [0m[PHY]   PRACH [UE 0] in frame.slot 713.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:27 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:27 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:27 [0m[93m[MAC]   [UE 0][722:9] RAR reception failed 
+ 三  18 18:48:27 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 723, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:27 [0m[PHY]   PRACH [UE 0] in frame.slot 723.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
+ 三  18 18:48:27 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:27 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:27 [0m[93m[MAC]   [UE 0][732:9] RAR reception failed 
+ 三  18 18:48:27 [0m[93m[MAC]   [UE 0][732:17] RAR reception failed 
+ 三  18 18:48:27 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 733, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:27 [0m[PHY]   PRACH [UE 0] in frame.slot 733.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:27 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:27 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:28 [0m[93m[MAC]   [UE 0][742:9] RAR reception failed 
+ 三  18 18:48:28 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 743, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:28 [0m[PHY]   PRACH [UE 0] in frame.slot 743.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:28 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:28 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:28 [0m[93m[MAC]   [UE 0][752:9] RAR reception failed 
+ 三  18 18:48:28 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 753, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:28 [0m[PHY]   PRACH [UE 0] in frame.slot 753.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:28 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:28 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:28 [0m[93m[MAC]   [UE 0][762:9] RAR reception failed 
+ 三  18 18:48:28 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 763, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:28 [0m[PHY]   PRACH [UE 0] in frame.slot 763.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:28 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:28 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:28 [0m[NR_PHY]   ============================================
+ 三  18 18:48:28 [0m[NR_PHY]   Harq round stats for Downlink: 60/0/0
+ 三  18 18:48:28 [0m[NR_PHY]   ============================================
+ 三  18 18:48:28 [0m[93m[MAC]   [UE 0][772:9] RAR reception failed 
+ 三  18 18:48:28 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 773, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:28 [0m[PHY]   PRACH [UE 0] in frame.slot 773.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:29 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:29 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:29 [0m[93m[MAC]   [UE 0][782:9] RAR reception failed 
+ 三  18 18:48:29 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 783, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:29 [0m[PHY]   PRACH [UE 0] in frame.slot 783.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:29 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:29 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:29 [0m[93m[MAC]   [UE 0][792:9] RAR reception failed 
+ 三  18 18:48:29 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 793, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:29 [0m[PHY]   PRACH [UE 0] in frame.slot 793.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:29 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:29 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:29 [0m[93m[MAC]   [UE 0][802:9] RAR reception failed 
+ 三  18 18:48:29 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 803, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:29 [0m[PHY]   PRACH [UE 0] in frame.slot 803.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:29 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:29 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:30 [0m[93m[MAC]   [UE 0][812:9] RAR reception failed 
+ 三  18 18:48:30 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 813, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:30 [0m[PHY]   PRACH [UE 0] in frame.slot 813.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
+ 三  18 18:48:30 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:30 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:30 [0m[93m[MAC]   [UE 0][822:9] RAR reception failed 
+ 三  18 18:48:30 [0m[93m[MAC]   [UE 0][822:17] RAR reception failed 
+ 三  18 18:48:30 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 823, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:30 [0m[PHY]   PRACH [UE 0] in frame.slot 823.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:30 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:30 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:30 [0m[NR_PHY]   ============================================
+ 三  18 18:48:30 [0m[NR_PHY]   Harq round stats for Downlink: 66/0/0
+ 三  18 18:48:30 [0m[NR_PHY]   ============================================
+ 三  18 18:48:30 [0m[93m[MAC]   [UE 0][832:9] RAR reception failed 
+ 三  18 18:48:30 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 833, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:30 [0m[PHY]   PRACH [UE 0] in frame.slot 833.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:30 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:30 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:31 [0m[93m[MAC]   [UE 0][842:9] RAR reception failed 
+ 三  18 18:48:31 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 843, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:31 [0m[PHY]   PRACH [UE 0] in frame.slot 843.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
+ 三  18 18:48:31 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:31 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:31 [0m[93m[MAC]   [UE 0][852:9] RAR reception failed 
+ 三  18 18:48:31 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 853, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:31 [0m[PHY]   PRACH [UE 0] in frame.slot 853.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:31 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:31 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:31 [0m[93m[MAC]   [UE 0][862:9] RAR reception failed 
+ 三  18 18:48:31 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 863, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:31 [0m[PHY]   PRACH [UE 0] in frame.slot 863.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:31 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:31 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:32 [0m[93m[MAC]   [UE 0][872:9] RAR reception failed 
+ 三  18 18:48:32 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 873, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:32 [0m[PHY]   PRACH [UE 0] in frame.slot 873.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:32 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:32 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:32 [0m[1;31m[PHY]   [UE 0] frame 880, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:48:32 [0m[93m[MAC]   [UE 0][882:9] RAR reception failed 
+ 三  18 18:48:32 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 883, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:32 [0m[PHY]   PRACH [UE 0] in frame.slot 883.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:32 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:32 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:32 [0m[93m[MAC]   [UE 0][892:9] RAR reception failed 
+ 三  18 18:48:32 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 893, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:32 [0m[PHY]   PRACH [UE 0] in frame.slot 893.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:32 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:32 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:32 [0m[NR_PHY]   ============================================
+ 三  18 18:48:32 [0m[NR_PHY]   Harq round stats for Downlink: 73/0/0
+ 三  18 18:48:32 [0m[NR_PHY]   ============================================
+ 三  18 18:48:33 [0m[93m[MAC]   [UE 0][902:9] RAR reception failed 
+ 三  18 18:48:33 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 903, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:33 [0m[PHY]   PRACH [UE 0] in frame.slot 903.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:33 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:33 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:33 [0m[93m[MAC]   [UE 0][912:9] RAR reception failed 
+ 三  18 18:48:33 [0m[93m[MAC]   [UE 0][912:17] RAR reception failed 
+ 三  18 18:48:33 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 913, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:33 [0m[PHY]   PRACH [UE 0] in frame.slot 913.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:33 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:33 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:33 [0m[93m[MAC]   [UE 0][922:9] RAR reception failed 
+ 三  18 18:48:33 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 923, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:33 [0m[PHY]   PRACH [UE 0] in frame.slot 923.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:33 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:33 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:34 [0m[93m[MAC]   [UE 0][932:9] RAR reception failed 
+ 三  18 18:48:34 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 933, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:34 [0m[PHY]   PRACH [UE 0] in frame.slot 933.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:34 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:34 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:34 [0m[93m[MAC]   [UE 0][942:9] RAR reception failed 
+ 三  18 18:48:34 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 943, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:34 [0m[PHY]   PRACH [UE 0] in frame.slot 943.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:34 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:34 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:34 [0m[93m[MAC]   [UE 0][952:9] RAR reception failed 
+ 三  18 18:48:34 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 953, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:34 [0m[PHY]   PRACH [UE 0] in frame.slot 953.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:34 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:34 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:34 [0m[NR_PHY]   ============================================
+ 三  18 18:48:34 [0m[NR_PHY]   Harq round stats for Downlink: 79/0/0
+ 三  18 18:48:34 [0m[NR_PHY]   ============================================
+ 三  18 18:48:34 [0m[93m[MAC]   [UE 0][962:9] RAR reception failed 
+ 三  18 18:48:35 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 963, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:35 [0m[PHY]   PRACH [UE 0] in frame.slot 963.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:35 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:35 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:35 [0m[93m[MAC]   [UE 0][972:9] RAR reception failed 
+ 三  18 18:48:35 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 973, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:35 [0m[PHY]   PRACH [UE 0] in frame.slot 973.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:35 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:35 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:35 [0m[1;31m[PHY]   [UE 0] frame 980, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:48:35 [0m[93m[MAC]   [UE 0][982:9] RAR reception failed 
+ 三  18 18:48:35 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 983, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:35 [0m[PHY]   PRACH [UE 0] in frame.slot 983.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+ 三  18 18:48:35 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:35 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:35 [0m[93m[MAC]   [UE 0][992:9] RAR reception failed 
+ 三  18 18:48:35 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 993, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:35 [0m[PHY]   PRACH [UE 0] in frame.slot 993.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:35 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:35 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:36 [0m[93m[MAC]   [UE 0][1002:9] RAR reception failed 
+ 三  18 18:48:36 [0m[93m[MAC]   [UE 0][1002:17] RAR reception failed 
+ 三  18 18:48:36 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 1003, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:36 [0m[PHY]   PRACH [UE 0] in frame.slot 1003.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:36 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:36 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:36 [0m[93m[MAC]   [UE 0][1012:9] RAR reception failed 
+ 三  18 18:48:36 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 1013, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:36 [0m[PHY]   PRACH [UE 0] in frame.slot 1013.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:36 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:36 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:36 [0m[93m[MAC]   [UE 0][1022:9] RAR reception failed 
+ 三  18 18:48:36 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 1023, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:36 [0m[PHY]   PRACH [UE 0] in frame.slot 1023.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
+ 三  18 18:48:36 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:48:36 [0m[NR_PHY]   ============================================
+ 三  18 18:48:36 [0m[NR_PHY]   Harq round stats for Downlink: 85/0/0
+ 三  18 18:48:36 [0m[NR_PHY]   ============================================
+ 三  18 18:48:36 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:36 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:37 [0m[93m[MAC]   [UE 0][8:9] RAR reception failed 
+ 三  18 18:48:37 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 9, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:37 [0m[PHY]   PRACH [UE 0] in frame.slot 9.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:37 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:37 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:37 [0m[93m[MAC]   [UE 0][18:9] RAR reception failed 
+ 三  18 18:48:37 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 19, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:37 [0m[PHY]   PRACH [UE 0] in frame.slot 19.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:37 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:37 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:37 [0m[93m[MAC]   [UE 0][28:9] RAR reception failed 
+ 三  18 18:48:37 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 29, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:37 [0m[PHY]   PRACH [UE 0] in frame.slot 29.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:37 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:37 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:38 [0m[93m[MAC]   [UE 0][38:9] RAR reception failed 
+ 三  18 18:48:38 [0m[1;31m[PHY]   [UE 0] frame 54, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:48:38 [0m[NR_PHY]   ============================================
+ 三  18 18:48:38 [0m[NR_PHY]   Harq round stats for Downlink: 89/0/0
+ 三  18 18:48:38 [0m[NR_PHY]   ============================================
+ 三  18 18:48:40 [0m[NR_PHY]   ============================================
+ 三  18 18:48:40 [0m[NR_PHY]   Harq round stats for Downlink: 89/0/0
+ 三  18 18:48:40 [0m[NR_PHY]   ============================================
+ 三  18 18:48:42 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:42 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:42 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:42 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:42 [0m[NR_PHY]   ============================================
+ 三  18 18:48:42 [0m[NR_PHY]   Harq round stats for Downlink: 90/0/0
+ 三  18 18:48:42 [0m[NR_PHY]   ============================================
+ 三  18 18:48:42 [0m[93m[MAC]   [UE 0][192:9] RAR reception failed 
+ 三  18 18:48:42 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 193, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:42 [0m[PHY]   PRACH [UE 0] in frame.slot 193.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
+ 三  18 18:48:42 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:42 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:43 [0m[93m[MAC]   [UE 0][202:9] RAR reception failed 
+ 三  18 18:48:43 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 203, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:43 [0m[PHY]   PRACH [UE 0] in frame.slot 203.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:43 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:43 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:43 [0m[93m[MAC]   [UE 0][212:9] RAR reception failed 
+ 三  18 18:48:43 [0m[93m[MAC]   [UE 0][212:17] RAR reception failed 
+ 三  18 18:48:43 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 213, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:43 [0m[PHY]   PRACH [UE 0] in frame.slot 213.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:43 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:43 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:43 [0m[93m[MAC]   [UE 0][222:9] RAR reception failed 
+ 三  18 18:48:43 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 223, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:43 [0m[PHY]   PRACH [UE 0] in frame.slot 223.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:43 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:43 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:44 [0m[93m[MAC]   [UE 0][232:9] RAR reception failed 
+ 三  18 18:48:44 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 233, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:44 [0m[PHY]   PRACH [UE 0] in frame.slot 233.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:44 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:44 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:44 [0m[93m[MAC]   [UE 0][242:9] RAR reception failed 
+ 三  18 18:48:44 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 243, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:44 [0m[PHY]   PRACH [UE 0] in frame.slot 243.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:44 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:44 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:44 [0m[93m[MAC]   [UE 0][252:9] RAR reception failed 
+ 三  18 18:48:44 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 253, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:44 [0m[PHY]   PRACH [UE 0] in frame.slot 253.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
+ 三  18 18:48:44 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:44 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:44 [0m[NR_PHY]   ============================================
+ 三  18 18:48:44 [0m[NR_PHY]   Harq round stats for Downlink: 97/0/0
+ 三  18 18:48:44 [0m[NR_PHY]   ============================================
+ 三  18 18:48:45 [0m[93m[MAC]   [UE 0][262:9] RAR reception failed 
+ 三  18 18:48:45 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 263, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:45 [0m[PHY]   PRACH [UE 0] in frame.slot 263.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+ 三  18 18:48:45 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:45 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:45 [0m[93m[MAC]   [UE 0][272:9] RAR reception failed 
+ 三  18 18:48:45 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 273, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:45 [0m[PHY]   PRACH [UE 0] in frame.slot 273.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:45 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:45 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:45 [0m[93m[MAC]   [UE 0][282:9] RAR reception failed 
+ 三  18 18:48:45 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 283, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:45 [0m[PHY]   PRACH [UE 0] in frame.slot 283.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:45 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:45 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:46 [0m[93m[MAC]   [UE 0][292:9] RAR reception failed 
+ 三  18 18:48:46 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 293, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:46 [0m[PHY]   PRACH [UE 0] in frame.slot 293.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:46 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:46 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:46 [0m[93m[MAC]   [UE 0][302:9] RAR reception failed 
+ 三  18 18:48:46 [0m[93m[MAC]   [UE 0][302:17] RAR reception failed 
+ 三  18 18:48:46 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 303, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:46 [0m[PHY]   PRACH [UE 0] in frame.slot 303.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
+ 三  18 18:48:46 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:46 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:46 [0m[93m[MAC]   [UE 0][312:9] RAR reception failed 
+ 三  18 18:48:46 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 313, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:46 [0m[PHY]   PRACH [UE 0] in frame.slot 313.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 14, first_nonzero_root_idx 0
+ 三  18 18:48:46 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:46 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:47 [0m[NR_PHY]   ============================================
+ 三  18 18:48:47 [0m[NR_PHY]   Harq round stats for Downlink: 103/0/0
+ 三  18 18:48:47 [0m[NR_PHY]   ============================================
+ 三  18 18:48:47 [0m[93m[MAC]   [UE 0][322:9] RAR reception failed 
+ 三  18 18:48:47 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 323, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:47 [0m[PHY]   PRACH [UE 0] in frame.slot 323.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:47 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:47 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:47 [0m[93m[MAC]   [UE 0][332:9] RAR reception failed 
+ 三  18 18:48:47 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 333, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:47 [0m[PHY]   PRACH [UE 0] in frame.slot 333.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
+ 三  18 18:48:47 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:47 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:47 [0m[93m[MAC]   [UE 0][342:9] RAR reception failed 
+ 三  18 18:48:47 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 343, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:47 [0m[PHY]   PRACH [UE 0] in frame.slot 343.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
+ 三  18 18:48:47 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:47 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:48 [0m[93m[MAC]   [UE 0][352:9] RAR reception failed 
+ 三  18 18:48:48 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 353, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:48 [0m[PHY]   PRACH [UE 0] in frame.slot 353.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:48 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:48 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:48 [0m[93m[MAC]   [UE 0][362:9] RAR reception failed 
+ 三  18 18:48:48 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 363, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:48 [0m[PHY]   PRACH [UE 0] in frame.slot 363.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
+ 三  18 18:48:48 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:48 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:48 [0m[93m[MAC]   [UE 0][372:9] RAR reception failed 
+ 三  18 18:48:48 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 373, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:48 [0m[PHY]   PRACH [UE 0] in frame.slot 373.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:48 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:48 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:49 [0m[93m[MAC]   [UE 0][382:9] RAR reception failed 
+ 三  18 18:48:49 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 383, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:49 [0m[PHY]   PRACH [UE 0] in frame.slot 383.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
+ 三  18 18:48:49 [0m[NR_PHY]   ============================================
+ 三  18 18:48:49 [0m[NR_PHY]   Harq round stats for Downlink: 109/0/0
+ 三  18 18:48:49 [0m[NR_PHY]   ============================================
+ 三  18 18:48:49 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:49 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:49 [0m[93m[MAC]   [UE 0][392:9] RAR reception failed 
+ 三  18 18:48:49 [0m[93m[MAC]   [UE 0][392:17] RAR reception failed 
+ 三  18 18:48:49 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 393, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:49 [0m[PHY]   PRACH [UE 0] in frame.slot 393.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:49 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:49 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:49 [0m[93m[MAC]   [UE 0][402:9] RAR reception failed 
+ 三  18 18:48:49 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 403, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:49 [0m[PHY]   PRACH [UE 0] in frame.slot 403.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:49 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:49 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:50 [0m[93m[MAC]   [UE 0][412:9] RAR reception failed 
+ 三  18 18:48:50 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 413, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:50 [0m[PHY]   PRACH [UE 0] in frame.slot 413.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 4, first_nonzero_root_idx 0
+ 三  18 18:48:50 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:50 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:50 [0m[93m[MAC]   [UE 0][422:9] RAR reception failed 
+ 三  18 18:48:50 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 423, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:50 [0m[PHY]   PRACH [UE 0] in frame.slot 423.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:50 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:50 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:50 [0m[93m[MAC]   [UE 0][432:9] RAR reception failed 
+ 三  18 18:48:50 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 433, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:50 [0m[PHY]   PRACH [UE 0] in frame.slot 433.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:50 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:50 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:51 [0m[1;31m[PHY]   [UE 0] frame 440, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:48:51 [0m[93m[MAC]   [UE 0][442:9] RAR reception failed 
+ 三  18 18:48:51 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 443, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:51 [0m[PHY]   PRACH [UE 0] in frame.slot 443.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:51 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:51 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:51 [0m[NR_PHY]   ============================================
+ 三  18 18:48:51 [0m[NR_PHY]   Harq round stats for Downlink: 116/0/0
+ 三  18 18:48:51 [0m[NR_PHY]   ============================================
+ 三  18 18:48:51 [0m[93m[MAC]   [UE 0][452:9] RAR reception failed 
+ 三  18 18:48:51 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 453, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:51 [0m[PHY]   PRACH [UE 0] in frame.slot 453.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:51 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:51 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:51 [0m[93m[MAC]   [UE 0][462:9] RAR reception failed 
+ 三  18 18:48:51 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 463, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:51 [0m[PHY]   PRACH [UE 0] in frame.slot 463.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:51 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:51 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:52 [0m[93m[MAC]   [UE 0][472:9] RAR reception failed 
+ 三  18 18:48:52 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 473, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:52 [0m[PHY]   PRACH [UE 0] in frame.slot 473.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:52 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:52 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:52 [0m[93m[MAC]   [UE 0][482:9] RAR reception failed 
+ 三  18 18:48:52 [0m[93m[MAC]   [UE 0][482:17] RAR reception failed 
+ 三  18 18:48:52 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 483, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:52 [0m[PHY]   PRACH [UE 0] in frame.slot 483.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:52 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:52 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:52 [0m[93m[MAC]   [UE 0][492:9] RAR reception failed 
+ 三  18 18:48:52 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 493, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:52 [0m[PHY]   PRACH [UE 0] in frame.slot 493.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:52 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:52 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:53 [0m[93m[MAC]   [UE 0][502:9] RAR reception failed 
+ 三  18 18:48:53 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 503, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:53 [0m[PHY]   PRACH [UE 0] in frame.slot 503.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
+ 三  18 18:48:53 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:53 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:53 [0m[NR_PHY]   ============================================
+ 三  18 18:48:53 [0m[NR_PHY]   Harq round stats for Downlink: 122/0/0
+ 三  18 18:48:53 [0m[NR_PHY]   ============================================
+ 三  18 18:48:53 [0m[93m[MAC]   [UE 0][512:9] RAR reception failed 
+ 三  18 18:48:53 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 513, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:53 [0m[PHY]   PRACH [UE 0] in frame.slot 513.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:53 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:53 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:53 [0m[93m[MAC]   [UE 0][522:9] RAR reception failed 
+ 三  18 18:48:53 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 523, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:53 [0m[PHY]   PRACH [UE 0] in frame.slot 523.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+ 三  18 18:48:53 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:53 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:54 [0m[93m[MAC]   [UE 0][532:9] RAR reception failed 
+ 三  18 18:48:54 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 533, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:54 [0m[PHY]   PRACH [UE 0] in frame.slot 533.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:54 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:54 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:54 [0m[93m[MAC]   [UE 0][542:9] RAR reception failed 
+ 三  18 18:48:54 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 543, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:54 [0m[PHY]   PRACH [UE 0] in frame.slot 543.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  18 18:48:54 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:54 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:54 [0m[93m[MAC]   [UE 0][552:9] RAR reception failed 
+ 三  18 18:48:54 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 553, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:54 [0m[PHY]   PRACH [UE 0] in frame.slot 553.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:54 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:54 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:54 [0m[93m[MAC]   [UE 0][562:9] RAR reception failed 
+ 三  18 18:48:54 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 563, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:54 [0m[PHY]   PRACH [UE 0] in frame.slot 563.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 13, first_nonzero_root_idx 0
+ 三  18 18:48:55 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:55 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:55 [0m[93m[MAC]   [UE 0][572:9] RAR reception failed 
+ 三  18 18:48:55 [0m[93m[MAC]   [UE 0][572:17] RAR reception failed 
+ 三  18 18:48:55 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 573, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:55 [0m[PHY]   PRACH [UE 0] in frame.slot 573.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
+ 三  18 18:48:55 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:55 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:55 [0m[NR_PHY]   ============================================
+ 三  18 18:48:55 [0m[NR_PHY]   Harq round stats for Downlink: 129/0/0
+ 三  18 18:48:55 [0m[NR_PHY]   ============================================
+ 三  18 18:48:55 [0m[93m[MAC]   [UE 0][582:9] RAR reception failed 
+ 三  18 18:48:55 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 583, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:55 [0m[PHY]   PRACH [UE 0] in frame.slot 583.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+ 三  18 18:48:55 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:55 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:55 [0m[93m[MAC]   [UE 0][592:9] RAR reception failed 
+ 三  18 18:48:55 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 593, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:55 [0m[PHY]   PRACH [UE 0] in frame.slot 593.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:55 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:55 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:56 [0m[93m[MAC]   [UE 0][602:9] RAR reception failed 
+ 三  18 18:48:56 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 603, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:56 [0m[PHY]   PRACH [UE 0] in frame.slot 603.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:56 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:56 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
+ 三  18 18:48:56 [0m[32m[NR_MAC]   [UE 0][RAPROC][604.7] Found RAR with the intended RAPID 5
+ 三  18 18:48:56 [0m[93m[MAC]   received TA command 31
+ 三  18 18:48:56 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:56 [0m[32m[NR_MAC]   [RAPROC][604.17] RA-Msg3 transmitted
+ 三  18 18:48:56 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 149
+ 三  18 18:48:56 [0m[1;31m[MAC]   [UE 0] CB-RA: Contention resolution timer has expired, RA procedure has failed...
+ 三  18 18:48:56 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  18 18:48:56 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  18 18:48:56 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+ 三  18 18:48:56 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 611, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:56 [0m[PHY]   PRACH [UE 0] in frame.slot 611.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 5, first_nonzero_root_idx 0
+ 三  18 18:48:56 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:56 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:56 [0m[93m[MAC]   [UE 0][620:9] RAR reception failed 
+ 三  18 18:48:56 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 621, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:56 [0m[PHY]   PRACH [UE 0] in frame.slot 621.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+ 三  18 18:48:56 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:56 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
+ 三  18 18:48:56 [0m[32m[NR_MAC]   [UE 0][RAPROC][622.7] Found RAR with the intended RAPID 29
+ 三  18 18:48:56 [0m[93m[MAC]   received TA command 31
+ 三  18 18:48:56 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:56 [0m[32m[NR_MAC]   [RAPROC][622.17] RA-Msg3 transmitted
+ 三  18 18:48:57 [0m[1;31m[MAC]   [UE 0] CB-RA: Contention resolution timer has expired, RA procedure has failed...
+ 三  18 18:48:57 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  18 18:48:57 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  18 18:48:57 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+ 三  18 18:48:57 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 629, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:57 [0m[PHY]   PRACH [UE 0] in frame.slot 629.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 9, first_nonzero_root_idx 0
+ 三  18 18:48:57 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:57 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:57 [0m[93m[MAC]   [UE 0][638:9] RAR reception failed 
+ 三  18 18:48:57 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 639, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:57 [0m[PHY]   PRACH [UE 0] in frame.slot 639.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
+ 三  18 18:48:57 [0m[NR_PHY]   ============================================
+ 三  18 18:48:57 [0m[NR_PHY]   Harq round stats for Downlink: 136/0/0
+ 三  18 18:48:57 [0m[NR_PHY]   ============================================
+ 三  18 18:48:57 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:57 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:57 [0m[93m[MAC]   [UE 0][648:9] RAR reception failed 
+ 三  18 18:48:57 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 649, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:57 [0m[PHY]   PRACH [UE 0] in frame.slot 649.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 1, first_nonzero_root_idx 0
+ 三  18 18:48:57 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:57 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:57 [0m[93m[MAC]   [UE 0][658:9] RAR reception failed 
+ 三  18 18:48:58 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 659, Slot 19, Symbol 0, Fdm 0
+ 三  18 18:48:58 [0m[PHY]   PRACH [UE 0] in frame.slot 659.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0
+ 三  18 18:48:58 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  18 18:48:58 [0m[PHY]   RAR-Msg2 decoded
+ 三  18 18:48:58 [0m[93m[NR_RRC]   Timer T300 expired
+ 三  18 18:48:58 [0m[NR_MAC]   [UE0] Initializing MAC
+ 三  18 18:48:58 [0m[93m[HW]   Not supported to send Tx out of order 1038365919, 1038276783
+ 三  18 18:48:58 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+ 三  18 18:48:58 [0m[93m[NR_PHY]   Starting sync detection
+ 三  18 18:48:58 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+ 三  18 18:48:58 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 63776, val = 8707632712 (99 dB) avg 58 dB, ffo 0.000000
+ 三  18 18:48:58 [0m[PHY]   PSS execution duration 116134 microseconds 
+ 三  18 18:48:58 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 63776, Nid2 0
+ 三  18 18:48:58 [0m[PHY]   sync_pos 63776 ssb_offset 63632 
+ 三  18 18:48:58 [0m[PHY]   Calling sss detection (normal CP)
+ 三  18 18:48:58 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000493 (14 Hz),  ffo_pss+ffo_sss 0.000493 (14 Hz), nid1: 0, nid2: 0
+ 三  18 18:48:58 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
+ 三  18 18:48:58 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+ 三  18 18:48:58 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41800, phase 7, pbch 0
+ 三  18 18:48:58 [0m[PHY]   [UE0] In synch, rx_offset 59216 samples
+ 三  18 18:48:58 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
+ 三  18 18:48:58 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  18 18:48:58 [0m[PHY]   Got synch: hw_slot_offset 4, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+ 三  18 18:48:58 [0m[PHY]   UE synchronized decoded_frame_rx=666 UE->init_sync_frame=1 trashed_frames=6
+ 三  18 18:48:58 [0m[PHY]   Resynchronizing RX by 59216 samples
+ 三  18 18:48:59 [0m[NR_PHY]   ============================================
+ 三  18 18:48:59 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:48:59 [0m[NR_PHY]   ============================================
+ 三  18 18:49:01 [0m[NR_PHY]   ============================================
+ 三  18 18:49:01 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:01 [0m[NR_PHY]   ============================================
+ 三  18 18:49:03 [0m[NR_PHY]   ============================================
+ 三  18 18:49:03 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:03 [0m[NR_PHY]   ============================================
+ 三  18 18:49:05 [0m[NR_PHY]   ============================================
+ 三  18 18:49:05 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:05 [0m[NR_PHY]   ============================================
+ 三  18 18:49:07 [0m[NR_PHY]   ============================================
+ 三  18 18:49:07 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:07 [0m[NR_PHY]   ============================================
+ 三  18 18:49:08 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:49:08 [0m[NR_PHY]   ============================================
+ 三  18 18:49:08 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:08 [0m[NR_PHY]   ============================================
+ 三  18 18:49:10 [0m[NR_PHY]   ============================================
+ 三  18 18:49:10 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:10 [0m[NR_PHY]   ============================================
+ 三  18 18:49:11 [0m[1;31m[PHY]   [UE 0] frame 82, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:49:12 [0m[NR_PHY]   ============================================
+ 三  18 18:49:12 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:12 [0m[NR_PHY]   ============================================
+ 三  18 18:49:14 [0m[NR_PHY]   ============================================
+ 三  18 18:49:14 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:14 [0m[NR_PHY]   ============================================
+ 三  18 18:49:16 [0m[NR_PHY]   ============================================
+ 三  18 18:49:16 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:16 [0m[NR_PHY]   ============================================
+ 三  18 18:49:18 [0m[NR_PHY]   ============================================
+ 三  18 18:49:18 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:18 [0m[NR_PHY]   ============================================
+ 三  18 18:49:20 [0m[NR_PHY]   ============================================
+ 三  18 18:49:20 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:20 [0m[NR_PHY]   ============================================
+ 三  18 18:49:23 [0m[NR_PHY]   ============================================
+ 三  18 18:49:23 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:23 [0m[NR_PHY]   ============================================
+ 三  18 18:49:24 [0m[NR_PHY]   ============================================
+ 三  18 18:49:24 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:24 [0m[NR_PHY]   ============================================
+ 三  18 18:49:26 [0m[NR_PHY]   ============================================
+ 三  18 18:49:26 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:26 [0m[NR_PHY]   ============================================
+ 三  18 18:49:28 [0m[1;31m[PHY]   [UE 0] frame 636, nr_slot_rx 0, Error decoding PBCH!
+ 三  18 18:49:28 [0m[NR_PHY]   ============================================
+ 三  18 18:49:28 [0m[NR_PHY]   Harq round stats for Downlink: 139/0/0
+ 三  18 18:49:28 [0m[NR_PHY]   ============================================
+ 三  18 18:49:29 [0mPress ^C again to trigger immediate shutdown
+ 三  18 18:49:29 [NAS]   [UE 0] Received NAS_DEREGISTRATION_REQ
+ 三  18 18:49:29 [0m[93m[NAS]   No GUTI, cannot trigger deregistration request.
+ 三  18 18:49:29 [0m[NR_MAC]   [UE0] Initializing MAC
+ 三  18 18:49:29 [0m[NR_RRC]   RRC moved into IDLE state
+ 三  18 18:49:29 [0m[NAS]   [UE 0] Received NR_NAS_CONN_RELEASE_IND: cause 2
+ 三  18 18:49:30 [0m[93m[HW]   Lost socket
+ 三  18 18:49:30 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+ 三  18 18:49:30 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+ 三  18 18:49:30 [CONFIG] log_config: 2/3 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] log_config: 53/53 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] log_config: 53/53 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] log_config: 16/16 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] log_config: 16/16 parameters successfully set 
+ 三  18 18:49:30 log init done
+ 三  18 18:49:30 [CONFIG] (root): 30/33 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] (root): 37/40 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] (root): 5/6 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] TTracer: 3/3 parameters successfully set 
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 create a thread for core -1
+ 三  18 18:49:30 [CONFIG] opt: 3/3 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] loader: 2/2 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+ 三  18 18:49:30 shlib_path libldpc.so
+ 三  18 18:49:30 [LOADER] library libldpc.so successfully loaded
+ 三  18 18:49:30 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] loader.dfts: 1/2 parameters successfully set 
+ 三  18 18:49:30 shlib_path libdfts.so
+ 三  18 18:49:30 [LOADER] library libdfts.so successfully loaded
+ 三  18 18:49:30 [CONFIG] device.recplay: 8/8 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] device: 1/1 parameters successfully set 
+ 三  18 18:49:30 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+ 三  18 18:49:30 shlib_path librfsimulator.so
+ 三  18 18:49:30 [LOADER] library librfsimulator.so successfully loaded
+ 三  18 18:49:30 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+ 三  18 18:49:30 Initializing random number generator, seed 1048850237558207118
+ 三  18 18:49:30 UE threads created by 2143179
+ 三  18 18:49:30 TYPE <CTRL-C> TO TERMINATE
+ 三  18 18:49:30 [CONFIG] uicc0: 10/10 parameters successfully set 
+ 三  18 18:49:30 Entering ITTI signals handler
+ 三  18 18:49:30 TYPE <CTRL-C> TO TERMINATE
