@@ -1,727 +1,328 @@
-<<<<<<< Updated upstream
-mars 20 10:10:10 Calling sched_setscheduler(79)
-mars 20 10:10:10 [ENB_APP]   nfapi running mode: MONOLITHIC
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
-mars 20 10:10:10 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
-mars 20 10:10:10 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
-mars 20 10:10:11 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
-mars 20 10:10:11 [0m[OPT]   OPT disabled
-mars 20 10:10:11 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 65799f3144 Date: Tue Mar 19 23:23:00 2024 +0800
-mars 20 10:10:11 [0m[PDCP]   pdcp init,usegtp usenetlink
-mars 20 10:10:11 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
-mars 20 10:10:11 [0m[PDCP]   UE pdcp will use tun interface
-mars 20 10:10:11 [0m[NR_MAC]   [UE0] Initializing MAC
-mars 20 10:10:11 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
-mars 20 10:10:11 [0m[RLC]   activated srb0 for UE with RNTI 0x0
-mars 20 10:10:11 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
-mars 20 10:10:11 , chest-freq 0, chest-time 0
-mars 20 10:10:11 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
-mars 20 10:10:11 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
-mars 20 10:10:11 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 20 10:10:11 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 20 10:10:11 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-mars 20 10:10:11 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
-mars 20 10:10:11 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
-mars 20 10:10:11 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
-mars 20 10:10:11 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:11 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 10:10:11 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
-mars 20 10:10:12 [0m[PHY]   Intializing UE Threads for instance 0 (0x5aaf3949cbc0,0x70f100718010)...
-mars 20 10:10:12 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
-mars 20 10:10:12 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
-mars 20 10:10:12 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
-mars 20 10:10:12 [0m[93m[HW]   sample_rate 61440000.000000
-mars 20 10:10:12 [0m[HW]   Running as client: will connect to a rfsimulator server side
-mars 20 10:10:12 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
-mars 20 10:10:12 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
-mars 20 10:10:12 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
-mars 20 10:10:12 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
-mars 20 10:10:12 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
-mars 20 10:10:12 [0m[NR_RRC]   create TASK_RRC_NRUE 
-mars 20 10:10:12 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
-mars 20 10:10:12 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
-mars 20 10:10:12 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
-mars 20 10:10:12 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 10:10:12 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 10:10:12 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
-mars 20 10:10:12 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
-mars 20 10:10:12 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
-mars 20 10:10:12 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
-mars 20 10:10:12 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
-mars 20 10:10:13 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 10:10:13 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 10:10:14 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 10:10:14 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 10:10:15 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 10:10:15 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 10:10:16 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 10:10:16 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 10:10:17 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 10:10:17 [0m[HW]   Connection to 127.0.0.1:4043 established
-mars 20 10:10:17 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 10:10:18 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
-mars 20 10:10:18 [0m[93m[NR_PHY]   Starting sync detection
-mars 20 10:10:18 [0m[PHY]   [UE thread Synch] Running Initial Synch 
-mars 20 10:10:18 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 421456, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
-mars 20 10:10:18 [0m[PHY]   PSS execution duration 134108 microseconds 
-mars 20 10:10:18 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 421456, Nid2 0
-mars 20 10:10:18 [0m[PHY]   sync_pos 421456 ssb_offset 421312 
-mars 20 10:10:18 [0m[PHY]   Calling sss detection (normal CP)
-mars 20 10:10:18 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000576 (17 Hz),  ffo_pss+ffo_sss 0.000576 (17 Hz), nid1: 0, nid2: 0
-mars 20 10:10:18 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
-mars 20 10:10:18 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
-mars 20 10:10:18 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41568, phase 7, pbch 0
-mars 20 10:10:18 [0m[PHY]   [UE0] In synch, rx_offset 416896 samples
-mars 20 10:10:18 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
-mars 20 10:10:18 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 10:10:18 [0m[PHY]   Got synch: hw_slot_offset 27, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
-mars 20 10:10:18 [0m[PHY]   UE synchronized decoded_frame_rx=20 UE->init_sync_frame=1 trashed_frames=6
-mars 20 10:10:18 [0m[PHY]   Resynchronizing RX by 416896 samples
-mars 20 10:10:18 [0m[32m[NR_RRC]   SIB1 decoded
-mars 20 10:10:18 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 20 10:10:18 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 20 10:10:19 [0m[NR_PHY]   ============================================
-mars 20 10:10:19 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
-mars 20 10:10:19 [0m[NR_PHY]   ============================================
-mars 20 10:10:21 [0m[NR_PHY]   ============================================
-mars 20 10:10:21 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
-mars 20 10:10:21 [0m[NR_PHY]   ============================================
-mars 20 10:10:22 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 20 10:10:22 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 20 10:10:22 [0m[MAC]   Initialization of 4-step contention-based random access procedure
-mars 20 10:10:22 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 167, Slot 19, Symbol 0, Fdm 0
-mars 20 10:10:22 [0m[PHY]   PRACH [UE 0] in frame.slot 167.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 10, first_nonzero_root_idx 0
-mars 20 10:10:22 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
-mars 20 10:10:22 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
-mars 20 10:10:22 [0m[32m[NR_MAC]   [UE 0][RAPROC][168.7] Found RAR with the intended RAPID 42
-mars 20 10:10:22 [0m[93m[MAC]   received TA command 31
-mars 20 10:10:22 [0m[PHY]   RAR-Msg2 decoded
-mars 20 10:10:22 [0m[32m[NR_MAC]   [RAPROC][168.17] RA-Msg3 transmitted
-mars 20 10:10:22 [0m[MAC]   [UE 0][RAPROC] Frame 169 : received contention resolution identity: 0x12aa1fd5d366 Terminating RA procedure
-mars 20 10:10:22 [0m[32m[MAC]   [UE 0][169.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
-mars 20 10:10:22 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
-mars 20 10:10:22 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
-mars 20 10:10:22 [0m[MAC]   Applying CellGroupConfig from gNodeB
-mars 20 10:10:22 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-mars 20 10:10:22 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
-mars 20 10:10:22 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x70f0c0004380
-mars 20 10:10:22 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
-mars 20 10:10:22 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x70f0c0003b10
-mars 20 10:10:22 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
-mars 20 10:10:22 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
-mars 20 10:10:22 [0m[NR_RRC]   Security algorithm is set to nea0
-mars 20 10:10:22 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
-mars 20 10:10:22 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
-mars 20 10:10:22 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
-mars 20 10:10:22 [0m[NR_RRC]   radio Bearer Configuration is present
-mars 20 10:10:22 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-mars 20 10:10:22 [0m[MAC]   Applying CellGroupConfig from gNodeB
-mars 20 10:10:22 [0m[NR_RRC]   Measurement Configuration is present
-mars 20 10:10:22 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 61
-mars 20 10:10:22 [0m[NAS]   [UE] Received REGISTRATION ACCEPT message
-mars 20 10:10:22 [0m[NR_RRC]   Measurement Object List is present
-mars 20 10:10:22 [0m[NR_RRC]   Adding measurement object 1
-mars 20 10:10:22 [0m[93m[NAS]   This NAS IEI is not handled when extracting list of allowed NSSAI
-mars 20 10:10:22 [0m[NR_RRC]   call rrc_mac_config_req 
-mars 20 10:10:22 [0m[NR_RRC]   Report Configuration List is present
-mars 20 10:10:22 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
-mars 20 10:10:22 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
-mars 20 10:10:22 [0m[NR_RRC]   Received Capability Enquiry (gNB 0)
-mars 20 10:10:22 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
-mars 20 10:10:22 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
-mars 20 10:10:22 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
-mars 20 10:10:22 [CONFIG] log_config: 2/3 parameters successfully set 
-mars 20 10:10:22 [CONFIG] log_config: 53/53 parameters successfully set 
-mars 20 10:10:22 [CONFIG] log_config: 53/53 parameters successfully set 
-mars 20 10:10:22 [CONFIG] log_config: 16/16 parameters successfully set 
-mars 20 10:10:22 [CONFIG] log_config: 16/16 parameters successfully set 
-mars 20 10:10:22 log init done
-mars 20 10:10:22 [CONFIG] (root): 30/33 parameters successfully set 
-mars 20 10:10:22 [CONFIG] (root): 37/40 parameters successfully set 
-mars 20 10:10:22 [CONFIG] (root): 5/6 parameters successfully set 
-mars 20 10:10:22 [CONFIG] TTracer: 3/3 parameters successfully set 
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 create a thread for core -1
-mars 20 10:10:22 [CONFIG] opt: 3/3 parameters successfully set 
-mars 20 10:10:22 [CONFIG] loader: 2/2 parameters successfully set 
-mars 20 10:10:22 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
-mars 20 10:10:22 shlib_path libldpc.so
-mars 20 10:10:22 [LOADER] library libldpc.so successfully loaded
-mars 20 10:10:22 [CONFIG] nas.noS1: 3/3 parameters successfully set 
-mars 20 10:10:22 [CONFIG] loader.dfts: 1/2 parameters successfully set 
-mars 20 10:10:22 shlib_path libdfts.so
-mars 20 10:10:22 [LOADER] library libdfts.so successfully loaded
-mars 20 10:10:22 [CONFIG] device.recplay: 8/8 parameters successfully set 
-mars 20 10:10:22 [CONFIG] device: 1/1 parameters successfully set 
-mars 20 10:10:22 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
-mars 20 10:10:22 shlib_path librfsimulator.so
-mars 20 10:10:22 [LOADER] library librfsimulator.so successfully loaded
-mars 20 10:10:22 [CONFIG] rfsimulator: 8/9 parameters successfully set 
-mars 20 10:10:22 Initializing random number generator, seed 4763298049408297203
-mars 20 10:10:22 UE threads created by 2234716
-mars 20 10:10:22 TYPE <CTRL-C> TO TERMINATE
-mars 20 10:10:22 [CONFIG] uicc0: 10/10 parameters successfully set 
-mars 20 10:10:22 Entering ITTI signals handler
-mars 20 10:10:22 TYPE <CTRL-C> TO TERMINATE
-mars 20 10:10:22 kgnb : 8a b1 c8 c4 11 e3 c6 e3 eb b6 84 d6 8a 20 5e ac 6d b9 e8 f6 e4 2c 78 4b 2d 3c b7 b5 31 bc b7 6d 
-mars 20 10:10:22 kausf:a0 2c fe 41 36 e9 dd 33 1f 7f 77 dd e4 4e 7b 98 8f b3 79 88 22 c5 7f 8f d5 d4 d1 80 f4 52 99 50 
-mars 20 10:10:22 kseaf:97 62 cc 8b 4f 39 bd 14 e9 d9 2d a4 e1 1 36 9f 92 71 48 50 72 24 b 43 2f 17 63 85 fa 71 f e0 
-mars 20 10:10:22 kamf:be d6 83 d9 42 d3 85 49 90 7c 53 fb a3 44 87 12 a6 2f f7 62 b1 7a ce 57 fe d4 a 64 51 83 99 b0 
-mars 20 10:10:22 knas_int:
-mars 20 10:10:22 de cc 81 d3 39 71 e6 f5 19 6 24 b0 21 58 65 69 
-mars 20 10:10:22 mac 6f f5 e4 6f 
-mars 20 10:10:22 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=8a b1 c8 c4 11 e3 c6 e3 eb b6 84 d6 8a 20 5e ac 6d b9 e8 f6 e4 2c 78 4b 2d 3c b7 b5 31 bc b7 6d [0m
-mars 20 10:10:22 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 f0 00 00 00 00 00 00 00 [0m
-mars 20 10:10:22 <UE-NR-Capability>
-mars 20 10:10:22     <accessStratumRelease><rel15/></accessStratumRelease>
-mars 20 10:10:22     <pdcp-Parameters>
-mars 20 10:10:22         <supportedROHC-Profiles>
-mars 20 10:10:22             <profile0x0000><false/></profile0x0000>
-mars 20 10:10:22             <profile0x0001><false/></profile0x0001>
-mars 20 10:10:22             <profile0x0002><false/></profile0x0002>
-mars 20 10:10:22             <profile0x0003><false/></profile0x0003>
-mars 20 10:10:22             <profile0x0004><false/></profile0x0004>
-mars 20 10:10:22             <profile0x0006><false/></profile0x0006>
-mars 20 10:10:22             <profile0x0101><false/></profile0x0101>
-mars 20 10:10:22             <profile0x0102><false/></profile0x0102>
-mars 20 10:10:22             <profile0x0103><false/></profile0x0103>
-mars 20 10:10:22             <profile0x0104><false/></profile0x0104>
-mars 20 10:10:22         </supportedROHC-Profiles>
-mars 20 10:10:22         <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
-mars 20 10:10:22     </pdcp-Parameters>
-mars 20 10:10:22     <phy-Parameters>
-mars 20 10:10:22     </phy-Parameters>
-mars 20 10:10:22     <rf-Parameters>
-mars 20 10:10:22         <supportedBandListNR>
-mars 20 10:10:22             <BandNR>
-mars 20 10:10:22                 <bandNR>1</bandNR>
-mars 20 10:10:22             </BandNR>
-mars 20 10:10:22         </supportedBandListNR>
-mars 20 10:10:22     </rf-Parameters>
-mars 20 10:10:22 </UE-NR-Capability>
-mars 20 10:10:22 [PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
-mars 20 10:10:22 [0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
-mars 20 10:10:22 [0m[93m[RLC]   ack_sn (4) not valid (tx_next_ack 5 tx_next 5), discard control PDU
-mars 20 10:10:22 [0m[NR_PHY]   ============================================
-mars 20 10:10:22 [0m[NR_PHY]   Harq round stats for Downlink: 15/2/0
-mars 20 10:10:22 [0m[NR_PHY]   ============================================
-mars 20 10:10:23 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
-mars 20 10:10:23 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
-mars 20 10:10:23 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x70f0c0098910
-mars 20 10:10:23 [0m[93m[NR_RRC]   unknown message type 195
-mars 20 10:10:24 [0m[NR_PHY]   ============================================
-mars 20 10:10:24 [0m[NR_PHY]   Harq round stats for Downlink: 24/2/0
-mars 20 10:10:24 [0m[NR_PHY]   ============================================
-mars 20 10:10:26 [0m[NR_PHY]   ============================================
-mars 20 10:10:26 [0m[NR_PHY]   Harq round stats for Downlink: 30/2/0
-mars 20 10:10:26 [0m[NR_PHY]   ============================================
-mars 20 10:10:28 [0m[NR_PHY]   ============================================
-mars 20 10:10:28 [0m[NR_PHY]   Harq round stats for Downlink: 37/2/0
-mars 20 10:10:28 [0m[NR_PHY]   ============================================
-mars 20 10:10:30 [0m[NR_PHY]   ============================================
-mars 20 10:10:30 [0m[NR_PHY]   Harq round stats for Downlink: 43/2/0
-mars 20 10:10:30 [0m[NR_PHY]   ============================================
-mars 20 10:10:32 [0m[NR_PHY]   ============================================
-mars 20 10:10:32 [0m[NR_PHY]   Harq round stats for Downlink: 49/2/0
-mars 20 10:10:32 [0m[NR_PHY]   ============================================
-mars 20 10:10:33 [0m[NR_PHY]   ============================================
-mars 20 10:10:33 [0m[NR_PHY]   Harq round stats for Downlink: 56/2/0
-mars 20 10:10:33 [0m[NR_PHY]   ============================================
-mars 20 10:10:35 [0m[NR_PHY]   ============================================
-mars 20 10:10:35 [0m[NR_PHY]   Harq round stats for Downlink: 62/2/0
-mars 20 10:10:35 [0m[NR_PHY]   ============================================
-mars 20 10:10:35 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:37 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:37 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:37 [0m[NR_PHY]   ============================================
-mars 20 10:10:37 [0m[NR_PHY]   Harq round stats for Downlink: 69/2/0
-mars 20 10:10:37 [0m[NR_PHY]   ============================================
-mars 20 10:10:37 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:38 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:38 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:38 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:39 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:39 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:39 [0m[NR_PHY]   ============================================
-mars 20 10:10:39 [0m[NR_PHY]   Harq round stats for Downlink: 75/2/0
-mars 20 10:10:39 [0m[NR_PHY]   ============================================
-mars 20 10:10:39 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:39 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:40 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:40 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:40 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:41 [0m[NR_PHY]   ============================================
-mars 20 10:10:41 [0m[NR_PHY]   Harq round stats for Downlink: 81/2/0
-mars 20 10:10:41 [0m[NR_PHY]   ============================================
-mars 20 10:10:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:42 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:42 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:42 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:43 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:43 [0m[NR_PHY]   ============================================
-mars 20 10:10:43 [0m[NR_PHY]   Harq round stats for Downlink: 88/2/0
-mars 20 10:10:43 [0m[NR_PHY]   ============================================
-mars 20 10:10:43 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:43 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:43 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:44 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:44 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:44 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:45 [0m[NR_PHY]   ============================================
-mars 20 10:10:45 [0m[NR_PHY]   Harq round stats for Downlink: 94/2/0
-mars 20 10:10:45 [0m[NR_PHY]   ============================================
-mars 20 10:10:45 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:45 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:45 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:45 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:46 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:46 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:46 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:46 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
-mars 20 10:10:46 [0m[NR_PHY]   ============================================
-mars 20 10:10:46 [0m[NR_PHY]   Harq round stats for Downlink: 101/2/0
-mars 20 10:10:46 [0m[NR_PHY]   ============================================
-mars 20 10:10:47 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:47 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:47 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:47 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:48 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:48 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:48 [0m[NR_PHY]   ============================================
-mars 20 10:10:48 [0m[NR_PHY]   Harq round stats for Downlink: 107/2/0
-mars 20 10:10:48 [0m[NR_PHY]   ============================================
-mars 20 10:10:48 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:49 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:49 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:49 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:50 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 10:10:50 [0m[93m[HW]   Lost socket
-mars 20 10:10:50 [0mmac 7c d0 be 41 
-mars 20 10:10:50 mac 52 32 cc c4 
-=======
-mars 20 11:05:27 Calling sched_setscheduler(79)
-mars 20 11:05:27 [ENB_APP]   nfapi running mode: MONOLITHIC
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
-mars 20 11:05:27 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
-mars 20 11:05:27 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
-mars 20 11:05:28 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
-mars 20 11:05:28 [0m[OPT]   OPT disabled
-mars 20 11:05:28 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 65799f3144 Date: Tue Mar 19 23:23:00 2024 +0800
-mars 20 11:05:28 [0m[PDCP]   pdcp init,usegtp usenetlink
-mars 20 11:05:28 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
-mars 20 11:05:28 [0m[PDCP]   UE pdcp will use tun interface
-mars 20 11:05:28 [0m[NR_MAC]   [UE0] Initializing MAC
-mars 20 11:05:28 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
-mars 20 11:05:28 [0m[RLC]   activated srb0 for UE with RNTI 0x0
-mars 20 11:05:28 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
-mars 20 11:05:28 , chest-freq 0, chest-time 0
-mars 20 11:05:28 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
-mars 20 11:05:28 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
-mars 20 11:05:28 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 20 11:05:28 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 20 11:05:28 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-mars 20 11:05:28 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
-mars 20 11:05:28 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
-mars 20 11:05:28 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
-mars 20 11:05:28 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:28 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-mars 20 11:05:28 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
-mars 20 11:05:28 [0m[PHY]   Intializing UE Threads for instance 0 (0x55fe178debc0,0x7fc5a4fc0010)...
-mars 20 11:05:28 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
-mars 20 11:05:28 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
-mars 20 11:05:28 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
-mars 20 11:05:28 [0m[93m[HW]   sample_rate 61440000.000000
-mars 20 11:05:28 [0m[HW]   Running as client: will connect to a rfsimulator server side
-mars 20 11:05:28 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
-mars 20 11:05:28 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
-mars 20 11:05:28 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
-mars 20 11:05:28 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
-mars 20 11:05:28 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
-mars 20 11:05:28 [0m[NR_RRC]   create TASK_RRC_NRUE 
-mars 20 11:05:28 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
-mars 20 11:05:28 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
-mars 20 11:05:28 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
-mars 20 11:05:28 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:28 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:28 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
-mars 20 11:05:28 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
-mars 20 11:05:28 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
-mars 20 11:05:28 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
-mars 20 11:05:28 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
-mars 20 11:05:29 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:29 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:30 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:30 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:31 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:31 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:32 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:32 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:33 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:33 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:34 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:34 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:35 [0m[HW]   Trying to connect to 127.0.0.1:4043
-mars 20 11:05:35 [0m[HW]   Connection to 127.0.0.1:4043 established
-mars 20 11:05:35 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-mars 20 11:05:36 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
-mars 20 11:05:36 [0m[93m[NR_PHY]   Starting sync detection
-mars 20 11:05:36 [0m[PHY]   [UE thread Synch] Running Initial Synch 
-mars 20 11:05:37 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 0, val = 0 (0 dB) avg 0 dB, ffo 0.000000
-mars 20 11:05:37 [0m[PHY]   PSS execution duration 84200 microseconds 
-mars 20 11:05:37 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 281040, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
-mars 20 11:05:37 [0m[PHY]   PSS execution duration 85509 microseconds 
-mars 20 11:05:37 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 281040, Nid2 0
-mars 20 11:05:37 [0m[PHY]   sync_pos 281040 ssb_offset 280896 
-mars 20 11:05:37 [0m[PHY]   Calling sss detection (normal CP)
-mars 20 11:05:37 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000531 (15 Hz),  ffo_pss+ffo_sss 0.000531 (15 Hz), nid1: 0, nid2: 0
-mars 20 11:05:37 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
-mars 20 11:05:37 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
-mars 20 11:05:37 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41572, phase 7, pbch 0
-mars 20 11:05:37 [0m[PHY]   [UE0] In synch, rx_offset 276480 samples
-mars 20 11:05:37 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
-mars 20 11:05:37 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-mars 20 11:05:37 [0m[PHY]   Got synch: hw_slot_offset 18, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
-mars 20 11:05:37 [0m[PHY]   UE synchronized decoded_frame_rx=14 UE->init_sync_frame=0 trashed_frames=8
-mars 20 11:05:37 [0m[PHY]   Resynchronizing RX by 276480 samples
-mars 20 11:05:37 [0m[32m[NR_RRC]   SIB1 decoded
-mars 20 11:05:37 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 20 11:05:37 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 20 11:05:38 [0m[NR_PHY]   ============================================
-mars 20 11:05:38 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
-mars 20 11:05:38 [0m[NR_PHY]   ============================================
-mars 20 11:05:39 [0m[NR_PHY]   ============================================
-mars 20 11:05:39 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
-mars 20 11:05:39 [0m[NR_PHY]   ============================================
-mars 20 11:05:40 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-mars 20 11:05:40 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-mars 20 11:05:40 [0m[MAC]   Initialization of 4-step contention-based random access procedure
-mars 20 11:05:40 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 151, Slot 19, Symbol 0, Fdm 0
-mars 20 11:05:40 [0m[PHY]   PRACH [UE 0] in frame.slot 151.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
-mars 20 11:05:40 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
-mars 20 11:05:40 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
-mars 20 11:05:40 [0m[32m[NR_MAC]   [UE 0][RAPROC][152.7] Found RAR with the intended RAPID 28
-mars 20 11:05:40 [0m[93m[MAC]   received TA command 31
-mars 20 11:05:40 [0m[PHY]   RAR-Msg2 decoded
-mars 20 11:05:40 [0m[32m[NR_MAC]   [RAPROC][152.17] RA-Msg3 transmitted
-mars 20 11:05:40 [0m[MAC]   [UE 0][RAPROC] Frame 153 : received contention resolution identity: 0x199ca5da2006 Terminating RA procedure
-mars 20 11:05:40 [0m[32m[MAC]   [UE 0][153.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
-mars 20 11:05:40 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
-mars 20 11:05:40 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
-mars 20 11:05:40 [0m[MAC]   Applying CellGroupConfig from gNodeB
-mars 20 11:05:40 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-mars 20 11:05:40 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
-mars 20 11:05:40 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7fc564004300
-mars 20 11:05:40 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
-mars 20 11:05:40 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7fc564004200
-mars 20 11:05:40 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
-mars 20 11:05:40 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
-mars 20 11:05:40 [0m[NR_RRC]   Security algorithm is set to nea0
-mars 20 11:05:40 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
-mars 20 11:05:40 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
-mars 20 11:05:40 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
-mars 20 11:05:41 [0m[NR_RRC]   radio Bearer Configuration is present
-mars 20 11:05:41 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-mars 20 11:05:41 [0m[MAC]   Applying CellGroupConfig from gNodeB
-mars 20 11:05:41 [0m[NR_RRC]   Measurement Configuration is present
-mars 20 11:05:41 [0m[NR_RRC]   Measurement Object List is present
-mars 20 11:05:41 [0m[NR_RRC]   Adding measurement object 1
-mars 20 11:05:41 [0m[NR_RRC]   call rrc_mac_config_req 
-mars 20 11:05:41 [0m[NR_RRC]   Report Configuration List is present
-mars 20 11:05:41 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
-mars 20 11:05:41 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
-mars 20 11:05:41 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 61
-mars 20 11:05:41 [0m[NAS]   [UE] Received REGISTRATION ACCEPT message
-mars 20 11:05:41 [0m[93m[NAS]   This NAS IEI is not handled when extracting list of allowed NSSAI
-mars 20 11:05:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:41 [0m[NR_RRC]   Received Capability Enquiry (gNB 0)
-mars 20 11:05:41 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
-mars 20 11:05:41 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
-mars 20 11:05:41 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
-mars 20 11:05:41 [CONFIG] log_config: 2/3 parameters successfully set 
-mars 20 11:05:41 [CONFIG] log_config: 53/53 parameters successfully set 
-mars 20 11:05:41 [CONFIG] log_config: 53/53 parameters successfully set 
-mars 20 11:05:41 [CONFIG] log_config: 16/16 parameters successfully set 
-mars 20 11:05:41 [CONFIG] log_config: 16/16 parameters successfully set 
-mars 20 11:05:41 log init done
-mars 20 11:05:41 [CONFIG] (root): 30/33 parameters successfully set 
-mars 20 11:05:41 [CONFIG] (root): 37/40 parameters successfully set 
-mars 20 11:05:41 [CONFIG] (root): 5/6 parameters successfully set 
-mars 20 11:05:41 [CONFIG] TTracer: 3/3 parameters successfully set 
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 create a thread for core -1
-mars 20 11:05:41 [CONFIG] opt: 3/3 parameters successfully set 
-mars 20 11:05:41 [CONFIG] loader: 2/2 parameters successfully set 
-mars 20 11:05:41 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
-mars 20 11:05:41 shlib_path libldpc.so
-mars 20 11:05:41 [LOADER] library libldpc.so successfully loaded
-mars 20 11:05:41 [CONFIG] nas.noS1: 3/3 parameters successfully set 
-mars 20 11:05:41 [CONFIG] loader.dfts: 1/2 parameters successfully set 
-mars 20 11:05:41 shlib_path libdfts.so
-mars 20 11:05:41 [LOADER] library libdfts.so successfully loaded
-mars 20 11:05:41 [CONFIG] device.recplay: 8/8 parameters successfully set 
-mars 20 11:05:41 [CONFIG] device: 1/1 parameters successfully set 
-mars 20 11:05:41 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
-mars 20 11:05:41 shlib_path librfsimulator.so
-mars 20 11:05:41 [LOADER] library librfsimulator.so successfully loaded
-mars 20 11:05:41 [CONFIG] rfsimulator: 8/9 parameters successfully set 
-mars 20 11:05:41 Initializing random number generator, seed 6984886774996572697
-mars 20 11:05:41 UE threads created by 144399
-mars 20 11:05:41 TYPE <CTRL-C> TO TERMINATE
-mars 20 11:05:41 [CONFIG] uicc0: 10/10 parameters successfully set 
-mars 20 11:05:41 Entering ITTI signals handler
-mars 20 11:05:41 TYPE <CTRL-C> TO TERMINATE
-mars 20 11:05:41 kgnb : 27 a7 54 54 1c 74 bc 74 7d f5 27 0a ab ad 68 41 c9 cf 6d 8f 23 31 ef 0f e0 7a b2 ab 9c 64 b2 fe 
-mars 20 11:05:41 kausf:4 a5 41 71 f7 f b0 41 7f 75 e1 42 1d 3f eb 51 dc 8a 39 e8 5c 82 94 db 5c 7 3f 5 e2 a1 86 3d 
-mars 20 11:05:41 kseaf:d3 3e 3c 78 aa 84 86 b3 fd 36 6c f7 f2 ee 30 4a 9c c 6e 40 1c 14 52 57 fc c8 f1 b3 b6 2c 57 d 
-mars 20 11:05:41 kamf:ba 9b 70 c cf 1e ef a3 fd 34 71 83 fe 44 74 e1 36 fe a8 9c 76 f7 f8 52 74 a8 d0 be 9 e c2 6e 
-mars 20 11:05:41 knas_int:
-mars 20 11:05:41 72 ca 76 50 10 cc 94 c7 1c de f3 54 4d 43 65 de 
-mars 20 11:05:41 mac 7a 5d 32 6b 
-mars 20 11:05:41 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=27 a7 54 54 1c 74 bc 74 7d f5 27 0a ab ad 68 41 c9 cf 6d 8f 23 31 ef 0f e0 7a b2 ab 9c 64 b2 fe [0m
-mars 20 11:05:41 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 f0 3f 00 64 c5 7f 00 00 [0m
-mars 20 11:05:41 <UE-NR-Capability>
-mars 20 11:05:41     <accessStratumRelease><rel15/></accessStratumRelease>
-mars 20 11:05:41     <pdcp-Parameters>
-mars 20 11:05:41         <supportedROHC-Profiles>
-mars 20 11:05:41             <profile0x0000><false/></profile0x0000>
-mars 20 11:05:41             <profile0x0001><false/></profile0x0001>
-mars 20 11:05:41             <profile0x0002><false/></profile0x0002>
-mars 20 11:05:41             <profile0x0003><false/></profile0x0003>
-mars 20 11:05:41             <profile0x0004><false/></profile0x0004>
-mars 20 11:05:41             <profile0x0006><false/></profile0x0006>
-mars 20 11:05:41             <profile0x0101><false/></profile0x0101>
-mars 20 11:05:41             <profile0x0102><false/></profile0x0102>
-mars 20 11:05:41             <profile0x0103><false/></profile0x0103>
-mars 20 11:05:41             <profile0x0104><false/></profile0x0104>
-mars 20 11:05:41         </supportedROHC-Profiles>
-mars 20 11:05:41         <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
-mars 20 11:05:41     </pdcp-Parameters>
-mars 20 11:05:41     <phy-Parameters>
-mars 20 11:05:41     </phy-Parameters>
-mars 20 11:05:41     <rf-Parameters>
-mars 20 11:05:41         <supportedBandListNR>
-mars 20 11:05:41             <BandNR>
-mars 20 11:05:41                 <bandNR>1</bandNR>
-mars 20 11:05:41             </BandNR>
-mars 20 11:05:41         </supportedBandListNR>
-mars 20 11:05:41     </rf-Parameters>
-mars 20 11:05:41 </UE-NR-Capability>
-mars 20 11:05:41 [PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
-mars 20 11:05:41 [0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
-mars 20 11:05:41 [0m[NR_PHY]   ============================================
-mars 20 11:05:41 [0m[NR_PHY]   Harq round stats for Downlink: 18/2/0
-mars 20 11:05:41 [0m[NR_PHY]   ============================================
-mars 20 11:05:42 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
-mars 20 11:05:42 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
-mars 20 11:05:42 [0m[NR_RRC]   radio Bearer Configuration is present
-mars 20 11:05:42 [0m[PDCP]   added drb 1 to UE ID 0
-mars 20 11:05:42 [0m[SDAP]   Default DRB for the created SDAP entity: 1 
-mars 20 11:05:42 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-mars 20 11:05:42 [0m[RLC]   Added srb 2 to UE with RNTI 0x0
-mars 20 11:05:42 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:838:add_drb_am: added drb 1 to UE with RNTI 0x0
-mars 20 11:05:42 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:908: added DRB to UE with RNTI 0x0
-mars 20 11:05:42 [0m[MAC]   Applying CellGroupConfig from gNodeB
-mars 20 11:05:42 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
-mars 20 11:05:42 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
-mars 20 11:05:42 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
-mars 20 11:05:42 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.3, mask 255.255.255.0 broadcast address 10.0.0.255
-mars 20 11:05:42 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
-mars 20 11:05:42 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.3, mask 255.255.255.0 broadcast address 10.0.0.255
-mars 20 11:05:43 [0m[NR_PHY]   ============================================
-mars 20 11:05:43 [0m[NR_PHY]   Harq round stats for Downlink: 28/3/0
-mars 20 11:05:43 [0m[NR_PHY]   ============================================
-mars 20 11:05:45 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:45 [0m[NR_PHY]   ============================================
-mars 20 11:05:45 [0m[NR_PHY]   Harq round stats for Downlink: 34/3/0
-mars 20 11:05:45 [0m[NR_PHY]   ============================================
-mars 20 11:05:45 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:46 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:46 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:46 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:46 [0m[NR_PHY]   ============================================
-mars 20 11:05:46 [0m[NR_PHY]   Harq round stats for Downlink: 41/3/0
-mars 20 11:05:46 [0m[NR_PHY]   ============================================
-mars 20 11:05:47 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
-mars 20 11:05:47 [0m[93m[HW]   Lost socket
-mars 20 11:05:47 [0mmac a8 ba 91 d8 
-mars 20 11:05:47 mac 89 ae 84 be 
-mars 20 11:05:47 [CONFIG] nas.noS1: 3/3 parameters successfully set 
-mars 20 11:05:47 [CONFIG] nas.noS1: 3/3 parameters successfully set 
->>>>>>> Stashed changes
+mars 20 11:22:51 Calling sched_setscheduler(79)
+mars 20 11:22:51 [ENB_APP]   nfapi running mode: MONOLITHIC
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+mars 20 11:22:51 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+mars 20 11:22:51 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+mars 20 11:22:52 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+mars 20 11:22:52 [0m[OPT]   OPT disabled
+mars 20 11:22:52 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 6ff139f014 Date: Wed Mar 20 11:18:54 2024 +0100
+mars 20 11:22:52 [0m[PDCP]   pdcp init,usegtp usenetlink
+mars 20 11:22:52 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+mars 20 11:22:52 [0m[PDCP]   UE pdcp will use tun interface
+mars 20 11:22:52 [0m[NR_MAC]   [UE0] Initializing MAC
+mars 20 11:22:52 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+mars 20 11:22:52 [0m[RLC]   activated srb0 for UE with RNTI 0x0
+mars 20 11:22:52 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+mars 20 11:22:52 , chest-freq 0, chest-time 0
+mars 20 11:22:52 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+mars 20 11:22:52 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+mars 20 11:22:52 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 20 11:22:52 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 20 11:22:52 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+mars 20 11:22:52 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+mars 20 11:22:52 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+mars 20 11:22:52 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+mars 20 11:22:52 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:22:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 11:22:52 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+mars 20 11:22:52 [0m[PHY]   Intializing UE Threads for instance 0 (0x55621015fbc0,0x7f7d6f318010)...
+mars 20 11:22:52 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+mars 20 11:22:52 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+mars 20 11:22:52 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+mars 20 11:22:52 [0m[93m[HW]   sample_rate 61440000.000000
+mars 20 11:22:52 [0m[HW]   Running as client: will connect to a rfsimulator server side
+mars 20 11:22:52 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
+mars 20 11:22:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+mars 20 11:22:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+mars 20 11:22:52 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+mars 20 11:22:52 [0m[NR_RRC]   create TASK_RRC_NRUE 
+mars 20 11:22:52 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+mars 20 11:22:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+mars 20 11:22:52 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+mars 20 11:22:52 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+mars 20 11:22:52 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:52 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:52 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+mars 20 11:22:52 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+mars 20 11:22:52 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+mars 20 11:22:52 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+mars 20 11:22:52 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+mars 20 11:22:53 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:53 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:54 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:54 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:55 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:55 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:56 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:56 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:57 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:57 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:58 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:58 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:22:59 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 11:22:59 [0m[HW]   Connection to 127.0.0.1:4043 established
+mars 20 11:22:59 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 11:23:00 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+mars 20 11:23:00 [0m[93m[NR_PHY]   Starting sync detection
+mars 20 11:23:00 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+mars 20 11:23:01 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 421456, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
+mars 20 11:23:01 [0m[PHY]   PSS execution duration 191377 microseconds 
+mars 20 11:23:01 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 421456, Nid2 0
+mars 20 11:23:01 [0m[PHY]   sync_pos 421456 ssb_offset 421312 
+mars 20 11:23:01 [0m[PHY]   Calling sss detection (normal CP)
+mars 20 11:23:01 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000553 (16 Hz),  ffo_pss+ffo_sss 0.000553 (16 Hz), nid1: 0, nid2: 0
+mars 20 11:23:01 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
+mars 20 11:23:01 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+mars 20 11:23:01 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41574, phase 7, pbch 0
+mars 20 11:23:01 [0m[PHY]   [UE0] In synch, rx_offset 416896 samples
+mars 20 11:23:01 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
+mars 20 11:23:01 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 11:23:01 [0m[PHY]   Got synch: hw_slot_offset 27, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+mars 20 11:23:01 [0m[PHY]   UE synchronized decoded_frame_rx=16 UE->init_sync_frame=1 trashed_frames=10
+mars 20 11:23:01 [0m[PHY]   Resynchronizing RX by 416896 samples
+mars 20 11:23:01 [0m[32m[NR_RRC]   SIB1 decoded
+mars 20 11:23:01 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 20 11:23:01 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 20 11:23:02 [0m[NR_PHY]   ============================================
+mars 20 11:23:02 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+mars 20 11:23:02 [0m[NR_PHY]   ============================================
+mars 20 11:23:03 [0m[NR_PHY]   ============================================
+mars 20 11:23:03 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+mars 20 11:23:03 [0m[NR_PHY]   ============================================
+mars 20 11:23:04 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 20 11:23:04 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 20 11:23:04 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+mars 20 11:23:04 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 167, Slot 19, Symbol 0, Fdm 0
+mars 20 11:23:04 [0m[PHY]   PRACH [UE 0] in frame.slot 167.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0
+mars 20 11:23:04 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+mars 20 11:23:04 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
+mars 20 11:23:04 [0m[32m[NR_MAC]   [UE 0][RAPROC][168.7] Found RAR with the intended RAPID 29
+mars 20 11:23:04 [0m[93m[MAC]   received TA command 31
+mars 20 11:23:04 [0m[PHY]   RAR-Msg2 decoded
+mars 20 11:23:04 [0m[32m[NR_MAC]   [RAPROC][168.17] RA-Msg3 transmitted
+mars 20 11:23:04 [0m[MAC]   [UE 0][RAPROC] Frame 169 : received contention resolution identity: 0x1febc8cb63e6 Terminating RA procedure
+mars 20 11:23:04 [0m[32m[MAC]   [UE 0][169.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
+mars 20 11:23:04 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+mars 20 11:23:04 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
+mars 20 11:23:04 [0m[MAC]   Applying CellGroupConfig from gNodeB
+mars 20 11:23:05 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+mars 20 11:23:05 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
+mars 20 11:23:05 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7f7d2c004380
+mars 20 11:23:05 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
+mars 20 11:23:05 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7f7d2c004280
+mars 20 11:23:05 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
+mars 20 11:23:05 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+mars 20 11:23:05 [0m[NR_RRC]   Security algorithm is set to nea0
+mars 20 11:23:05 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
+mars 20 11:23:05 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
+mars 20 11:23:05 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
+mars 20 11:23:05 [0m[NR_RRC]   radio Bearer Configuration is present
+mars 20 11:23:05 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+mars 20 11:23:05 [0m[MAC]   Applying CellGroupConfig from gNodeB
+mars 20 11:23:05 [0m[NR_RRC]   Measurement Configuration is present
+mars 20 11:23:05 [0m[NR_RRC]   Measurement Object List is present
+mars 20 11:23:05 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 61
+mars 20 11:23:05 [0m[NR_RRC]   Adding measurement object 1
+mars 20 11:23:05 [0m[NR_RRC]   call rrc_mac_config_req 
+mars 20 11:23:05 [0m[NAS]   [UE] Received REGISTRATION ACCEPT message
+mars 20 11:23:05 [0m[NR_RRC]   Report Configuration List is present
+mars 20 11:23:05 [0m[93m[NAS]   This NAS IEI is not handled when extracting list of allowed NSSAI
+mars 20 11:23:05 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
+mars 20 11:23:05 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
+mars 20 11:23:05 [0m[NR_RRC]   Received Capability Enquiry (gNB 0)
+mars 20 11:23:05 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
+mars 20 11:23:05 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+mars 20 11:23:05 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+mars 20 11:23:05 [CONFIG] log_config: 2/3 parameters successfully set 
+mars 20 11:23:05 [CONFIG] log_config: 53/53 parameters successfully set 
+mars 20 11:23:05 [CONFIG] log_config: 53/53 parameters successfully set 
+mars 20 11:23:05 [CONFIG] log_config: 16/16 parameters successfully set 
+mars 20 11:23:05 [CONFIG] log_config: 16/16 parameters successfully set 
+mars 20 11:23:05 log init done
+mars 20 11:23:05 [CONFIG] (root): 30/33 parameters successfully set 
+mars 20 11:23:05 [CONFIG] (root): 37/40 parameters successfully set 
+mars 20 11:23:05 [CONFIG] (root): 5/6 parameters successfully set 
+mars 20 11:23:05 [CONFIG] TTracer: 3/3 parameters successfully set 
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 create a thread for core -1
+mars 20 11:23:05 [CONFIG] opt: 3/3 parameters successfully set 
+mars 20 11:23:05 [CONFIG] loader: 2/2 parameters successfully set 
+mars 20 11:23:05 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+mars 20 11:23:05 shlib_path libldpc.so
+mars 20 11:23:05 [LOADER] library libldpc.so successfully loaded
+mars 20 11:23:05 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+mars 20 11:23:05 [CONFIG] loader.dfts: 1/2 parameters successfully set 
+mars 20 11:23:05 shlib_path libdfts.so
+mars 20 11:23:05 [LOADER] library libdfts.so successfully loaded
+mars 20 11:23:05 [CONFIG] device.recplay: 8/8 parameters successfully set 
+mars 20 11:23:05 [CONFIG] device: 1/1 parameters successfully set 
+mars 20 11:23:05 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+mars 20 11:23:05 shlib_path librfsimulator.so
+mars 20 11:23:05 [LOADER] library librfsimulator.so successfully loaded
+mars 20 11:23:05 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+mars 20 11:23:05 Initializing random number generator, seed 13752779750823539650
+mars 20 11:23:05 UE threads created by 276084
+mars 20 11:23:05 TYPE <CTRL-C> TO TERMINATE
+mars 20 11:23:05 [CONFIG] uicc0: 10/10 parameters successfully set 
+mars 20 11:23:05 Entering ITTI signals handler
+mars 20 11:23:05 TYPE <CTRL-C> TO TERMINATE
+mars 20 11:23:05 kgnb : b7 dc 12 a5 fe aa 31 b1 bc 4c fb 70 a2 a8 05 18 41 5c 4f 89 ee 68 21 eb 07 d5 fc e2 c1 db e6 79 
+mars 20 11:23:05 kausf:32 a6 71 9f cb c7 38 c3 3c 11 a4 7a 49 c7 1f bf aa 7b b0 95 79 ef c6 a 3e df 93 ae 8d f6 61 f3 
+mars 20 11:23:05 kseaf:c4 5d 54 fb 61 81 90 4c f6 64 d4 8f 5c 1 b0 4f de cd 95 b 7a ed 33 ac ae a4 e4 f9 11 95 12 38 
+mars 20 11:23:05 kamf:b2 a9 93 c1 e6 78 ef 60 91 e9 f6 40 93 50 5e 37 55 59 99 f5 78 0 c6 7c 6b a3 e0 61 d1 e5 db c8 
+mars 20 11:23:05 knas_int:
+mars 20 11:23:05 69 e4 d8 34 32 a aa b3 ea 3b cd de 9e a0 43 2 
+mars 20 11:23:05 mac 21 a4 60 83 
+mars 20 11:23:05 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=b7 dc 12 a5 fe aa 31 b1 bc 4c fb 70 a2 a8 05 18 41 5c 4f 89 ee 68 21 eb 07 d5 fc e2 c1 db e6 79 [0m
+mars 20 11:23:05 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 40 35 00 2c 7d 7f 00 00 [0m
+mars 20 11:23:05 <UE-NR-Capability>
+mars 20 11:23:05     <accessStratumRelease><rel15/></accessStratumRelease>
+mars 20 11:23:05     <pdcp-Parameters>
+mars 20 11:23:05         <supportedROHC-Profiles>
+mars 20 11:23:05             <profile0x0000><false/></profile0x0000>
+mars 20 11:23:05             <profile0x0001><false/></profile0x0001>
+mars 20 11:23:05             <profile0x0002><false/></profile0x0002>
+mars 20 11:23:05             <profile0x0003><false/></profile0x0003>
+mars 20 11:23:05             <profile0x0004><false/></profile0x0004>
+mars 20 11:23:05             <profile0x0006><false/></profile0x0006>
+mars 20 11:23:05             <profile0x0101><false/></profile0x0101>
+mars 20 11:23:05             <profile0x0102><false/></profile0x0102>
+mars 20 11:23:05             <profile0x0103><false/></profile0x0103>
+mars 20 11:23:05             <profile0x0104><false/></profile0x0104>
+mars 20 11:23:05         </supportedROHC-Profiles>
+mars 20 11:23:05         <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
+mars 20 11:23:05     </pdcp-Parameters>
+mars 20 11:23:05     <phy-Parameters>
+mars 20 11:23:05     </phy-Parameters>
+mars 20 11:23:05     <rf-Parameters>
+mars 20 11:23:05         <supportedBandListNR>
+mars 20 11:23:05             <BandNR>
+mars 20 11:23:05                 <bandNR>1</bandNR>
+mars 20 11:23:05             </BandNR>
+mars 20 11:23:05         </supportedBandListNR>
+mars 20 11:23:05     </rf-Parameters>
+mars 20 11:23:05 </UE-NR-Capability>
+mars 20 11:23:05 [PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
+mars 20 11:23:05 [0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
+mars 20 11:23:05 [0m[93m[RLC]   ack_sn (4) not valid (tx_next_ack 5 tx_next 5), discard control PDU
+mars 20 11:23:05 [0m[NR_PHY]   ============================================
+mars 20 11:23:05 [0m[NR_PHY]   Harq round stats for Downlink: 15/4/0
+mars 20 11:23:05 [0m[NR_PHY]   ============================================
+mars 20 11:23:06 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
+mars 20 11:23:06 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
+mars 20 11:23:06 [0m[NR_RRC]   radio Bearer Configuration is present
+mars 20 11:23:06 [0m[PDCP]   added drb 1 to UE ID 0
+mars 20 11:23:06 [0m[SDAP]   Default DRB for the created SDAP entity: 1 
+mars 20 11:23:06 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+mars 20 11:23:06 [0m[RLC]   Added srb 2 to UE with RNTI 0x0
+mars 20 11:23:06 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:838:add_drb_am: added drb 1 to UE with RNTI 0x0
+mars 20 11:23:06 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:908: added DRB to UE with RNTI 0x0
+mars 20 11:23:06 [0m[MAC]   Applying CellGroupConfig from gNodeB
+mars 20 11:23:06 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
+mars 20 11:23:06 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
+mars 20 11:23:06 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
+mars 20 11:23:06 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.5, mask 255.255.255.0 broadcast address 10.0.0.255
+mars 20 11:23:06 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
+mars 20 11:23:06 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.5, mask 255.255.255.0 broadcast address 10.0.0.255
+mars 20 11:23:07 [0m[NR_PHY]   ============================================
+mars 20 11:23:07 [0m[NR_PHY]   Harq round stats for Downlink: 25/7/0
+mars 20 11:23:07 [0m[NR_PHY]   ============================================
+mars 20 11:23:09 [0m[NR_PHY]   ============================================
+mars 20 11:23:09 [0m[NR_PHY]   Harq round stats for Downlink: 32/7/0
+mars 20 11:23:09 [0m[NR_PHY]   ============================================
+mars 20 11:23:10 [0m[NR_PHY]   ============================================
+mars 20 11:23:10 [0m[NR_PHY]   Harq round stats for Downlink: 38/7/0
+mars 20 11:23:10 [0m[NR_PHY]   ============================================
+mars 20 11:23:11 [0m[1;31m[PHY]   [UE 0] frame 390, nr_slot_rx 0, Error decoding PBCH!
+mars 20 11:23:11 [0m[93m[HW]   Lost socket
+mars 20 11:23:11 [0mmac 14 a0 b3 f3 
+mars 20 11:23:11 mac af e 37 82 
+mars 20 11:23:11 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+mars 20 11:23:11 [CONFIG] nas.noS1: 3/3 parameters successfully set 
