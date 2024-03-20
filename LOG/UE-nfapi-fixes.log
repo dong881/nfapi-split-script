@@ -1,479 +1,468 @@
- 三  20 21:48:27 Calling sched_setscheduler(79)
- 三  20 21:48:27 [ENB_APP]   nfapi running mode: MONOLITHIC
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 三  20 21:48:27 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 三  20 21:48:27 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 三  20 21:48:28 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 三  20 21:48:28 [0m[OPT]   OPT disabled
- 三  20 21:48:28 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 6147346b7e Date: Wed Mar 20 21:25:15 2024 +0800
- 三  20 21:48:28 [0m[PDCP]   pdcp init,usegtp usenetlink
- 三  20 21:48:28 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
- 三  20 21:48:28 [0m[PDCP]   UE pdcp will use tun interface
- 三  20 21:48:28 [0m[NR_MAC]   [UE0] Initializing MAC
- 三  20 21:48:29 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 三  20 21:48:29 [0m[RLC]   activated srb0 for UE with RNTI 0x0
- 三  20 21:48:29 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 三  20 21:48:29 , chest-freq 0, chest-time 0
- 三  20 21:48:29 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 三  20 21:48:29 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 三  20 21:48:29 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  20 21:48:29 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  20 21:48:29 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 三  20 21:48:29 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 三  20 21:48:29 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 三  20 21:48:29 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 三  20 21:48:30 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:30 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  20 21:48:30 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
- 三  20 21:48:30 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 三  20 21:48:30 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 三  20 21:48:30 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 三  20 21:48:30 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 三  20 21:48:30 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 三  20 21:48:30 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 三  20 21:48:30 [1;31m[HW]   Can't set cpu frequency
- 三  20 21:48:30 [0m[PHY]   Intializing UE Threads for instance 0 (0x55ef23587bc0,0x7f50175fa010)...
- 三  20 21:48:30 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
- 三  20 21:48:30 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
- 三  20 21:48:30 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
- 三  20 21:48:30 [0m[93m[HW]   sample_rate 61440000.000000
- 三  20 21:48:30 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 三  20 21:48:30 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
- 三  20 21:48:30 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 三  20 21:48:30 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
- 三  20 21:48:30 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 三  20 21:48:30 [0m[NR_RRC]   create TASK_RRC_NRUE 
- 三  20 21:48:30 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
- 三  20 21:48:30 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 三  20 21:48:30 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
- 三  20 21:48:30 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 三  20 21:48:30 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
- 三  20 21:48:30 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
- 三  20 21:48:30 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  20 21:48:30 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  20 21:48:30 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
- 三  20 21:48:30 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
- 三  20 21:48:30 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 三  20 21:48:31 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  20 21:48:31 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  20 21:48:32 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  20 21:48:32 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  20 21:48:33 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  20 21:48:33 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  20 21:48:34 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  20 21:48:34 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  20 21:48:35 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  20 21:48:35 [0m[HW]   Connection to 127.0.0.1:4043 established
- 三  20 21:48:35 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  20 21:48:36 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
- 三  20 21:48:36 [0m[93m[NR_PHY]   Starting sync detection
- 三  20 21:48:36 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 三  20 21:48:36 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 0, val = 0 (0 dB) avg 0 dB, ffo 0.000000
- 三  20 21:48:36 [0m[PHY]   PSS execution duration 125220 microseconds 
- 三  20 21:48:36 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 114256, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
- 三  20 21:48:36 [0m[PHY]   PSS execution duration 112676 microseconds 
- 三  20 21:48:36 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 114256, Nid2 0
- 三  20 21:48:36 [0m[PHY]   sync_pos 114256 ssb_offset 114112 
- 三  20 21:48:36 [0m[PHY]   Calling sss detection (normal CP)
- 三  20 21:48:36 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000558 (16 Hz),  ffo_pss+ffo_sss 0.000558 (16 Hz), nid1: 0, nid2: 0
- 三  20 21:48:36 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
- 三  20 21:48:36 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
- 三  20 21:48:36 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41548, phase 7, pbch 0
- 三  20 21:48:36 [0m[PHY]   [UE0] In synch, rx_offset 109696 samples
- 三  20 21:48:36 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
- 三  20 21:48:36 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  20 21:48:36 [0m[PHY]   Got synch: hw_slot_offset 7, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
- 三  20 21:48:36 [0m[PHY]   UE synchronized decoded_frame_rx=38 UE->init_sync_frame=0 trashed_frames=10
- 三  20 21:48:36 [0m[PHY]   Resynchronizing RX by 109696 samples
- 三  20 21:48:37 [0m[32m[NR_RRC]   SIB1 decoded
- 三  20 21:48:37 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  20 21:48:37 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  20 21:48:37 [0m[NR_PHY]   ============================================
- 三  20 21:48:37 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  20 21:48:37 [0m[NR_PHY]   ============================================
- 三  20 21:48:39 [0m[NR_PHY]   ============================================
- 三  20 21:48:39 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  20 21:48:39 [0m[NR_PHY]   ============================================
- 三  20 21:48:41 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  20 21:48:41 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  20 21:48:41 [0m[MAC]   Initialization of 4-step contention-based random access procedure
- 三  20 21:48:41 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
- 三  20 21:48:41 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 11, first_nonzero_root_idx 0
- 三  20 21:48:41 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
- 三  20 21:48:41 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
- 三  20 21:48:41 [0m[32m[NR_MAC]   [UE 0][RAPROC][184.7] Found RAR with the intended RAPID 46
- 三  20 21:48:41 [0m[93m[MAC]   received TA command 31
- 三  20 21:48:41 [0m[PHY]   RAR-Msg2 decoded
- 三  20 21:48:41 [0m[32m[NR_MAC]   [RAPROC][184.17] RA-Msg3 transmitted
- 三  20 21:48:41 [0m[MAC]   [UE 0][RAPROC] Frame 185 : received contention resolution identity: 0x167231f96186 Terminating RA procedure
- 三  20 21:48:41 [0m[32m[MAC]   [UE 0][185.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
- 三  20 21:48:41 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
- 三  20 21:48:41 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
- 三  20 21:48:41 [0m[MAC]   Applying CellGroupConfig from gNodeB
- 三  20 21:48:41 [0m[NR_RRC]   State = NR_RRC_CONNECTED
- 三  20 21:48:41 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
- 三  20 21:48:41 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7f4fd4004390
- 三  20 21:48:41 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
- 三  20 21:48:41 [0m[NR_PHY]   ============================================
- 三  20 21:48:41 [0m[NR_PHY]   Harq round stats for Downlink: 5/0/0
- 三  20 21:48:41 [0m[NR_PHY]   ============================================
- 三  20 21:48:41 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7f4fd4003b20
- 三  20 21:48:41 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
- 三  20 21:48:41 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
- 三  20 21:48:41 [0m[NR_RRC]   Security algorithm is set to nea0
- 三  20 21:48:41 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
- 三  20 21:48:41 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
- 三  20 21:48:41 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
- 三  20 21:48:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
- 三  20 21:48:41 [0m[NR_RRC]   radio Bearer Configuration is present
- 三  20 21:48:41 [0m[NR_RRC]   State = NR_RRC_CONNECTED
- 三  20 21:48:41 [0m[MAC]   Applying CellGroupConfig from gNodeB
- 三  20 21:48:41 [0m[NR_RRC]   Measurement Configuration is present
- 三  20 21:48:41 [0m[NR_RRC]   Measurement Object List is present
- 三  20 21:48:41 [0m[NR_RRC]   Adding measurement object 1
- 三  20 21:48:41 [0m[NR_RRC]   call rrc_mac_config_req 
- 三  20 21:48:41 [0m[NR_RRC]   Report Configuration List is present
- 三  20 21:48:41 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 61
- 三  20 21:48:41 [0m[NAS]   [UE] Received REGISTRATION ACCEPT message
- 三  20 21:48:41 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
- 三  20 21:48:41 [0m[93m[NAS]   This NAS IEI is not handled when extracting list of allowed NSSAI
- 三  20 21:48:41 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
- 三  20 21:48:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
- 三  20 21:48:41 [0m[NR_RRC]   Received Capability Enquiry (gNB 0)
- 三  20 21:48:41 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
- 三  20 21:48:41 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 三  20 21:48:41 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
- 三  20 21:48:41 [CONFIG] log_config: 2/3 parameters successfully set 
- 三  20 21:48:41 [CONFIG] log_config: 53/53 parameters successfully set 
- 三  20 21:48:41 [CONFIG] log_config: 53/53 parameters successfully set 
- 三  20 21:48:41 [CONFIG] log_config: 16/16 parameters successfully set 
- 三  20 21:48:41 [CONFIG] log_config: 16/16 parameters successfully set 
- 三  20 21:48:41 log init done
- 三  20 21:48:41 [CONFIG] (root): 30/33 parameters successfully set 
- 三  20 21:48:41 [CONFIG] (root): 37/40 parameters successfully set 
- 三  20 21:48:41 [CONFIG] (root): 5/6 parameters successfully set 
- 三  20 21:48:41 [CONFIG] TTracer: 3/3 parameters successfully set 
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 create a thread for core -1
- 三  20 21:48:41 [CONFIG] opt: 3/3 parameters successfully set 
- 三  20 21:48:41 [CONFIG] loader: 2/2 parameters successfully set 
- 三  20 21:48:41 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
- 三  20 21:48:41 shlib_path libldpc.so
- 三  20 21:48:41 [LOADER] library libldpc.so successfully loaded
- 三  20 21:48:41 [CONFIG] nas.noS1: 3/3 parameters successfully set 
- 三  20 21:48:41 [CONFIG] loader.dfts: 1/2 parameters successfully set 
- 三  20 21:48:41 shlib_path libdfts.so
- 三  20 21:48:41 [LOADER] library libdfts.so successfully loaded
- 三  20 21:48:41 [CONFIG] device.recplay: 8/8 parameters successfully set 
- 三  20 21:48:41 [CONFIG] device: 1/1 parameters successfully set 
- 三  20 21:48:41 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
- 三  20 21:48:41 shlib_path librfsimulator.so
- 三  20 21:48:41 [LOADER] library librfsimulator.so successfully loaded
- 三  20 21:48:41 [CONFIG] rfsimulator: 8/9 parameters successfully set 
- 三  20 21:48:41 Initializing random number generator, seed 2618943075933966961
- 三  20 21:48:41 UE threads created by 3282671
- 三  20 21:48:41 TYPE <CTRL-C> TO TERMINATE
- 三  20 21:48:41 [CONFIG] uicc0: 10/10 parameters successfully set 
- 三  20 21:48:41 Entering ITTI signals handler
- 三  20 21:48:41 TYPE <CTRL-C> TO TERMINATE
- 三  20 21:48:41 kgnb : 08 ae 7c 89 25 82 73 0e cb 22 cf 99 d6 f3 b3 6f da 4b 71 30 94 3e 0a 73 77 55 8d dc 61 13 f6 33 
- 三  20 21:48:41 kausf:31 fd 44 9d f5 9e af bc fc 0 48 66 2c e8 91 16 66 24 15 43 d4 e8 14 86 af a7 ca 45 be 86 34 40 
- 三  20 21:48:41 kseaf:8e be 6d 86 a5 2a 5e 15 c6 a7 11 d4 5c d5 cd c5 42 a2 36 b0 8 bd 65 77 84 44 a8 12 ed 98 f4 a5 
- 三  20 21:48:41 kamf:8c b7 9d 17 6e 51 f6 1c 8f f3 5a d8 23 7 fb d5 62 a4 fe 68 51 26 41 60 7b 46 e3 f2 a2 f6 62 f4 
- 三  20 21:48:41 knas_int:
- 三  20 21:48:41 d8 3e 95 b5 6 8a 96 34 dc 9f b2 92 14 ef fd 5e 
- 三  20 21:48:41 mac c8 51 cf d3 
- 三  20 21:48:41 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=08 ae 7c 89 25 82 73 0e cb 22 cf 99 d6 f3 b3 6f da 4b 71 30 94 3e 0a 73 77 55 8d dc 61 13 f6 33 [0m
- 三  20 21:48:41 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00 [0m
- 三  20 21:48:41 <UE-NR-Capability>
- 三  20 21:48:41     <accessStratumRelease><rel15/></accessStratumRelease>
- 三  20 21:48:41     <pdcp-Parameters>
- 三  20 21:48:41         <supportedROHC-Profiles>
- 三  20 21:48:41             <profile0x0000><false/></profile0x0000>
- 三  20 21:48:41             <profile0x0001><false/></profile0x0001>
- 三  20 21:48:41             <profile0x0002><false/></profile0x0002>
- 三  20 21:48:41             <profile0x0003><false/></profile0x0003>
- 三  20 21:48:41             <profile0x0004><false/></profile0x0004>
- 三  20 21:48:41             <profile0x0006><false/></profile0x0006>
- 三  20 21:48:41             <profile0x0101><false/></profile0x0101>
- 三  20 21:48:41             <profile0x0102><false/></profile0x0102>
- 三  20 21:48:41             <profile0x0103><false/></profile0x0103>
- 三  20 21:48:41             <profile0x0104><false/></profile0x0104>
- 三  20 21:48:41         </supportedROHC-Profiles>
- 三  20 21:48:41         <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
- 三  20 21:48:41     </pdcp-Parameters>
- 三  20 21:48:41     <phy-Parameters>
- 三  20 21:48:41     </phy-Parameters>
- 三  20 21:48:41     <rf-Parameters>
- 三  20 21:48:41         <supportedBandListNR>
- 三  20 21:48:41             <BandNR>
- 三  20 21:48:41                 <bandNR>1</bandNR>
- 三  20 21:48:41             </BandNR>
- 三  20 21:48:41         </supportedBandListNR>
- 三  20 21:48:41     </rf-Parameters>
- 三  20 21:48:41 </UE-NR-Capability>
- 三  20 21:48:41 [PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
- 三  20 21:48:41 [0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
- 三  20 21:48:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
- 三  20 21:48:41 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:42 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
- 三  20 21:48:42 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
- 三  20 21:48:42 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:43 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:43 [0m[NR_PHY]   ============================================
- 三  20 21:48:43 [0m[NR_PHY]   Harq round stats for Downlink: 21/3/0
- 三  20 21:48:43 [0m[NR_PHY]   ============================================
- 三  20 21:48:43 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:44 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:45 [0m[NR_PHY]   ============================================
- 三  20 21:48:45 [0m[NR_PHY]   Harq round stats for Downlink: 28/5/0
- 三  20 21:48:45 [0m[NR_PHY]   ============================================
- 三  20 21:48:45 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:47 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:47 [0m[NR_PHY]   ============================================
- 三  20 21:48:47 [0m[NR_PHY]   Harq round stats for Downlink: 34/7/0
- 三  20 21:48:47 [0m[NR_PHY]   ============================================
- 三  20 21:48:48 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:49 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:49 [0m[NR_PHY]   ============================================
- 三  20 21:48:49 [0m[NR_PHY]   Harq round stats for Downlink: 40/8/0
- 三  20 21:48:49 [0m[NR_PHY]   ============================================
- 三  20 21:48:50 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:51 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:51 [0m[NR_PHY]   ============================================
- 三  20 21:48:51 [0m[NR_PHY]   Harq round stats for Downlink: 47/10/0
- 三  20 21:48:51 [0m[NR_PHY]   ============================================
- 三  20 21:48:52 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:53 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:53 [0m[NR_PHY]   ============================================
- 三  20 21:48:53 [0m[NR_PHY]   Harq round stats for Downlink: 53/11/0
- 三  20 21:48:53 [0m[NR_PHY]   ============================================
- 三  20 21:48:54 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:55 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:55 [0m[NR_PHY]   ============================================
- 三  20 21:48:55 [0m[NR_PHY]   Harq round stats for Downlink: 60/13/0
- 三  20 21:48:55 [0m[NR_PHY]   ============================================
- 三  20 21:48:56 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:56 [0m[1;31m[PHY]   [UE 0] frame 678, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:48:56 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 80
- 三  20 21:48:57 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:57 [0m[NR_PHY]   ============================================
- 三  20 21:48:57 [0m[NR_PHY]   Harq round stats for Downlink: 66/15/0
- 三  20 21:48:57 [0m[NR_PHY]   ============================================
- 三  20 21:48:58 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:59 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:48:59 [0m[NR_PHY]   ============================================
- 三  20 21:48:59 [0m[NR_PHY]   Harq round stats for Downlink: 72/16/0
- 三  20 21:48:59 [0m[NR_PHY]   ============================================
- 三  20 21:49:00 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:49:01 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:49:01 [0m[NR_PHY]   ============================================
- 三  20 21:49:01 [0m[NR_PHY]   Harq round stats for Downlink: 79/18/0
- 三  20 21:49:01 [0m[NR_PHY]   ============================================
- 三  20 21:49:02 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:49:02 [0m[1;31m[PHY]   [UE 0] frame 856, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:49:03 [0m[NR_PHY]   ============================================
- 三  20 21:49:03 [0m[NR_PHY]   Harq round stats for Downlink: 85/19/0
- 三  20 21:49:03 [0m[NR_PHY]   ============================================
- 三  20 21:49:05 [0m[NR_PHY]   ============================================
- 三  20 21:49:05 [0m[NR_PHY]   Harq round stats for Downlink: 92/21/0
- 三  20 21:49:05 [0m[NR_PHY]   ============================================
- 三  20 21:49:08 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:49:08 [0m[NR_PHY]   ============================================
- 三  20 21:49:08 [0m[NR_PHY]   Harq round stats for Downlink: 98/23/0
- 三  20 21:49:08 [0m[NR_PHY]   ============================================
- 三  20 21:49:10 [0m[NR_PHY]   ============================================
- 三  20 21:49:10 [0m[NR_PHY]   Harq round stats for Downlink: 104/24/0
- 三  20 21:49:10 [0m[NR_PHY]   ============================================
- 三  20 21:49:12 [0m[NR_PHY]   ============================================
- 三  20 21:49:12 [0m[NR_PHY]   Harq round stats for Downlink: 111/26/0
- 三  20 21:49:12 [0m[NR_PHY]   ============================================
- 三  20 21:49:14 [0m[NR_PHY]   ============================================
- 三  20 21:49:14 [0m[NR_PHY]   Harq round stats for Downlink: 117/27/0
- 三  20 21:49:14 [0m[NR_PHY]   ============================================
- 三  20 21:49:15 [0m[1;31m[PHY]   [UE 0] frame 232, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:49:16 [0m[NR_PHY]   ============================================
- 三  20 21:49:16 [0m[NR_PHY]   Harq round stats for Downlink: 124/29/0
- 三  20 21:49:16 [0m[NR_PHY]   ============================================
- 三  20 21:49:17 [0m[1;31m[PHY]   [UE 0] frame 292, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:49:18 [0m[NR_PHY]   ============================================
- 三  20 21:49:18 [0m[NR_PHY]   Harq round stats for Downlink: 130/31/0
- 三  20 21:49:18 [0m[NR_PHY]   ============================================
- 三  20 21:49:20 [0m[NR_PHY]   ============================================
- 三  20 21:49:20 [0m[NR_PHY]   Harq round stats for Downlink: 136/32/0
- 三  20 21:49:20 [0m[NR_PHY]   ============================================
- 三  20 21:49:22 [0m[NR_PHY]   ============================================
- 三  20 21:49:22 [0m[NR_PHY]   Harq round stats for Downlink: 143/34/0
- 三  20 21:49:22 [0m[NR_PHY]   ============================================
- 三  20 21:49:24 [0m[NR_PHY]   ============================================
- 三  20 21:49:24 [0m[NR_PHY]   Harq round stats for Downlink: 149/35/0
- 三  20 21:49:24 [0m[NR_PHY]   ============================================
- 三  20 21:49:26 [0m[1;31m[PHY]   [UE 0] frame 574, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:49:26 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 80
- 三  20 21:49:26 [0m[NR_PHY]   ============================================
- 三  20 21:49:26 [0m[NR_PHY]   Harq round stats for Downlink: 156/37/0
- 三  20 21:49:26 [0m[NR_PHY]   ============================================
- 三  20 21:49:28 [0m[NR_PHY]   ============================================
- 三  20 21:49:28 [0m[NR_PHY]   Harq round stats for Downlink: 162/39/0
- 三  20 21:49:28 [0m[NR_PHY]   ============================================
- 三  20 21:49:30 [0m[NR_PHY]   ============================================
- 三  20 21:49:30 [0m[NR_PHY]   Harq round stats for Downlink: 168/40/0
- 三  20 21:49:30 [0m[NR_PHY]   ============================================
- 三  20 21:49:32 [0m[NR_PHY]   ============================================
- 三  20 21:49:32 [0m[NR_PHY]   Harq round stats for Downlink: 175/42/0
- 三  20 21:49:32 [0m[NR_PHY]   ============================================
- 三  20 21:49:34 [0m[NR_PHY]   ============================================
- 三  20 21:49:34 [0m[NR_PHY]   Harq round stats for Downlink: 181/43/0
- 三  20 21:49:34 [0m[NR_PHY]   ============================================
- 三  20 21:49:36 [0m[NR_PHY]   ============================================
- 三  20 21:49:36 [0m[NR_PHY]   Harq round stats for Downlink: 188/45/0
- 三  20 21:49:36 [0m[NR_PHY]   ============================================
- 三  20 21:49:37 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:49:38 [0m[NR_PHY]   ============================================
- 三  20 21:49:38 [0m[NR_PHY]   Harq round stats for Downlink: 194/47/0
- 三  20 21:49:38 [0m[NR_PHY]   ============================================
- 三  20 21:49:40 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:49:40 [0m[NR_PHY]   ============================================
- 三  20 21:49:40 [0m[NR_PHY]   Harq round stats for Downlink: 200/48/0
- 三  20 21:49:40 [0m[NR_PHY]   ============================================
- 三  20 21:49:41 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 80
- 三  20 21:49:43 [0m[NR_PHY]   ============================================
- 三  20 21:49:43 [0m[NR_PHY]   Harq round stats for Downlink: 207/49/0
- 三  20 21:49:43 [0m[NR_PHY]   ============================================
- 三  20 21:49:45 [0m[NR_PHY]   ============================================
- 三  20 21:49:45 [0m[NR_PHY]   Harq round stats for Downlink: 213/50/0
- 三  20 21:49:45 [0m[NR_PHY]   ============================================
- 三  20 21:49:47 [0m[NR_PHY]   ============================================
- 三  20 21:49:47 [0m[NR_PHY]   Harq round stats for Downlink: 220/52/0
- 三  20 21:49:47 [0m[NR_PHY]   ============================================
- 三  20 21:49:49 [0m[NR_PHY]   ============================================
- 三  20 21:49:49 [0m[NR_PHY]   Harq round stats for Downlink: 226/54/0
- 三  20 21:49:49 [0m[NR_PHY]   ============================================
- 三  20 21:49:51 [0m[NR_PHY]   ============================================
- 三  20 21:49:51 [0m[NR_PHY]   Harq round stats for Downlink: 232/55/0
- 三  20 21:49:51 [0m[NR_PHY]   ============================================
- 三  20 21:49:53 [0m[NR_PHY]   ============================================
- 三  20 21:49:53 [0m[NR_PHY]   Harq round stats for Downlink: 239/57/0
- 三  20 21:49:53 [0m[NR_PHY]   ============================================
- 三  20 21:49:55 [0m[NR_PHY]   ============================================
- 三  20 21:49:55 [0m[NR_PHY]   Harq round stats for Downlink: 245/58/0
- 三  20 21:49:55 [0m[NR_PHY]   ============================================
- 三  20 21:49:57 [0m[NR_PHY]   ============================================
- 三  20 21:49:57 [0m[NR_PHY]   Harq round stats for Downlink: 252/60/0
- 三  20 21:49:57 [0m[NR_PHY]   ============================================
- 三  20 21:49:59 [0m[NR_PHY]   ============================================
- 三  20 21:49:59 [0m[NR_PHY]   Harq round stats for Downlink: 258/62/0
- 三  20 21:49:59 [0m[NR_PHY]   ============================================
- 三  20 21:50:00 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:01 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:01 [0m[NR_PHY]   ============================================
- 三  20 21:50:01 [0m[NR_PHY]   Harq round stats for Downlink: 264/63/0
- 三  20 21:50:01 [0m[NR_PHY]   ============================================
- 三  20 21:50:02 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:03 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:03 [0m[NR_PHY]   ============================================
- 三  20 21:50:03 [0m[NR_PHY]   Harq round stats for Downlink: 271/65/0
- 三  20 21:50:03 [0m[NR_PHY]   ============================================
- 三  20 21:50:04 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:04 [0m[1;31m[PHY]   [UE 0] frame 728, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:50:05 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:05 [0m[NR_PHY]   ============================================
- 三  20 21:50:05 [0m[NR_PHY]   Harq round stats for Downlink: 277/66/0
- 三  20 21:50:05 [0m[NR_PHY]   ============================================
- 三  20 21:50:06 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:07 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:07 [0m[NR_PHY]   ============================================
- 三  20 21:50:07 [0m[NR_PHY]   Harq round stats for Downlink: 284/68/0
- 三  20 21:50:07 [0m[NR_PHY]   ============================================
- 三  20 21:50:07 [0m[1;31m[PHY]   [UE 0] frame 838, nr_slot_rx 0, Error decoding PBCH!
- 三  20 21:50:08 [0m[1;31m[SDAP]   ../../../openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
- 三  20 21:50:08 [0m[93m[HW]   Lost socket
- 三  20 21:50:08 [0mmac 74 33 4 78 
- 三  20 21:50:08 mac c1 be 28 4d 
+mars 20 15:32:33 Calling sched_setscheduler(79)
+mars 20 15:32:33 [ENB_APP]   nfapi running mode: MONOLITHIC
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+mars 20 15:32:33 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+mars 20 15:32:33 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+mars 20 15:32:34 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+mars 20 15:32:34 [0m[OPT]   OPT disabled
+mars 20 15:32:34 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 7137180ed6 Date: Wed Mar 20 22:06:21 2024 +0800
+mars 20 15:32:34 [0m[PDCP]   pdcp init,usegtp usenetlink
+mars 20 15:32:34 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+mars 20 15:32:34 [0m[PDCP]   UE pdcp will use tun interface
+mars 20 15:32:34 [0m[NR_MAC]   [UE0] Initializing MAC
+mars 20 15:32:34 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+mars 20 15:32:34 [0m[RLC]   activated srb0 for UE with RNTI 0x0
+mars 20 15:32:34 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+mars 20 15:32:34 , chest-freq 0, chest-time 0
+mars 20 15:32:34 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+mars 20 15:32:34 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+mars 20 15:32:34 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 20 15:32:34 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 20 15:32:34 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+mars 20 15:32:34 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+mars 20 15:32:34 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+mars 20 15:32:34 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+mars 20 15:32:35 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:35 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+mars 20 15:32:35 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+mars 20 15:32:35 [0m[PHY]   Intializing UE Threads for instance 0 (0x5715e87d6bc0,0x7aae867b9010)...
+mars 20 15:32:35 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+mars 20 15:32:35 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+mars 20 15:32:35 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+mars 20 15:32:35 [0m[93m[HW]   sample_rate 61440000.000000
+mars 20 15:32:35 [0m[HW]   Running as client: will connect to a rfsimulator server side
+mars 20 15:32:35 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
+mars 20 15:32:35 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+mars 20 15:32:35 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+mars 20 15:32:35 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+mars 20 15:32:35 [0m[NR_RRC]   create TASK_RRC_NRUE 
+mars 20 15:32:35 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+mars 20 15:32:35 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+mars 20 15:32:35 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+mars 20 15:32:35 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+mars 20 15:32:35 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+mars 20 15:32:35 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+mars 20 15:32:35 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:35 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:35 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+mars 20 15:32:35 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+mars 20 15:32:35 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+mars 20 15:32:36 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:36 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:37 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:37 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:38 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:38 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:39 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:39 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:40 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:40 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:41 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:41 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:42 [0m[HW]   Trying to connect to 127.0.0.1:4043
+mars 20 15:32:42 [0m[HW]   Connection to 127.0.0.1:4043 established
+mars 20 15:32:42 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+mars 20 15:32:43 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+mars 20 15:32:43 [0m[93m[NR_PHY]   Starting sync detection
+mars 20 15:32:43 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+mars 20 15:32:43 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 0, val = 0 (0 dB) avg 0 dB, ffo 0.000000
+mars 20 15:32:43 [0m[PHY]   PSS execution duration 109174 microseconds 
+mars 20 15:32:43 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 434640, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
+mars 20 15:32:43 [0m[PHY]   PSS execution duration 113255 microseconds 
+mars 20 15:32:43 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 434640, Nid2 0
+mars 20 15:32:43 [0m[PHY]   sync_pos 434640 ssb_offset 434496 
+mars 20 15:32:43 [0m[PHY]   Calling sss detection (normal CP)
+mars 20 15:32:43 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000541 (16 Hz),  ffo_pss+ffo_sss 0.000541 (16 Hz), nid1: 0, nid2: 0
+mars 20 15:32:43 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
+mars 20 15:32:43 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+mars 20 15:32:43 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41549, phase 7, pbch 0
+mars 20 15:32:43 [0m[PHY]   [UE0] In synch, rx_offset 430080 samples
+mars 20 15:32:43 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
+mars 20 15:32:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+mars 20 15:32:43 [0m[PHY]   Got synch: hw_slot_offset 28, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+mars 20 15:32:43 [0m[PHY]   UE synchronized decoded_frame_rx=26 UE->init_sync_frame=0 trashed_frames=10
+mars 20 15:32:43 [0m[PHY]   Resynchronizing RX by 430080 samples
+mars 20 15:32:43 [0m[32m[NR_RRC]   SIB1 decoded
+mars 20 15:32:43 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 20 15:32:43 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 20 15:32:44 [0m[NR_PHY]   ============================================
+mars 20 15:32:44 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+mars 20 15:32:44 [0m[NR_PHY]   ============================================
+mars 20 15:32:46 [0m[NR_PHY]   ============================================
+mars 20 15:32:46 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+mars 20 15:32:46 [0m[NR_PHY]   ============================================
+mars 20 15:32:47 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+mars 20 15:32:47 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+mars 20 15:32:47 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+mars 20 15:32:47 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 167, Slot 19, Symbol 0, Fdm 0
+mars 20 15:32:47 [0m[PHY]   PRACH [UE 0] in frame.slot 167.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+mars 20 15:32:47 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+mars 20 15:32:47 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
+mars 20 15:32:47 [0m[32m[NR_MAC]   [UE 0][RAPROC][168.7] Found RAR with the intended RAPID 24
+mars 20 15:32:47 [0m[93m[MAC]   received TA command 31
+mars 20 15:32:47 [0m[PHY]   RAR-Msg2 decoded
+mars 20 15:32:47 [0m[32m[NR_MAC]   [RAPROC][168.17] RA-Msg3 transmitted
+mars 20 15:32:47 [0m[MAC]   [UE 0][RAPROC] Frame 169 : received contention resolution identity: 0x1a73a30e1106 Terminating RA procedure
+mars 20 15:32:47 [0m[32m[MAC]   [UE 0][169.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
+mars 20 15:32:47 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+mars 20 15:32:47 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
+mars 20 15:32:47 [0m[MAC]   Applying CellGroupConfig from gNodeB
+mars 20 15:32:47 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+mars 20 15:32:47 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
+mars 20 15:32:47 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:47 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 4 , buffer 0x7aae3c004200
+mars 20 15:32:47 [0m[93m[NR_RRC]   unknown message type 68
+mars 20 15:32:47 [0m[NR_PHY]   ============================================
+mars 20 15:32:47 [0m[NR_PHY]   Harq round stats for Downlink: 7/0/0
+mars 20 15:32:47 [0m[NR_PHY]   ============================================
+mars 20 15:32:48 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:49 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:49 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:49 [0m[NR_PHY]   ============================================
+mars 20 15:32:49 [0m[NR_PHY]   Harq round stats for Downlink: 13/0/0
+mars 20 15:32:49 [0m[NR_PHY]   ============================================
+mars 20 15:32:50 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:51 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:51 [0m[NR_PHY]   ============================================
+mars 20 15:32:51 [0m[NR_PHY]   Harq round stats for Downlink: 20/0/0
+mars 20 15:32:51 [0m[NR_PHY]   ============================================
+mars 20 15:32:52 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:53 [0m[NR_PHY]   ============================================
+mars 20 15:32:53 [0m[NR_PHY]   Harq round stats for Downlink: 26/0/0
+mars 20 15:32:53 [0m[NR_PHY]   ============================================
+mars 20 15:32:53 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:54 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:55 [0m[NR_PHY]   ============================================
+mars 20 15:32:55 [0m[NR_PHY]   Harq round stats for Downlink: 32/0/0
+mars 20 15:32:55 [0m[NR_PHY]   ============================================
+mars 20 15:32:55 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:56 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:56 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:56 [0m[NR_PHY]   ============================================
+mars 20 15:32:56 [0m[NR_PHY]   Harq round stats for Downlink: 39/0/0
+mars 20 15:32:56 [0m[NR_PHY]   ============================================
+mars 20 15:32:57 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:58 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:32:58 [0m[NR_PHY]   ============================================
+mars 20 15:32:58 [0m[NR_PHY]   Harq round stats for Downlink: 45/0/0
+mars 20 15:32:58 [0m[NR_PHY]   ============================================
+mars 20 15:32:59 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:00 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:00 [0m[NR_PHY]   ============================================
+mars 20 15:33:00 [0m[NR_PHY]   Harq round stats for Downlink: 52/0/0
+mars 20 15:33:00 [0m[NR_PHY]   ============================================
+mars 20 15:33:01 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:02 [0m[NR_PHY]   ============================================
+mars 20 15:33:02 [0m[NR_PHY]   Harq round stats for Downlink: 58/0/0
+mars 20 15:33:02 [0m[NR_PHY]   ============================================
+mars 20 15:33:02 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:03 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:04 [0m[NR_PHY]   ============================================
+mars 20 15:33:04 [0m[NR_PHY]   Harq round stats for Downlink: 64/0/0
+mars 20 15:33:04 [0m[NR_PHY]   ============================================
+mars 20 15:33:04 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:05 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:06 [0m[NR_PHY]   ============================================
+mars 20 15:33:06 [0m[NR_PHY]   Harq round stats for Downlink: 71/0/0
+mars 20 15:33:06 [0m[NR_PHY]   ============================================
+mars 20 15:33:06 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:07 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:07 [0m[NR_PHY]   ============================================
+mars 20 15:33:07 [0m[NR_PHY]   Harq round stats for Downlink: 77/0/0
+mars 20 15:33:07 [0m[NR_PHY]   ============================================
+mars 20 15:33:08 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:09 [0m[NR_PHY]   ============================================
+mars 20 15:33:09 [0m[NR_PHY]   Harq round stats for Downlink: 84/0/0
+mars 20 15:33:09 [0m[NR_PHY]   ============================================
+mars 20 15:33:09 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:10 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:11 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+mars 20 15:33:11 [0m[NR_PHY]   ============================================
+mars 20 15:33:11 [0m[NR_PHY]   Harq round stats for Downlink: 90/0/0
+mars 20 15:33:11 [0m[NR_PHY]   ============================================
+mars 20 15:33:11 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:11 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:12 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:13 [0m[NR_PHY]   ============================================
+mars 20 15:33:13 [0m[NR_PHY]   Harq round stats for Downlink: 96/0/0
+mars 20 15:33:13 [0m[NR_PHY]   ============================================
+mars 20 15:33:13 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:14 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:15 [0m[NR_PHY]   ============================================
+mars 20 15:33:15 [0m[NR_PHY]   Harq round stats for Downlink: 103/0/0
+mars 20 15:33:15 [0m[NR_PHY]   ============================================
+mars 20 15:33:15 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:16 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:16 [0m[NR_PHY]   ============================================
+mars 20 15:33:16 [0m[NR_PHY]   Harq round stats for Downlink: 109/0/0
+mars 20 15:33:16 [0m[NR_PHY]   ============================================
+mars 20 15:33:17 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:18 [0m[NR_PHY]   ============================================
+mars 20 15:33:18 [0m[NR_PHY]   Harq round stats for Downlink: 116/0/0
+mars 20 15:33:18 [0m[NR_PHY]   ============================================
+mars 20 15:33:18 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:19 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:20 [0m[NR_PHY]   ============================================
+mars 20 15:33:20 [0m[NR_PHY]   Harq round stats for Downlink: 122/0/0
+mars 20 15:33:20 [0m[NR_PHY]   ============================================
+mars 20 15:33:20 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:21 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:22 [0m[NR_PHY]   ============================================
+mars 20 15:33:22 [0m[NR_PHY]   Harq round stats for Downlink: 128/0/0
+mars 20 15:33:22 [0m[NR_PHY]   ============================================
+mars 20 15:33:22 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:24 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:24 [0m[NR_PHY]   ============================================
+mars 20 15:33:24 [0m[NR_PHY]   Harq round stats for Downlink: 135/0/0
+mars 20 15:33:24 [0m[NR_PHY]   ============================================
+mars 20 15:33:25 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:26 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:26 [0m[NR_PHY]   ============================================
+mars 20 15:33:26 [0m[NR_PHY]   Harq round stats for Downlink: 141/0/0
+mars 20 15:33:26 [0m[NR_PHY]   ============================================
+mars 20 15:33:27 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:27 [0m[NR_PHY]   ============================================
+mars 20 15:33:27 [0m[NR_PHY]   Harq round stats for Downlink: 148/0/0
+mars 20 15:33:27 [0m[NR_PHY]   ============================================
+mars 20 15:33:28 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:29 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:29 [0m[NR_PHY]   ============================================
+mars 20 15:33:29 [0m[NR_PHY]   Harq round stats for Downlink: 154/0/0
+mars 20 15:33:29 [0m[NR_PHY]   ============================================
+mars 20 15:33:30 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:31 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:31 [0m[NR_PHY]   ============================================
+mars 20 15:33:31 [0m[NR_PHY]   Harq round stats for Downlink: 160/0/0
+mars 20 15:33:31 [0m[NR_PHY]   ============================================
+mars 20 15:33:32 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:33 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:33 [0m[NR_PHY]   ============================================
+mars 20 15:33:33 [0m[NR_PHY]   Harq round stats for Downlink: 167/0/0
+mars 20 15:33:33 [0m[NR_PHY]   ============================================
+mars 20 15:33:34 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:35 [0m[NR_PHY]   ============================================
+mars 20 15:33:35 [0m[NR_PHY]   Harq round stats for Downlink: 173/0/0
+mars 20 15:33:35 [0m[NR_PHY]   ============================================
+mars 20 15:33:35 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:36 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:37 [0m[NR_PHY]   ============================================
+mars 20 15:33:37 [0m[NR_PHY]   Harq round stats for Downlink: 180/0/0
+mars 20 15:33:37 [0m[NR_PHY]   ============================================
+mars 20 15:33:37 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:38 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:38 [0m[NR_PHY]   ============================================
+mars 20 15:33:38 [0m[NR_PHY]   Harq round stats for Downlink: 186/0/0
+mars 20 15:33:38 [0m[NR_PHY]   ============================================
+mars 20 15:33:39 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:40 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:40 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+mars 20 15:33:40 [0m[NR_PHY]   ============================================
+mars 20 15:33:40 [0m[NR_PHY]   Harq round stats for Downlink: 192/0/0
+mars 20 15:33:40 [0m[NR_PHY]   ============================================
+mars 20 15:33:41 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:42 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:42 [0m[NR_PHY]   ============================================
+mars 20 15:33:42 [0m[NR_PHY]   Harq round stats for Downlink: 199/0/0
+mars 20 15:33:42 [0m[NR_PHY]   ============================================
+mars 20 15:33:43 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:43 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:44 [0m[NR_PHY]   ============================================
+mars 20 15:33:44 [0m[NR_PHY]   Harq round stats for Downlink: 205/0/0
+mars 20 15:33:44 [0m[NR_PHY]   ============================================
+mars 20 15:33:44 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:45 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:46 [0m[NR_PHY]   ============================================
+mars 20 15:33:46 [0m[NR_PHY]   Harq round stats for Downlink: 212/0/0
+mars 20 15:33:46 [0m[NR_PHY]   ============================================
+mars 20 15:33:46 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:47 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:47 [0m[NR_PHY]   ============================================
+mars 20 15:33:47 [0m[NR_PHY]   Harq round stats for Downlink: 218/0/0
+mars 20 15:33:47 [0m[NR_PHY]   ============================================
+mars 20 15:33:48 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:49 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:49 [0m[NR_PHY]   ============================================
+mars 20 15:33:49 [0m[NR_PHY]   Harq round stats for Downlink: 224/0/0
+mars 20 15:33:49 [0m[NR_PHY]   ============================================
+mars 20 15:33:50 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:51 [0m[NR_PHY]   ============================================
+mars 20 15:33:51 [0m[NR_PHY]   Harq round stats for Downlink: 231/0/0
+mars 20 15:33:51 [0m[NR_PHY]   ============================================
+mars 20 15:33:51 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:52 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:53 [0m[NR_PHY]   ============================================
+mars 20 15:33:53 [0m[NR_PHY]   Harq round stats for Downlink: 237/0/0
+mars 20 15:33:53 [0m[NR_PHY]   ============================================
+mars 20 15:33:53 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:54 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:55 [0m[NR_PHY]   ============================================
+mars 20 15:33:55 [0m[NR_PHY]   Harq round stats for Downlink: 244/0/0
+mars 20 15:33:55 [0m[NR_PHY]   ============================================
+mars 20 15:33:55 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:56 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:57 [0m[NR_PHY]   ============================================
+mars 20 15:33:57 [0m[NR_PHY]   Harq round stats for Downlink: 250/0/0
+mars 20 15:33:57 [0m[NR_PHY]   ============================================
+mars 20 15:33:57 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:58 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:33:58 [0m[NR_PHY]   ============================================
+mars 20 15:33:58 [0m[NR_PHY]   Harq round stats for Downlink: 256/0/0
+mars 20 15:33:58 [0m[NR_PHY]   ============================================
+mars 20 15:33:59 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:00 [0m[NR_PHY]   ============================================
+mars 20 15:34:00 [0m[NR_PHY]   Harq round stats for Downlink: 263/0/0
+mars 20 15:34:00 [0m[NR_PHY]   ============================================
+mars 20 15:34:00 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:01 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:02 [0m[NR_PHY]   ============================================
+mars 20 15:34:02 [0m[NR_PHY]   Harq round stats for Downlink: 269/0/0
+mars 20 15:34:02 [0m[NR_PHY]   ============================================
+mars 20 15:34:02 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:03 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:04 [0m[NR_PHY]   ============================================
+mars 20 15:34:04 [0m[NR_PHY]   Harq round stats for Downlink: 276/0/0
+mars 20 15:34:04 [0m[NR_PHY]   ============================================
+mars 20 15:34:04 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:06 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:06 [0m[NR_PHY]   ============================================
+mars 20 15:34:06 [0m[NR_PHY]   Harq round stats for Downlink: 282/0/0
+mars 20 15:34:06 [0m[NR_PHY]   ============================================
+mars 20 15:34:07 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:08 [0m[NR_PHY]   ============================================
+mars 20 15:34:08 [0m[NR_PHY]   Harq round stats for Downlink: 288/0/0
+mars 20 15:34:08 [0m[NR_PHY]   ============================================
+mars 20 15:34:08 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:09 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:09 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+mars 20 15:34:09 [0m[NR_PHY]   ============================================
+mars 20 15:34:09 [0m[NR_PHY]   Harq round stats for Downlink: 295/0/0
+mars 20 15:34:09 [0m[NR_PHY]   ============================================
+mars 20 15:34:10 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:11 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:11 [0m[NR_PHY]   ============================================
+mars 20 15:34:11 [0m[NR_PHY]   Harq round stats for Downlink: 301/0/0
+mars 20 15:34:11 [0m[NR_PHY]   ============================================
+mars 20 15:34:12 [0m[1;31m[SDAP]   /home/hsu/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+mars 20 15:34:13 [0m[93m[HW]   Lost socket
+mars 20 15:34:13 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+mars 20 15:34:13 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+mars 20 15:34:13 [CONFIG] log_config: 2/3 parameters successfully set 
+mars 20 15:34:13 [CONFIG] log_config: 53/53 parameters successfully set 
+mars 20 15:34:13 [CONFIG] log_config: 53/53 parameters successfully set 
+mars 20 15:34:13 [CONFIG] log_config: 16/16 parameters successfully set 
+mars 20 15:34:13 [CONFIG] log_config: 16/16 parameters successfully set 
+mars 20 15:34:13 log init done
+mars 20 15:34:13 [CONFIG] (root): 30/33 parameters successfully set 
+mars 20 15:34:13 [CONFIG] (root): 37/40 parameters successfully set 
+mars 20 15:34:13 [CONFIG] (root): 5/6 parameters successfully set 
+mars 20 15:34:13 [CONFIG] TTracer: 3/3 parameters successfully set 
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 create a thread for core -1
+mars 20 15:34:13 [CONFIG] opt: 3/3 parameters successfully set 
+mars 20 15:34:13 [CONFIG] loader: 2/2 parameters successfully set 
+mars 20 15:34:13 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+mars 20 15:34:13 shlib_path libldpc.so
+mars 20 15:34:13 [LOADER] library libldpc.so successfully loaded
+mars 20 15:34:13 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+mars 20 15:34:13 [CONFIG] loader.dfts: 1/2 parameters successfully set 
+mars 20 15:34:13 shlib_path libdfts.so
+mars 20 15:34:13 [LOADER] library libdfts.so successfully loaded
+mars 20 15:34:13 [CONFIG] device.recplay: 8/8 parameters successfully set 
+mars 20 15:34:13 [CONFIG] device: 1/1 parameters successfully set 
+mars 20 15:34:13 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+mars 20 15:34:13 shlib_path librfsimulator.so
+mars 20 15:34:13 [LOADER] library librfsimulator.so successfully loaded
+mars 20 15:34:13 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+mars 20 15:34:13 Initializing random number generator, seed 4795633460016757854
+mars 20 15:34:13 UE threads created by 3041494
+mars 20 15:34:13 TYPE <CTRL-C> TO TERMINATE
+mars 20 15:34:13 [CONFIG] uicc0: 10/10 parameters successfully set 
+mars 20 15:34:13 Entering ITTI signals handler
+mars 20 15:34:13 TYPE <CTRL-C> TO TERMINATE
