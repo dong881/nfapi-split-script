@@ -27,7 +27,7 @@ stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
 # stdbuf -oL ./ping 2>&1 | ts &> "$LOG_PATH/ping-nfapi-fixes.log"
 # echo "Time to $wait_sec seconds..."
 
- wait_sec=100
+ wait_sec=60
  echo "The script automatically closes after $wait_sec seconds..."
 ####################### Wait for the specified number of seconds
  sleep $wait_sec
