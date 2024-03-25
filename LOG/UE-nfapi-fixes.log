@@ -1,445 +1,421 @@
- 三  25 21:38:57 Calling sched_setscheduler(79)
- 三  25 21:38:57 [ENB_APP]   nfapi running mode: MONOLITHIC
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
- 三  25 21:38:57 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
- 三  25 21:38:57 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
- 三  25 21:38:58 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
- 三  25 21:38:58 [0m[OPT]   OPT disabled
- 三  25 21:38:58 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 3797f1637b Date: Mon Mar 25 21:21:41 2024 +0800
- 三  25 21:38:58 [0m[PDCP]   pdcp init,usegtp usenetlink
- 三  25 21:38:58 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
- 三  25 21:38:58 [0m[PDCP]   UE pdcp will use tun interface
- 三  25 21:38:58 [0m[NR_MAC]   [UE0] Initializing MAC
- 三  25 21:38:58 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 三  25 21:38:58 [0m[RLC]   activated srb0 for UE with RNTI 0x0
- 三  25 21:38:58 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 三  25 21:38:58 , chest-freq 0, chest-time 0
- 三  25 21:38:58 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 三  25 21:38:58 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 三  25 21:38:58 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  25 21:38:58 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  25 21:38:58 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 三  25 21:38:58 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 三  25 21:38:58 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 三  25 21:38:59 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 三  25 21:38:59 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:38:59 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 三  25 21:38:59 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
- 三  25 21:38:59 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
- 三  25 21:38:59 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
- 三  25 21:38:59 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
- 三  25 21:38:59 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
- 三  25 21:38:59 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
- 三  25 21:38:59 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
- 三  25 21:38:59 [1;31m[HW]   Can't set cpu frequency
- 三  25 21:38:59 [0m[PHY]   Intializing UE Threads for instance 0 (0x5586a328ebc0,0x7fbe9b10d010)...
- 三  25 21:38:59 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
- 三  25 21:38:59 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
- 三  25 21:38:59 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
- 三  25 21:38:59 [0m[93m[HW]   sample_rate 61440000.000000
- 三  25 21:38:59 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 三  25 21:38:59 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
- 三  25 21:38:59 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
- 三  25 21:38:59 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
- 三  25 21:38:59 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
- 三  25 21:38:59 [0m[NR_RRC]   create TASK_RRC_NRUE 
- 三  25 21:38:59 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
- 三  25 21:38:59 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
- 三  25 21:38:59 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
- 三  25 21:38:59 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
- 三  25 21:38:59 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
- 三  25 21:38:59 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
- 三  25 21:38:59 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:38:59 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:38:59 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
- 三  25 21:38:59 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
- 三  25 21:38:59 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 三  25 21:39:00 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:00 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:01 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:01 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:02 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:02 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:03 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:03 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:04 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:04 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:05 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:05 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:06 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 三  25 21:39:06 [0m[HW]   Connection to 127.0.0.1:4043 established
- 三  25 21:39:06 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 三  25 21:39:07 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
- 三  25 21:39:07 [0m[93m[NR_PHY]   Starting sync detection
- 三  25 21:39:07 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 三  25 21:39:08 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 557520, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
- 三  25 21:39:08 [0m[PHY]   PSS execution duration 113422 microseconds 
- 三  25 21:39:08 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 557520, Nid2 0
- 三  25 21:39:08 [0m[PHY]   sync_pos 557520 ssb_offset 557376 
- 三  25 21:39:08 [0m[PHY]   Calling sss detection (normal CP)
- 三  25 21:39:08 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000539 (16 Hz),  ffo_pss+ffo_sss 0.000539 (16 Hz), nid1: 0, nid2: 0
- 三  25 21:39:08 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
- 三  25 21:39:08 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
- 三  25 21:39:08 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41552, phase 7, pbch 0
- 三  25 21:39:08 [0m[PHY]   [UE0] In synch, rx_offset 552960 samples
- 三  25 21:39:08 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
- 三  25 21:39:08 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 三  25 21:39:08 [0m[PHY]   Got synch: hw_slot_offset 36, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
- 三  25 21:39:08 [0m[PHY]   UE synchronized decoded_frame_rx=40 UE->init_sync_frame=1 trashed_frames=6
- 三  25 21:39:08 [0m[PHY]   Resynchronizing RX by 552960 samples
- 三  25 21:39:08 [0m[32m[NR_RRC]   SIB1 decoded
- 三  25 21:39:08 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  25 21:39:08 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  25 21:39:08 [0m[NR_PHY]   ============================================
- 三  25 21:39:08 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  25 21:39:08 [0m[NR_PHY]   ============================================
- 三  25 21:39:10 [0m[NR_PHY]   ============================================
- 三  25 21:39:10 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
- 三  25 21:39:10 [0m[NR_PHY]   ============================================
- 三  25 21:39:12 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
- 三  25 21:39:12 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
- 三  25 21:39:12 [0m[MAC]   Initialization of 4-step contention-based random access procedure
- 三  25 21:39:12 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
- 三  25 21:39:12 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 2, first_nonzero_root_idx 0
- 三  25 21:39:12 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
- 三  25 21:39:12 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
- 三  25 21:39:12 [0m[32m[NR_MAC]   [UE 0][RAPROC][184.7] Found RAR with the intended RAPID 9
- 三  25 21:39:12 [0m[93m[MAC]   received TA command 31
- 三  25 21:39:12 [0m[PHY]   RAR-Msg2 decoded
- 三  25 21:39:12 [0m[32m[NR_MAC]   [RAPROC][184.17] RA-Msg3 transmitted
- 三  25 21:39:12 [0m[MAC]   [UE 0][RAPROC] Frame 185 : received contention resolution identity: 0x1e554ef93bc6 Terminating RA procedure
- 三  25 21:39:12 [0m[32m[MAC]   [UE 0][185.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
- 三  25 21:39:12 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
- 三  25 21:39:12 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
- 三  25 21:39:12 [0m[MAC]   Applying CellGroupConfig from gNodeB
- 三  25 21:39:12 [0m[NR_RRC]   State = NR_RRC_CONNECTED
- 三  25 21:39:12 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
- 三  25 21:39:12 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7fbe58004390
- 三  25 21:39:12 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
- 三  25 21:39:12 [0m[NR_PHY]   ============================================
- 三  25 21:39:12 [0m[NR_PHY]   Harq round stats for Downlink: 5/0/0
- 三  25 21:39:12 [0m[NR_PHY]   ============================================
- 三  25 21:39:12 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7fbe58003750
- 三  25 21:39:12 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
- 三  25 21:39:12 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
- 三  25 21:39:12 [0m[NR_RRC]   Security algorithm is set to nea0
- 三  25 21:39:12 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
- 三  25 21:39:12 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
- 三  25 21:39:12 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
- 三  25 21:39:12 [0m[1;31m[MAC]   [UE 0][202.5] nr_ue_process_mac_pdu, residual mac pdu length -117 < 0!
- 三  25 21:39:12 [0m[1;31m[PDCP]   discard NR PDU, integrity failed
- 三  25 21:39:14 [0m[NR_PHY]   ============================================
- 三  25 21:39:14 [0m[NR_PHY]   Harq round stats for Downlink: 18/1/0
- 三  25 21:39:14 [0m[NR_PHY]   ============================================
- 三  25 21:39:16 [0m[NR_PHY]   ============================================
- 三  25 21:39:16 [0m[NR_PHY]   Harq round stats for Downlink: 24/1/0
- 三  25 21:39:16 [0m[NR_PHY]   ============================================
- 三  25 21:39:18 [0m[NR_PHY]   ============================================
- 三  25 21:39:18 [0m[NR_PHY]   Harq round stats for Downlink: 31/1/0
- 三  25 21:39:18 [0m[NR_PHY]   ============================================
- 三  25 21:39:20 [0m[NR_PHY]   ============================================
- 三  25 21:39:20 [0m[NR_PHY]   Harq round stats for Downlink: 37/1/0
- 三  25 21:39:20 [0m[NR_PHY]   ============================================
- 三  25 21:39:22 [0m[NR_PHY]   ============================================
- 三  25 21:39:22 [0m[NR_PHY]   Harq round stats for Downlink: 44/1/0
- 三  25 21:39:22 [0m[NR_PHY]   ============================================
- 三  25 21:39:24 [0m[NR_PHY]   ============================================
- 三  25 21:39:24 [0m[NR_PHY]   Harq round stats for Downlink: 50/1/0
- 三  25 21:39:24 [0m[NR_PHY]   ============================================
- 三  25 21:39:26 [0m[NR_PHY]   ============================================
- 三  25 21:39:26 [0m[NR_PHY]   Harq round stats for Downlink: 56/1/0
- 三  25 21:39:26 [0m[NR_PHY]   ============================================
- 三  25 21:39:28 [0m[NR_PHY]   ============================================
- 三  25 21:39:28 [0m[NR_PHY]   Harq round stats for Downlink: 63/1/0
- 三  25 21:39:28 [0m[NR_PHY]   ============================================
- 三  25 21:39:30 [0m[NR_PHY]   ============================================
- 三  25 21:39:30 [0m[NR_PHY]   Harq round stats for Downlink: 69/1/0
- 三  25 21:39:30 [0m[NR_PHY]   ============================================
- 三  25 21:39:32 [0m[NR_PHY]   ============================================
- 三  25 21:39:32 [0m[NR_PHY]   Harq round stats for Downlink: 76/1/0
- 三  25 21:39:32 [0m[NR_PHY]   ============================================
- 三  25 21:39:34 [0m[NR_PHY]   ============================================
- 三  25 21:39:34 [0m[NR_PHY]   Harq round stats for Downlink: 82/1/0
- 三  25 21:39:34 [0m[NR_PHY]   ============================================
- 三  25 21:39:36 [0m[NR_PHY]   ============================================
- 三  25 21:39:36 [0m[NR_PHY]   Harq round stats for Downlink: 88/1/0
- 三  25 21:39:36 [0m[NR_PHY]   ============================================
- 三  25 21:39:38 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:38 [0m[NR_PHY]   ============================================
- 三  25 21:39:38 [0m[NR_PHY]   Harq round stats for Downlink: 95/1/0
- 三  25 21:39:38 [0m[NR_PHY]   ============================================
- 三  25 21:39:40 [0m[NR_PHY]   ============================================
- 三  25 21:39:40 [0m[NR_PHY]   Harq round stats for Downlink: 101/1/0
- 三  25 21:39:40 [0m[NR_PHY]   ============================================
- 三  25 21:39:40 [0m[1;31m[PHY]   [UE 0] frame 72, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:42 [0m[NR_PHY]   ============================================
- 三  25 21:39:42 [0m[NR_PHY]   Harq round stats for Downlink: 108/1/0
- 三  25 21:39:42 [0m[NR_PHY]   ============================================
- 三  25 21:39:44 [0m[NR_PHY]   ============================================
- 三  25 21:39:44 [0m[NR_PHY]   Harq round stats for Downlink: 114/1/0
- 三  25 21:39:44 [0m[NR_PHY]   ============================================
- 三  25 21:39:46 [0m[NR_PHY]   ============================================
- 三  25 21:39:46 [0m[NR_PHY]   Harq round stats for Downlink: 120/1/0
- 三  25 21:39:46 [0m[NR_PHY]   ============================================
- 三  25 21:39:48 [0m[NR_PHY]   ============================================
- 三  25 21:39:48 [0m[NR_PHY]   Harq round stats for Downlink: 127/1/0
- 三  25 21:39:48 [0m[NR_PHY]   ============================================
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 354, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 356, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 358, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 360, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 362, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 364, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 366, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:49 [0m[1;31m[PHY]   [UE 0] frame 368, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:50 [0m[1;31m[PHY]   [UE 0] frame 370, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:50 [0m[1;31m[PHY]   [UE 0] frame 372, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:50 [0m[1;31m[PHY]   [UE 0] frame 374, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:39:50 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
- 三  25 21:39:50 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 123
- 三  25 21:39:50 [0m[NR_PHY]   ============================================
- 三  25 21:39:50 [0m[NR_PHY]   Harq round stats for Downlink: 133/1/0
- 三  25 21:39:50 [0m[NR_PHY]   ============================================
- 三  25 21:39:52 [0m[NR_PHY]   ============================================
- 三  25 21:39:52 [0m[NR_PHY]   Harq round stats for Downlink: 140/2/0
- 三  25 21:39:52 [0m[NR_PHY]   ============================================
- 三  25 21:39:54 [0m[NR_PHY]   ============================================
- 三  25 21:39:54 [0m[NR_PHY]   Harq round stats for Downlink: 146/2/0
- 三  25 21:39:54 [0m[NR_PHY]   ============================================
- 三  25 21:39:56 [0m[NR_PHY]   ============================================
- 三  25 21:39:56 [0m[NR_PHY]   Harq round stats for Downlink: 152/2/0
- 三  25 21:39:56 [0m[NR_PHY]   ============================================
- 三  25 21:39:58 [0m[NR_PHY]   ============================================
- 三  25 21:39:58 [0m[NR_PHY]   Harq round stats for Downlink: 159/2/0
- 三  25 21:39:58 [0m[NR_PHY]   ============================================
- 三  25 21:40:00 [0m[NR_PHY]   ============================================
- 三  25 21:40:00 [0m[NR_PHY]   Harq round stats for Downlink: 165/2/0
- 三  25 21:40:00 [0m[NR_PHY]   ============================================
- 三  25 21:40:02 [0m[NR_PHY]   ============================================
- 三  25 21:40:02 [0m[NR_PHY]   Harq round stats for Downlink: 172/2/0
- 三  25 21:40:02 [0m[NR_PHY]   ============================================
- 三  25 21:40:04 [0m[NR_PHY]   ============================================
- 三  25 21:40:04 [0m[NR_PHY]   Harq round stats for Downlink: 178/2/0
- 三  25 21:40:04 [0m[NR_PHY]   ============================================
- 三  25 21:40:06 [0m[NR_PHY]   ============================================
- 三  25 21:40:06 [0m[NR_PHY]   Harq round stats for Downlink: 184/2/0
- 三  25 21:40:06 [0m[NR_PHY]   ============================================
- 三  25 21:40:08 [0m[NR_PHY]   ============================================
- 三  25 21:40:08 [0m[NR_PHY]   Harq round stats for Downlink: 191/2/0
- 三  25 21:40:08 [0m[NR_PHY]   ============================================
- 三  25 21:40:09 [0m[1;31m[PHY]   [UE 0] frame 994, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:09 [0m[1;31m[PHY]   [UE 0] frame 996, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:09 [0m[1;31m[PHY]   [UE 0] frame 998, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:09 [0m[1;31m[PHY]   [UE 0] frame 1000, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:10 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 80
- 三  25 21:40:10 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:10 [0m[NR_PHY]   ============================================
- 三  25 21:40:10 [0m[NR_PHY]   Harq round stats for Downlink: 197/3/0
- 三  25 21:40:10 [0m[NR_PHY]   ============================================
- 三  25 21:40:12 [0m[NR_PHY]   ============================================
- 三  25 21:40:12 [0m[NR_PHY]   Harq round stats for Downlink: 204/3/0
- 三  25 21:40:12 [0m[NR_PHY]   ============================================
- 三  25 21:40:14 [0m[NR_PHY]   ============================================
- 三  25 21:40:14 [0m[NR_PHY]   Harq round stats for Downlink: 210/3/0
- 三  25 21:40:14 [0m[NR_PHY]   ============================================
- 三  25 21:40:16 [0m[NR_PHY]   ============================================
- 三  25 21:40:16 [0m[NR_PHY]   Harq round stats for Downlink: 216/3/0
- 三  25 21:40:16 [0m[NR_PHY]   ============================================
- 三  25 21:40:18 [0m[NR_PHY]   ============================================
- 三  25 21:40:18 [0m[NR_PHY]   Harq round stats for Downlink: 223/3/0
- 三  25 21:40:18 [0m[NR_PHY]   ============================================
- 三  25 21:40:20 [0m[NR_PHY]   ============================================
- 三  25 21:40:20 [0m[NR_PHY]   Harq round stats for Downlink: 229/3/0
- 三  25 21:40:20 [0m[NR_PHY]   ============================================
- 三  25 21:40:22 [0m[NR_PHY]   ============================================
- 三  25 21:40:22 [0m[NR_PHY]   Harq round stats for Downlink: 236/3/0
- 三  25 21:40:22 [0m[NR_PHY]   ============================================
- 三  25 21:40:24 [0m[NR_PHY]   ============================================
- 三  25 21:40:24 [0m[NR_PHY]   Harq round stats for Downlink: 242/3/0
- 三  25 21:40:24 [0m[NR_PHY]   ============================================
- 三  25 21:40:26 [0m[NR_PHY]   ============================================
- 三  25 21:40:26 [0m[NR_PHY]   Harq round stats for Downlink: 248/3/0
- 三  25 21:40:26 [0m[NR_PHY]   ============================================
- 三  25 21:40:28 [0m[NR_PHY]   ============================================
- 三  25 21:40:28 [0m[NR_PHY]   Harq round stats for Downlink: 255/3/0
- 三  25 21:40:28 [0m[NR_PHY]   ============================================
- 三  25 21:40:30 [0m[NR_PHY]   ============================================
- 三  25 21:40:30 [0m[NR_PHY]   Harq round stats for Downlink: 261/3/0
- 三  25 21:40:30 [0m[NR_PHY]   ============================================
- 三  25 21:40:32 [0m[NR_PHY]   ============================================
- 三  25 21:40:32 [0m[NR_PHY]   Harq round stats for Downlink: 268/3/0
- 三  25 21:40:32 [0m[NR_PHY]   ============================================
- 三  25 21:40:34 [0m[NR_PHY]   ============================================
- 三  25 21:40:34 [0m[NR_PHY]   Harq round stats for Downlink: 274/3/0
- 三  25 21:40:34 [0m[NR_PHY]   ============================================
- 三  25 21:40:36 [0m[NR_PHY]   ============================================
- 三  25 21:40:36 [0m[NR_PHY]   Harq round stats for Downlink: 280/3/0
- 三  25 21:40:36 [0m[NR_PHY]   ============================================
- 三  25 21:40:37 [0m[1;31m[PHY]   [UE 0] frame 844, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:38 [0m[NR_PHY]   ============================================
- 三  25 21:40:38 [0m[NR_PHY]   Harq round stats for Downlink: 287/3/0
- 三  25 21:40:38 [0m[NR_PHY]   ============================================
- 三  25 21:40:40 [0m[NR_PHY]   ============================================
- 三  25 21:40:40 [0m[NR_PHY]   Harq round stats for Downlink: 293/3/0
- 三  25 21:40:40 [0m[NR_PHY]   ============================================
- 三  25 21:40:42 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:42 [0m[NR_PHY]   ============================================
- 三  25 21:40:42 [0m[NR_PHY]   Harq round stats for Downlink: 300/3/0
- 三  25 21:40:42 [0m[NR_PHY]   ============================================
- 三  25 21:40:44 [0m[NR_PHY]   ============================================
- 三  25 21:40:44 [0m[NR_PHY]   Harq round stats for Downlink: 306/3/0
- 三  25 21:40:44 [0m[NR_PHY]   ============================================
- 三  25 21:40:46 [0m[NR_PHY]   ============================================
- 三  25 21:40:46 [0m[NR_PHY]   Harq round stats for Downlink: 312/3/0
- 三  25 21:40:46 [0m[NR_PHY]   ============================================
- 三  25 21:40:47 [0m[1;31m[NR_MAC]   Invalid CCCH message!, pdu_len: 80
- 三  25 21:40:48 [0m[NR_PHY]   ============================================
- 三  25 21:40:48 [0m[NR_PHY]   Harq round stats for Downlink: 319/4/0
- 三  25 21:40:48 [0m[NR_PHY]   ============================================
- 三  25 21:40:50 [0m[NR_PHY]   ============================================
- 三  25 21:40:50 [0m[NR_PHY]   Harq round stats for Downlink: 325/4/0
- 三  25 21:40:50 [0m[NR_PHY]   ============================================
- 三  25 21:40:52 [0m[1;31m[PHY]   [UE 0] frame 312, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:52 [0m[NR_PHY]   ============================================
- 三  25 21:40:52 [0m[NR_PHY]   Harq round stats for Downlink: 332/4/0
- 三  25 21:40:52 [0m[NR_PHY]   ============================================
- 三  25 21:40:54 [0m[1;31m[PHY]   [UE 0] frame 380, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:54 [0m[NR_PHY]   ============================================
- 三  25 21:40:54 [0m[NR_PHY]   Harq round stats for Downlink: 338/4/0
- 三  25 21:40:54 [0m[NR_PHY]   ============================================
- 三  25 21:40:56 [0m[NR_PHY]   ============================================
- 三  25 21:40:56 [0m[NR_PHY]   Harq round stats for Downlink: 344/4/0
- 三  25 21:40:56 [0m[NR_PHY]   ============================================
- 三  25 21:40:57 [0m[1;31m[PHY]   [UE 0] frame 472, nr_slot_rx 0, Error decoding PBCH!
- 三  25 21:40:58 [0m[93m[HW]   Lost socket
- 三  25 21:40:58 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 三  25 21:40:58 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
- 三  25 21:40:58 [CONFIG] log_config: 2/3 parameters successfully set 
- 三  25 21:40:58 [CONFIG] log_config: 53/53 parameters successfully set 
- 三  25 21:40:58 [CONFIG] log_config: 53/53 parameters successfully set 
- 三  25 21:40:58 [CONFIG] log_config: 16/16 parameters successfully set 
- 三  25 21:40:58 [CONFIG] log_config: 16/16 parameters successfully set 
- 三  25 21:40:58 log init done
- 三  25 21:40:58 [CONFIG] (root): 30/33 parameters successfully set 
- 三  25 21:40:58 [CONFIG] (root): 37/40 parameters successfully set 
- 三  25 21:40:58 [CONFIG] (root): 5/6 parameters successfully set 
- 三  25 21:40:58 [CONFIG] TTracer: 3/3 parameters successfully set 
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 create a thread for core -1
- 三  25 21:40:58 [CONFIG] opt: 3/3 parameters successfully set 
- 三  25 21:40:58 [CONFIG] loader: 2/2 parameters successfully set 
- 三  25 21:40:58 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
- 三  25 21:40:58 shlib_path libldpc.so
- 三  25 21:40:58 [LOADER] library libldpc.so successfully loaded
- 三  25 21:40:58 [CONFIG] nas.noS1: 3/3 parameters successfully set 
- 三  25 21:40:58 [CONFIG] loader.dfts: 1/2 parameters successfully set 
- 三  25 21:40:58 shlib_path libdfts.so
- 三  25 21:40:58 [LOADER] library libdfts.so successfully loaded
- 三  25 21:40:58 [CONFIG] device.recplay: 8/8 parameters successfully set 
- 三  25 21:40:58 [CONFIG] device: 1/1 parameters successfully set 
- 三  25 21:40:58 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
- 三  25 21:40:58 shlib_path librfsimulator.so
- 三  25 21:40:58 [LOADER] library librfsimulator.so successfully loaded
- 三  25 21:40:58 [CONFIG] rfsimulator: 8/9 parameters successfully set 
- 三  25 21:40:58 Initializing random number generator, seed 17009264162653887830
- 三  25 21:40:58 UE threads created by 1334129
- 三  25 21:40:58 TYPE <CTRL-C> TO TERMINATE
- 三  25 21:40:58 [CONFIG] uicc0: 10/10 parameters successfully set 
- 三  25 21:40:58 Entering ITTI signals handler
- 三  25 21:40:58 TYPE <CTRL-C> TO TERMINATE
- 三  25 21:40:58 kgnb : d4 8a fc ad 16 0b 8d 39 4a c8 47 7c 12 4d f2 ac 4c 4f c9 1d 75 b7 00 ca 64 0a 8a ef 66 49 c7 9c 
- 三  25 21:40:58 kausf:1e ab 6c 1a 91 b7 c2 8b 3d 5b d7 be ef c3 d1 c5 1d a2 5f 47 c2 bd 14 56 78 a7 32 81 ad 6f 25 ee 
- 三  25 21:40:58 kseaf:47 e9 d7 29 c2 c5 ed bb 32 dd 44 4d 2c 85 98 98 6f ae 6c a 80 61 5b 8d 17 28 2 34 f9 cf 96 32 
- 三  25 21:40:58 kamf:24 2d f8 c2 2e 82 9f 96 b0 88 38 b5 56 4f 30 19 50 4e 86 f5 a8 3d 3e d0 f0 38 47 43 4b c4 da 99 
- 三  25 21:40:58 knas_int:
- 三  25 21:40:58 41 dc 1a cb 64 23 27 7c 84 1a 39 e8 c dd c2 a5 
- 三  25 21:40:58 mac 26 cb 62 6c 
- 三  25 21:40:58 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=d4 8a fc ad 16 0b 8d 39 4a c8 47 7c 12 4d f2 ac 4c 4f c9 1d 75 b7 00 ca 64 0a 8a ef 66 49 c7 9c [0m
- 三  25 21:40:58 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00 [0m
+ 三  25 22:05:45 Calling sched_setscheduler(79)
+ 三  25 22:05:45 [ENB_APP]   nfapi running mode: MONOLITHIC
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+ 三  25 22:05:45 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+ 三  25 22:05:45 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+ 三  25 22:05:46 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+ 三  25 22:05:46 [0m[OPT]   OPT disabled
+ 三  25 22:05:46 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: 3797f1637b Date: Mon Mar 25 21:21:41 2024 +0800
+ 三  25 22:05:46 [0m[PDCP]   pdcp init,usegtp usenetlink
+ 三  25 22:05:46 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+ 三  25 22:05:46 [0m[PDCP]   UE pdcp will use tun interface
+ 三  25 22:05:46 [0m[NR_MAC]   [UE0] Initializing MAC
+ 三  25 22:05:47 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+ 三  25 22:05:47 [0m[RLC]   activated srb0 for UE with RNTI 0x0
+ 三  25 22:05:47 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+ 三  25 22:05:47 , chest-freq 0, chest-time 0
+ 三  25 22:05:47 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+ 三  25 22:05:47 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+ 三  25 22:05:47 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  25 22:05:47 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  25 22:05:47 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 三  25 22:05:47 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+ 三  25 22:05:47 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+ 三  25 22:05:47 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+ 三  25 22:05:47 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:47 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+ 三  25 22:05:47 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+ 三  25 22:05:47 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  25 22:05:47 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  25 22:05:47 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  25 22:05:47 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  25 22:05:47 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  25 22:05:47 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+ 三  25 22:05:47 [1;31m[HW]   Can't set cpu frequency
+ 三  25 22:05:47 [0m[PHY]   Intializing UE Threads for instance 0 (0x559192b77bc0,0x7f2867211010)...
+ 三  25 22:05:47 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+ 三  25 22:05:47 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+ 三  25 22:05:47 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+ 三  25 22:05:47 [0m[93m[HW]   sample_rate 61440000.000000
+ 三  25 22:05:47 [0m[HW]   Running as client: will connect to a rfsimulator server side
+ 三  25 22:05:47 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
+ 三  25 22:05:47 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+ 三  25 22:05:47 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+ 三  25 22:05:47 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+ 三  25 22:05:47 [0m[NR_RRC]   create TASK_RRC_NRUE 
+ 三  25 22:05:47 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+ 三  25 22:05:47 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+ 三  25 22:05:47 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+ 三  25 22:05:48 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+ 三  25 22:05:48 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:48 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:48 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+ 三  25 22:05:48 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+ 三  25 22:05:48 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+ 三  25 22:05:48 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+ 三  25 22:05:48 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+ 三  25 22:05:48 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:48 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:49 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:49 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:50 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:50 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:51 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:51 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:52 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:52 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:53 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:53 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:54 [0m[HW]   Trying to connect to 127.0.0.1:4043
+ 三  25 22:05:54 [0m[HW]   Connection to 127.0.0.1:4043 established
+ 三  25 22:05:54 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+ 三  25 22:05:56 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+ 三  25 22:05:56 [0m[93m[NR_PHY]   Starting sync detection
+ 三  25 22:05:56 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+ 三  25 22:05:56 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 114256, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
+ 三  25 22:05:56 [0m[PHY]   PSS execution duration 154488 microseconds 
+ 三  25 22:05:56 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 114256, Nid2 0
+ 三  25 22:05:56 [0m[PHY]   sync_pos 114256 ssb_offset 114112 
+ 三  25 22:05:56 [0m[PHY]   Calling sss detection (normal CP)
+ 三  25 22:05:56 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000537 (16 Hz),  ffo_pss+ffo_sss 0.000537 (16 Hz), nid1: 0, nid2: 0
+ 三  25 22:05:56 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
+ 三  25 22:05:56 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+ 三  25 22:05:56 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41552, phase 7, pbch 0
+ 三  25 22:05:56 [0m[PHY]   [UE0] In synch, rx_offset 109696 samples
+ 三  25 22:05:56 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
+ 三  25 22:05:56 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+ 三  25 22:05:56 [0m[PHY]   Got synch: hw_slot_offset 7, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+ 三  25 22:05:56 [0m[PHY]   UE synchronized decoded_frame_rx=44 UE->init_sync_frame=1 trashed_frames=8
+ 三  25 22:05:56 [0m[PHY]   Resynchronizing RX by 109696 samples
+ 三  25 22:05:56 [0m[32m[NR_RRC]   SIB1 decoded
+ 三  25 22:05:56 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  25 22:05:56 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  25 22:05:56 [0m[NR_PHY]   ============================================
+ 三  25 22:05:56 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+ 三  25 22:05:56 [0m[NR_PHY]   ============================================
+ 三  25 22:05:58 [0m[NR_PHY]   ============================================
+ 三  25 22:05:58 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+ 三  25 22:05:58 [0m[NR_PHY]   ============================================
+ 三  25 22:06:00 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+ 三  25 22:06:00 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+ 三  25 22:06:00 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+ 三  25 22:06:00 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
+ 三  25 22:06:00 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 12, first_nonzero_root_idx 0
+ 三  25 22:06:00 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+ 三  25 22:06:00 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
+ 三  25 22:06:00 [0m[32m[NR_MAC]   [UE 0][RAPROC][184.7] Found RAR with the intended RAPID 50
+ 三  25 22:06:00 [0m[93m[MAC]   received TA command 31
+ 三  25 22:06:00 [0m[PHY]   RAR-Msg2 decoded
+ 三  25 22:06:00 [0m[32m[NR_MAC]   [RAPROC][184.17] RA-Msg3 transmitted
+ 三  25 22:06:00 [0m[MAC]   [UE 0][RAPROC] Frame 185 : received contention resolution identity: 0x1530311a2186 Terminating RA procedure
+ 三  25 22:06:00 [0m[32m[MAC]   [UE 0][185.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
+ 三  25 22:06:00 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+ 三  25 22:06:00 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
+ 三  25 22:06:00 [0m[MAC]   Applying CellGroupConfig from gNodeB
+ 三  25 22:06:00 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+ 三  25 22:06:00 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
+ 三  25 22:06:00 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7f2824004390
+ 三  25 22:06:00 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
+ 三  25 22:06:00 [0m[NR_PHY]   ============================================
+ 三  25 22:06:00 [0m[NR_PHY]   Harq round stats for Downlink: 5/0/0
+ 三  25 22:06:00 [0m[NR_PHY]   ============================================
+ 三  25 22:06:00 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7f2824003750
+ 三  25 22:06:00 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
+ 三  25 22:06:00 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+ 三  25 22:06:00 [0m[NR_RRC]   Security algorithm is set to nea0
+ 三  25 22:06:00 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
+ 三  25 22:06:00 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
+ 三  25 22:06:00 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
+ 三  25 22:06:00 [0m[1;31m[MAC]   [UE 0][202.5] nr_ue_process_mac_pdu, residual mac pdu length -117 < 0!
+ 三  25 22:06:00 [0m[1;31m[PDCP]   discard NR PDU, integrity failed
+ 三  25 22:06:02 [0m[NR_PHY]   ============================================
+ 三  25 22:06:02 [0m[NR_PHY]   Harq round stats for Downlink: 18/1/0
+ 三  25 22:06:02 [0m[NR_PHY]   ============================================
+ 三  25 22:06:04 [0m[NR_PHY]   ============================================
+ 三  25 22:06:04 [0m[NR_PHY]   Harq round stats for Downlink: 24/1/0
+ 三  25 22:06:04 [0m[NR_PHY]   ============================================
+ 三  25 22:06:06 [0m[NR_PHY]   ============================================
+ 三  25 22:06:06 [0m[NR_PHY]   Harq round stats for Downlink: 31/1/0
+ 三  25 22:06:06 [0m[NR_PHY]   ============================================
+ 三  25 22:06:08 [0m[NR_PHY]   ============================================
+ 三  25 22:06:08 [0m[NR_PHY]   Harq round stats for Downlink: 37/1/0
+ 三  25 22:06:08 [0m[NR_PHY]   ============================================
+ 三  25 22:06:10 [0m[NR_PHY]   ============================================
+ 三  25 22:06:10 [0m[NR_PHY]   Harq round stats for Downlink: 44/1/0
+ 三  25 22:06:10 [0m[NR_PHY]   ============================================
+ 三  25 22:06:12 [0m[NR_PHY]   ============================================
+ 三  25 22:06:12 [0m[NR_PHY]   Harq round stats for Downlink: 50/1/0
+ 三  25 22:06:12 [0m[NR_PHY]   ============================================
+ 三  25 22:06:14 [0m[NR_PHY]   ============================================
+ 三  25 22:06:14 [0m[NR_PHY]   Harq round stats for Downlink: 56/1/0
+ 三  25 22:06:14 [0m[NR_PHY]   ============================================
+ 三  25 22:06:16 [0m[NR_PHY]   ============================================
+ 三  25 22:06:16 [0m[NR_PHY]   Harq round stats for Downlink: 63/1/0
+ 三  25 22:06:16 [0m[NR_PHY]   ============================================
+ 三  25 22:06:18 [0m[NR_PHY]   ============================================
+ 三  25 22:06:18 [0m[NR_PHY]   Harq round stats for Downlink: 69/1/0
+ 三  25 22:06:18 [0m[NR_PHY]   ============================================
+ 三  25 22:06:20 [0m[NR_PHY]   ============================================
+ 三  25 22:06:20 [0m[NR_PHY]   Harq round stats for Downlink: 76/1/0
+ 三  25 22:06:20 [0m[NR_PHY]   ============================================
+ 三  25 22:06:22 [0m[NR_PHY]   ============================================
+ 三  25 22:06:22 [0m[NR_PHY]   Harq round stats for Downlink: 82/1/0
+ 三  25 22:06:22 [0m[NR_PHY]   ============================================
+ 三  25 22:06:24 [0m[NR_PHY]   ============================================
+ 三  25 22:06:24 [0m[NR_PHY]   Harq round stats for Downlink: 88/1/0
+ 三  25 22:06:24 [0m[NR_PHY]   ============================================
+ 三  25 22:06:26 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+ 三  25 22:06:26 [0m[NR_PHY]   ============================================
+ 三  25 22:06:26 [0m[NR_PHY]   Harq round stats for Downlink: 95/1/0
+ 三  25 22:06:26 [0m[NR_PHY]   ============================================
+ 三  25 22:06:28 [0m[NR_PHY]   ============================================
+ 三  25 22:06:28 [0m[NR_PHY]   Harq round stats for Downlink: 101/1/0
+ 三  25 22:06:28 [0m[NR_PHY]   ============================================
+ 三  25 22:06:30 [0m[NR_PHY]   ============================================
+ 三  25 22:06:30 [0m[NR_PHY]   Harq round stats for Downlink: 108/1/0
+ 三  25 22:06:30 [0m[NR_PHY]   ============================================
+ 三  25 22:06:32 [0m[NR_PHY]   ============================================
+ 三  25 22:06:32 [0m[NR_PHY]   Harq round stats for Downlink: 114/1/0
+ 三  25 22:06:32 [0m[NR_PHY]   ============================================
+ 三  25 22:06:34 [0m[NR_PHY]   ============================================
+ 三  25 22:06:34 [0m[NR_PHY]   Harq round stats for Downlink: 120/1/0
+ 三  25 22:06:34 [0m[NR_PHY]   ============================================
+ 三  25 22:06:36 [0m[NR_PHY]   ============================================
+ 三  25 22:06:36 [0m[NR_PHY]   Harq round stats for Downlink: 127/1/0
+ 三  25 22:06:36 [0m[NR_PHY]   ============================================
+ 三  25 22:06:38 [0m[NR_PHY]   ============================================
+ 三  25 22:06:38 [0m[NR_PHY]   Harq round stats for Downlink: 133/1/0
+ 三  25 22:06:38 [0m[NR_PHY]   ============================================
+ 三  25 22:06:40 [0m[NR_PHY]   ============================================
+ 三  25 22:06:40 [0m[NR_PHY]   Harq round stats for Downlink: 140/1/0
+ 三  25 22:06:40 [0m[NR_PHY]   ============================================
+ 三  25 22:06:42 [0m[NR_PHY]   ============================================
+ 三  25 22:06:42 [0m[NR_PHY]   Harq round stats for Downlink: 146/1/0
+ 三  25 22:06:42 [0m[NR_PHY]   ============================================
+ 三  25 22:06:44 [0m[NR_PHY]   ============================================
+ 三  25 22:06:44 [0m[NR_PHY]   Harq round stats for Downlink: 152/1/0
+ 三  25 22:06:44 [0m[NR_PHY]   ============================================
+ 三  25 22:06:46 [0m[NR_PHY]   ============================================
+ 三  25 22:06:46 [0m[NR_PHY]   Harq round stats for Downlink: 159/1/0
+ 三  25 22:06:46 [0m[NR_PHY]   ============================================
+ 三  25 22:06:48 [0m[NR_PHY]   ============================================
+ 三  25 22:06:48 [0m[NR_PHY]   Harq round stats for Downlink: 165/1/0
+ 三  25 22:06:48 [0m[NR_PHY]   ============================================
+ 三  25 22:06:50 [0m[NR_PHY]   ============================================
+ 三  25 22:06:50 [0m[NR_PHY]   Harq round stats for Downlink: 172/1/0
+ 三  25 22:06:50 [0m[NR_PHY]   ============================================
+ 三  25 22:06:52 [0m[NR_PHY]   ============================================
+ 三  25 22:06:52 [0m[NR_PHY]   Harq round stats for Downlink: 178/1/0
+ 三  25 22:06:52 [0m[NR_PHY]   ============================================
+ 三  25 22:06:54 [0m[NR_PHY]   ============================================
+ 三  25 22:06:54 [0m[NR_PHY]   Harq round stats for Downlink: 184/1/0
+ 三  25 22:06:54 [0m[NR_PHY]   ============================================
+ 三  25 22:06:56 [0m[NR_PHY]   ============================================
+ 三  25 22:06:56 [0m[NR_PHY]   Harq round stats for Downlink: 191/1/0
+ 三  25 22:06:56 [0m[NR_PHY]   ============================================
+ 三  25 22:06:58 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+ 三  25 22:06:58 [0m[NR_PHY]   ============================================
+ 三  25 22:06:58 [0m[NR_PHY]   Harq round stats for Downlink: 197/1/0
+ 三  25 22:06:58 [0m[NR_PHY]   ============================================
+ 三  25 22:07:00 [0m[NR_PHY]   ============================================
+ 三  25 22:07:00 [0m[NR_PHY]   Harq round stats for Downlink: 204/1/0
+ 三  25 22:07:00 [0m[NR_PHY]   ============================================
+ 三  25 22:07:02 [0m[NR_PHY]   ============================================
+ 三  25 22:07:02 [0m[NR_PHY]   Harq round stats for Downlink: 210/1/0
+ 三  25 22:07:02 [0m[NR_PHY]   ============================================
+ 三  25 22:07:04 [0m[NR_PHY]   ============================================
+ 三  25 22:07:04 [0m[NR_PHY]   Harq round stats for Downlink: 216/1/0
+ 三  25 22:07:04 [0m[NR_PHY]   ============================================
+ 三  25 22:07:06 [0m[NR_PHY]   ============================================
+ 三  25 22:07:06 [0m[NR_PHY]   Harq round stats for Downlink: 223/1/0
+ 三  25 22:07:06 [0m[NR_PHY]   ============================================
+ 三  25 22:07:08 [0m[NR_PHY]   ============================================
+ 三  25 22:07:08 [0m[NR_PHY]   Harq round stats for Downlink: 229/1/0
+ 三  25 22:07:08 [0m[NR_PHY]   ============================================
+ 三  25 22:07:10 [0m[NR_PHY]   ============================================
+ 三  25 22:07:10 [0m[NR_PHY]   Harq round stats for Downlink: 236/1/0
+ 三  25 22:07:10 [0m[NR_PHY]   ============================================
+ 三  25 22:07:12 [0m[NR_PHY]   ============================================
+ 三  25 22:07:12 [0m[NR_PHY]   Harq round stats for Downlink: 242/1/0
+ 三  25 22:07:12 [0m[NR_PHY]   ============================================
+ 三  25 22:07:14 [0m[NR_PHY]   ============================================
+ 三  25 22:07:14 [0m[NR_PHY]   Harq round stats for Downlink: 248/1/0
+ 三  25 22:07:14 [0m[NR_PHY]   ============================================
+ 三  25 22:07:16 [0m[NR_PHY]   ============================================
+ 三  25 22:07:16 [0m[NR_PHY]   Harq round stats for Downlink: 255/1/0
+ 三  25 22:07:16 [0m[NR_PHY]   ============================================
+ 三  25 22:07:18 [0m[NR_PHY]   ============================================
+ 三  25 22:07:18 [0m[NR_PHY]   Harq round stats for Downlink: 261/1/0
+ 三  25 22:07:18 [0m[NR_PHY]   ============================================
+ 三  25 22:07:20 [0m[NR_PHY]   ============================================
+ 三  25 22:07:20 [0m[NR_PHY]   Harq round stats for Downlink: 268/1/0
+ 三  25 22:07:20 [0m[NR_PHY]   ============================================
+ 三  25 22:07:22 [0m[NR_PHY]   ============================================
+ 三  25 22:07:22 [0m[NR_PHY]   Harq round stats for Downlink: 274/1/0
+ 三  25 22:07:22 [0m[NR_PHY]   ============================================
+ 三  25 22:07:24 [0m[NR_PHY]   ============================================
+ 三  25 22:07:24 [0m[NR_PHY]   Harq round stats for Downlink: 280/1/0
+ 三  25 22:07:24 [0m[NR_PHY]   ============================================
+ 三  25 22:07:26 [0m[NR_PHY]   ============================================
+ 三  25 22:07:26 [0m[NR_PHY]   Harq round stats for Downlink: 287/1/0
+ 三  25 22:07:26 [0m[NR_PHY]   ============================================
+ 三  25 22:07:28 [0m[NR_PHY]   ============================================
+ 三  25 22:07:28 [0m[NR_PHY]   Harq round stats for Downlink: 293/1/0
+ 三  25 22:07:28 [0m[NR_PHY]   ============================================
+ 三  25 22:07:30 [0m[1;31m[PHY]   [UE 0] frame 0, nr_slot_rx 0, Error decoding PBCH!
+ 三  25 22:07:30 [0m[NR_PHY]   ============================================
+ 三  25 22:07:30 [0m[NR_PHY]   Harq round stats for Downlink: 300/1/0
+ 三  25 22:07:30 [0m[NR_PHY]   ============================================
+ 三  25 22:07:32 [0m[NR_PHY]   ============================================
+ 三  25 22:07:32 [0m[NR_PHY]   Harq round stats for Downlink: 306/1/0
+ 三  25 22:07:32 [0m[NR_PHY]   ============================================
+ 三  25 22:07:34 [0m[NR_PHY]   ============================================
+ 三  25 22:07:34 [0m[NR_PHY]   Harq round stats for Downlink: 312/1/0
+ 三  25 22:07:34 [0m[NR_PHY]   ============================================
+ 三  25 22:07:36 [0m[NR_PHY]   ============================================
+ 三  25 22:07:36 [0m[NR_PHY]   Harq round stats for Downlink: 319/1/0
+ 三  25 22:07:36 [0m[NR_PHY]   ============================================
+ 三  25 22:07:38 [0m[NR_PHY]   ============================================
+ 三  25 22:07:38 [0m[NR_PHY]   Harq round stats for Downlink: 325/1/0
+ 三  25 22:07:38 [0m[NR_PHY]   ============================================
+ 三  25 22:07:40 [0m[NR_PHY]   ============================================
+ 三  25 22:07:40 [0m[NR_PHY]   Harq round stats for Downlink: 332/1/0
+ 三  25 22:07:40 [0m[NR_PHY]   ============================================
+ 三  25 22:07:42 [0m[NR_PHY]   ============================================
+ 三  25 22:07:42 [0m[NR_PHY]   Harq round stats for Downlink: 338/1/0
+ 三  25 22:07:42 [0m[NR_PHY]   ============================================
+ 三  25 22:07:44 [0m[NR_PHY]   ============================================
+ 三  25 22:07:44 [0m[NR_PHY]   Harq round stats for Downlink: 344/1/0
+ 三  25 22:07:44 [0m[NR_PHY]   ============================================
+ 三  25 22:07:45 [0m[93m[HW]   Lost socket
+ 三  25 22:07:45 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+ 三  25 22:07:45 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+ 三  25 22:07:45 [CONFIG] log_config: 2/3 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] log_config: 53/53 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] log_config: 53/53 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] log_config: 16/16 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] log_config: 16/16 parameters successfully set 
+ 三  25 22:07:45 log init done
+ 三  25 22:07:45 [CONFIG] (root): 30/33 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] (root): 37/40 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] (root): 5/6 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] TTracer: 3/3 parameters successfully set 
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 create a thread for core -1
+ 三  25 22:07:45 [CONFIG] opt: 3/3 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] loader: 2/2 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+ 三  25 22:07:45 shlib_path libldpc.so
+ 三  25 22:07:45 [LOADER] library libldpc.so successfully loaded
+ 三  25 22:07:45 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] loader.dfts: 1/2 parameters successfully set 
+ 三  25 22:07:45 shlib_path libdfts.so
+ 三  25 22:07:45 [LOADER] library libdfts.so successfully loaded
+ 三  25 22:07:45 [CONFIG] device.recplay: 8/8 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] device: 1/1 parameters successfully set 
+ 三  25 22:07:45 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+ 三  25 22:07:45 shlib_path librfsimulator.so
+ 三  25 22:07:45 [LOADER] library librfsimulator.so successfully loaded
+ 三  25 22:07:45 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+ 三  25 22:07:45 Initializing random number generator, seed 10671724094524625003
+ 三  25 22:07:45 UE threads created by 1423984
+ 三  25 22:07:45 TYPE <CTRL-C> TO TERMINATE
+ 三  25 22:07:45 [CONFIG] uicc0: 10/10 parameters successfully set 
+ 三  25 22:07:45 Entering ITTI signals handler
+ 三  25 22:07:45 TYPE <CTRL-C> TO TERMINATE
+ 三  25 22:07:45 kgnb : f4 4c 6d 78 28 69 35 d0 59 cd f3 64 4a 6d ae e0 70 7e 69 88 69 0b 8f a3 db 85 4a b3 7f 8b 76 55 
+ 三  25 22:07:45 kausf:95 5 a4 fd 57 ae fa ee ec cb b2 ec cd 42 15 51 45 7e f7 a2 56 52 6 5c 8 d6 bd c1 5f 5d 12 d3 
+ 三  25 22:07:45 kseaf:a6 42 46 50 ef 88 5b 99 a5 37 88 71 66 2e e5 1 5b 50 ec 4a f2 4d a3 33 f4 73 55 a4 6c 32 cb 4f 
+ 三  25 22:07:45 kamf:e6 1 b0 75 e4 af 79 79 4c e7 2 a9 6e b0 d6 5 b8 1f da 83 4b 75 df e5 89 25 86 71 22 64 24 5a 
+ 三  25 22:07:45 knas_int:
+ 三  25 22:07:45 70 6 d5 1a e2 20 3e 98 b6 9d ee 60 39 b6 1 63 
+ 三  25 22:07:45 mac d e9 d9 75 
+ 三  25 22:07:45 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=f4 4c 6d 78 28 69 35 d0 59 cd f3 64 4a 6d ae e0 70 7e 69 88 69 0b 8f a3 db 85 4a b3 7f 8b 76 55 [0m
+ 三  25 22:07:45 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00 [0m
