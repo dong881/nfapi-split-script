@@ -1,2 +1,2 @@
 cd ~/openairinterface5g/cmake\_targets/ran\_build/build
-sudo NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa --log\_config.global\_log\_options wall\_clock  --emulate-l1
+sudo NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band78.tm1.106PRB.nfapi.conf --nfapi VNF --sa --log\_config.global\_log\_options wall\_clock  --emulate-l1 --MACRLCs.[0].ulsch_max_frame_inactivity 0

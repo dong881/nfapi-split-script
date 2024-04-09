@@ -1,3 +1,2 @@
-source ./set_oai_path.sh
-cd $OAI_PATH/cmake_targets/ran_build/build
-sudo NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --log\_config.global\_log\_options wall\_clock --sa
+cd ~/openairinterface5g/cmake\_targets/ran\_build/build
+sudo NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --log\_config.global\_log\_options wall\_clock --sa # -q
