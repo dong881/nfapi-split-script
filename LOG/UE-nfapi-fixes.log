@@ -1,509 +1,500 @@
-avril 09 13:39:41 Calling sched_setscheduler(79)
-avril 09 13:39:41 [ENB_APP]   nfapi running mode: MONOLITHIC
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
-avril 09 13:39:41 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
-avril 09 13:39:41 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
-avril 09 13:39:42 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
-avril 09 13:39:42 [0m[OPT]   OPT disabled
-avril 09 13:39:42 [0m[HW]   Version: Branch: nfapi-fixes-NTUST Abrev. Hash: 6066156c98 Date: Tue Apr 9 11:08:52 2024 +0200
-avril 09 13:39:42 [0m[PDCP]   pdcp init,usegtp usenetlink
-avril 09 13:39:42 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
-avril 09 13:39:42 [0m[PDCP]   UE pdcp will use tun interface
-avril 09 13:39:42 [0m[NR_MAC]   [UE0] Initializing MAC
-avril 09 13:39:43 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
-avril 09 13:39:43 [0m[RLC]   activated srb0 for UE with RNTI 0x0
-avril 09 13:39:43 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
-avril 09 13:39:43 , chest-freq 0, chest-time 0
-avril 09 13:39:43 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
-avril 09 13:39:43 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
-avril 09 13:39:43 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-avril 09 13:39:43 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-avril 09 13:39:43 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-avril 09 13:39:43 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
-avril 09 13:39:43 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
-avril 09 13:39:43 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
-avril 09 13:39:43 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:43 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
-avril 09 13:39:43 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
-avril 09 13:39:43 [0m[PHY]   Intializing UE Threads for instance 0 (0x55f301600bc0,0x7fbed2f18010)...
-avril 09 13:39:43 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
-avril 09 13:39:43 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
-avril 09 13:39:43 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
-avril 09 13:39:43 [0m[93m[HW]   sample_rate 61440000.000000
-avril 09 13:39:43 [0m[HW]   Running as client: will connect to a rfsimulator server side
-avril 09 13:39:43 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
-avril 09 13:39:43 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
-avril 09 13:39:43 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
-avril 09 13:39:43 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
-avril 09 13:39:43 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
-avril 09 13:39:43 [0m[NR_RRC]   create TASK_RRC_NRUE 
-avril 09 13:39:43 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
-avril 09 13:39:43 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
-avril 09 13:39:43 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:43 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:43 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
-avril 09 13:39:43 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
-avril 09 13:39:43 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
-avril 09 13:39:43 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
-avril 09 13:39:43 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
-avril 09 13:39:43 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
-avril 09 13:39:44 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:44 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:45 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:45 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:46 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:46 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:47 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:47 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:48 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:48 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:49 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:49 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:50 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:50 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:51 [0m[HW]   Trying to connect to 127.0.0.1:4043
-avril 09 13:39:51 [0m[HW]   Connection to 127.0.0.1:4043 established
-avril 09 13:39:51 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
-avril 09 13:39:52 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
-avril 09 13:39:52 [0m[93m[NR_PHY]   Starting sync detection
-avril 09 13:39:52 [0m[PHY]   [UE thread Synch] Running Initial Synch 
-avril 09 13:39:52 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 526800, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
-avril 09 13:39:52 [0m[PHY]   PSS execution duration 55097 microseconds 
-avril 09 13:39:52 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 526800, Nid2 0
-avril 09 13:39:52 [0m[PHY]   sync_pos 526800 ssb_offset 526656 
-avril 09 13:39:52 [0m[PHY]   Calling sss detection (normal CP)
-avril 09 13:39:52 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000539 (16 Hz),  ffo_pss+ffo_sss 0.000539 (16 Hz), nid1: 0, nid2: 0
-avril 09 13:39:52 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
-avril 09 13:39:52 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
-avril 09 13:39:52 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41552, phase 7, pbch 0
-avril 09 13:39:52 [0m[PHY]   [UE0] In synch, rx_offset 522240 samples
-avril 09 13:39:52 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
-avril 09 13:39:52 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
-avril 09 13:39:52 [0m[PHY]   Got synch: hw_slot_offset 34, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
-avril 09 13:39:52 [0m[PHY]   UE synchronized decoded_frame_rx=40 UE->init_sync_frame=1 trashed_frames=4
-avril 09 13:39:52 [0m[PHY]   Resynchronizing RX by 522240 samples
-avril 09 13:39:52 [0m[32m[NR_RRC]   SIB1 decoded
-avril 09 13:39:52 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-avril 09 13:39:52 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-avril 09 13:39:52 [0m[NR_PHY]   ============================================
-avril 09 13:39:52 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
-avril 09 13:39:52 [0m[NR_PHY]   ============================================
-avril 09 13:39:54 [0m[NR_PHY]   ============================================
-avril 09 13:39:54 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
-avril 09 13:39:54 [0m[NR_PHY]   ============================================
-avril 09 13:39:55 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-avril 09 13:39:55 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-avril 09 13:39:55 [0m[MAC]   Initialization of 4-step contention-based random access procedure
-avril 09 13:39:55 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
-avril 09 13:39:55 [0m[PHY]   PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 3, first_nonzero_root_idx 0
-avril 09 13:39:55 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
-avril 09 13:39:55 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
-avril 09 13:39:55 [0m[32m[NR_MAC]   [UE 0][RAPROC][184.7] Found RAR with the intended RAPID 15
-avril 09 13:39:55 [0m[93m[MAC]   received TA command 31
-avril 09 13:39:55 [0m[PHY]   RAR-Msg2 decoded
-avril 09 13:39:56 [0m[32m[NR_MAC]   [RAPROC][184.17] RA-Msg3 transmitted
-avril 09 13:39:56 [0m[MAC]   [UE 0][RAPROC] Frame 185 : received contention resolution identity: 0x1b190d2147e6 Terminating RA procedure
-avril 09 13:39:56 [0m[32m[MAC]   [UE 0][185.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
-avril 09 13:39:56 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
-avril 09 13:39:56 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
-avril 09 13:39:56 [0m[MAC]   Applying CellGroupConfig from gNodeB
-avril 09 13:39:56 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-avril 09 13:39:56 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
-avril 09 13:39:56 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7fbe90004380
-avril 09 13:39:56 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
-avril 09 13:39:56 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7fbe90003b10
-avril 09 13:39:56 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
-avril 09 13:39:56 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
-avril 09 13:39:56 [0m[NR_RRC]   Security algorithm is set to nea0
-avril 09 13:39:56 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
-avril 09 13:39:56 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
-avril 09 13:39:56 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
-avril 09 13:39:56 [0m[NR_PHY]   ============================================
-avril 09 13:39:56 [0m[NR_PHY]   Harq round stats for Downlink: 9/0/0
-avril 09 13:39:56 [0m[NR_PHY]   ============================================
-avril 09 13:39:56 [0m[NR_RRC]   radio Bearer Configuration is present
-avril 09 13:39:56 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-avril 09 13:39:56 [0m[MAC]   Applying CellGroupConfig from gNodeB
-avril 09 13:39:56 [0m[NR_RRC]   Measurement Configuration is present
-avril 09 13:39:56 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 61
-avril 09 13:39:56 [0m[NR_RRC]   Measurement Object List is present
-avril 09 13:39:56 [0m[NAS]   [UE] Received REGISTRATION ACCEPT message
-avril 09 13:39:56 [0m[NR_RRC]   Adding measurement object 1
-avril 09 13:39:56 [0m[NR_RRC]   call rrc_mac_config_req 
-avril 09 13:39:56 [0m[93m[NAS]   This NAS IEI is not handled when extracting list of allowed NSSAI
-avril 09 13:39:56 [0m[NR_RRC]   Report Configuration List is present
-avril 09 13:39:56 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
-avril 09 13:39:56 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
-avril 09 13:39:56 [0m[1;31m[SDAP]   /home/chen/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
-avril 09 13:39:56 [0m[1;31m[SDAP]   /home/chen/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
-avril 09 13:39:56 [0m[NR_RRC]   Received Capability Enquiry (gNB 0)
-avril 09 13:39:56 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
-avril 09 13:39:56 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
-avril 09 13:39:56 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
-avril 09 13:39:56 [CONFIG] log_config: 2/3 parameters successfully set 
-avril 09 13:39:56 [CONFIG] log_config: 53/53 parameters successfully set 
-avril 09 13:39:56 [CONFIG] log_config: 53/53 parameters successfully set 
-avril 09 13:39:56 [CONFIG] log_config: 16/16 parameters successfully set 
-avril 09 13:39:56 [CONFIG] log_config: 16/16 parameters successfully set 
-avril 09 13:39:56 log init done
-avril 09 13:39:56 [CONFIG] (root): 30/33 parameters successfully set 
-avril 09 13:39:56 [CONFIG] (root): 37/40 parameters successfully set 
-avril 09 13:39:56 [CONFIG] (root): 5/6 parameters successfully set 
-avril 09 13:39:56 [CONFIG] TTracer: 3/3 parameters successfully set 
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 create a thread for core -1
-avril 09 13:39:56 [CONFIG] opt: 3/3 parameters successfully set 
-avril 09 13:39:56 [CONFIG] loader: 2/2 parameters successfully set 
-avril 09 13:39:56 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
-avril 09 13:39:56 shlib_path libldpc.so
-avril 09 13:39:56 [LOADER] library libldpc.so successfully loaded
-avril 09 13:39:56 [CONFIG] nas.noS1: 3/3 parameters successfully set 
-avril 09 13:39:56 [CONFIG] loader.dfts: 1/2 parameters successfully set 
-avril 09 13:39:56 shlib_path libdfts.so
-avril 09 13:39:56 [LOADER] library libdfts.so successfully loaded
-avril 09 13:39:56 [CONFIG] device.recplay: 8/8 parameters successfully set 
-avril 09 13:39:56 [CONFIG] device: 1/1 parameters successfully set 
-avril 09 13:39:56 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
-avril 09 13:39:56 shlib_path librfsimulator.so
-avril 09 13:39:56 [LOADER] library librfsimulator.so successfully loaded
-avril 09 13:39:56 [CONFIG] rfsimulator: 8/9 parameters successfully set 
-avril 09 13:39:56 Initializing random number generator, seed 4105646728652699778
-avril 09 13:39:56 UE threads created by 869927
-avril 09 13:39:56 TYPE <CTRL-C> TO TERMINATE
-avril 09 13:39:56 [CONFIG] uicc0: 10/10 parameters successfully set 
-avril 09 13:39:56 Entering ITTI signals handler
-avril 09 13:39:56 TYPE <CTRL-C> TO TERMINATE
-avril 09 13:39:56 kgnb : 1f ec 1c 59 56 73 7e 15 91 39 7a fc 54 e5 7c 53 a8 af ee 6f 30 7f dc 16 ce 2a 34 85 b5 7a 41 eb 
-avril 09 13:39:56 kausf:9f 20 8b 90 1a b0 98 bc 9f 3 53 f7 a3 71 f9 4f c4 96 2a 76 e5 66 8f 4a 7d 42 2c 8 85 4c 21 37 
-avril 09 13:39:56 kseaf:e0 73 b8 c5 54 96 8b 43 8d 16 f0 19 44 83 25 2e 8e a2 3b aa f7 b7 a6 29 da b6 99 bf 1f 15 2 1e 
-avril 09 13:39:56 kamf:63 1a 2d 9 51 99 32 e3 5d dd 88 59 c7 34 8d db 4 e 21 b 40 f2 82 2 c1 df 9f 47 10 c5 68 d1 
-avril 09 13:39:56 knas_int:
-avril 09 13:39:56 8f 99 86 94 6a c9 bb 1e 76 6d b0 13 e5 7 3b ac 
-avril 09 13:39:56 mac 5c 9f b fc 
-avril 09 13:39:56 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=1f ec 1c 59 56 73 7e 15 91 39 7a fc 54 e5 7c 53 a8 af ee 6f 30 7f dc 16 ce 2a 34 85 b5 7a 41 eb [0m
-avril 09 13:39:56 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 60 6d 30 ff f2 55 00 00 [0m
-avril 09 13:39:56 <UE-NR-Capability>
-avril 09 13:39:56     <accessStratumRelease><rel15/></accessStratumRelease>
-avril 09 13:39:56     <pdcp-Parameters>
-avril 09 13:39:56         <supportedROHC-Profiles>
-avril 09 13:39:56             <profile0x0000><false/></profile0x0000>
-avril 09 13:39:56             <profile0x0001><false/></profile0x0001>
-avril 09 13:39:56             <profile0x0002><false/></profile0x0002>
-avril 09 13:39:56             <profile0x0003><false/></profile0x0003>
-avril 09 13:39:56             <profile0x0004><false/></profile0x0004>
-avril 09 13:39:56             <profile0x0006><false/></profile0x0006>
-avril 09 13:39:56             <profile0x0101><false/></profile0x0101>
-avril 09 13:39:56             <profile0x0102><false/></profile0x0102>
-avril 09 13:39:56             <profile0x0103><false/></profile0x0103>
-avril 09 13:39:56             <profile0x0104><false/></profile0x0104>
-avril 09 13:39:56         </supportedROHC-Profiles>
-avril 09 13:39:56         <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
-avril 09 13:39:56     </pdcp-Parameters>
-avril 09 13:39:56     <phy-Parameters>
-avril 09 13:39:56     </phy-Parameters>
-avril 09 13:39:56     <rf-Parameters>
-avril 09 13:39:56         <supportedBandListNR>
-avril 09 13:39:56             <BandNR>
-avril 09 13:39:56                 <bandNR>1</bandNR>
-avril 09 13:39:56             </BandNR>
-avril 09 13:39:56         </supportedBandListNR>
-avril 09 13:39:56     </rf-Parameters>
-avril 09 13:39:56 </UE-NR-Capability>
-avril 09 13:39:56 [PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
-avril 09 13:39:56 [0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
-avril 09 13:39:57 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
-avril 09 13:39:57 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
-avril 09 13:39:57 [0m[1;31m[SDAP]   /home/chen/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:45:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
-avril 09 13:39:57 [0m[NR_RRC]   radio Bearer Configuration is present
-avril 09 13:39:57 [0m[PDCP]   added drb 1 to UE ID 0
-avril 09 13:39:57 [0m[SDAP]   Default DRB for the created SDAP entity: 1 
-avril 09 13:39:57 [0m[NR_RRC]   State = NR_RRC_CONNECTED
-avril 09 13:39:57 [0m[RLC]   Added srb 2 to UE with RNTI 0x0
-avril 09 13:39:57 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:838:add_drb_am: added drb 1 to UE with RNTI 0x0
-avril 09 13:39:57 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:908: added DRB to UE with RNTI 0x0
-avril 09 13:39:57 [0m[MAC]   Applying CellGroupConfig from gNodeB
-avril 09 13:39:57 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
-avril 09 13:39:57 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
-avril 09 13:39:57 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
-avril 09 13:39:57 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.2, mask 255.255.255.0 broadcast address 10.0.0.255
-avril 09 13:39:57 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
-avril 09 13:39:57 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.2, mask 255.255.255.0 broadcast address 10.0.0.255
-avril 09 13:39:57 [0m[NR_PHY]   ============================================
-avril 09 13:39:57 [0m[NR_PHY]   Harq round stats for Downlink: 22/1/0
-avril 09 13:39:57 [0m[NR_PHY]   ============================================
-avril 09 13:39:59 [0m[NR_PHY]   ============================================
-avril 09 13:39:59 [0m[NR_PHY]   Harq round stats for Downlink: 34/1/0
-avril 09 13:39:59 [0m[NR_PHY]   ============================================
-avril 09 13:40:01 [0m[NR_PHY]   ============================================
-avril 09 13:40:01 [0m[NR_PHY]   Harq round stats for Downlink: 42/1/0
-avril 09 13:40:01 [0m[NR_PHY]   ============================================
-avril 09 13:40:02 [0m[NR_PHY]   ============================================
-avril 09 13:40:02 [0m[NR_PHY]   Harq round stats for Downlink: 53/1/0
-avril 09 13:40:02 [0m[NR_PHY]   ============================================
-avril 09 13:40:04 [0m[NR_PHY]   ============================================
-avril 09 13:40:04 [0m[NR_PHY]   Harq round stats for Downlink: 64/1/0
-avril 09 13:40:04 [0m[NR_PHY]   ============================================
-avril 09 13:40:06 [0m[NR_PHY]   ============================================
-avril 09 13:40:06 [0m[NR_PHY]   Harq round stats for Downlink: 74/1/0
-avril 09 13:40:06 [0m[NR_PHY]   ============================================
-avril 09 13:40:08 [0m[NR_PHY]   ============================================
-avril 09 13:40:08 [0m[NR_PHY]   Harq round stats for Downlink: 83/1/0
-avril 09 13:40:08 [0m[NR_PHY]   ============================================
-avril 09 13:40:09 [0m[NR_PHY]   ============================================
-avril 09 13:40:09 [0m[NR_PHY]   Harq round stats for Downlink: 93/1/0
-avril 09 13:40:09 [0m[NR_PHY]   ============================================
-avril 09 13:40:11 [0m[NR_PHY]   ============================================
-avril 09 13:40:11 [0m[NR_PHY]   Harq round stats for Downlink: 104/1/0
-avril 09 13:40:11 [0m[NR_PHY]   ============================================
-avril 09 13:40:13 [0m[NR_PHY]   ============================================
-avril 09 13:40:13 [0m[NR_PHY]   Harq round stats for Downlink: 113/1/0
-avril 09 13:40:13 [0m[NR_PHY]   ============================================
-avril 09 13:40:14 [0m[NR_PHY]   ============================================
-avril 09 13:40:14 [0m[NR_PHY]   Harq round stats for Downlink: 123/1/0
-avril 09 13:40:14 [0m[NR_PHY]   ============================================
-avril 09 13:40:16 [0m[NR_PHY]   ============================================
-avril 09 13:40:16 [0m[NR_PHY]   Harq round stats for Downlink: 134/1/0
-avril 09 13:40:16 [0m[NR_PHY]   ============================================
-avril 09 13:40:18 [0m[NR_PHY]   ============================================
-avril 09 13:40:18 [0m[NR_PHY]   Harq round stats for Downlink: 142/1/0
-avril 09 13:40:18 [0m[NR_PHY]   ============================================
-avril 09 13:40:19 [0m[NR_PHY]   ============================================
-avril 09 13:40:19 [0m[NR_PHY]   Harq round stats for Downlink: 152/1/0
-avril 09 13:40:19 [0m[NR_PHY]   ============================================
-avril 09 13:40:21 [0m[NR_PHY]   ============================================
-avril 09 13:40:21 [0m[NR_PHY]   Harq round stats for Downlink: 163/1/0
-avril 09 13:40:21 [0m[NR_PHY]   ============================================
-avril 09 13:40:23 [0m[NR_PHY]   ============================================
-avril 09 13:40:23 [0m[NR_PHY]   Harq round stats for Downlink: 171/1/0
-avril 09 13:40:23 [0m[NR_PHY]   ============================================
-avril 09 13:40:24 [0m[NR_PHY]   ============================================
-avril 09 13:40:24 [0m[NR_PHY]   Harq round stats for Downlink: 182/1/0
-avril 09 13:40:24 [0m[NR_PHY]   ============================================
-avril 09 13:40:26 [0m[NR_PHY]   ============================================
-avril 09 13:40:26 [0m[NR_PHY]   Harq round stats for Downlink: 192/1/0
-avril 09 13:40:26 [0m[NR_PHY]   ============================================
-avril 09 13:40:28 [0m[NR_PHY]   ============================================
-avril 09 13:40:28 [0m[NR_PHY]   Harq round stats for Downlink: 200/1/0
-avril 09 13:40:28 [0m[NR_PHY]   ============================================
-avril 09 13:40:30 [0m[NR_PHY]   ============================================
-avril 09 13:40:30 [0m[NR_PHY]   Harq round stats for Downlink: 211/1/0
-avril 09 13:40:30 [0m[NR_PHY]   ============================================
-avril 09 13:40:31 [0m[NR_PHY]   ============================================
-avril 09 13:40:31 [0m[NR_PHY]   Harq round stats for Downlink: 222/1/0
-avril 09 13:40:31 [0m[NR_PHY]   ============================================
-avril 09 13:40:33 [0m[NR_PHY]   ============================================
-avril 09 13:40:33 [0m[NR_PHY]   Harq round stats for Downlink: 233/1/0
-avril 09 13:40:33 [0m[NR_PHY]   ============================================
-avril 09 13:40:35 [0m[NR_PHY]   ============================================
-avril 09 13:40:35 [0m[NR_PHY]   Harq round stats for Downlink: 241/1/0
-avril 09 13:40:35 [0m[NR_PHY]   ============================================
-avril 09 13:40:36 [0m[NR_PHY]   ============================================
-avril 09 13:40:36 [0m[NR_PHY]   Harq round stats for Downlink: 251/1/0
-avril 09 13:40:36 [0m[NR_PHY]   ============================================
-avril 09 13:40:38 [0m[NR_PHY]   ============================================
-avril 09 13:40:38 [0m[NR_PHY]   Harq round stats for Downlink: 262/1/0
-avril 09 13:40:38 [0m[NR_PHY]   ============================================
-avril 09 13:40:40 [0m[NR_PHY]   ============================================
-avril 09 13:40:40 [0m[NR_PHY]   Harq round stats for Downlink: 270/1/0
-avril 09 13:40:40 [0m[NR_PHY]   ============================================
-avril 09 13:40:41 [0m[NR_PHY]   ============================================
-avril 09 13:40:41 [0m[NR_PHY]   Harq round stats for Downlink: 281/1/0
-avril 09 13:40:41 [0m[NR_PHY]   ============================================
-avril 09 13:40:43 [0m[NR_PHY]   ============================================
-avril 09 13:40:43 [0m[NR_PHY]   Harq round stats for Downlink: 291/1/0
-avril 09 13:40:43 [0m[NR_PHY]   ============================================
-avril 09 13:40:45 [0m[NR_PHY]   ============================================
-avril 09 13:40:45 [0m[NR_PHY]   Harq round stats for Downlink: 299/1/0
-avril 09 13:40:45 [0m[NR_PHY]   ============================================
-avril 09 13:40:46 [0m[NR_PHY]   ============================================
-avril 09 13:40:46 [0m[NR_PHY]   Harq round stats for Downlink: 310/1/0
-avril 09 13:40:46 [0m[NR_PHY]   ============================================
-avril 09 13:40:48 [0m[NR_PHY]   ============================================
-avril 09 13:40:48 [0m[NR_PHY]   Harq round stats for Downlink: 320/1/0
-avril 09 13:40:48 [0m[NR_PHY]   ============================================
-avril 09 13:40:50 [0m[NR_PHY]   ============================================
-avril 09 13:40:50 [0m[NR_PHY]   Harq round stats for Downlink: 329/1/0
-avril 09 13:40:50 [0m[NR_PHY]   ============================================
-avril 09 13:40:51 [0m[NR_PHY]   ============================================
-avril 09 13:40:51 [0m[NR_PHY]   Harq round stats for Downlink: 339/1/0
-avril 09 13:40:51 [0m[NR_PHY]   ============================================
-avril 09 13:40:53 [0m[NR_PHY]   ============================================
-avril 09 13:40:53 [0m[NR_PHY]   Harq round stats for Downlink: 349/1/0
-avril 09 13:40:53 [0m[NR_PHY]   ============================================
-avril 09 13:40:55 [0m[NR_PHY]   ============================================
-avril 09 13:40:55 [0m[NR_PHY]   Harq round stats for Downlink: 358/1/0
-avril 09 13:40:55 [0m[NR_PHY]   ============================================
-avril 09 13:40:57 [0m[NR_PHY]   ============================================
-avril 09 13:40:57 [0m[NR_PHY]   Harq round stats for Downlink: 368/1/0
-avril 09 13:40:57 [0m[NR_PHY]   ============================================
-avril 09 13:40:58 [0m[NR_PHY]   ============================================
-avril 09 13:40:58 [0m[NR_PHY]   Harq round stats for Downlink: 379/1/0
-avril 09 13:40:58 [0m[NR_PHY]   ============================================
-avril 09 13:41:00 [0m[NR_PHY]   ============================================
-avril 09 13:41:00 [0m[NR_PHY]   Harq round stats for Downlink: 389/1/0
-avril 09 13:41:00 [0m[NR_PHY]   ============================================
-avril 09 13:41:02 [0m[NR_PHY]   ============================================
-avril 09 13:41:02 [0m[NR_PHY]   Harq round stats for Downlink: 397/1/0
-avril 09 13:41:02 [0m[NR_PHY]   ============================================
-avril 09 13:41:03 [0m[NR_PHY]   ============================================
-avril 09 13:41:03 [0m[NR_PHY]   Harq round stats for Downlink: 408/1/0
-avril 09 13:41:03 [0m[NR_PHY]   ============================================
-avril 09 13:41:05 [0m[NR_PHY]   ============================================
-avril 09 13:41:05 [0m[NR_PHY]   Harq round stats for Downlink: 418/1/0
-avril 09 13:41:05 [0m[NR_PHY]   ============================================
-avril 09 13:41:07 [0m[NR_PHY]   ============================================
-avril 09 13:41:07 [0m[NR_PHY]   Harq round stats for Downlink: 427/1/0
-avril 09 13:41:07 [0m[NR_PHY]   ============================================
-avril 09 13:41:08 [0m[NR_PHY]   ============================================
-avril 09 13:41:08 [0m[NR_PHY]   Harq round stats for Downlink: 437/1/0
-avril 09 13:41:08 [0m[NR_PHY]   ============================================
-avril 09 13:41:10 [0m[NR_PHY]   ============================================
-avril 09 13:41:10 [0m[NR_PHY]   Harq round stats for Downlink: 448/1/0
-avril 09 13:41:10 [0m[NR_PHY]   ============================================
-avril 09 13:41:12 [0m[NR_PHY]   ============================================
-avril 09 13:41:12 [0m[NR_PHY]   Harq round stats for Downlink: 457/1/0
-avril 09 13:41:12 [0m[NR_PHY]   ============================================
-avril 09 13:41:13 [0m[NR_PHY]   ============================================
-avril 09 13:41:13 [0m[NR_PHY]   Harq round stats for Downlink: 467/1/0
-avril 09 13:41:13 [0m[NR_PHY]   ============================================
-avril 09 13:41:15 [0m[NR_PHY]   ============================================
-avril 09 13:41:15 [0m[NR_PHY]   Harq round stats for Downlink: 478/1/0
-avril 09 13:41:15 [0m[NR_PHY]   ============================================
-avril 09 13:41:17 [0m[NR_PHY]   ============================================
-avril 09 13:41:17 [0m[NR_PHY]   Harq round stats for Downlink: 488/1/0
-avril 09 13:41:17 [0m[NR_PHY]   ============================================
-avril 09 13:41:19 [0m[NR_PHY]   ============================================
-avril 09 13:41:19 [0m[NR_PHY]   Harq round stats for Downlink: 496/1/0
-avril 09 13:41:19 [0m[NR_PHY]   ============================================
-avril 09 13:41:20 [0m[NR_PHY]   ============================================
-avril 09 13:41:20 [0m[NR_PHY]   Harq round stats for Downlink: 507/1/0
-avril 09 13:41:20 [0m[NR_PHY]   ============================================
-avril 09 13:41:22 [0m[NR_PHY]   ============================================
-avril 09 13:41:22 [0m[NR_PHY]   Harq round stats for Downlink: 517/1/0
-avril 09 13:41:22 [0m[NR_PHY]   ============================================
-avril 09 13:41:24 [0m[NR_PHY]   ============================================
-avril 09 13:41:24 [0m[NR_PHY]   Harq round stats for Downlink: 526/1/0
-avril 09 13:41:24 [0m[NR_PHY]   ============================================
-avril 09 13:41:25 [0m[NR_PHY]   ============================================
-avril 09 13:41:25 [0m[NR_PHY]   Harq round stats for Downlink: 536/1/0
-avril 09 13:41:25 [0m[NR_PHY]   ============================================
-avril 09 13:41:27 [0m[NR_PHY]   ============================================
-avril 09 13:41:27 [0m[NR_PHY]   Harq round stats for Downlink: 546/1/0
-avril 09 13:41:27 [0m[NR_PHY]   ============================================
-avril 09 13:41:29 [0m[NR_PHY]   ============================================
-avril 09 13:41:29 [0m[NR_PHY]   Harq round stats for Downlink: 555/1/0
-avril 09 13:41:29 [0m[NR_PHY]   ============================================
-avril 09 13:41:31 [0m[NR_PHY]   ============================================
-avril 09 13:41:31 [0m[NR_PHY]   Harq round stats for Downlink: 565/1/0
-avril 09 13:41:31 [0m[NR_PHY]   ============================================
-avril 09 13:41:32 [0m[NR_PHY]   ============================================
-avril 09 13:41:32 [0m[NR_PHY]   Harq round stats for Downlink: 576/1/0
-avril 09 13:41:32 [0m[NR_PHY]   ============================================
-avril 09 13:41:34 [0m[NR_PHY]   ============================================
-avril 09 13:41:34 [0m[NR_PHY]   Harq round stats for Downlink: 584/1/0
-avril 09 13:41:34 [0m[NR_PHY]   ============================================
-avril 09 13:41:36 [0m[NR_PHY]   ============================================
-avril 09 13:41:36 [0m[NR_PHY]   Harq round stats for Downlink: 594/1/0
-avril 09 13:41:36 [0m[NR_PHY]   ============================================
-avril 09 13:41:37 [0m[NR_PHY]   ============================================
-avril 09 13:41:37 [0m[NR_PHY]   Harq round stats for Downlink: 605/1/0
-avril 09 13:41:37 [0m[NR_PHY]   ============================================
-avril 09 13:41:39 [0m[NR_PHY]   ============================================
-avril 09 13:41:39 [0m[NR_PHY]   Harq round stats for Downlink: 615/1/0
-avril 09 13:41:39 [0m[NR_PHY]   ============================================
-avril 09 13:41:41 [0m[NR_PHY]   ============================================
-avril 09 13:41:41 [0m[NR_PHY]   Harq round stats for Downlink: 624/1/0
-avril 09 13:41:41 [0m[NR_PHY]   ============================================
-avril 09 13:41:41 [0m[1;31m[PHY]   [UE 0] frame 92, nr_slot_rx 0, Error decoding PBCH!
-avril 09 13:41:42 [0m[93m[HW]   Lost socket
-avril 09 13:41:42 [0mmac 99 40 26 21 
-avril 09 13:41:42 mac 76 d4 7e 88 
-avril 09 13:41:42 [CONFIG] nas.noS1: 3/3 parameters successfully set 
-avril 09 13:41:42 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+avril 09 16:03:11 Calling sched_setscheduler(79)
+avril 09 16:03:11 [ENB_APP]   nfapi running mode: MONOLITHIC
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+avril 09 16:03:11 [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+avril 09 16:03:11 [0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+avril 09 16:03:12 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+avril 09 16:03:12 [0m[OPT]   OPT disabled
+avril 09 16:03:12 [0m[HW]   Version: Branch: nfapi-fixes-NTUST Abrev. Hash: 67b4cf3037 Date: Tue Apr 9 14:19:36 2024 +0200
+avril 09 16:03:12 [0m[PDCP]   pdcp init,usegtp usenetlink
+avril 09 16:03:12 [0m[PDCP]   TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+avril 09 16:03:12 [0m[PDCP]   UE pdcp will use tun interface
+avril 09 16:03:12 [0m[NR_MAC]   [UE0] Initializing MAC
+avril 09 16:03:12 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+avril 09 16:03:12 [0m[RLC]   activated srb0 for UE with RNTI 0x0
+avril 09 16:03:12 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+avril 09 16:03:12 , chest-freq 0, chest-time 0
+avril 09 16:03:12 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+avril 09 16:03:12 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+avril 09 16:03:12 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+avril 09 16:03:12 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+avril 09 16:03:12 [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+avril 09 16:03:12 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+avril 09 16:03:12 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+avril 09 16:03:12 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+avril 09 16:03:12 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:12 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+avril 09 16:03:12 [0m[HW]   # /dev/cpu_dma_latency set to 2 us
+avril 09 16:03:13 [0m[PHY]   Intializing UE Threads for instance 0 (0x565067ba3bc0,0x7f3a227c0010)...
+avril 09 16:03:13 [0m[UTIL]   Creating thread UEthread with affinity -1 and priority 97
+avril 09 16:03:13 [0m[UTIL]   threadCreate for UEthread, affinity ffffffff, priority 97
+avril 09 16:03:13 [0m[UTIL]   Creating thread L1_UE_stats with affinity -1 and priority 1
+avril 09 16:03:13 [0m[93m[HW]   sample_rate 61440000.000000
+avril 09 16:03:13 [0m[HW]   Running as client: will connect to a rfsimulator server side
+avril 09 16:03:13 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
+avril 09 16:03:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+avril 09 16:03:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+avril 09 16:03:13 [0m[UTIL]   threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+avril 09 16:03:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+avril 09 16:03:13 [0m[NR_RRC]   create TASK_RRC_NRUE 
+avril 09 16:03:13 [0m[UTIL]   Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+avril 09 16:03:13 [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+avril 09 16:03:13 [0m[UTIL]   threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+avril 09 16:03:13 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:13 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:13 [0m[ITTI]   Created Posix thread TASK_RRC_NRUE
+avril 09 16:03:13 [0m[UTIL]   Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+avril 09 16:03:13 [0m[UTIL]   threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+avril 09 16:03:13 [0m[ITTI]   Created Posix thread TASK_NAS_NRUE
+avril 09 16:03:13 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+avril 09 16:03:14 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:14 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:15 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:15 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:16 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:16 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:17 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:17 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:18 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:18 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:19 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:19 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:20 [0m[HW]   Trying to connect to 127.0.0.1:4043
+avril 09 16:03:20 [0m[HW]   Connection to 127.0.0.1:4043 established
+avril 09 16:03:20 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+avril 09 16:03:21 [0m[PHY]   [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 1)
+avril 09 16:03:21 [0m[93m[NR_PHY]   Starting sync detection
+avril 09 16:03:21 [0m[PHY]   [UE thread Synch] Running Initial Synch 
+avril 09 16:03:21 [0m[PHY]   [UE] nr_synchro_time: Sync source = 0, Peak found at pos 114256, val = 8706702226 (99 dB) avg 58 dB, ffo 0.000000
+avril 09 16:03:21 [0m[PHY]   PSS execution duration 122094 microseconds 
+avril 09 16:03:21 [0m[PHY]   [UE0] Initial sync : Estimated PSS position 114256, Nid2 0
+avril 09 16:03:21 [0m[PHY]   sync_pos 114256 ssb_offset 114112 
+avril 09 16:03:21 [0m[PHY]   Calling sss detection (normal CP)
+avril 09 16:03:21 [0m[93m[NR_PHY]   ffo_pss 0.000000 (0 Hz), ffo_sss 0.000567 (17 Hz),  ffo_pss+ffo_sss 0.000567 (17 Hz), nid1: 0, nid2: 0
+avril 09 16:03:21 [0m[PHY]   [UE0] Initial sync: starting PBCH detection (rx_offset 0)
+avril 09 16:03:21 [0m[PHY]   [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+avril 09 16:03:21 [0m[PHY]   TDD Normal prefix: CellId 0 metric 41564, phase 7, pbch 0
+avril 09 16:03:21 [0m[PHY]   [UE0] In synch, rx_offset 109696 samples
+avril 09 16:03:21 [0m[PHY]   [UE 0] Measured Carrier Frequency 3619200000 Hz (offset 0 Hz)
+avril 09 16:03:21 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+avril 09 16:03:21 [0m[PHY]   Got synch: hw_slot_offset 7, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+avril 09 16:03:21 [0m[PHY]   UE synchronized decoded_frame_rx=6 UE->init_sync_frame=1 trashed_frames=6
+avril 09 16:03:21 [0m[PHY]   Resynchronizing RX by 109696 samples
+avril 09 16:03:21 [0m[32m[NR_RRC]   SIB1 decoded
+avril 09 16:03:21 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+avril 09 16:03:21 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+avril 09 16:03:22 [0m[NR_PHY]   ============================================
+avril 09 16:03:22 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+avril 09 16:03:22 [0m[NR_PHY]   ============================================
+avril 09 16:03:24 [0m[NR_PHY]   ============================================
+avril 09 16:03:24 [0m[NR_PHY]   Harq round stats for Downlink: 1/0/0
+avril 09 16:03:24 [0m[NR_PHY]   ============================================
+avril 09 16:03:24 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+avril 09 16:03:24 [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+avril 09 16:03:24 [0m[MAC]   Initialization of 4-step contention-based random access procedure
+avril 09 16:03:24 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 151, Slot 19, Symbol 0, Fdm 0
+avril 09 16:03:24 [0m[PHY]   PRACH [UE 0] in frame.slot 151.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0
+avril 09 16:03:24 [0m[NR_MAC]   [UE 0][RAPROC] Got BI RAR subPDU 5 ms
+avril 09 16:03:24 [0m[NR_MAC]   [UE 0][RAPROC] Got RAPID RAR subPDU
+avril 09 16:03:24 [0m[32m[NR_MAC]   [UE 0][RAPROC][152.7] Found RAR with the intended RAPID 3
+avril 09 16:03:24 [0m[93m[MAC]   received TA command 31
+avril 09 16:03:24 [0m[PHY]   RAR-Msg2 decoded
+avril 09 16:03:24 [0m[32m[NR_MAC]   [RAPROC][152.17] RA-Msg3 transmitted
+avril 09 16:03:24 [0m[MAC]   [UE 0][RAPROC] Frame 153 : received contention resolution identity: 0x104acecc8c66 Terminating RA procedure
+avril 09 16:03:24 [0m[32m[MAC]   [UE 0][153.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
+avril 09 16:03:24 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+avril 09 16:03:24 [0m[RLC]   Added srb 1 to UE with RNTI 0x0
+avril 09 16:03:24 [0m[MAC]   Applying CellGroupConfig from gNodeB
+avril 09 16:03:25 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+avril 09 16:03:25 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes39)
+avril 09 16:03:25 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x7f39d8004380
+avril 09 16:03:25 [0m[NAS]    nr_nas_msg_sim.c:331  derive_kgnb  with count= 0
+avril 09 16:03:25 [0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x7f39d8003b10
+avril 09 16:03:25 [0m[NR_RRC]   Received securityModeCommand (gNB 0)
+avril 09 16:03:25 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+avril 09 16:03:25 [0m[NR_RRC]   Security algorithm is set to nea0
+avril 09 16:03:25 [0m[NR_RRC]   Integrity protection algorithm is set to nia2
+avril 09 16:03:25 [0m[NR_RRC]   rrc_ue_process_securityModeCommand, security mode complete case 
+avril 09 16:03:25 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (gNB 0), rrc_TransactionIdentifier: 0
+avril 09 16:03:25 [0m[NR_RRC]   radio Bearer Configuration is present
+avril 09 16:03:25 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+avril 09 16:03:25 [0m[MAC]   Applying CellGroupConfig from gNodeB
+avril 09 16:03:25 [0m[NR_RRC]   Measurement Configuration is present
+avril 09 16:03:25 [0m[NR_RRC]   Measurement Object List is present
+avril 09 16:03:25 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 61
+avril 09 16:03:25 [0m[NAS]   [UE] Received REGISTRATION ACCEPT message
+avril 09 16:03:25 [0m[NR_RRC]   Adding measurement object 1
+avril 09 16:03:25 [0m[NR_RRC]   call rrc_mac_config_req 
+avril 09 16:03:25 [0m[NR_RRC]   Report Configuration List is present
+avril 09 16:03:25 [0m[93m[NAS]   This NAS IEI is not handled when extracting list of allowed NSSAI
+avril 09 16:03:25 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
+avril 09 16:03:25 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
+avril 09 16:03:25 [0m[NR_RRC]   Received Capability Enquiry (gNB 0)
+avril 09 16:03:25 [0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
+avril 09 16:03:25 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--sa" "--uicc0.imsi" "001010000000001" "--rfsim" 
+avril 09 16:03:25 [CONFIG] get parameters from cmdline [CONFIG] debug flags: 0x00400000
+avril 09 16:03:25 [CONFIG] log_config: 2/3 parameters successfully set 
+avril 09 16:03:25 [CONFIG] log_config: 53/53 parameters successfully set 
+avril 09 16:03:25 [CONFIG] log_config: 53/53 parameters successfully set 
+avril 09 16:03:25 [CONFIG] log_config: 16/16 parameters successfully set 
+avril 09 16:03:25 [CONFIG] log_config: 16/16 parameters successfully set 
+avril 09 16:03:25 log init done
+avril 09 16:03:25 [CONFIG] (root): 30/33 parameters successfully set 
+avril 09 16:03:25 [CONFIG] (root): 37/40 parameters successfully set 
+avril 09 16:03:25 [CONFIG] (root): 5/6 parameters successfully set 
+avril 09 16:03:25 [CONFIG] TTracer: 3/3 parameters successfully set 
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 create a thread for core -1
+avril 09 16:03:25 [CONFIG] opt: 3/3 parameters successfully set 
+avril 09 16:03:25 [CONFIG] loader: 2/2 parameters successfully set 
+avril 09 16:03:25 [CONFIG] loader.ldpc: 1/2 parameters successfully set 
+avril 09 16:03:25 shlib_path libldpc.so
+avril 09 16:03:25 [LOADER] library libldpc.so successfully loaded
+avril 09 16:03:25 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+avril 09 16:03:25 [CONFIG] loader.dfts: 1/2 parameters successfully set 
+avril 09 16:03:25 shlib_path libdfts.so
+avril 09 16:03:25 [LOADER] library libdfts.so successfully loaded
+avril 09 16:03:25 [CONFIG] device.recplay: 8/8 parameters successfully set 
+avril 09 16:03:25 [CONFIG] device: 1/1 parameters successfully set 
+avril 09 16:03:25 [CONFIG] loader.rfsimulator: 1/2 parameters successfully set 
+avril 09 16:03:25 shlib_path librfsimulator.so
+avril 09 16:03:25 [LOADER] library librfsimulator.so successfully loaded
+avril 09 16:03:25 [CONFIG] rfsimulator: 8/9 parameters successfully set 
+avril 09 16:03:25 Initializing random number generator, seed 12099689614906764306
+avril 09 16:03:25 UE threads created by 2031315
+avril 09 16:03:25 TYPE <CTRL-C> TO TERMINATE
+avril 09 16:03:25 [CONFIG] uicc0: 10/10 parameters successfully set 
+avril 09 16:03:25 Entering ITTI signals handler
+avril 09 16:03:25 TYPE <CTRL-C> TO TERMINATE
+avril 09 16:03:25 kgnb : 9f cb 2e 1c 11 d3 fe 3a 82 f3 fe 96 81 bc 95 f8 80 1f 88 71 d8 01 fa 7b 9d 96 91 47 43 84 8b e1 
+avril 09 16:03:25 kausf:e7 73 6b c3 b4 3c 5e 99 5f 54 b1 84 8c 46 b0 b0 d6 7e f0 7e 39 a 76 1e a a 76 f0 ce 4a 2e 3e 
+avril 09 16:03:25 kseaf:68 41 8f 9c 3f b0 99 4f 51 69 d5 8e f2 f3 c7 b2 b8 69 ec 93 ff 56 3d 3c 72 2f b9 3d a 6e 34 8b 
+avril 09 16:03:25 kamf:35 d7 83 56 88 4a 11 90 c3 fb 3f 55 4a d2 98 ea d2 7c f9 93 23 d0 46 c3 6e 56 6 42 87 1c 52 8d 
+avril 09 16:03:25 knas_int:
+avril 09 16:03:25 b1 12 35 f1 8a a 53 cf 8a b6 a3 2b 8a 4c aa d4 
+avril 09 16:03:25 mac 5d ed 36 1c 
+avril 09 16:03:25 [NR_RRC]   driving kRRCenc, kRRCint and kUPenc from KgNB=9f cb 2e 1c 11 d3 fe 3a 82 f3 fe 96 81 bc 95 f8 80 1f 88 71 d8 01 fa 7b 9d 96 91 47 43 84 8b e1 [0m
+avril 09 16:03:25 [NR_RRC]   securityModeComplete payload: 28 00 00 00 00 00 00 00 60 ed 9e 66 50 56 00 00 [0m
+avril 09 16:03:25 <UE-NR-Capability>
+avril 09 16:03:25     <accessStratumRelease><rel15/></accessStratumRelease>
+avril 09 16:03:25     <pdcp-Parameters>
+avril 09 16:03:25         <supportedROHC-Profiles>
+avril 09 16:03:25             <profile0x0000><false/></profile0x0000>
+avril 09 16:03:25             <profile0x0001><false/></profile0x0001>
+avril 09 16:03:25             <profile0x0002><false/></profile0x0002>
+avril 09 16:03:25             <profile0x0003><false/></profile0x0003>
+avril 09 16:03:25             <profile0x0004><false/></profile0x0004>
+avril 09 16:03:25             <profile0x0006><false/></profile0x0006>
+avril 09 16:03:25             <profile0x0101><false/></profile0x0101>
+avril 09 16:03:25             <profile0x0102><false/></profile0x0102>
+avril 09 16:03:25             <profile0x0103><false/></profile0x0103>
+avril 09 16:03:25             <profile0x0104><false/></profile0x0104>
+avril 09 16:03:25         </supportedROHC-Profiles>
+avril 09 16:03:25         <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
+avril 09 16:03:25     </pdcp-Parameters>
+avril 09 16:03:25     <phy-Parameters>
+avril 09 16:03:25     </phy-Parameters>
+avril 09 16:03:25     <rf-Parameters>
+avril 09 16:03:25         <supportedBandListNR>
+avril 09 16:03:25             <BandNR>
+avril 09 16:03:25                 <bandNR>1</bandNR>
+avril 09 16:03:25             </BandNR>
+avril 09 16:03:25         </supportedBandListNR>
+avril 09 16:03:25     </rf-Parameters>
+avril 09 16:03:25 </UE-NR-Capability>
+avril 09 16:03:25 [PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
+avril 09 16:03:25 [0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
+avril 09 16:03:26 [0m[NR_PHY]   ============================================
+avril 09 16:03:26 [0m[NR_PHY]   Harq round stats for Downlink: 17/0/0
+avril 09 16:03:26 [0m[NR_PHY]   ============================================
+avril 09 16:03:26 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
+avril 09 16:03:26 [0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
+avril 09 16:03:26 [0m[NR_RRC]   radio Bearer Configuration is present
+avril 09 16:03:26 [0m[PDCP]   added drb 1 to UE ID 0
+avril 09 16:03:26 [0m[SDAP]   Default DRB for the created SDAP entity: 1 
+avril 09 16:03:26 [0m[NR_RRC]   State = NR_RRC_CONNECTED
+avril 09 16:03:26 [0m[RLC]   Added srb 2 to UE with RNTI 0x0
+avril 09 16:03:26 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:838:add_drb_am: added drb 1 to UE with RNTI 0x0
+avril 09 16:03:26 [0m[RLC]   /home/chen/openairinterface5g/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:908: added DRB to UE with RNTI 0x0
+avril 09 16:03:26 [0m[MAC]   Applying CellGroupConfig from gNodeB
+avril 09 16:03:26 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
+avril 09 16:03:26 [0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
+avril 09 16:03:26 [0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
+avril 09 16:03:26 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.2, mask 255.255.255.0 broadcast address 10.0.0.255
+avril 09 16:03:26 [0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 99
+avril 09 16:03:26 [0m[OIP]   Interface oaitun_ue1 successfully configured, ip address 10.0.0.2, mask 255.255.255.0 broadcast address 10.0.0.255
+avril 09 16:03:27 [0m[NR_PHY]   ============================================
+avril 09 16:03:27 [0m[NR_PHY]   Harq round stats for Downlink: 26/1/0
+avril 09 16:03:27 [0m[NR_PHY]   ============================================
+avril 09 16:03:29 [0m[NR_PHY]   ============================================
+avril 09 16:03:29 [0m[NR_PHY]   Harq round stats for Downlink: 33/1/0
+avril 09 16:03:29 [0m[NR_PHY]   ============================================
+avril 09 16:03:31 [0m[NR_PHY]   ============================================
+avril 09 16:03:31 [0m[NR_PHY]   Harq round stats for Downlink: 40/1/0
+avril 09 16:03:31 [0m[NR_PHY]   ============================================
+avril 09 16:03:32 [0m[NR_PHY]   ============================================
+avril 09 16:03:32 [0m[NR_PHY]   Harq round stats for Downlink: 46/1/0
+avril 09 16:03:32 [0m[NR_PHY]   ============================================
+avril 09 16:03:34 [0m[NR_PHY]   ============================================
+avril 09 16:03:34 [0m[NR_PHY]   Harq round stats for Downlink: 53/1/0
+avril 09 16:03:34 [0m[NR_PHY]   ============================================
+avril 09 16:03:36 [0m[NR_PHY]   ============================================
+avril 09 16:03:36 [0m[NR_PHY]   Harq round stats for Downlink: 59/1/0
+avril 09 16:03:36 [0m[NR_PHY]   ============================================
+avril 09 16:03:38 [0m[NR_PHY]   ============================================
+avril 09 16:03:38 [0m[NR_PHY]   Harq round stats for Downlink: 66/1/0
+avril 09 16:03:38 [0m[NR_PHY]   ============================================
+avril 09 16:03:39 [0m[NR_PHY]   ============================================
+avril 09 16:03:39 [0m[NR_PHY]   Harq round stats for Downlink: 73/1/0
+avril 09 16:03:39 [0m[NR_PHY]   ============================================
+avril 09 16:03:41 [0m[NR_PHY]   ============================================
+avril 09 16:03:41 [0m[NR_PHY]   Harq round stats for Downlink: 79/1/0
+avril 09 16:03:41 [0m[NR_PHY]   ============================================
+avril 09 16:03:43 [0m[NR_PHY]   ============================================
+avril 09 16:03:43 [0m[NR_PHY]   Harq round stats for Downlink: 86/1/0
+avril 09 16:03:43 [0m[NR_PHY]   ============================================
+avril 09 16:03:45 [0m[NR_PHY]   ============================================
+avril 09 16:03:45 [0m[NR_PHY]   Harq round stats for Downlink: 92/1/0
+avril 09 16:03:45 [0m[NR_PHY]   ============================================
+avril 09 16:03:46 [0m[NR_PHY]   ============================================
+avril 09 16:03:46 [0m[NR_PHY]   Harq round stats for Downlink: 99/1/0
+avril 09 16:03:46 [0m[NR_PHY]   ============================================
+avril 09 16:03:48 [0m[NR_PHY]   ============================================
+avril 09 16:03:48 [0m[NR_PHY]   Harq round stats for Downlink: 105/1/0
+avril 09 16:03:48 [0m[NR_PHY]   ============================================
+avril 09 16:03:50 [0m[NR_PHY]   ============================================
+avril 09 16:03:50 [0m[NR_PHY]   Harq round stats for Downlink: 111/1/0
+avril 09 16:03:50 [0m[NR_PHY]   ============================================
+avril 09 16:03:51 [0m[NR_PHY]   ============================================
+avril 09 16:03:51 [0m[NR_PHY]   Harq round stats for Downlink: 118/1/0
+avril 09 16:03:51 [0m[NR_PHY]   ============================================
+avril 09 16:03:53 [0m[NR_PHY]   ============================================
+avril 09 16:03:53 [0m[NR_PHY]   Harq round stats for Downlink: 125/1/0
+avril 09 16:03:53 [0m[NR_PHY]   ============================================
+avril 09 16:03:55 [0m[NR_PHY]   ============================================
+avril 09 16:03:55 [0m[NR_PHY]   Harq round stats for Downlink: 132/1/0
+avril 09 16:03:55 [0m[NR_PHY]   ============================================
+avril 09 16:03:57 [0m[NR_PHY]   ============================================
+avril 09 16:03:57 [0m[NR_PHY]   Harq round stats for Downlink: 138/1/0
+avril 09 16:03:57 [0m[NR_PHY]   ============================================
+avril 09 16:03:58 [0m[NR_PHY]   ============================================
+avril 09 16:03:58 [0m[NR_PHY]   Harq round stats for Downlink: 144/1/0
+avril 09 16:03:58 [0m[NR_PHY]   ============================================
+avril 09 16:04:00 [0m[NR_PHY]   ============================================
+avril 09 16:04:00 [0m[NR_PHY]   Harq round stats for Downlink: 151/1/0
+avril 09 16:04:00 [0m[NR_PHY]   ============================================
+avril 09 16:04:02 [0m[NR_PHY]   ============================================
+avril 09 16:04:02 [0m[NR_PHY]   Harq round stats for Downlink: 157/1/0
+avril 09 16:04:02 [0m[NR_PHY]   ============================================
+avril 09 16:04:03 [0m[NR_PHY]   ============================================
+avril 09 16:04:03 [0m[NR_PHY]   Harq round stats for Downlink: 164/1/0
+avril 09 16:04:03 [0m[NR_PHY]   ============================================
+avril 09 16:04:05 [0m[NR_PHY]   ============================================
+avril 09 16:04:05 [0m[NR_PHY]   Harq round stats for Downlink: 170/1/0
+avril 09 16:04:05 [0m[NR_PHY]   ============================================
+avril 09 16:04:07 [0m[NR_PHY]   ============================================
+avril 09 16:04:07 [0m[NR_PHY]   Harq round stats for Downlink: 176/1/0
+avril 09 16:04:07 [0m[NR_PHY]   ============================================
+avril 09 16:04:09 [0m[NR_PHY]   ============================================
+avril 09 16:04:09 [0m[NR_PHY]   Harq round stats for Downlink: 183/1/0
+avril 09 16:04:09 [0m[NR_PHY]   ============================================
+avril 09 16:04:10 [0m[NR_PHY]   ============================================
+avril 09 16:04:10 [0m[NR_PHY]   Harq round stats for Downlink: 189/1/0
+avril 09 16:04:10 [0m[NR_PHY]   ============================================
+avril 09 16:04:12 [0m[NR_PHY]   ============================================
+avril 09 16:04:12 [0m[NR_PHY]   Harq round stats for Downlink: 196/1/0
+avril 09 16:04:12 [0m[NR_PHY]   ============================================
+avril 09 16:04:14 [0m[NR_PHY]   ============================================
+avril 09 16:04:14 [0m[NR_PHY]   Harq round stats for Downlink: 202/1/0
+avril 09 16:04:14 [0m[NR_PHY]   ============================================
+avril 09 16:04:16 [0m[NR_PHY]   ============================================
+avril 09 16:04:16 [0m[NR_PHY]   Harq round stats for Downlink: 208/1/0
+avril 09 16:04:16 [0m[NR_PHY]   ============================================
+avril 09 16:04:17 [0m[NR_PHY]   ============================================
+avril 09 16:04:17 [0m[NR_PHY]   Harq round stats for Downlink: 215/1/0
+avril 09 16:04:17 [0m[NR_PHY]   ============================================
+avril 09 16:04:19 [0m[NR_PHY]   ============================================
+avril 09 16:04:19 [0m[NR_PHY]   Harq round stats for Downlink: 221/1/0
+avril 09 16:04:19 [0m[NR_PHY]   ============================================
+avril 09 16:04:21 [0m[NR_PHY]   ============================================
+avril 09 16:04:21 [0m[NR_PHY]   Harq round stats for Downlink: 228/1/0
+avril 09 16:04:21 [0m[NR_PHY]   ============================================
+avril 09 16:04:22 [0m[NR_PHY]   ============================================
+avril 09 16:04:22 [0m[NR_PHY]   Harq round stats for Downlink: 234/1/0
+avril 09 16:04:22 [0m[NR_PHY]   ============================================
+avril 09 16:04:24 [0m[NR_PHY]   ============================================
+avril 09 16:04:24 [0m[NR_PHY]   Harq round stats for Downlink: 241/1/0
+avril 09 16:04:24 [0m[NR_PHY]   ============================================
+avril 09 16:04:26 [0m[NR_PHY]   ============================================
+avril 09 16:04:26 [0m[NR_PHY]   Harq round stats for Downlink: 248/1/0
+avril 09 16:04:26 [0m[NR_PHY]   ============================================
+avril 09 16:04:28 [0m[NR_PHY]   ============================================
+avril 09 16:04:28 [0m[NR_PHY]   Harq round stats for Downlink: 254/1/0
+avril 09 16:04:28 [0m[NR_PHY]   ============================================
+avril 09 16:04:29 [0m[NR_PHY]   ============================================
+avril 09 16:04:29 [0m[NR_PHY]   Harq round stats for Downlink: 261/1/0
+avril 09 16:04:29 [0m[NR_PHY]   ============================================
+avril 09 16:04:31 [0m[NR_PHY]   ============================================
+avril 09 16:04:31 [0m[NR_PHY]   Harq round stats for Downlink: 267/1/0
+avril 09 16:04:31 [0m[NR_PHY]   ============================================
+avril 09 16:04:33 [0m[NR_PHY]   ============================================
+avril 09 16:04:33 [0m[NR_PHY]   Harq round stats for Downlink: 273/1/0
+avril 09 16:04:33 [0m[NR_PHY]   ============================================
+avril 09 16:04:34 [0m[NR_PHY]   ============================================
+avril 09 16:04:34 [0m[NR_PHY]   Harq round stats for Downlink: 280/1/0
+avril 09 16:04:34 [0m[NR_PHY]   ============================================
+avril 09 16:04:36 [0m[NR_PHY]   ============================================
+avril 09 16:04:36 [0m[NR_PHY]   Harq round stats for Downlink: 286/1/0
+avril 09 16:04:36 [0m[NR_PHY]   ============================================
+avril 09 16:04:38 [0m[NR_PHY]   ============================================
+avril 09 16:04:38 [0m[NR_PHY]   Harq round stats for Downlink: 293/1/0
+avril 09 16:04:38 [0m[NR_PHY]   ============================================
+avril 09 16:04:40 [0m[NR_PHY]   ============================================
+avril 09 16:04:40 [0m[NR_PHY]   Harq round stats for Downlink: 299/1/0
+avril 09 16:04:40 [0m[NR_PHY]   ============================================
+avril 09 16:04:41 [0m[NR_PHY]   ============================================
+avril 09 16:04:41 [0m[NR_PHY]   Harq round stats for Downlink: 305/1/0
+avril 09 16:04:41 [0m[NR_PHY]   ============================================
+avril 09 16:04:43 [0m[NR_PHY]   ============================================
+avril 09 16:04:43 [0m[NR_PHY]   Harq round stats for Downlink: 312/1/0
+avril 09 16:04:43 [0m[NR_PHY]   ============================================
+avril 09 16:04:45 [0m[NR_PHY]   ============================================
+avril 09 16:04:45 [0m[NR_PHY]   Harq round stats for Downlink: 318/1/0
+avril 09 16:04:45 [0m[NR_PHY]   ============================================
+avril 09 16:04:47 [0m[NR_PHY]   ============================================
+avril 09 16:04:47 [0m[NR_PHY]   Harq round stats for Downlink: 325/1/0
+avril 09 16:04:47 [0m[NR_PHY]   ============================================
+avril 09 16:04:48 [0m[NR_PHY]   ============================================
+avril 09 16:04:48 [0m[NR_PHY]   Harq round stats for Downlink: 331/1/0
+avril 09 16:04:48 [0m[NR_PHY]   ============================================
+avril 09 16:04:50 [0m[NR_PHY]   ============================================
+avril 09 16:04:50 [0m[NR_PHY]   Harq round stats for Downlink: 337/1/0
+avril 09 16:04:50 [0m[NR_PHY]   ============================================
+avril 09 16:04:52 [0m[NR_PHY]   ============================================
+avril 09 16:04:52 [0m[NR_PHY]   Harq round stats for Downlink: 344/1/0
+avril 09 16:04:52 [0m[NR_PHY]   ============================================
+avril 09 16:04:53 [0m[NR_PHY]   ============================================
+avril 09 16:04:53 [0m[NR_PHY]   Harq round stats for Downlink: 350/1/0
+avril 09 16:04:53 [0m[NR_PHY]   ============================================
+avril 09 16:04:55 [0m[NR_PHY]   ============================================
+avril 09 16:04:55 [0m[NR_PHY]   Harq round stats for Downlink: 357/1/0
+avril 09 16:04:55 [0m[NR_PHY]   ============================================
+avril 09 16:04:57 [0m[NR_PHY]   ============================================
+avril 09 16:04:57 [0m[NR_PHY]   Harq round stats for Downlink: 363/1/0
+avril 09 16:04:57 [0m[NR_PHY]   ============================================
+avril 09 16:04:59 [0m[NR_PHY]   ============================================
+avril 09 16:04:59 [0m[NR_PHY]   Harq round stats for Downlink: 369/1/0
+avril 09 16:04:59 [0m[NR_PHY]   ============================================
+avril 09 16:05:00 [0m[NR_PHY]   ============================================
+avril 09 16:05:00 [0m[NR_PHY]   Harq round stats for Downlink: 376/1/0
+avril 09 16:05:00 [0m[NR_PHY]   ============================================
+avril 09 16:05:02 [0m[NR_PHY]   ============================================
+avril 09 16:05:02 [0m[NR_PHY]   Harq round stats for Downlink: 382/1/0
+avril 09 16:05:02 [0m[NR_PHY]   ============================================
+avril 09 16:05:04 [0m[NR_PHY]   ============================================
+avril 09 16:05:04 [0m[NR_PHY]   Harq round stats for Downlink: 389/1/0
+avril 09 16:05:04 [0m[NR_PHY]   ============================================
+avril 09 16:05:05 [0m[NR_PHY]   ============================================
+avril 09 16:05:05 [0m[NR_PHY]   Harq round stats for Downlink: 395/1/0
+avril 09 16:05:05 [0m[NR_PHY]   ============================================
+avril 09 16:05:07 [0m[NR_PHY]   ============================================
+avril 09 16:05:07 [0m[NR_PHY]   Harq round stats for Downlink: 401/1/0
+avril 09 16:05:07 [0m[NR_PHY]   ============================================
+avril 09 16:05:09 [0m[NR_PHY]   ============================================
+avril 09 16:05:09 [0m[NR_PHY]   Harq round stats for Downlink: 408/1/0
+avril 09 16:05:09 [0m[NR_PHY]   ============================================
+avril 09 16:05:11 [0m[NR_PHY]   ============================================
+avril 09 16:05:11 [0m[NR_PHY]   Harq round stats for Downlink: 414/1/0
+avril 09 16:05:11 [0m[NR_PHY]   ============================================
+avril 09 16:05:11 [0m[93m[HW]   Lost socket
+avril 09 16:05:11 [0mmac 8a 66 a2 21 
+avril 09 16:05:11 mac 54 8b 29 b0 
+avril 09 16:05:11 [CONFIG] nas.noS1: 3/3 parameters successfully set 
+avril 09 16:05:11 [CONFIG] nas.noS1: 3/3 parameters successfully set 
