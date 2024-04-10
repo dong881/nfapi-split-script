@@ -1,5 +1,6 @@
-cd ~/openairinterface5g/cmake_targets
-sudo ./build_oai -c --ninja --nrUE --gNB
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+# sudo ./build_oai -c --ninja --nrUE --gNB
 
 cd ~/nfapi-split-script
 bash "./all-in-one"
