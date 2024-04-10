@@ -1,0 +1,5 @@
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./build_oai -c --ninja --nrUE --gNB
+
+cd ~/nfapi-split-script
+bash "./all-in-one"
