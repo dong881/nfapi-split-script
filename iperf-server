@@ -1,1 +1,17 @@
-docker exec -it oai-ext-dn iperf3 -si1   # server, reports every 1s status
+docker exec -d oai-ext-dn nohup iperf3 -si1 &
+
+# docker exec -it oai-ext-dn nohup iperf3 -si1 > /dev/null 2>&1 &
+# docker exec -it oai-ext-dn iperf3 -si1   # server, reports every 1s status
+#!/bin/bash
+
+# Check if iperf3 process is running
+# if pgrep -x "iperf3" > /dev/null
+# then
+#     echo "iperf3 is already running."
+# else
+#     # Start iperf3 process
+#     nohup iperf3 -si1 > /dev/null 2>&1 &
+#     echo "iperf3 started."
+# fi
+
+
