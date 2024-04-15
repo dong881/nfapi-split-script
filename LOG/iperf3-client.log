@@ -1,25 +1,25 @@
-avril 12 16:45:30 Connecting to host 192.168.70.135, port 5201
-avril 12 16:45:30 Reverse mode, remote host 192.168.70.135 is sending
-avril 12 16:45:30 [  5] local 10.0.0.22 port 36679 connected to 192.168.70.135 port 5201
-avril 12 16:45:31 [ ID] Interval           Transfer     Bitrate
-avril 12 16:45:31 [  5]   0.00-1.00   sec   800 KBytes  6.56 Mbits/sec                  
-avril 12 16:45:32 [  5]   1.00-2.00   sec  1.07 MBytes  8.99 Mbits/sec                  
-avril 12 16:45:33 [  5]   2.00-3.00   sec  1.39 MBytes  11.7 Mbits/sec                  
-avril 12 16:45:34 [  5]   3.00-4.00   sec  1.90 MBytes  16.0 Mbits/sec                  
-avril 12 16:45:35 [  5]   4.00-5.00   sec  2.50 MBytes  20.9 Mbits/sec                  
-avril 12 16:45:36 [  5]   5.00-6.00   sec  3.30 MBytes  27.7 Mbits/sec                  
-avril 12 16:45:37 [  5]   6.00-7.00   sec  3.57 MBytes  30.0 Mbits/sec                  
-avril 12 16:45:38 [  5]   7.00-8.00   sec  3.59 MBytes  30.1 Mbits/sec                  
-avril 12 16:45:39 [  5]   8.00-9.00   sec  3.54 MBytes  29.7 Mbits/sec                  
-avril 12 16:45:40 [  5]   9.00-10.00  sec  3.48 MBytes  29.2 Mbits/sec                  
-avril 12 16:45:41 [  5]  10.00-11.00  sec  3.55 MBytes  29.8 Mbits/sec                  
-avril 12 16:45:42 [  5]  11.00-12.00  sec  3.54 MBytes  29.7 Mbits/sec                  
-avril 12 16:45:43 [  5]  12.00-13.00  sec  3.56 MBytes  29.8 Mbits/sec                  
-avril 12 16:45:44 [  5]  13.00-14.00  sec  3.61 MBytes  30.3 Mbits/sec                  
-avril 12 16:45:46 [  5]  14.00-15.00  sec  3.64 MBytes  30.5 Mbits/sec                  
-avril 12 16:45:46 - - - - - - - - - - - - - - - - - - - - - - - - -
-avril 12 16:45:46 [ ID] Interval           Transfer     Bitrate         Retr
-avril 12 16:45:46 [  5]   0.00-15.09  sec  45.7 MBytes  25.4 Mbits/sec    0             sender
-avril 12 16:45:46 [  5]   0.00-15.00  sec  43.0 MBytes  24.1 Mbits/sec                  receiver
-avril 12 16:45:46 
-avril 12 16:45:46 iperf Done.
+avril 15 11:47:52 Connecting to host 192.168.70.135, port 5201
+avril 15 11:47:52 Reverse mode, remote host 192.168.70.135 is sending
+avril 15 11:47:53 [  5] local 10.0.0.9 port 60553 connected to 192.168.70.135 port 5201
+avril 15 11:47:54 [ ID] Interval           Transfer     Bitrate
+avril 15 11:47:54 [  5]   0.00-1.00   sec   844 KBytes  6.92 Mbits/sec                  
+avril 15 11:47:55 [  5]   1.00-2.00   sec  1.37 MBytes  11.5 Mbits/sec                  
+avril 15 11:47:56 [  5]   2.00-3.00   sec  1.78 MBytes  15.0 Mbits/sec                  
+avril 15 11:47:57 [  5]   3.00-4.00   sec  2.32 MBytes  19.5 Mbits/sec                  
+avril 15 11:47:58 [  5]   4.00-5.00   sec  3.06 MBytes  25.7 Mbits/sec                  
+avril 15 11:47:59 [  5]   5.00-6.00   sec  3.46 MBytes  29.1 Mbits/sec                  
+avril 15 11:48:00 [  5]   6.00-7.00   sec  3.59 MBytes  30.1 Mbits/sec                  
+avril 15 11:48:01 [  5]   7.00-8.00   sec  3.39 MBytes  28.4 Mbits/sec                  
+avril 15 11:48:02 [  5]   8.00-9.00   sec  3.25 MBytes  27.2 Mbits/sec                  
+avril 15 11:48:03 [  5]   9.00-10.00  sec  3.20 MBytes  26.8 Mbits/sec                  
+avril 15 11:48:04 [  5]  10.00-11.00  sec  3.20 MBytes  26.8 Mbits/sec                  
+avril 15 11:48:05 [  5]  11.00-12.00  sec  2.74 MBytes  22.9 Mbits/sec                  
+avril 15 11:48:06 [  5]  12.00-13.00  sec  3.65 MBytes  30.6 Mbits/sec                  
+avril 15 11:48:07 [  5]  13.00-14.00  sec  3.30 MBytes  27.7 Mbits/sec                  
+avril 15 11:48:09 [  5]  14.00-15.00  sec  3.36 MBytes  28.2 Mbits/sec                  
+avril 15 11:48:09 - - - - - - - - - - - - - - - - - - - - - - - - -
+avril 15 11:48:09 [ ID] Interval           Transfer     Bitrate         Retr
+avril 15 11:48:09 [  5]   0.00-15.06  sec  45.1 MBytes  25.1 Mbits/sec    0             sender
+avril 15 11:48:09 [  5]   0.00-15.00  sec  42.5 MBytes  23.8 Mbits/sec                  receiver
+avril 15 11:48:09 
+avril 15 11:48:09 iperf Done.
