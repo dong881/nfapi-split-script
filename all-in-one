@@ -28,5 +28,5 @@ bash "./iperf-client-autoExecute" &
  sleep $wait_sec
  bash "$Target_PATH/exit"
  echo "Time to $wait_sec seconds..."
-
+kill $!
 echo "END"
