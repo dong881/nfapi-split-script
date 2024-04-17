@@ -1,18 +1,1 @@
-avril 16 14:57:52 Connecting to host 192.168.70.135, port 5201
-avril 16 14:57:52 Reverse mode, remote host 192.168.70.135 is sending
-avril 16 14:57:52 [  5] local 10.0.0.10 port 38201 connected to 192.168.70.135 port 5201
-avril 16 14:57:53 [ ID] Interval           Transfer     Bitrate
-avril 16 14:57:53 [  5]   0.00-1.00   sec   578 KBytes  4.74 Mbits/sec                  
-avril 16 14:57:54 [  5]   1.00-2.00   sec   659 KBytes  5.40 Mbits/sec                  
-avril 16 14:57:55 [  5]   2.00-3.00   sec   880 KBytes  7.21 Mbits/sec                  
-avril 16 14:57:56 [  5]   3.00-4.00   sec   303 KBytes  2.48 Mbits/sec                  
-avril 16 14:57:57 [  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:57:58 [  5]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:57:59 [  5]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:00 [  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:01 [  5]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:02 [  5]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:03 [  5]  10.00-11.00  sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:04 [  5]  11.00-12.00  sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:05 [  5]  12.00-13.00  sec  0.00 Bytes  0.00 bits/sec                  
-avril 16 14:58:06 [  5]  13.00-14.00  sec  0.00 Bytes  0.00 bits/sec                  
+avril 17 10:12:48 iperf3: error - the server is busy running a test. try again later
