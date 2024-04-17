@@ -1,15 +1,16 @@
-PING 192.168.70.135 (192.168.70.135) from 10.0.0.34 oaitun_ue1: 56(84) bytes of data.
-64 bytes from 192.168.70.135: iavril 17 10:12:48 ./ping-autoE64 bytes from 192.168.70.135: icmp_seq=2 ttl=63 time=29.1 ms
-64 bytes from 192.168.70.135: icmp_seq=3 ttl=63 time=103 ms
-64 bytes from 192.168.70.135: icmp_seq=4 ttl=63 time=104 ms
-64 bytes from 192.168.70.135: icmp_seq=5 ttl=63 time=104 ms
-64 bytes from 192.168.70.135: icmp_seq=6 ttl=63 time=105 ms
-64 bytes from 192.168.70.135: icmp_seq=7 ttl=63 time=102 ms
-64 bytes from 192.168.70.135: icmp_seq=8 ttl=63 time=103 ms
-64 bytes from 192.168.70.135: icmp_seq=9 ttl=63 time=101 ms
-64 bytes from 192.168.70.135: icmp_seq=10 ttl=63 time=108 ms
-64 bytes from 192.168.70.135: icmp_seq=11 ttl=63 time=107 ms
-64 bytes from 192.168.70.135: icmp_seq=12 ttl=63 time=108 ms
-64 bytes from 192.168.70.135: icmp_seq=13 ttl=63 time=105 ms
-64 bytes from 192.168.70.135: icmp_seq=14 ttl=63 time=108 ms
-64 bytes from 192.168.70.135: icmp_seq=15 ttl=63 time=97.9 ms
+PING 192.168.70.135 (192.168.70.135) from 10.0.0.2 oaitun_ue1: 56(84) bytes of data.
+64 bytes from 192.168.70.135: icmp_seq=1 ttl=63 time=58.4 ms
+64 bytes from 192.168.70.135: icmp_seq=2 ttl=63 time=88.5 ms
+64 bytes from 192.168.70.135: icmp_seq=3 ttl=63 time=99.2 ms
+64 bytes from 192.168.70.135: icmp_seq=4 ttl=63 time=97.2 ms
+64 bytes from 192.168.70.135: icmp_seq=5 ttl=63 time=102 ms
+64 bytes from 192.168.70.135: icmp_seq=6 ttl=63 time=92.1 ms
+64 bytes from 192.168.70.135: icmp_seq=7 ttl=63 time=94.6 ms
+64 bytes from 192.168.70.135: icmp_seq=8 ttl=63 time=105 ms
+64 bytes from 192.168.70.135: icmp_seq=9 ttl=63 time=100 ms
+64 bytes from 192.168.70.135: icmp_seq=10 ttl=63 time=94.6 ms
+64 bytes from 192.168.70.135: icmp_seq=11 ttl=63 time=92.4 ms
+64 bytes from 192.168.70.135: icmp_seq=12 ttl=63 time=103 ms
+64 bytes from 192.168.70.135: icmp_seq=13 ttl=63 time=108 ms
+64 bytes from 192.168.70.135: icmp_seq=14 ttl=63 time=95.0 ms
+64 bytes from 192.168.70.135: icmp_seq=15 ttl=63 time=98.0 ms
