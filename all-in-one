@@ -9,8 +9,8 @@ LOG_PATH="$Target_PATH/LOG"
 bash "$Target_PATH/exit"
 echo "Set ifconfig"
 ./set-ifconfig
-echo "execute OAI Core Network"
-./cn
+# echo "execute OAI Core Network"
+# ./cn
 sudo echo "Start TCPdump..."
 sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump.pcap &
 echo "execute OAI VNF"
