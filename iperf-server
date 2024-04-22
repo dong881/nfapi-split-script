@@ -1,4 +1,5 @@
-docker exec -d oai-ext-dn nohup iperf3 -si1 &
+# docker exec -d oai-ext-dn nohup iperf3 -si1 &
+docker exec -d oai-ext-dn iperf3 -si1
 
 # docker exec -it oai-ext-dn nohup iperf3 -si1 > /dev/null 2>&1 &
 # docker exec -it oai-ext-dn iperf3 -si1   # server, reports every 1s status
@@ -14,4 +15,8 @@ docker exec -d oai-ext-dn nohup iperf3 -si1 &
 #     echo "iperf3 started."
 # fi
 
+###############33 Robert
+# docker exec -it oai-ext-dn iperf3 -si1   # server, reports every 1s status
+# iperf3 -c 192.168.70.135 -B 12.1.1.132 -t 40 -R # TCP, reverse -> TCP in DL from server to client
+# iperf3 ... -t 40 -b1M -u # UDP in UL from client to server
 
