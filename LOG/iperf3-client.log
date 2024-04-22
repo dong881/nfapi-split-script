@@ -1,24 +1,25 @@
-avril 17 15:24:21 Connecting to host 192.168.70.135, port 5201
-avril 17 15:24:21 Reverse mode, remote host 192.168.70.135 is sending
-avril 17 15:24:22 [  5] local 10.0.0.2 port 33499 connected to 192.168.70.135 port 5201
-avril 17 15:24:23 [ ID] Interval           Transfer     Bitrate
-avril 17 15:24:23 [  5]   0.00-1.00   sec   905 KBytes  7.41 Mbits/sec                  
-avril 17 15:24:24 [  5]   1.00-2.00   sec  1.43 MBytes  12.0 Mbits/sec                  
-avril 17 15:24:25 [  5]   2.00-3.00   sec  1.88 MBytes  15.8 Mbits/sec                  
-avril 17 15:24:26 [  5]   3.00-4.00   sec  2.58 MBytes  21.6 Mbits/sec                  
-avril 17 15:24:27 [  5]   4.00-5.00   sec  3.23 MBytes  27.1 Mbits/sec                  
-avril 17 15:24:28 [  5]   5.00-6.00   sec  3.59 MBytes  30.1 Mbits/sec                  
-avril 17 15:24:29 [  5]   6.00-7.00   sec  3.59 MBytes  30.2 Mbits/sec                  
-avril 17 15:24:30 [  5]   7.00-8.00   sec  3.69 MBytes  31.0 Mbits/sec                  
-avril 17 15:24:31 [  5]   8.00-9.00   sec  3.64 MBytes  30.5 Mbits/sec                  
-avril 17 15:24:32 [  5]   9.00-10.00  sec  3.66 MBytes  30.7 Mbits/sec                  
-avril 17 15:24:33 [  5]  10.00-11.00  sec  3.55 MBytes  29.8 Mbits/sec                  
-avril 17 15:24:34 [  5]  11.00-12.00  sec  3.62 MBytes  30.3 Mbits/sec                  
-avril 17 15:24:35 [  5]  12.00-13.00  sec  3.60 MBytes  30.2 Mbits/sec                  
-avril 17 15:24:36 [  5]  13.00-14.00  sec  3.67 MBytes  30.8 Mbits/sec    avril 17 15:32:15 [  5]  14.00-15.00  sec  0.00 Bytes  0.00 bits/sec                  
-avril 17 15:32:15 - - - - - - - - - - - - - - - - - - - - - - - - -
-avril 17 15:32:15 [ ID] Interval           Transfer     Bitrate
-avril 17 15:32:15 [  5]   0.00-15.00  sec  0.00 Bytes  0.00 bits/sec                  sender
-avril 17 15:32:15 [  5]   0.00-15.00  sec  9.33 MBytes  5.22 Mbits/sec                  receiver
-avril 17 15:32:15 iperf3: error - unable to send control message: Broken pipe
-e.
+Connecting to host 192.168.70.135, port 5201
+Reverse mode, remote host 192.168.70.135 is sending
+[  5] local 10.0.0.2 port 41565 connected to 192.168.70.135 port 5201
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   819 KBytes  6.71 Mbits/sec                  
+[  5]   1.00-2.00   sec  1.25 MBytes  10.5 Mbits/sec                  
+[  5]   2.00-3.00   sec  1.68 MBytes  14.1 Mbits/sec                  
+[  5]   3.00-4.00   sec  2.16 MBytes  18.1 Mbits/sec                  
+[  5]   4.00-5.00   sec  2.85 MBytes  23.9 Mbits/sec                  
+[  5]   5.00-6.00   sec  3.43 MBytes  28.8 Mbits/sec                  
+[  5]   6.00-7.00   sec  3.57 MBytes  29.9 Mbits/sec                  
+[  5]   7.00-8.00   sec  3.63 MBytes  30.4 Mbits/sec                  
+[  5]   8.00-9.00   sec  3.61 MBytes  30.2 Mbits/sec                  
+[  5]   9.00-10.00  sec  3.60 MBytes  30.2 Mbits/sec                  
+[  5]  10.00-11.00  sec  3.61 MBytes  30.3 Mbits/sec                  
+[  5]  11.00-12.00  sec  3.61 MBytes  30.3 Mbits/sec                  
+[  5]  12.00-13.00  sec  3.61 MBytes  30.3 Mbits/sec                  
+[  5]  13.00-14.00  sec  3.60 MBytes  30.2 Mbits/sec                  
+[  5]  14.00-15.00  sec  3.62 MBytes  30.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.06  sec  47.9 MBytes  26.7 Mbits/sec    0             sender
+[  5]   0.00-15.00  sec  44.6 MBytes  25.0 Mbits/sec                  receiver
+
+iperf Done.
