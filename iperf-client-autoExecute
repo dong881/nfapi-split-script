@@ -5,7 +5,7 @@
 #!/bin/bash
 
 # Set the maximum number of attempts to search for the interface
-max_attempts=16
+max_attempts=30
 attempts=0
 # bash "./iperf-server"
 # Loop until the interface is found or maximum attempts reached

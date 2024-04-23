@@ -1,9 +1,0 @@
-Connecting to host 192.168.70.135, port 5201
-Reverse mode, remote host 192.168.70.135 is sending
-[  5] local 10.0.0.3 port 55441 connected to 192.168.70.135 port 5201
-[ ID] Interval           Transfer     Bitrate
-[  5]   0.00-22986.61 sec  0.00 Bytes  0.00 bits/sec                  
-- - - - - - - - - - - - - - - - - - - - - - - - -
-[ ID] Interval           Transfer     Bitrate
-[  5]   0.00-22986.61 sec  0.00 Bytes  0.00 bits/sec                  sender
-[  5]   0.00-22986.61 sec  0.00 Bytes  0.00 bits/sec                  receiver
