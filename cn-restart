@@ -1,6 +1,6 @@
 cd ~/oai-cn5g
 docker compose down
 docker compose up -d
-cd ~/nfapi-split-script
-bash "./iperf-server"
-echo "Auto start iperf-server!"
+# cd ~/nfapi-split-script
+# bash "./iperf-server"
+# echo "Auto start iperf-server!"
