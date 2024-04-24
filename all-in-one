@@ -20,8 +20,7 @@ stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
 echo "execute OAI UE"
 stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
 # bash "./ping-autoExecute" &
-
-bash "./iperf-client-autoExecute" &
+# bash "./iperf-client-autoExecute" &
 
  wait_sec=100
  echo "The script automatically closes after $wait_sec seconds..."

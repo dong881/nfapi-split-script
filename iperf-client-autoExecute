@@ -23,7 +23,7 @@ while [ $attempts -lt $max_attempts ]; do
             # Run iperf3 command with the obtained IP address
             echo "$oaitun_ue1_ip"
             ping 192.168.70.135 -I oaitun_ue1 > ./LOG/ping.log &
-            iperf3 -c 192.168.70.135 -B "$oaitun_ue1_ip" -t 15 -R > ./LOG/iperf3-client.log
+            # iperf3 -c 192.168.70.135 -B "$oaitun_ue1_ip" -t 15 -R > ./LOG/iperf3-client.log
             break
         else
             echo -n "."
