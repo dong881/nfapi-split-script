@@ -1,1602 +1,408 @@
-avril 24 17:05:11 1713971111.322186 [HW]   # /dev/cpu_dma_latency set to 2 us
-avril 24 17:05:11 [0m1713971111.368053 [ENB_APP]   nfapi running mode: PNF
-avril 24 17:05:11 [0m1713971111.368076 [GNB_APP]   Getting GNBSParams
-avril 24 17:05:12 [0m1713971112.368293 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-avril 24 17:05:12 [0m1713971112.368348 [ITTI]   Starting itti queue: TASK_TIMER as task 1
-avril 24 17:05:12 [0m1713971112.368356 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
-avril 24 17:05:12 [0m1713971112.368363 [ITTI]   Starting itti queue: TASK_BM as task 3
-avril 24 17:05:12 [0m1713971112.368371 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-avril 24 17:05:12 [0m1713971112.368378 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
-avril 24 17:05:12 [0m1713971112.368385 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-avril 24 17:05:12 [0m1713971112.368391 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-avril 24 17:05:12 [0m1713971112.368401 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-avril 24 17:05:12 [0m1713971112.368408 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
-avril 24 17:05:12 [0m1713971112.368414 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
-avril 24 17:05:12 [0m1713971112.368420 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
-avril 24 17:05:12 [0m1713971112.368428 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
-avril 24 17:05:12 [0m1713971112.368435 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
-avril 24 17:05:12 [0m1713971112.368440 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
-avril 24 17:05:12 [0m1713971112.368445 [ITTI]   Starting itti queue: TASK_S1AP as task 15
-avril 24 17:05:12 [0m1713971112.368451 [ITTI]   Starting itti queue: TASK_NGAP as task 16
-avril 24 17:05:12 [0m1713971112.368457 [ITTI]   Starting itti queue: TASK_X2AP as task 17
-avril 24 17:05:12 [0m1713971112.368465 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
-avril 24 17:05:12 [0m1713971112.368472 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
-avril 24 17:05:12 [0m1713971112.368479 [ITTI]   Starting itti queue: TASK_M3AP as task 20
-avril 24 17:05:12 [0m1713971112.368485 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
-avril 24 17:05:12 [0m1713971112.368493 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
-avril 24 17:05:12 [0m1713971112.368501 [ITTI]   Starting itti queue: TASK_SCTP as task 23
-avril 24 17:05:12 [0m1713971112.368509 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
-avril 24 17:05:12 [0m1713971112.368518 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
-avril 24 17:05:12 [0m1713971112.368525 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
-avril 24 17:05:12 [0m1713971112.368531 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
-avril 24 17:05:12 [0m1713971112.368538 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-avril 24 17:05:12 [0m1713971112.368549 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-avril 24 17:05:12 [0m1713971112.368560 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-avril 24 17:05:12 [0m1713971112.368566 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-avril 24 17:05:12 [0m1713971112.368573 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-avril 24 17:05:12 [0m1713971112.368579 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-avril 24 17:05:12 [0m1713971112.368585 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-avril 24 17:05:12 [0m1713971112.368592 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-avril 24 17:05:12 [0m1713971112.368600 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-avril 24 17:05:12 [0m1713971112.368610 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-avril 24 17:05:12 [0m1713971112.368616 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-avril 24 17:05:12 [0m1713971112.368624 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
-avril 24 17:05:12 [0m1713971112.368633 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
-avril 24 17:05:12 [0m1713971112.368639 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
-avril 24 17:05:12 [0m1713971112.368645 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
-avril 24 17:05:12 [0m1713971112.368651 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
-avril 24 17:05:12 [0m1713971112.368658 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
-avril 24 17:05:12 [0m1713971112.368667 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
-avril 24 17:05:12 [0m1713971112.368705 [OPT]   OPT disabled
-avril 24 17:05:12 [0m1713971112.368709 [HW]   Version: Branch: nfapi-fixes-NTUST Abrev. Hash: b8613082b6 Date: Mon Apr 15 10:10:42 2024 +0200
-avril 24 17:05:12 [0m1713971112.368721 [NR_PHY]   RC.gNB = 0x579e3daa2570
-avril 24 17:05:12 [0m1713971112.370261 [PHY]   L1_RX_THREAD_CORE -1 (16)
-avril 24 17:05:12 [0m1713971112.370274 [PHY]   TX_AMP = 519 (-36 dBFS)
-avril 24 17:05:12 [0m1713971112.370277 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
-avril 24 17:05:12 [0m1713971112.370280 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
-avril 24 17:05:12 [0m1713971112.370281 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
-avril 24 17:05:12 [0m1713971112.370284 [ENB_APP]   nfapi running mode: PNF
-avril 24 17:05:12 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--log_config.global_log_options" "wall_clock" "--sa" 
-avril 24 17:05:12 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
-avril 24 17:05:12 [CONFIG] function config_libconfig_init returned 0
-avril 24 17:05:12 [CONFIG] config module libconfig loaded
-avril 24 17:05:12 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
-avril 24 17:05:12 [CONFIG] debug flags: 0x00000000
-avril 24 17:05:12 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
-avril 24 17:05:12 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
-avril 24 17:05:12 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
-avril 24 17:05:12 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-avril 24 17:05:12 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-avril 24 17:05:12 log init done
-avril 24 17:05:12 Reading in command-line options
-avril 24 17:05:12 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
-avril 24 17:05:12 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
-avril 24 17:05:12 [LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
-avril 24 17:05:12 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
-avril 24 17:05:12 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
-avril 24 17:05:12 [CONFIG] parallel_conf is set to 2
-avril 24 17:05:12 [CONFIG] worker_conf is set to 1
-avril 24 17:05:12 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
-avril 24 17:05:12 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
-avril 24 17:05:12 configuring for RAU/RRU
-avril 24 17:05:12 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
-avril 24 17:05:12 [LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
-avril 24 17:05:12 [LIBCONFIG] L1s.[0]: 20/20 parameters successfully set, (11 to default value)
-avril 24 17:05:12 configure_nr_nfapi_pnf() PNF
-avril 24 17:05:12 
-avril 24 17:05:12 
-avril 24 17:05:12 
-avril 24 17:05:12 
-avril 24 17:05:12 
-avril 24 17:05:12 configure_nr_nfapi_pnf() VNF:127.0.0.1:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.1:50011 rx:50010]
-avril 24 17:05:12 94055402760 [I] 1615179776: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
-avril 24 17:05:12 94055402767 [I] 1615179776: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
-avril 24 17:05:12 94055407760 [I] 1599882816: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
-avril 24 17:05:12 94055407793 [I] 1599882816: nfapi_nr_pnf_start: nfapi_nr_pnf_start
-avril 24 17:05:12 94055407797 [I] 1599882816: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
-avril 24 17:05:12 1713971112.375354 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-avril 24 17:05:12 [0m1713971112.375365 [PHY]   Installing callbacks for IF_Module - UL_indication
-avril 24 17:05:12 [0m1713971112.375370 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x579e3daa58e0
-avril 24 17:05:12 [0m1713971112.375373 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-avril 24 17:05:12 [0mInitializing northbound interface for L1
-avril 24 17:05:12 94055413877 [N] 1599882816: pnf_connect: PNF Setting the SCTP_INITMSG
-avril 24 17:05:12 94055413899 [I] 1599882816: pnf_connect: P5 socket created...
-avril 24 17:05:12 94055414065 [E] 1599882816: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
-avril 24 17:05:12 1713971112.382725 [PHY]   Initializing gNB 0 single_thread_flag:1
-avril 24 17:05:12 [0m1713971112.382744 [PHY]   Initializing gNB 0
-avril 24 17:05:12 [0m1713971112.382747 [PHY]   Registering with MAC interface module (before 0x579e3daa58e0)
-avril 24 17:05:12 [0m1713971112.382750 [PHY]   Installing callbacks for IF_Module - UL_indication
-avril 24 17:05:12 [0m1713971112.382757 [PHY]   Registering with MAC interface module (after 0x579e3daa58e0)
-avril 24 17:05:12 [0m1713971112.382759 [PHY]   Setting indication lists
-avril 24 17:05:12 [0m1713971112.382761 [PHY]   [nr-gnb.c] gNB structure allocated
-avril 24 17:05:14 [0mNFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
-avril 24 17:05:14 START MAIN THREADS
-avril 24 17:05:14 RC.nb_nr_L1_inst:1
-avril 24 17:05:14 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
-avril 24 17:05:14 wait_gNBs()
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 94057414154 [I] 1599882816: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
-avril 24 17:05:14 94057414229 [N] 1599882816: pnf_connect: PNF Setting the SCTP_INITMSG
-avril 24 17:05:14 94057414239 [I] 1599882816: pnf_connect: P5 socket created...
-avril 24 17:05:14 94057414533 [I] 1599882816: pnf_connect: connect succeeded...
-avril 24 17:05:14 94057414537 [N] 1599882816: pnf_connect: After connect loop
-avril 24 17:05:14 94057414542 [I] 1599882816: pnf_connect: Association ID = 440
-avril 24 17:05:14 94057414544 [I] 1599882816: pnf_connect: Receiver window size = 67108864
-avril 24 17:05:14 94057414545 [I] 1599882816: pnf_connect: In Streams = 5
-avril 24 17:05:14 94057414546 [I] 1599882816: pnf_connect: Out Streams = 5
-avril 24 17:05:14 94057414547 [N] 1599882816: pnf_connect: Socket CONNECTED
-avril 24 17:05:14 94057414923 [I] 1599882816: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
-avril 24 17:05:14 [PNF] pnf param request
-avril 24 17:05:14 94057415055 [I] 1599882816: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
-avril 24 17:05:14 [PNF] pnf config request
-avril 24 17:05:14 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
-avril 24 17:05:14 [PNF] Sent pnf_config_resp
-avril 24 17:05:14 94057415135 [I] 1599882816: pnf_nr_handle_pnf_start_request: PNF_START.request Received
-avril 24 17:05:14 Received NFAPI_PNF_START_REQUEST
-avril 24 17:05:14 [PNF] Sent NFAPI_PNF_START_RESP
-avril 24 17:05:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
-avril 24 17:05:14 94057420156 [I] 1599882816: pnf_nr_handle_param_request: PARAM.request received
-avril 24 17:05:14 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
-avril 24 17:05:14 TAG value :2
-avril 24 17:05:14 RUNNING pack_param_response
-avril 24 17:05:14 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
-avril 24 17:05:14 94057420422 [I] 1599882816: pnf_nr_handle_config_request: CONFIG.request received
-avril 24 17:05:14 7f 10 01 00 02 00 28 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 28 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 22 00 04 80 00 00 00 10 22 00 04 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c3 5b 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 f0 02 00 04 00 00 07 e0 
-avril 24 17:05:14 *** have tag 1001, idx 0
-avril 24 17:05:14 *** have tag 1002, idx 1
-avril 24 17:05:14 *** have tag 1005, idx 4
-avril 24 17:05:14 *** have tag 1006, idx 5
-avril 24 17:05:14 *** have tag 1007, idx 6
-avril 24 17:05:14 *** have tag 100a, idx 9
-avril 24 17:05:14 *** have tag 100c, idx 11
-avril 24 17:05:14 *** have tag 100d, idx 12
-avril 24 17:05:14 *** have tag 100e, idx 13
-avril 24 17:05:14 *** have tag 100f, idx 14
-avril 24 17:05:14 *** have tag 1010, idx 15
-avril 24 17:05:14 *** have tag 1011, idx 16
-avril 24 17:05:14 *** have tag 1012, idx 17
-avril 24 17:05:14 *** have tag 1013, idx 18
-avril 24 17:05:14 *** have tag 1014, idx 19
-avril 24 17:05:14 *** have tag 1029, idx 20
-avril 24 17:05:14 *** have tag 101b, idx 27
-avril 24 17:05:14 *** have tag 101d, idx 29
-avril 24 17:05:14 *** have tag 101f, idx 31
-avril 24 17:05:14 *** have tag 1020, idx 32
-avril 24 17:05:14 *** have tag 1026, idx 38
-avril 24 17:05:14 *** have tag 100, idx 41
-avril 24 17:05:14 *** have tag 102, idx 43
-avril 24 17:05:14 *** have tag 11e, idx 44
-avril 24 17:05:14 *** have tag 11f, idx 45
-avril 24 17:05:14 *** have tag 120, idx 46
-avril 24 17:05:14 [PNF] vnf p7 0.1.4.0:50011
-avril 24 17:05:14 carrier_config
-avril 24 17:05:14   bw t 4097 l 2 v 40
-avril 24 17:05:14   freq t 4098 l 4 v 3600120
-avril 24 17:05:14   dl_k0[0] t 0 l 0 v 0
-avril 24 17:05:14   dl_k0[1] t 4099 l 10 v 0
-avril 24 17:05:14   dl_k0[2] t 0 l 0 v 0
-avril 24 17:05:14   dl_k0[3] t 0 l 0 v 0
-avril 24 17:05:14   dl_k0[4] t 0 l 0 v 0
-avril 24 17:05:14   dl_grid_size[0] t 0 l 0 v 0
-avril 24 17:05:14   dl_grid_size[1] t 4100 l 10 v 106
-avril 24 17:05:14   dl_grid_size[2] t 0 l 0 v 0
-avril 24 17:05:14   dl_grid_size[3] t 0 l 0 v 0
-avril 24 17:05:14   dl_grid_size[4] t 0 l 0 v 0
-avril 24 17:05:14   num_tx_ant t 4101 l 2 v 1
-avril 24 17:05:14   uplink_bandwidth t 4102 l 2 v 40
-avril 24 17:05:14   uplink_frequency t 4103 l 4 v 3600120
-avril 24 17:05:14   ul_k0[0] t 0 l 0 v 0
-avril 24 17:05:14   ul_k0[1] t 4104 l 10 v 0
-avril 24 17:05:14   ul_k0[2] t 0 l 0 v 0
-avril 24 17:05:14   ul_k0[3] t 0 l 0 v 0
-avril 24 17:05:14   ul_k0[4] t 0 l 0 v 0
-avril 24 17:05:14   ul_grid_size[0] t 0 l 0 v 0
-avril 24 17:05:14   ul_grid_size[1] t 4105 l 10 v 106
-avril 24 17:05:14   ul_grid_size[2] t 0 l 0 v 0
-avril 24 17:05:14   ul_grid_size[3] t 0 l 0 v 0
-avril 24 17:05:14   ul_grid_size[4] t 0 l 0 v 0
-avril 24 17:05:14   num_rx_ant t 4106 l 2 v 1
-avril 24 17:05:14   frequency_shift_7p5khz t 0 l 0 v 0
-avril 24 17:05:14 prach_config
-avril 24 17:05:14   prach_sequence_length t 4113 l 1 v 1
-avril 24 17:05:14   prach_sub_c_spacing t 4114 l 1 v 1
-avril 24 17:05:14   restricted_set_config t 4115 l 1 v 0
-avril 24 17:05:14   num_prach_fd_occasions t 4116 l 1 v 1
-avril 24 17:05:14   prach_ConfigurationIndex t 4137 l 1 v 98
-avril 24 17:05:14     prach_root_sequence_index t 4117 l 2 v 1
-avril 24 17:05:14     num_root_sequences t 4118 l 1 v 16
-avril 24 17:05:14     k1 t 4119 l 2 v 0
-avril 24 17:05:14     prach_zero_corr_conf t 4120 l 1 v 13
-avril 24 17:05:14     num_unused_root_sequences t 4121 l 2 v 0
-avril 24 17:05:14   ssb_per_rach t 4123 l 1 v 3
-avril 24 17:05:14   prach_multiple_carriers_in_a_band t 0 l 0 v 0
-avril 24 17:05:14 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
-avril 24 17:05:14 
-avril 24 17:05:14 Timing window tag: 286
-avril 24 17:05:14 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
-avril 24 17:05:14 timing info mode:3
-avril 24 17:05:14 timing info period provided value:10
-avril 24 17:05:14 94057420790 [E] 1599882816: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
-avril 24 17:05:14 1713971114.388334 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
-avril 24 17:05:14 [0m[32m1713971114.388339 [PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
-avril 24 17:05:14 [0m1713971114.388343 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
-avril 24 17:05:14 [0m[93m1713971114.388347 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-avril 24 17:05:14 [0m1713971114.388491 [PHY]   gNB 0 configured
-avril 24 17:05:14 [0m1713971114.388493 [PHY]   fp->scs=30000
-avril 24 17:05:14 [0m1713971114.388495 [PHY]   fp->ofdm_symbol_size=2048
-avril 24 17:05:14 [0m1713971114.388497 [PHY]   fp->nb_prefix_samples0=176
-avril 24 17:05:14 [0m1713971114.388498 [PHY]   fp->nb_prefix_samples=144
-avril 24 17:05:14 [0m1713971114.388500 [PHY]   fp->slots_per_subframe=2
-avril 24 17:05:14 [0m1713971114.388501 [PHY]   fp->samples_per_subframe_wCP=57344
-avril 24 17:05:14 [0m1713971114.388503 [PHY]   fp->samples_per_frame_wCP=573440
-avril 24 17:05:14 [0m1713971114.388504 [PHY]   fp->samples_per_subframe=61440
-avril 24 17:05:14 [0m1713971114.388505 [PHY]   fp->samples_per_frame=614400
-avril 24 17:05:14 [0m1713971114.388507 [PHY]   fp->dl_CarrierFreq=3619200000
-avril 24 17:05:14 [0m1713971114.388508 [PHY]   fp->ul_CarrierFreq=3619200000
-avril 24 17:05:14 [0m[PNF] CONFIG_REQUEST[num_tlv:127] TLVs processed:6
-avril 24 17:05:14 [PNF] Simulating PHY CONFIG
-avril 24 17:05:14 DL frequency 3619200000: band 48, UL frequency 3619200000
-avril 24 17:05:14 [PNF] 1 vnf p7 127.0.0.1:50011 timing 30 3 10
-avril 24 17:05:14 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
-avril 24 17:05:14 94057421080 [I] 1599882816: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
-avril 24 17:05:14 [PNF] Received NFAPI_START_REQ phy_id:1
-avril 24 17:05:14 gNB L1 are configured
-avril 24 17:05:14 About to Init RU threads RC.nb_RU:1
-avril 24 17:05:14 Initializing RU threads
-avril 24 17:05:14 configuring RU from file
-avril 24 17:05:14 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
-avril 24 17:05:14 Set RU mask to 1
-avril 24 17:05:14 [PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
-avril 24 17:05:14 subframe_buffer_size configured using phy_info->timing_window:30
-avril 24 17:05:14 94057481548 [I] 1599882816: nr_start_request: [PNF] Creating P7 thread nr_start_request
-avril 24 17:05:14 94057485301 [I] 1599882816: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
-avril 24 17:05:14 1713971114.452854 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-avril 24 17:05:14 [0m94057485310 [I] 1591490112: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
-avril 24 17:05:14 1713971114.452864 [PHY]   Installing callbacks for IF_Module - UL_indication
-avril 24 17:05:14 [0m1713971114.452867 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-avril 24 17:05:14 [0m94057485335 [I] 1599882816: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
-avril 24 17:05:14 Calling sched_setscheduler(79)
-avril 24 17:05:14 94057485345 [I] 1591490112: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
-avril 24 17:05:14 1713971114.452885 [PHY]   RU GPIO control set as 'generic'
-avril 24 17:05:14 [0m1713971114.452888 [PHY]   Setting clock source to internal
-avril 24 17:05:14 [0m1713971114.452890 [PHY]   Setting time source to internal
-avril 24 17:05:14 [0mCreating RC.ru[0]:0x579e3daa84f0
-avril 24 17:05:14 Setting function for RU 0 to gNodeB_3GPP
-avril 24 17:05:14 [RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
-avril 24 17:05:14 [RU 0] Setting half-slot parallelization to 1
-avril 24 17:05:14 94057485374 [I] 1591490112: pnf_nr_p7_message_pump: PNF P7 socket created (100)...
-avril 24 17:05:14 94057485391 [I] 1591490112: pnf_nr_p7_message_pump: PNF P7 binding 100 too 127.0.0.1:50010
-avril 24 17:05:14 94057485405 [I] 1591490112: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
-avril 24 17:05:14 1713971114.452952 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 12
-avril 24 17:05:14 [0m1713971114.452955 [PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
-avril 24 17:05:14 [0m1713971114.453545 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
-avril 24 17:05:14 [0m1713971114.453553 [PHY]   RU Thread pool size 2
-avril 24 17:05:14 [0m1713971114.453556 [PHY]   RU thread-pool core string -1,-1
-avril 24 17:05:14 [0m1713971114.453566 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-avril 24 17:05:14 [0m1713971114.456156 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-avril 24 17:05:14 [0m1713971114.461167 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-avril 24 17:05:14 [0m1713971114.463359 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-avril 24 17:05:14 [0m1713971114.468452 [UTIL]   Creating thread ru_thread with affinity -1 and priority 97
-avril 24 17:05:14 [0m1713971114.470715 [UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
-avril 24 17:05:14 [0m1713971114.488839 [PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 0
-avril 24 17:05:14 [0m1713971114.488859 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
-avril 24 17:05:14 [0m[93m1713971114.488863 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
-avril 24 17:05:14 [0m1713971114.488866 [PHY]   fp->scs=30000
-avril 24 17:05:14 [0m1713971114.488871 [PHY]   fp->ofdm_symbol_size=2048
-avril 24 17:05:14 [0m1713971114.488873 [PHY]   fp->nb_prefix_samples0=176
-avril 24 17:05:14 [0m1713971114.488874 [PHY]   fp->nb_prefix_samples=144
-avril 24 17:05:14 [0m1713971114.488875 [PHY]   fp->slots_per_subframe=2
-avril 24 17:05:14 [0m1713971114.488876 [PHY]   fp->samples_per_subframe_wCP=57344
-avril 24 17:05:14 [0m1713971114.488878 [PHY]   fp->samples_per_frame_wCP=573440
-avril 24 17:05:14 [0m1713971114.488879 [PHY]   fp->samples_per_subframe=61440
-avril 24 17:05:14 [0m1713971114.488880 [PHY]   fp->samples_per_frame=614400
-avril 24 17:05:14 [0m1713971114.488881 [PHY]   fp->dl_CarrierFreq=3619200000
-avril 24 17:05:14 [0m1713971114.488882 [PHY]   fp->ul_CarrierFreq=3619200000
-avril 24 17:05:14 [0m1713971114.488884 [PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
-avril 24 17:05:14 [0m1713971114.492727 [PHY]   [INIT] common.txdata[0] = 0x7e3b5cb67040 (2458880 bytes,sf_extension 320)
-avril 24 17:05:14 [0m1713971114.492742 [PHY]   [INIT] common.txdata[0] = 0x7e3b5cb67540 
-avril 24 17:05:14 [0m1713971114.494055 [PHY]   nb_tx 1
-avril 24 17:05:14 [0m1713971114.494773 [PHY]   rxdata_7_5kHz[0] 0x7e3b5c81d040 for RU 0
-avril 24 17:05:14 [0m1713971114.495957 [PHY]   [INIT] common.txdata_BF= 0x7e3b48000ac0 (8 bytes)
-avril 24 17:05:14 [0m1713971114.496062 [PHY]   txdataF_BF[0] 0x7e3b5fea1040 for RU 0
-avril 24 17:05:14 [0m1713971114.496235 [PHY]   rxdataF[0] 0x7e3b5fe30040 for RU 0
-avril 24 17:05:14 [0m1713971114.504699 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
-avril 24 17:05:14 [0m1713971114.505801 [PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
-avril 24 17:05:14 [0m1713971114.505811 [PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
-avril 24 17:05:14 [0m1713971114.505822 [PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3619200000 Hz
-avril 24 17:05:14 [0m1713971114.505825 [PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
-avril 24 17:05:14 [0m[93m1713971114.506117 [HW]   sample_rate 61440000.000000
-avril 24 17:05:14 [0m1713971114.506123 [HW]   Running as server waiting opposite rfsimulators to connect
-avril 24 17:05:14 [0m1713971114.506238 [HW]   [RAU] has loaded RFSIMULATOR device.
-avril 24 17:05:14 [0m1713971114.506242 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
-avril 24 17:05:14 [0m1713971114.506245 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
-avril 24 17:05:19 [0m1713971119.452903 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
-avril 24 17:05:19 [0m1713971119.452927 [PHY]   RC.nb_nr_CC[inst:0]:0x7e3b5f5c5010
-avril 24 17:05:19 [0m1713971119.452928 [PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
-avril 24 17:05:19 [0m1713971119.677953 [PHY]   Initialise nr transport
-avril 24 17:05:20 [0m1713971120.251852 [PHY]   Mapping RX ports from 1 RUs to gNB 0
-avril 24 17:05:20 [0m1713971120.251880 [PHY]   gNB->num_RU:1
-avril 24 17:05:20 [0m1713971120.251883 [PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
-avril 24 17:05:20 [0m1713971120.251897 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.253848 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.257567 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.259481 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.263212 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.265874 [UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.269523 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.271826 [UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.275465 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.277918 [UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.281524 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.283740 [UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.287464 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.289194 [UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.293059 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.294793 [UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.298535 [UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.300973 [UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.304777 [UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
-avril 24 17:05:20 [0m1713971120.307105 [UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
-avril 24 17:05:20 [0m1713971120.328965 [UTIL]   Creating thread L1_stats with affinity -1 and priority 1
-avril 24 17:05:20 [0m1713971120.331362 [UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
-avril 24 17:05:20 [0m1713971120.335135 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
-avril 24 17:05:20 [0m1713971120.335146 [PHY]   RUs configured
-avril 24 17:05:20 [0mconfiguring ru_id 0 (start_rf 0x579e391bef00)
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 waiting for NFAPI PNF connection and population of global structure (main?)
-avril 24 17:05:20 [LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
-avril 24 17:05:20 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
-avril 24 17:05:20 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
-avril 24 17:05:20 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
-avril 24 17:05:20 shlib_path librfsimulator.so
-avril 24 17:05:20 [LOADER] library librfsimulator.so successfully loaded
-avril 24 17:05:20 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
-avril 24 17:05:20 Initializing random number generator, seed 5166501612788664567
-avril 24 17:05:20 setup_RU_buffers: frame_parms = 0x7e3b5faaf010
-avril 24 17:05:20 waiting for sync (ru_thread,-1/0x579e39d660b4,0x579e3a608fc0,0x579e3a608f80)
-avril 24 17:05:20 [PNF] waiting for OAI to be configured (eNB/RU)
-avril 24 17:05:20 [PNF] OAI eNB/RU configured
-avril 24 17:05:20 [PNF] About to call init_eNB_afterRU()
-avril 24 17:05:20 [LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
-avril 24 17:05:20 shlib_path libdfts.so
-avril 24 17:05:20 [LOADER] library libdfts.so successfully loaded
-avril 24 17:05:20 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
-avril 24 17:05:20 shlib_path libldpc.so
-avril 24 17:05:20 [LOADER] library libldpc.so successfully loaded
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 create a thread for core -1
-avril 24 17:05:20 waiting for sync (L1_stats_thread,-1/0x579e39d660b4,0x579e3a608fc0,0x579e3a608f80)
-avril 24 17:05:20 [PNF] Sending PNF_START_RESP
-avril 24 17:05:20 Sending NFAPI_START_RESPONSE config:0x579e3daa3660 phy_id:1
-avril 24 17:05:20 NFAPI: got sync (main?)
-avril 24 17:05:20 wait RUs
-avril 24 17:05:20 ALL RUs READY!
-avril 24 17:05:20 RC.nb_RU:1
-avril 24 17:05:20 ALL RUs ready - init gNBs
-avril 24 17:05:20 NFAPI mode - DO NOT call init_gNB_afterRU()
-avril 24 17:05:20 ALL RUs ready - ALL gNBs ready
-avril 24 17:05:20 Sending sync to all threads
-avril 24 17:05:20 Entering ITTI signals handler
-avril 24 17:05:20 TYPE <CTRL-C> TO TERMINATE
-avril 24 17:05:20 got sync (L1_stats_thread)
-avril 24 17:05:20 got sync (ru_thread)
-avril 24 17:05:20 [93m1713971120.335223 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
-avril 24 17:05:20 [0m[93m1713971120.336600 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
-avril 24 17:05:20 [0m[93m1713971120.337642 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
-avril 24 17:05:20 [0m[93m1713971120.338616 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
-avril 24 17:05:20 [0m1713971120.339766 [PHY]   RU 0 rf device ready
-avril 24 17:05:20 [0m1713971120.339776 [PHY]   RU 0 RF started opp_enabled 0
-avril 24 17:05:20 [0m[93m1713971120.339781 [HW]   No connected device, generating void samples...
-avril 24 17:05:20 [0m1713971120.375052 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m[PNF] Sending first P7 slot indication
-avril 24 17:05:20 [PNF] Sent first P7 slot ind
-avril 24 17:05:20 94063407542 [N] 1591490112: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 42
-avril 24 17:05:20 1713971120.376743 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m94063409214 [N] 1591490112: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
-avril 24 17:05:20 1713971120.376758 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 1/19
-avril 24 17:05:20 [0m1713971120.376790 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 2/0
-avril 24 17:05:20 [0m1713971120.420398 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.423575 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.423612 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.423617 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 3/19
-avril 24 17:05:20 [0m1713971120.423652 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 4/0
-avril 24 17:05:20 [0m1713971120.482090 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.483040 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.483057 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 5/18
-avril 24 17:05:20 [0m1713971120.483092 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 6/0
-avril 24 17:05:20 [0m1713971120.524744 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.525786 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.525811 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 7/18
-avril 24 17:05:20 [0m1713971120.525853 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 8/0
-avril 24 17:05:20 [0m1713971120.567350 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.568345 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.568367 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 9/18
-avril 24 17:05:20 [0m1713971120.568407 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 10/0
-avril 24 17:05:20 [0m1713971120.610108 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.611159 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.611183 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 11/18
-avril 24 17:05:20 [0m1713971120.611229 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 12/0
-avril 24 17:05:20 [0m1713971120.653255 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.654318 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.654354 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 13/18
-avril 24 17:05:20 [0m1713971120.654408 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 14/0
-avril 24 17:05:20 [0m1713971120.695885 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.696892 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.696923 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 15/18
-avril 24 17:05:20 [0m1713971120.696967 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 16/0
-avril 24 17:05:20 [0m1713971120.738729 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.739714 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:20 [0m1713971120.739732 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 17/18
-avril 24 17:05:20 [0m1713971120.739782 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 18/0
-avril 24 17:05:20 [0m1713971120.760752 [HW]   A client connects, sending the current time
-avril 24 17:05:21 [0m1713971121.764854 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.764974 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.764987 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 20/0
-avril 24 17:05:21 [0m1713971121.765015 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 20/0
-avril 24 17:05:21 [0m1713971121.772273 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.772406 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.772420 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 22/0
-avril 24 17:05:21 [0m1713971121.772451 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 22/0
-avril 24 17:05:21 [0m1713971121.779600 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.779768 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.779785 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 24/0
-avril 24 17:05:21 [0m1713971121.779818 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 24/0
-avril 24 17:05:21 [0m1713971121.787240 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.787377 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.787391 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 26/0
-avril 24 17:05:21 [0m1713971121.787426 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 26/0
-avril 24 17:05:21 [0m1713971121.795221 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.795376 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.795396 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 28/0
-avril 24 17:05:21 [0m1713971121.795440 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 28/0
-avril 24 17:05:21 [0m1713971121.803583 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.803763 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.803786 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 30/0
-avril 24 17:05:21 [0m1713971121.803824 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 30/0
-avril 24 17:05:21 [0m1713971121.812442 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.812622 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.812640 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 32/0
-avril 24 17:05:21 [0m1713971121.812677 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 32/0
-avril 24 17:05:21 [0m1713971121.821737 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.821900 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.821920 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 34/0
-avril 24 17:05:21 [0m1713971121.821960 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 34/0
-avril 24 17:05:21 [0m1713971121.831304 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.831476 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.831510 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 36/1
-avril 24 17:05:21 [0m1713971121.831565 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 36/0
-avril 24 17:05:21 [0m1713971121.841746 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.841982 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.842001 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 38/1
-avril 24 17:05:21 [0m1713971121.842046 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 38/0
-avril 24 17:05:21 [0m1713971121.852848 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.853081 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.853104 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 40/0
-avril 24 17:05:21 [0m1713971121.853149 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 40/0
-avril 24 17:05:21 [0m1713971121.865586 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.865883 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.865904 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 42/0
-avril 24 17:05:21 [0m1713971121.865957 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 42/0
-avril 24 17:05:21 [0m1713971121.878419 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.878679 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.878699 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 44/0
-avril 24 17:05:21 [0m1713971121.878750 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 44/0
-avril 24 17:05:21 [0m1713971121.891857 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.892136 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.892159 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 46/0
-avril 24 17:05:21 [0m1713971121.892211 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 46/0
-avril 24 17:05:21 [0m1713971121.905953 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.906237 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.906257 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 48/0
-avril 24 17:05:21 [0m1713971121.906312 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 48/0
-avril 24 17:05:21 [0m1713971121.920926 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.921155 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.921173 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 50/0
-avril 24 17:05:21 [0m1713971121.921226 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 50/0
-avril 24 17:05:21 [0m1713971121.935167 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.935455 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.935482 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 52/1
-avril 24 17:05:21 [0m1713971121.935560 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 52/0
-avril 24 17:05:21 [0m1713971121.950005 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.950351 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.950377 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 54/0
-avril 24 17:05:21 [0m1713971121.950431 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 54/0
-avril 24 17:05:21 [0m1713971121.964720 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.964974 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.964995 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 56/0
-avril 24 17:05:21 [0m1713971121.965047 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 56/0
-avril 24 17:05:21 [0m1713971121.978963 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.979229 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.979248 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 57/19
-avril 24 17:05:21 [0m1713971121.979300 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 58/0
-avril 24 17:05:21 [0m1713971121.993901 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.994212 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:21 [0m1713971121.994233 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 60/0
-avril 24 17:05:21 [0m1713971121.994283 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 60/0
-avril 24 17:05:22 [0m1713971122.008748 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.009010 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.009035 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 62/0
-avril 24 17:05:22 [0m1713971122.009087 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 62/0
-avril 24 17:05:22 [0m1713971122.022984 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.023247 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.023269 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 63/19
-avril 24 17:05:22 [0m1713971122.023320 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 64/0
-avril 24 17:05:22 [0m
-avril 24 17:05:22 Assertion (harq->sdu_len > 0) failed!
-avril 24 17:05:22 In nr_generate_pdsch() /home/chen/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:115
-avril 24 17:05:22 no HARQ SDU present
-avril 24 17:05:22 1713971122.037761 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.038031 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.038050 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 66/0
-avril 24 17:05:22 [0m1713971122.038101 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 66/0
-avril 24 17:05:22 [0m1713971122.051919 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.052198 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.052219 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 68/0
-avril 24 17:05:22 [0m1713971122.052271 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 68/0
-avril 24 17:05:22 [0m1713971122.066397 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.066638 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.066665 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 70/0
-avril 24 17:05:22 [0m1713971122.066719 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 70/0
-avril 24 17:05:22 [0m1713971122.081192 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.081471 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.081495 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 72/1
-avril 24 17:05:22 [0m1713971122.081547 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 72/0
-avril 24 17:05:22 [0m1713971122.095570 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.095884 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.095909 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 74/0
-avril 24 17:05:22 [0m1713971122.095959 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 74/0
-avril 24 17:05:22 [0m1713971122.110266 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.110550 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.110578 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 76/0
-avril 24 17:05:22 [0m1713971122.110629 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 76/0
-avril 24 17:05:22 [0m1713971122.124401 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.124676 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.124703 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 78/0
-avril 24 17:05:22 [0m1713971122.124754 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 78/0
-avril 24 17:05:22 [0m1713971122.138242 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.138520 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.138544 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 80/0
-avril 24 17:05:22 [0m1713971122.138604 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 80/0
-avril 24 17:05:22 [0m1713971122.152156 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.152410 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.152430 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 82/0
-avril 24 17:05:22 [0m1713971122.152482 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 82/0
-avril 24 17:05:22 [0m1713971122.166234 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.166457 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.166483 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 84/0
-avril 24 17:05:22 [0m1713971122.166535 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 84/0
-avril 24 17:05:22 [0m1713971122.179901 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.180142 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.180160 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 86/0
-avril 24 17:05:22 [0m1713971122.180212 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 86/0
-avril 24 17:05:22 [0m1713971122.195290 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.195678 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.195717 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 88/0
-avril 24 17:05:22 [0m1713971122.195769 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 88/0
-avril 24 17:05:22 [0m1713971122.210807 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.211128 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.211154 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 90/0
-avril 24 17:05:22 [0m1713971122.211202 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 90/0
-avril 24 17:05:22 [0m1713971122.226894 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.227278 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.227303 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 92/0
-avril 24 17:05:22 [0m1713971122.227353 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 92/0
-avril 24 17:05:22 [0m1713971122.244233 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.244558 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.244586 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 94/0
-avril 24 17:05:22 [0m1713971122.244637 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 94/0
-avril 24 17:05:22 [0m1713971122.260999 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.261442 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.261471 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 96/0
-avril 24 17:05:22 [0m1713971122.261520 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 96/0
-avril 24 17:05:22 [0m1713971122.278510 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.278896 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.278924 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 98/0
-avril 24 17:05:22 [0m1713971122.278971 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 98/0
-avril 24 17:05:22 [0m1713971122.297303 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.297777 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.297808 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 100/0
-avril 24 17:05:22 [0m1713971122.297856 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 100/0
-avril 24 17:05:22 [0m1713971122.315994 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.316407 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.316440 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 102/0
-avril 24 17:05:22 [0m1713971122.316487 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 102/0
-avril 24 17:05:22 [0m1713971122.333997 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.334420 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.334457 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 104/0
-avril 24 17:05:22 [0m1713971122.334506 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 104/0
-avril 24 17:05:22 [0m1713971122.363869 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.364275 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.364304 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 106/0
-avril 24 17:05:22 [0m1713971122.364350 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 106/0
-avril 24 17:05:22 [0m1713971122.385720 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.386088 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.386113 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 107/19
-avril 24 17:05:22 [0m1713971122.386161 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 108/0
-avril 24 17:05:22 [0m1713971122.408823 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.409254 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.409285 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 110/0
-avril 24 17:05:22 [0m1713971122.409334 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 110/0
-avril 24 17:05:22 [0m1713971122.432461 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.432896 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.432926 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 112/0
-avril 24 17:05:22 [0m1713971122.432973 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 112/0
-avril 24 17:05:22 [0m1713971122.449943 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.450440 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.450467 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 114/0
-avril 24 17:05:22 [0m1713971122.450516 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 114/0
-avril 24 17:05:22 [0m1713971122.469831 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.470181 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.470208 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 116/0
-avril 24 17:05:22 [0m1713971122.470257 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 116/0
-avril 24 17:05:22 [0m1713971122.487346 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.487759 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.487796 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 118/0
-avril 24 17:05:22 [0m1713971122.487848 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 118/0
-avril 24 17:05:22 [0m1713971122.505191 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.505607 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.505631 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 120/0
-avril 24 17:05:22 [0m1713971122.505680 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 120/0
-avril 24 17:05:22 [0m1713971122.524107 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.524557 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.524588 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 122/0
-avril 24 17:05:22 [0m1713971122.524638 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 122/0
-avril 24 17:05:22 [0m1713971122.542636 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.542958 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.542984 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 124/0
-avril 24 17:05:22 [0m1713971122.543034 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 124/0
-avril 24 17:05:22 [0m1713971122.559745 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.560099 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.560122 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 126/0
-avril 24 17:05:22 [0m1713971122.560174 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 126/0
-avril 24 17:05:22 [0m1713971122.576900 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.577355 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.577402 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 128/0
-avril 24 17:05:22 [0m1713971122.577453 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 128/0
-avril 24 17:05:22 [0m1713971122.593990 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.594362 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.594395 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 130/0
-avril 24 17:05:22 [0m1713971122.594447 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 130/0
-avril 24 17:05:22 [0m1713971122.608675 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.609013 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.609046 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 132/1
-avril 24 17:05:22 [0m1713971122.609098 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 132/0
-avril 24 17:05:22 [0m1713971122.623317 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.623673 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.623706 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 134/0
-avril 24 17:05:22 [0m1713971122.623756 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 134/0
-avril 24 17:05:22 [0m1713971122.637663 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.637994 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.638024 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 136/0
-avril 24 17:05:22 [0m1713971122.638073 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 136/0
-avril 24 17:05:22 [0m1713971122.652629 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.652959 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.653012 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 138/0
-avril 24 17:05:22 [0m1713971122.653065 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 138/0
-avril 24 17:05:22 [0m1713971122.667734 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.668063 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.668109 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 140/0
-avril 24 17:05:22 [0m1713971122.668161 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 140/0
-avril 24 17:05:22 [0m1713971122.682703 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.682991 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.683019 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 142/1
-avril 24 17:05:22 [0m1713971122.683071 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 142/0
-avril 24 17:05:22 [0m1713971122.697690 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.698028 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.698060 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 144/0
-avril 24 17:05:22 [0m1713971122.698111 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 144/0
-avril 24 17:05:22 [0m1713971122.712638 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.712960 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.712996 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 146/0
-avril 24 17:05:22 [0m1713971122.713049 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 146/0
-avril 24 17:05:22 [0m1713971122.727514 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.727869 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.727902 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 148/0
-avril 24 17:05:22 [0m1713971122.727953 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 148/0
-avril 24 17:05:22 [0m1713971122.742416 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.742790 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.742824 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 150/0
-avril 24 17:05:22 [0m1713971122.742875 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 150/0
-avril 24 17:05:22 [0m1713971122.757406 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.757787 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.757817 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 152/0
-avril 24 17:05:22 [0m1713971122.757867 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 152/0
-avril 24 17:05:22 [0m1713971122.774223 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.774503 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.774527 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 154/0
-avril 24 17:05:22 [0m1713971122.774578 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 154/0
-avril 24 17:05:22 [0m1713971122.790617 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.791061 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.791090 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 156/0
-avril 24 17:05:22 [0m1713971122.791141 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 156/0
-avril 24 17:05:22 [0m1713971122.807079 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.807405 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.807428 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 158/0
-avril 24 17:05:22 [0m1713971122.807479 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 158/0
-avril 24 17:05:22 [0m1713971122.823019 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.823395 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.823423 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 160/0
-avril 24 17:05:22 [0m1713971122.823473 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 160/0
-avril 24 17:05:22 [0m1713971122.839106 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.839486 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.839514 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 162/1
-avril 24 17:05:22 [0m1713971122.839591 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 162/0
-avril 24 17:05:22 [0m1713971122.855918 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.856278 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.856304 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 164/0
-avril 24 17:05:22 [0m1713971122.856353 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 164/0
-avril 24 17:05:22 [0m1713971122.872477 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.872812 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.872842 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 166/0
-avril 24 17:05:22 [0m1713971122.872892 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 166/0
-avril 24 17:05:22 [0m1713971122.888891 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.889311 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.889337 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 168/0
-avril 24 17:05:22 [0m1713971122.889386 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 168/0
-avril 24 17:05:22 [0m1713971122.905282 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.905642 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.905670 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 170/0
-avril 24 17:05:22 [0m1713971122.905718 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 170/0
-avril 24 17:05:22 [0m1713971122.921645 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.921940 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.921966 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 172/0
-avril 24 17:05:22 [0m1713971122.922015 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 172/0
-avril 24 17:05:22 [0m1713971122.937974 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.938398 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.938444 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 174/0
-avril 24 17:05:22 [0m1713971122.938495 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 174/0
-avril 24 17:05:22 [0m1713971122.954758 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.955101 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.955134 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 176/0
-avril 24 17:05:22 [0m1713971122.955186 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 176/0
-avril 24 17:05:22 [0m1713971122.971967 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.972332 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.972361 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 177/19
-avril 24 17:05:22 [0m1713971122.972412 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 178/0
-avril 24 17:05:22 [0m
-avril 24 17:05:22 Assertion (harq->sdu_len > 0) failed!
-avril 24 17:05:22 In nr_generate_pdsch() /home/chen/openairinterface5g/openair1/PHY/NR_TRANSPORT/nr_dlsch.c:115
-avril 24 17:05:22 no HARQ SDU present
-avril 24 17:05:22 1713971122.989183 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.989565 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:22 [0m1713971122.989604 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 180/0
-avril 24 17:05:22 [0m1713971122.989655 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 180/0
-avril 24 17:05:23 [0m1713971123.008374 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.009045 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.009082 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 182/0
-avril 24 17:05:23 [0m1713971123.009133 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 182/0
-avril 24 17:05:23 [0m1713971123.026985 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.027396 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.027432 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 184/0
-avril 24 17:05:23 [0m1713971123.027483 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 184/0
-avril 24 17:05:23 [0m1713971123.044636 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.045004 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.045033 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 186/0
-avril 24 17:05:23 [0m1713971123.045084 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 186/0
-avril 24 17:05:23 [0m1713971123.062253 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.062665 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.062713 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 188/0
-avril 24 17:05:23 [0m1713971123.062764 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 188/0
-avril 24 17:05:23 [0m1713971123.080490 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.080960 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.081003 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 190/0
-avril 24 17:05:23 [0m1713971123.081056 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 190/0
-avril 24 17:05:23 [0m1713971123.098001 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.098386 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.098419 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 192/0
-avril 24 17:05:23 [0m1713971123.098470 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 192/0
-avril 24 17:05:23 [0m1713971123.116787 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.117191 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.117220 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 194/0
-avril 24 17:05:23 [0m1713971123.117272 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 194/0
-avril 24 17:05:23 [0m1713971123.134259 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.134610 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.134631 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 196/0
-avril 24 17:05:23 [0m1713971123.134679 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 196/0
-avril 24 17:05:23 [0m1713971123.151387 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.151840 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.151870 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 198/0
-avril 24 17:05:23 [0m1713971123.151915 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 198/0
-avril 24 17:05:23 [0m1713971123.168679 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.169105 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.169126 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 200/0
-avril 24 17:05:23 [0m1713971123.169171 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 200/0
-avril 24 17:05:23 [0m1713971123.185387 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.185754 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.185779 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 202/0
-avril 24 17:05:23 [0m1713971123.185825 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 202/0
-avril 24 17:05:23 [0m1713971123.202152 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.202493 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.202514 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 205/0
-avril 24 17:05:23 [0m1713971123.202562 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 204/0
-avril 24 17:05:23 [0m1713971123.218948 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.219391 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.219417 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 206/0
-avril 24 17:05:23 [0m1713971123.219461 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 206/0
-avril 24 17:05:23 [0m1713971123.236478 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.236890 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.236914 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 208/0
-avril 24 17:05:23 [0m1713971123.236965 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 208/0
-avril 24 17:05:23 [0m1713971123.253505 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.253805 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.253826 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 210/0
-avril 24 17:05:23 [0m1713971123.253872 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 210/0
-avril 24 17:05:23 [0m1713971123.269982 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.270260 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.270280 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 212/0
-avril 24 17:05:23 [0m1713971123.270326 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 212/0
-avril 24 17:05:23 [0m1713971123.287157 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.287590 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.287619 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 214/0
-avril 24 17:05:23 [0m1713971123.287666 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 214/0
-avril 24 17:05:23 [0m1713971123.303789 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.304223 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.304246 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 216/0
-avril 24 17:05:23 [0m1713971123.304290 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 216/0
-avril 24 17:05:23 [0m1713971123.320665 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.321078 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.321100 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 218/0
-avril 24 17:05:23 [0m1713971123.321146 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 218/0
-avril 24 17:05:23 [0m1713971123.337419 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.337790 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.337815 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 220/0
-avril 24 17:05:23 [0m1713971123.337860 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 220/0
-avril 24 17:05:23 [0m1713971123.353743 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.354096 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.354120 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 222/0
-avril 24 17:05:23 [0m1713971123.354167 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 222/0
-avril 24 17:05:23 [0m1713971123.370313 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.370693 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.370711 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 224/0
-avril 24 17:05:23 [0m1713971123.370758 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 224/0
-avril 24 17:05:23 [0m1713971123.386957 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.387387 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.387411 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 226/0
-avril 24 17:05:23 [0m1713971123.387461 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 226/0
-avril 24 17:05:23 [0m1713971123.403758 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.404139 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.404159 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 228/0
-avril 24 17:05:23 [0m1713971123.404206 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 228/0
-avril 24 17:05:23 [0m1713971123.421052 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.421426 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.421445 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 230/0
-avril 24 17:05:23 [0m1713971123.421492 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 230/0
-avril 24 17:05:23 [0m1713971123.437779 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.438187 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.438211 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 232/0
-avril 24 17:05:23 [0m1713971123.438258 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 232/0
-avril 24 17:05:23 [0m1713971123.455292 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.455653 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.455677 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 234/0
-avril 24 17:05:23 [0m1713971123.455726 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 234/0
-avril 24 17:05:23 [0m1713971123.471844 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.472172 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.472195 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 236/0
-avril 24 17:05:23 [0m1713971123.472242 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 236/0
-avril 24 17:05:23 [0m1713971123.487881 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.488191 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.488215 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 238/0
-avril 24 17:05:23 [0m1713971123.488262 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 238/0
-avril 24 17:05:23 [0m1713971123.503261 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.503569 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.503586 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 240/0
-avril 24 17:05:23 [0m1713971123.503633 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 240/0
-avril 24 17:05:23 [0m1713971123.518109 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.518432 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.518447 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 242/0
-avril 24 17:05:23 [0m1713971123.518495 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 242/0
-avril 24 17:05:23 [0m1713971123.533107 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.533438 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.533456 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 244/0
-avril 24 17:05:23 [0m1713971123.533508 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 244/0
-avril 24 17:05:23 [0m1713971123.547985 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.548285 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.548305 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 246/0
-avril 24 17:05:23 [0m1713971123.548358 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 246/0
-avril 24 17:05:23 [0m1713971123.563115 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.563446 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.563461 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 248/0
-avril 24 17:05:23 [0m1713971123.563511 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 248/0
-avril 24 17:05:23 [0m1713971123.578313 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.578634 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.578650 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 250/0
-avril 24 17:05:23 [0m1713971123.578695 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 250/0
-avril 24 17:05:23 [0m1713971123.592921 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.593199 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.593216 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 252/0
-avril 24 17:05:23 [0m1713971123.593265 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 252/0
-avril 24 17:05:23 [0m1713971123.607331 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.607636 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.607655 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 254/0
-avril 24 17:05:23 [0m1713971123.607705 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 254/0
-avril 24 17:05:23 [0m1713971123.621877 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.622204 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.622222 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 256/0
-avril 24 17:05:23 [0m1713971123.622269 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 256/0
-avril 24 17:05:23 [0m1713971123.636574 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.636899 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.636917 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 258/0
-avril 24 17:05:23 [0m1713971123.636968 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 258/0
-avril 24 17:05:23 [0m1713971123.651174 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.651460 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.651477 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 260/1
-avril 24 17:05:23 [0m1713971123.651525 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 260/0
-avril 24 17:05:23 [0m1713971123.665705 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.665986 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.666009 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 262/1
-avril 24 17:05:23 [0m1713971123.666058 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 262/0
-avril 24 17:05:23 [0m1713971123.681011 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.681323 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.681343 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 264/0
-avril 24 17:05:23 [0m1713971123.681395 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 264/0
-avril 24 17:05:23 [0m1713971123.696859 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.697201 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.697221 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 266/0
-avril 24 17:05:23 [0m1713971123.697268 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 266/0
-avril 24 17:05:23 [0m1713971123.712162 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.712465 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.712481 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 268/1
-avril 24 17:05:23 [0m1713971123.712529 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 268/0
-avril 24 17:05:23 [0m1713971123.729917 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.730370 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.730392 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 270/0
-avril 24 17:05:23 [0m1713971123.730445 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 270/0
-avril 24 17:05:23 [0m1713971123.749877 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.750206 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.750231 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 272/0
-avril 24 17:05:23 [0m1713971123.750280 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 272/0
-avril 24 17:05:23 [0m1713971123.766705 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.767004 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.767023 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 274/0
-avril 24 17:05:23 [0m1713971123.767071 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 274/0
-avril 24 17:05:23 [0m1713971123.783026 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.783341 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.783358 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 276/0
-avril 24 17:05:23 [0m1713971123.783405 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 276/0
-avril 24 17:05:23 [0m1713971123.799205 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.799520 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.799564 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 278/0
-avril 24 17:05:23 [0m1713971123.799612 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 278/0
-avril 24 17:05:23 [0m1713971123.815576 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.815913 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.815935 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 280/0
-avril 24 17:05:23 [0m1713971123.815988 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 280/0
-avril 24 17:05:23 [0m1713971123.831807 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.832106 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.832123 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 282/0
-avril 24 17:05:23 [0m1713971123.832171 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 282/0
-avril 24 17:05:23 [0m1713971123.846550 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.846855 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.846875 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 284/0
-avril 24 17:05:23 [0m1713971123.846924 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 284/0
-avril 24 17:05:23 [0m1713971123.862161 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.862463 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.862480 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 286/1
-avril 24 17:05:23 [0m1713971123.862529 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 286/0
-avril 24 17:05:23 [0m1713971123.878474 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.878802 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.878824 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 288/0
-avril 24 17:05:23 [0m1713971123.878884 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 288/0
-avril 24 17:05:23 [0m1713971123.893791 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.894078 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.894095 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 290/0
-avril 24 17:05:23 [0m1713971123.894143 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 290/0
-avril 24 17:05:23 [0m1713971123.908373 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.908702 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.908722 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 292/0
-avril 24 17:05:23 [0m1713971123.908776 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 292/0
-avril 24 17:05:23 [0m1713971123.923090 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.923392 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.923410 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 294/0
-avril 24 17:05:23 [0m1713971123.923457 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 294/0
-avril 24 17:05:23 [0m1713971123.938097 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.938387 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.938404 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 296/0
-avril 24 17:05:23 [0m1713971123.938453 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 296/0
-avril 24 17:05:23 [0m1713971123.952749 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.953067 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.953084 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 298/0
-avril 24 17:05:23 [0m1713971123.953131 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 298/0
-avril 24 17:05:23 [0m1713971123.967506 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.967829 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.967846 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 300/0
-avril 24 17:05:23 [0m1713971123.967893 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 300/0
-avril 24 17:05:23 [0m1713971123.981978 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.982250 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.982266 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 302/0
-avril 24 17:05:23 [0m1713971123.982315 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 302/0
-avril 24 17:05:23 [0m1713971123.996919 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.997235 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:23 [0m1713971123.997253 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 304/0
-avril 24 17:05:23 [0m1713971123.997302 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 304/0
-avril 24 17:05:24 [0m1713971124.011743 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.012053 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.012073 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 306/0
-avril 24 17:05:24 [0m1713971124.012120 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 306/0
-avril 24 17:05:24 [0m1713971124.026493 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.026811 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.026831 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 308/0
-avril 24 17:05:24 [0m1713971124.026885 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 308/0
-avril 24 17:05:24 [0m1713971124.040988 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.041304 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.041323 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 310/0
-avril 24 17:05:24 [0m1713971124.041373 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 310/0
-avril 24 17:05:24 [0m1713971124.055512 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.055872 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.055888 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 312/0
-avril 24 17:05:24 [0m1713971124.055938 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 312/0
-avril 24 17:05:24 [0m1713971124.069891 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.070222 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.070239 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 314/0
-avril 24 17:05:24 [0m1713971124.070291 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 314/0
-avril 24 17:05:24 [0m1713971124.084426 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.084722 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.084740 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 316/0
-avril 24 17:05:24 [0m1713971124.084796 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 316/0
-avril 24 17:05:24 [0m1713971124.098603 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.098920 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.098938 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 318/0
-avril 24 17:05:24 [0m1713971124.098986 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 318/0
-avril 24 17:05:24 [0m1713971124.113070 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.113377 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.113394 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 320/0
-avril 24 17:05:24 [0m1713971124.113445 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 320/0
-avril 24 17:05:24 [0m1713971124.127566 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.127898 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.127920 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 322/0
-avril 24 17:05:24 [0m1713971124.127966 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 322/0
-avril 24 17:05:24 [0m1713971124.141762 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.142122 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.142145 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 324/0
-avril 24 17:05:24 [0m1713971124.142204 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 324/0
-avril 24 17:05:24 [0m1713971124.156614 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.156940 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.156959 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 326/0
-avril 24 17:05:24 [0m1713971124.157011 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 326/0
-avril 24 17:05:24 [0m1713971124.170747 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.171081 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.171098 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 328/0
-avril 24 17:05:24 [0m1713971124.171146 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 328/0
-avril 24 17:05:24 [0m1713971124.185303 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.185603 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.185625 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 330/0
-avril 24 17:05:24 [0m1713971124.185676 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 330/0
-avril 24 17:05:24 [0m1713971124.199641 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.199931 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.199947 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 332/0
-avril 24 17:05:24 [0m1713971124.199994 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 332/0
-avril 24 17:05:24 [0m1713971124.213896 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.214178 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.214193 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 334/0
-avril 24 17:05:24 [0m1713971124.214239 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 334/0
-avril 24 17:05:24 [0m1713971124.228264 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.228558 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.228576 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 336/0
-avril 24 17:05:24 [0m1713971124.228623 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 336/0
-avril 24 17:05:24 [0m1713971124.243879 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.244177 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.244196 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 338/0
-avril 24 17:05:24 [0m1713971124.244242 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 338/0
-avril 24 17:05:24 [0m1713971124.258600 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.258879 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.258897 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 340/0
-avril 24 17:05:24 [0m1713971124.258944 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 340/0
-avril 24 17:05:24 [0m1713971124.273365 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.273681 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.273698 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 342/0
-avril 24 17:05:24 [0m1713971124.273746 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 342/0
-avril 24 17:05:24 [0m1713971124.288655 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.289023 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.289042 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 344/1
-avril 24 17:05:24 [0m1713971124.289089 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 344/0
-avril 24 17:05:24 [0m1713971124.304247 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.304614 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.304637 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 346/0
-avril 24 17:05:24 [0m1713971124.304684 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 346/0
-avril 24 17:05:24 [0m1713971124.320303 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.320585 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.320603 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 348/0
-avril 24 17:05:24 [0m1713971124.320648 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 348/0
-avril 24 17:05:24 [0m1713971124.335870 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.336113 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.336143 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 350/0
-avril 24 17:05:24 [0m1713971124.336187 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 350/0
-avril 24 17:05:24 [0m1713971124.362947 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.363285 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.363306 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 351/19
-avril 24 17:05:24 [0m1713971124.363355 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 352/0
-avril 24 17:05:24 [0m1713971124.386068 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.386347 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.386364 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 354/0
-avril 24 17:05:24 [0m1713971124.386410 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 354/0
-avril 24 17:05:24 [0m1713971124.406703 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.407008 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.407027 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 356/0
-avril 24 17:05:24 [0m1713971124.407077 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 356/0
-avril 24 17:05:24 [0m1713971124.425775 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.426103 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.426123 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 358/0
-avril 24 17:05:24 [0m1713971124.426172 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 358/0
-avril 24 17:05:24 [0m1713971124.447084 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.447417 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.447436 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 360/0
-avril 24 17:05:24 [0m1713971124.447483 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 360/0
-avril 24 17:05:24 [0m1713971124.470117 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.470412 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.470431 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 362/0
-avril 24 17:05:24 [0m1713971124.470477 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 362/0
-avril 24 17:05:24 [0m1713971124.486260 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.486635 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.486656 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 364/0
-avril 24 17:05:24 [0m1713971124.486704 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 364/0
-avril 24 17:05:24 [0m1713971124.504273 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.504616 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.504644 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 366/0
-avril 24 17:05:24 [0m1713971124.504693 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 366/0
-avril 24 17:05:24 [0m1713971124.522639 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.522951 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.522971 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 368/0
-avril 24 17:05:24 [0m1713971124.523016 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 368/0
-avril 24 17:05:24 [0m1713971124.538724 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.539053 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.539073 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 370/0
-avril 24 17:05:24 [0m1713971124.539120 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 370/0
-avril 24 17:05:24 [0m1713971124.554372 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.554669 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.554690 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 372/0
-avril 24 17:05:24 [0m1713971124.554738 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 372/0
-avril 24 17:05:24 [0m1713971124.569795 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.570121 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.570140 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 374/0
-avril 24 17:05:24 [0m1713971124.570185 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 374/0
-avril 24 17:05:24 [0m1713971124.584952 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.585267 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.585285 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 376/0
-avril 24 17:05:24 [0m1713971124.585330 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 376/0
-avril 24 17:05:24 [0m1713971124.601412 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.601690 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.601708 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 378/0
-avril 24 17:05:24 [0m1713971124.601754 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 378/0
-avril 24 17:05:24 [0m1713971124.617536 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.617799 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.617817 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 380/0
-avril 24 17:05:24 [0m1713971124.617866 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 380/0
-avril 24 17:05:24 [0m1713971124.634671 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.634968 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.634986 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 382/1
-avril 24 17:05:24 [0m1713971124.635035 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 382/0
-avril 24 17:05:24 [0m1713971124.650111 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.650433 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.650453 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 384/0
-avril 24 17:05:24 [0m1713971124.650501 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 384/0
-avril 24 17:05:24 [0m1713971124.664824 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.665097 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.665116 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 386/0
-avril 24 17:05:24 [0m1713971124.665167 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 386/0
-avril 24 17:05:24 [0m1713971124.680958 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.681205 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.681223 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 388/0
-avril 24 17:05:24 [0m1713971124.681271 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 388/0
-avril 24 17:05:24 [0m1713971124.696773 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.696984 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.697001 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 390/1
-avril 24 17:05:24 [0m1713971124.697048 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 390/0
-avril 24 17:05:24 [0m1713971124.713220 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.713545 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.713563 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 392/1
-avril 24 17:05:24 [0m1713971124.713613 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 392/0
-avril 24 17:05:24 [0m1713971124.730180 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.730406 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.730426 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 394/0
-avril 24 17:05:24 [0m1713971124.730476 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 394/0
-avril 24 17:05:24 [0m1713971124.745502 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.745805 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.745827 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 396/0
-avril 24 17:05:24 [0m1713971124.745874 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 396/0
-avril 24 17:05:24 [0m1713971124.760894 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.761192 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.761211 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 398/0
-avril 24 17:05:24 [0m1713971124.761260 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 398/0
-avril 24 17:05:24 [0m1713971124.775991 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.776331 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.776350 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 400/0
-avril 24 17:05:24 [0m1713971124.776397 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 400/0
-avril 24 17:05:24 [0m1713971124.790945 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.791247 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.791266 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 402/0
-avril 24 17:05:24 [0m1713971124.791313 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 402/0
-avril 24 17:05:24 [0m1713971124.807804 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.808104 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.808126 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 404/0
-avril 24 17:05:24 [0m1713971124.808173 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 404/0
-avril 24 17:05:24 [0m1713971124.823397 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.823684 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.823703 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 406/0
-avril 24 17:05:24 [0m1713971124.823752 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 406/0
-avril 24 17:05:24 [0m1713971124.837923 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.838213 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.838232 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 408/0
-avril 24 17:05:24 [0m1713971124.838279 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 408/0
-avril 24 17:05:24 [0m1713971124.852442 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.852745 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.852763 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 410/0
-avril 24 17:05:24 [0m1713971124.852811 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 410/0
-avril 24 17:05:24 [0m1713971124.866890 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.867148 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.867166 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 412/0
-avril 24 17:05:24 [0m1713971124.867212 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 412/0
-avril 24 17:05:24 [0m1713971124.881200 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.881492 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.881521 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 414/1
-avril 24 17:05:24 [0m1713971124.881579 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 414/0
-avril 24 17:05:24 [0m1713971124.896230 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.896548 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.896590 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 416/1
-avril 24 17:05:24 [0m1713971124.896641 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 416/0
-avril 24 17:05:24 [0m1713971124.910748 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.911013 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.911043 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 418/1
-avril 24 17:05:24 [0m1713971124.911098 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 418/0
-avril 24 17:05:24 [0m1713971124.925557 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.925828 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.925857 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 420/0
-avril 24 17:05:24 [0m1713971124.925914 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 420/0
-avril 24 17:05:24 [0m1713971124.940182 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.940457 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.940488 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 422/1
-avril 24 17:05:24 [0m1713971124.940543 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 422/0
-avril 24 17:05:24 [0m1713971124.955924 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.956232 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.956258 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 424/0
-avril 24 17:05:24 [0m1713971124.956310 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 424/0
-avril 24 17:05:24 [0m1713971124.971069 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.971370 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.971394 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 426/0
-avril 24 17:05:24 [0m1713971124.971447 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 426/0
-avril 24 17:05:24 [0m1713971124.985305 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.985605 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.985628 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 428/0
-avril 24 17:05:24 [0m1713971124.985679 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 428/0
-avril 24 17:05:24 [0m1713971124.999621 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.999900 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:24 [0m1713971124.999921 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 430/0
-avril 24 17:05:24 [0m1713971124.999975 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 430/0
-avril 24 17:05:25 [0m1713971125.014207 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.014502 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.014529 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 432/1
-avril 24 17:05:25 [0m1713971125.014582 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 432/0
-avril 24 17:05:25 [0m1713971125.029312 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.029646 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.029670 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 434/0
-avril 24 17:05:25 [0m1713971125.029722 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 434/0
-avril 24 17:05:25 [0m1713971125.045765 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.046097 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.046121 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 436/0
-avril 24 17:05:25 [0m1713971125.046173 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 436/0
-avril 24 17:05:25 [0m1713971125.060222 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.060495 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.060518 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 438/0
-avril 24 17:05:25 [0m1713971125.060572 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 438/0
-avril 24 17:05:25 [0m1713971125.074856 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.075184 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.075216 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 440/0
-avril 24 17:05:25 [0m1713971125.075268 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 440/0
-avril 24 17:05:25 [0m1713971125.089544 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.089868 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.089892 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 442/0
-avril 24 17:05:25 [0m1713971125.089946 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 442/0
-avril 24 17:05:25 [0m1713971125.104111 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.104392 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.104417 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 444/0
-avril 24 17:05:25 [0m1713971125.104470 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 444/0
-avril 24 17:05:25 [0m1713971125.118165 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.118456 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.118481 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 446/0
-avril 24 17:05:25 [0m1713971125.118532 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 446/0
-avril 24 17:05:25 [0m1713971125.132621 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.132955 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.132979 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 448/0
-avril 24 17:05:25 [0m1713971125.133031 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 448/0
-avril 24 17:05:25 [0m1713971125.147033 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.147308 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.147328 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 450/0
-avril 24 17:05:25 [0m1713971125.147379 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 450/0
-avril 24 17:05:25 [0m1713971125.161451 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.161741 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.161768 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 452/0
-avril 24 17:05:25 [0m1713971125.161818 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 452/0
-avril 24 17:05:25 [0m1713971125.175911 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.176194 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.176217 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 454/0
-avril 24 17:05:25 [0m1713971125.176268 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 454/0
-avril 24 17:05:25 [0m1713971125.189815 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.190128 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.190153 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 456/0
-avril 24 17:05:25 [0m1713971125.190205 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 456/0
-avril 24 17:05:25 [0m1713971125.203733 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.203998 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.204025 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 458/1
-avril 24 17:05:25 [0m1713971125.204077 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 458/0
-avril 24 17:05:25 [0m1713971125.217961 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.218212 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.218235 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 460/0
-avril 24 17:05:25 [0m1713971125.218287 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 460/0
-avril 24 17:05:25 [0m1713971125.232002 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.232274 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.232302 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 462/0
-avril 24 17:05:25 [0m1713971125.232354 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 462/0
-avril 24 17:05:25 [0m1713971125.246261 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.246552 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.246579 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 464/0
-avril 24 17:05:25 [0m1713971125.246631 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 464/0
-avril 24 17:05:25 [0m1713971125.260154 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.260423 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.260443 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 466/0
-avril 24 17:05:25 [0m1713971125.260494 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 466/0
-avril 24 17:05:25 [0m1713971125.274203 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.274470 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.274495 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 468/1
-avril 24 17:05:25 [0m1713971125.274549 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 468/0
-avril 24 17:05:25 [0m1713971125.288404 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.288688 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.288712 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 470/0
-avril 24 17:05:25 [0m1713971125.288764 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 470/0
-avril 24 17:05:25 [0m1713971125.302090 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.302381 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.302406 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 472/0
-avril 24 17:05:25 [0m1713971125.302458 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 472/0
-avril 24 17:05:25 [0m1713971125.316117 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.316388 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.316412 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 474/0
-avril 24 17:05:25 [0m1713971125.316463 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 474/0
-avril 24 17:05:25 [0m1713971125.330368 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.330710 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.330743 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 476/0
-avril 24 17:05:25 [0m1713971125.330796 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 476/0
-avril 24 17:05:25 [0m1713971125.346051 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.346322 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.346346 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 478/0
-avril 24 17:05:25 [0m1713971125.346399 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 478/0
-avril 24 17:05:25 [0m1713971125.361275 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.361576 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.361609 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 480/0
-avril 24 17:05:25 [0m1713971125.361664 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 480/0
-avril 24 17:05:25 [0m1713971125.376430 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.376703 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.376727 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 482/0
-avril 24 17:05:25 [0m1713971125.376780 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 482/0
-avril 24 17:05:25 [0m1713971125.391425 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.391742 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.391776 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 484/0
-avril 24 17:05:25 [0m1713971125.391831 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 484/0
-avril 24 17:05:25 [0m1713971125.406600 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.406901 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.406926 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 486/0
-avril 24 17:05:25 [0m1713971125.406978 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 486/0
-avril 24 17:05:25 [0m1713971125.421967 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.422299 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.422323 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 488/0
-avril 24 17:05:25 [0m1713971125.422376 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 488/0
-avril 24 17:05:25 [0m1713971125.437032 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.437323 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.437342 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 490/0
-avril 24 17:05:25 [0m1713971125.437395 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 490/0
-avril 24 17:05:25 [0m1713971125.453576 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.453943 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.453977 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 492/0
-avril 24 17:05:25 [0m1713971125.454029 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 492/0
-avril 24 17:05:25 [0m1713971125.468990 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.469323 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.469359 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 494/0
-avril 24 17:05:25 [0m1713971125.469413 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 494/0
-avril 24 17:05:25 [0m1713971125.484645 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.485027 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.485061 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 496/1
-avril 24 17:05:25 [0m1713971125.485115 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 496/0
-avril 24 17:05:25 [0m1713971125.500212 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.500568 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.500605 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 498/0
-avril 24 17:05:25 [0m1713971125.500657 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 498/0
-avril 24 17:05:25 [0m1713971125.516960 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.517295 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.517331 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 500/0
-avril 24 17:05:25 [0m1713971125.517383 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 500/0
-avril 24 17:05:25 [0m1713971125.533391 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.533717 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.533750 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 502/0
-avril 24 17:05:25 [0m1713971125.533803 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 502/0
-avril 24 17:05:25 [0m1713971125.548482 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.548820 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.548851 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 504/0
-avril 24 17:05:25 [0m1713971125.548905 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 504/0
-avril 24 17:05:25 [0m1713971125.562798 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.563104 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.563133 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 506/0
-avril 24 17:05:25 [0m1713971125.563184 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 506/0
-avril 24 17:05:25 [0m1713971125.577125 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.577459 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.577494 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 508/0
-avril 24 17:05:25 [0m1713971125.577549 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 508/0
-avril 24 17:05:25 [0m1713971125.592356 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.592662 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.592696 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 510/0
-avril 24 17:05:25 [0m1713971125.592749 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 510/0
-avril 24 17:05:25 [0m1713971125.607261 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.607623 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.607655 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 512/0
-avril 24 17:05:25 [0m1713971125.607706 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 512/0
-avril 24 17:05:25 [0m1713971125.623362 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.623805 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.623838 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 514/0
-avril 24 17:05:25 [0m1713971125.623893 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 514/0
-avril 24 17:05:25 [0m1713971125.640050 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.640384 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.640417 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 516/0
-avril 24 17:05:25 [0m1713971125.640471 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 516/0
-avril 24 17:05:25 [0m1713971125.655042 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.655365 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.655396 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 518/0
-avril 24 17:05:25 [0m1713971125.655449 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 518/0
-avril 24 17:05:25 [0m1713971125.669842 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.670163 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.670190 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 520/0
-avril 24 17:05:25 [0m1713971125.670243 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 520/0
-avril 24 17:05:25 [0m1713971125.684598 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.684901 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.684930 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 522/0
-avril 24 17:05:25 [0m1713971125.684982 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 522/0
-avril 24 17:05:25 [0m1713971125.698710 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.699011 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.699038 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 524/1
-avril 24 17:05:25 [0m1713971125.699091 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 524/0
-avril 24 17:05:25 [0m1713971125.712946 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.713242 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.713272 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 526/0
-avril 24 17:05:25 [0m1713971125.713324 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 526/0
-avril 24 17:05:25 [0m1713971125.727429 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.727836 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.727871 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 528/0
-avril 24 17:05:25 [0m1713971125.727925 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 528/0
-avril 24 17:05:25 [0m1713971125.744009 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.744398 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.744428 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 530/0
-avril 24 17:05:25 [0m1713971125.744482 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 530/0
-avril 24 17:05:25 [0m1713971125.760014 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.760422 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.760463 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 532/0
-avril 24 17:05:25 [0m1713971125.760516 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 532/0
-avril 24 17:05:25 [0m1713971125.778097 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.778499 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.778535 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 534/1
-avril 24 17:05:25 [0m1713971125.778587 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 534/0
-avril 24 17:05:25 [0m1713971125.795691 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.796101 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.796131 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 536/0
-avril 24 17:05:25 [0m1713971125.796182 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 536/0
-avril 24 17:05:25 [0m1713971125.811257 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.811634 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.811665 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 538/0
-avril 24 17:05:25 [0m1713971125.811717 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 538/0
-avril 24 17:05:25 [0m1713971125.827130 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.827470 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.827498 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 540/0
-avril 24 17:05:25 [0m1713971125.827561 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 540/0
-avril 24 17:05:25 [0m1713971125.842723 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.843041 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.843069 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 542/0
-avril 24 17:05:25 [0m1713971125.843120 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 542/0
-avril 24 17:05:25 [0m1713971125.858283 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.858651 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.858681 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 544/0
-avril 24 17:05:25 [0m1713971125.858732 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 544/0
-avril 24 17:05:25 [0m1713971125.876054 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.876375 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.876403 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 546/0
-avril 24 17:05:25 [0m1713971125.876455 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 546/0
-avril 24 17:05:25 [0m1713971125.893171 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.893528 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.893578 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 548/1
-avril 24 17:05:25 [0m1713971125.893631 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 548/0
-avril 24 17:05:25 [0m1713971125.909036 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.909364 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.909397 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 550/0
-avril 24 17:05:25 [0m1713971125.909451 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 550/0
-avril 24 17:05:25 [0m1713971125.922771 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.923106 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.923139 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 552/0
-avril 24 17:05:25 [0m1713971125.923192 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 552/0
-avril 24 17:05:25 [0m1713971125.936878 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.937215 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.937243 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 554/0
-avril 24 17:05:25 [0m1713971125.937294 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 554/0
-avril 24 17:05:25 [0m1713971125.951847 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.952176 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.952207 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 556/0
-avril 24 17:05:25 [0m1713971125.952259 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 556/0
-avril 24 17:05:25 [0m1713971125.966887 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.967259 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.967297 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 558/0
-avril 24 17:05:25 [0m1713971125.967349 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 558/0
-avril 24 17:05:25 [0m1713971125.980957 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.981302 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.981334 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 560/0
-avril 24 17:05:25 [0m1713971125.981386 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 560/0
-avril 24 17:05:25 [0m1713971125.995246 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.995579 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:25 [0m1713971125.995617 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 562/0
-avril 24 17:05:25 [0m1713971125.995670 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 562/0
-avril 24 17:05:26 [0m1713971126.008768 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.009041 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.009071 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 564/0
-avril 24 17:05:26 [0m1713971126.009124 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 564/0
-avril 24 17:05:26 [0m1713971126.023692 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.024008 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.024041 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 566/1
-avril 24 17:05:26 [0m1713971126.024093 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 566/0
-avril 24 17:05:26 [0m1713971126.038256 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.038631 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.038679 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 568/0
-avril 24 17:05:26 [0m1713971126.038733 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 568/0
-avril 24 17:05:26 [0m1713971126.053780 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.054138 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.054176 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 570/0
-avril 24 17:05:26 [0m1713971126.054229 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 570/0
-avril 24 17:05:26 [0m1713971126.070758 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.071148 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.071182 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 572/0
-avril 24 17:05:26 [0m1713971126.071236 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 572/0
-avril 24 17:05:26 [0m1713971126.087398 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.087824 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.087859 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 574/0
-avril 24 17:05:26 [0m1713971126.087913 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 574/0
-avril 24 17:05:26 [0m1713971126.104866 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.105244 [NFAPI_PNF]   [t3] socket receive
-avril 24 17:05:26 [0m1713971126.105277 [NFAPI_PNF]   [t4] pnf_nr_dispatch_p7_message , 576/0
-avril 24 17:05:26 [0m1713971126.105333 [NFAPI_PNF]   [t5] Fill tx_data in buf[0] , 576/0
-avril 24 17:05:26 [0m1713971126.122010 [NFAPI_PNF]   [t3] socket receive
+avril 29 17:28:39 1714404519.805136 [HW]   # /dev/cpu_dma_latency set to 2 us
+avril 29 17:28:39 [0m1714404519.830954 [ENB_APP]   nfapi running mode: PNF
+avril 29 17:28:39 [0m1714404519.830963 [GNB_APP]   Getting GNBSParams
+avril 29 17:28:40 [0m1714404520.831099 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+avril 29 17:28:40 [0m1714404520.831185 [ITTI]   Starting itti queue: TASK_TIMER as task 1
+avril 29 17:28:40 [0m1714404520.831191 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
+avril 29 17:28:40 [0m1714404520.831196 [ITTI]   Starting itti queue: TASK_BM as task 3
+avril 29 17:28:40 [0m1714404520.831200 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+avril 29 17:28:40 [0m1714404520.831204 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+avril 29 17:28:40 [0m1714404520.831208 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+avril 29 17:28:40 [0m1714404520.831211 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+avril 29 17:28:40 [0m1714404520.831215 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+avril 29 17:28:40 [0m1714404520.831218 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+avril 29 17:28:40 [0m1714404520.831221 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+avril 29 17:28:40 [0m1714404520.831224 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+avril 29 17:28:40 [0m1714404520.831228 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+avril 29 17:28:40 [0m1714404520.831231 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+avril 29 17:28:40 [0m1714404520.831235 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+avril 29 17:28:40 [0m1714404520.831239 [ITTI]   Starting itti queue: TASK_S1AP as task 15
+avril 29 17:28:40 [0m1714404520.831243 [ITTI]   Starting itti queue: TASK_NGAP as task 16
+avril 29 17:28:40 [0m1714404520.831247 [ITTI]   Starting itti queue: TASK_X2AP as task 17
+avril 29 17:28:40 [0m1714404520.831250 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+avril 29 17:28:40 [0m1714404520.831254 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+avril 29 17:28:40 [0m1714404520.831258 [ITTI]   Starting itti queue: TASK_M3AP as task 20
+avril 29 17:28:40 [0m1714404520.831262 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+avril 29 17:28:40 [0m1714404520.831267 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+avril 29 17:28:40 [0m1714404520.831272 [ITTI]   Starting itti queue: TASK_SCTP as task 23
+avril 29 17:28:40 [0m1714404520.831276 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+avril 29 17:28:40 [0m1714404520.831280 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+avril 29 17:28:40 [0m1714404520.831283 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+avril 29 17:28:40 [0m1714404520.831287 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
+avril 29 17:28:40 [0m1714404520.831291 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+avril 29 17:28:40 [0m1714404520.831295 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+avril 29 17:28:40 [0m1714404520.831300 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+avril 29 17:28:40 [0m1714404520.831305 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+avril 29 17:28:40 [0m1714404520.831309 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+avril 29 17:28:40 [0m1714404520.831323 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+avril 29 17:28:40 [0m1714404520.831327 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+avril 29 17:28:40 [0m1714404520.831331 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+avril 29 17:28:40 [0m1714404520.831335 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+avril 29 17:28:40 [0m1714404520.831339 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+avril 29 17:28:40 [0m1714404520.831343 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+avril 29 17:28:40 [0m1714404520.831349 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+avril 29 17:28:40 [0m1714404520.831352 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+avril 29 17:28:40 [0m1714404520.831357 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+avril 29 17:28:40 [0m1714404520.831360 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+avril 29 17:28:40 [0m1714404520.831364 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+avril 29 17:28:40 [0m1714404520.831369 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+avril 29 17:28:40 [0m1714404520.831372 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+avril 29 17:28:40 [0m1714404520.831387 [OPT]   OPT disabled
+avril 29 17:28:40 [0m1714404520.831390 [HW]   Version: Branch: nfapi-fixes-NTUST Abrev. Hash: b8613082b6 Date: Mon Apr 15 10:10:42 2024 +0200
+avril 29 17:28:40 [0m1714404520.831395 [NR_PHY]   RC.gNB = 0x61c10b0be570
+avril 29 17:28:40 [0m1714404520.831998 [PHY]   L1_RX_THREAD_CORE -1 (16)
+avril 29 17:28:40 [0m1714404520.832003 [PHY]   TX_AMP = 519 (-36 dBFS)
+avril 29 17:28:40 [0m1714404520.832005 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+avril 29 17:28:40 [0m1714404520.832006 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+avril 29 17:28:40 [0m1714404520.832007 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+avril 29 17:28:40 [0m1714404520.832009 [ENB_APP]   nfapi running mode: PNF
+avril 29 17:28:40 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--log_config.global_log_options" "wall_clock" "--sa" 
+avril 29 17:28:40 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+avril 29 17:28:40 [CONFIG] function config_libconfig_init returned 0
+avril 29 17:28:40 [CONFIG] config module libconfig loaded
+avril 29 17:28:40 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+avril 29 17:28:40 [CONFIG] debug flags: 0x00000000
+avril 29 17:28:40 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+avril 29 17:28:40 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
+avril 29 17:28:40 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+avril 29 17:28:40 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+avril 29 17:28:40 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+avril 29 17:28:40 log init done
+avril 29 17:28:40 Reading in command-line options
+avril 29 17:28:40 [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+avril 29 17:28:40 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+avril 29 17:28:40 [LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
+avril 29 17:28:40 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+avril 29 17:28:40 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+avril 29 17:28:40 [CONFIG] parallel_conf is set to 2
+avril 29 17:28:40 [CONFIG] worker_conf is set to 1
+avril 29 17:28:40 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
+avril 29 17:28:40 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+avril 29 17:28:40 configuring for RAU/RRU
+avril 29 17:28:40 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+avril 29 17:28:40 [LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+avril 29 17:28:40 [LIBCONFIG] L1s.[0]: 20/20 parameters successfully set, (11 to default value)
+avril 29 17:28:40 configure_nr_nfapi_pnf() PNF
+avril 29 17:28:40 
+avril 29 17:28:40 
+avril 29 17:28:40 
+avril 29 17:28:40 
+avril 29 17:28:40 
+avril 29 17:28:40 configure_nr_nfapi_pnf() VNF:127.0.0.1:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.1:50011 rx:50010]
+avril 29 17:28:40 10282788905 [I] 1355911168: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+avril 29 17:28:40 10282788908 [I] 1355911168: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
+avril 29 17:28:40 10282791037 [I] 1339835968: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
+avril 29 17:28:40 10282791117 [I] 1339835968: nfapi_nr_pnf_start: nfapi_nr_pnf_start
+avril 29 17:28:40 10282791122 [I] 1339835968: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
+avril 29 17:28:40 10282791207 [N] 1339835968: pnf_connect: PNF Setting the SCTP_INITMSG
+avril 29 17:28:40 10282791214 [I] 1339835968: pnf_connect: P5 socket created...
+avril 29 17:28:40 1714404520.834425 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+avril 29 17:28:40 [0m1714404520.834431 [PHY]   Installing callbacks for IF_Module - UL_indication
+avril 29 17:28:40 [0m1714404520.834433 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x61c10b0c18e0
+avril 29 17:28:40 [0m1714404520.834435 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+avril 29 17:28:40 [0mInitializing northbound interface for L1
+avril 29 17:28:40 10282791376 [I] 1339835968: pnf_connect: connect succeeded...
+avril 29 17:28:40 10282791379 [N] 1339835968: pnf_connect: After connect loop
+avril 29 17:28:40 10282791382 [I] 1339835968: pnf_connect: Association ID = 184
+avril 29 17:28:40 10282791384 [I] 1339835968: pnf_connect: Receiver window size = 67108864
+avril 29 17:28:40 10282791384 [I] 1339835968: pnf_connect: In Streams = 5
+avril 29 17:28:40 10282791385 [I] 1339835968: pnf_connect: Out Streams = 5
+avril 29 17:28:40 10282791386 [N] 1339835968: pnf_connect: Socket CONNECTED
+avril 29 17:28:40 10282792554 [I] 1339835968: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
+avril 29 17:28:40 [PNF] pnf param request
+avril 29 17:28:40 10282792636 [I] 1339835968: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
+avril 29 17:28:40 [PNF] pnf config request
+avril 29 17:28:40 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+avril 29 17:28:40 [PNF] Sent pnf_config_resp
+avril 29 17:28:40 10282792683 [I] 1339835968: pnf_nr_handle_pnf_start_request: PNF_START.request Received
+avril 29 17:28:40 Received NFAPI_PNF_START_REQUEST
+avril 29 17:28:40 [PNF] Sent NFAPI_PNF_START_RESP
+avril 29 17:28:40 10282795241 [I] 1339835968: pnf_nr_handle_param_request: PARAM.request received
+avril 29 17:28:40 1714404520.838688 [PHY]   Initializing gNB 0 single_thread_flag:1
+avril 29 17:28:40 [0m1714404520.838695 [PHY]   Initializing gNB 0
+avril 29 17:28:40 [0m1714404520.838696 [PHY]   Registering with MAC interface module (before 0x61c10b0c18e0)
+avril 29 17:28:40 [0m1714404520.838699 [PHY]   Installing callbacks for IF_Module - UL_indication
+avril 29 17:28:40 [0m1714404520.838701 [PHY]   Registering with MAC interface module (after 0x61c10b0c18e0)
+avril 29 17:28:40 [0m1714404520.838702 [PHY]   Setting indication lists
+avril 29 17:28:40 [0m1714404520.838703 [PHY]   [nr-gnb.c] gNB structure allocated
+avril 29 17:28:40 [0m[PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+avril 29 17:28:40 TAG value :2
+avril 29 17:28:40 RUNNING pack_param_response
+avril 29 17:28:40 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+avril 29 17:28:40 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+avril 29 17:28:40 START MAIN THREADS
+avril 29 17:28:40 RC.nb_nr_L1_inst:1
+avril 29 17:28:40 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+avril 29 17:28:40 wait_gNBs()
+avril 29 17:28:40 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+avril 29 17:28:40 10282796055 [I] 1339835968: pnf_nr_handle_config_request: CONFIG.request received
+avril 29 17:28:40 97 10 01 00 02 00 28 00 00 10 02 00 04 00 36 ee f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 01 00 00 10 06 00 02 00 28 00 00 10 07 00 04 00 36 ee f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 01 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 10 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0d 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 03 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 22 00 04 80 00 00 00 10 22 00 04 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c3 5b 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 f0 02 00 04 00 00 07 e0 
+avril 29 17:28:40 *** have tag 1001, idx 0
+avril 29 17:28:40 *** have tag 1002, idx 1
+avril 29 17:28:40 *** have tag 1005, idx 4
+avril 29 17:28:40 *** have tag 1006, idx 5
+avril 29 17:28:40 *** have tag 1007, idx 6
+avril 29 17:28:40 *** have tag 100a, idx 9
+avril 29 17:28:40 *** have tag 100c, idx 11
+avril 29 17:28:40 *** have tag 100d, idx 12
+avril 29 17:28:40 *** have tag 100e, idx 13
+avril 29 17:28:40 *** have tag 100f, idx 14
+avril 29 17:28:40 *** have tag 1010, idx 15
+avril 29 17:28:40 *** have tag 1011, idx 16
+avril 29 17:28:40 *** have tag 1012, idx 17
+avril 29 17:28:40 *** have tag 1013, idx 18
+avril 29 17:28:40 *** have tag 1014, idx 19
+avril 29 17:28:40 *** have tag 1029, idx 20
+avril 29 17:28:40 *** have tag 101b, idx 27
+avril 29 17:28:40 *** have tag 101d, idx 29
+avril 29 17:28:40 *** have tag 101f, idx 31
+avril 29 17:28:40 *** have tag 1020, idx 32
+avril 29 17:28:40 *** have tag 1026, idx 38
+avril 29 17:28:40 *** have tag 100, idx 41
+avril 29 17:28:40 *** have tag 102, idx 43
+avril 29 17:28:40 *** have tag 11e, idx 44
+avril 29 17:28:40 *** have tag 11f, idx 45
+avril 29 17:28:40 *** have tag 120, idx 46
+avril 29 17:28:40 [PNF] vnf p7 0.1.4.0:50011
+avril 29 17:28:40 carrier_config
+avril 29 17:28:40   bw t 4097 l 2 v 40
+avril 29 17:28:40   freq t 4098 l 4 v 3600120
+avril 29 17:28:40   dl_k0[0] t 0 l 0 v 0
+avril 29 17:28:40   dl_k0[1] t 4099 l 10 v 0
+avril 29 17:28:40   dl_k0[2] t 0 l 0 v 0
+avril 29 17:28:40   dl_k0[3] t 0 l 0 v 0
+avril 29 17:28:40   dl_k0[4] t 0 l 0 v 0
+avril 29 17:28:40   dl_grid_size[0] t 0 l 0 v 0
+avril 29 17:28:40   dl_grid_size[1] t 4100 l 10 v 106
+avril 29 17:28:40   dl_grid_size[2] t 0 l 0 v 0
+avril 29 17:28:40   dl_grid_size[3] t 0 l 0 v 0
+avril 29 17:28:40   dl_grid_size[4] t 0 l 0 v 0
+avril 29 17:28:40   num_tx_ant t 4101 l 2 v 1
+avril 29 17:28:40   uplink_bandwidth t 4102 l 2 v 40
+avril 29 17:28:40   uplink_frequency t 4103 l 4 v 3600120
+avril 29 17:28:40   ul_k0[0] t 0 l 0 v 0
+avril 29 17:28:40   ul_k0[1] t 4104 l 10 v 0
+avril 29 17:28:40   ul_k0[2] t 0 l 0 v 0
+avril 29 17:28:40   ul_k0[3] t 0 l 0 v 0
+avril 29 17:28:40   ul_k0[4] t 0 l 0 v 0
+avril 29 17:28:40   ul_grid_size[0] t 0 l 0 v 0
+avril 29 17:28:40   ul_grid_size[1] t 4105 l 10 v 106
+avril 29 17:28:40   ul_grid_size[2] t 0 l 0 v 0
+avril 29 17:28:40   ul_grid_size[3] t 0 l 0 v 0
+avril 29 17:28:40   ul_grid_size[4] t 0 l 0 v 0
+avril 29 17:28:40   num_rx_ant t 4106 l 2 v 1
+avril 29 17:28:40   frequency_shift_7p5khz t 0 l 0 v 0
+avril 29 17:28:40 prach_config
+avril 29 17:28:40   prach_sequence_length t 4113 l 1 v 1
+avril 29 17:28:40   prach_sub_c_spacing t 4114 l 1 v 1
+avril 29 17:28:40   restricted_set_config t 4115 l 1 v 0
+avril 29 17:28:40   num_prach_fd_occasions t 4116 l 1 v 1
+avril 29 17:28:40   prach_ConfigurationIndex t 4137 l 1 v 98
+avril 29 17:28:40     prach_root_sequence_index t 4117 l 2 v 1
+avril 29 17:28:40     num_root_sequences t 4118 l 1 v 16
+avril 29 17:28:40     k1 t 4119 l 2 v 0
+avril 29 17:28:40     prach_zero_corr_conf t 4120 l 1 v 13
+avril 29 17:28:40     num_unused_root_sequences t 4121 l 2 v 0
+avril 29 17:28:40   ssb_per_rach t 4123 l 1 v 3
+avril 29 17:28:40   prach_multiple_carriers_in_a_band t 0 l 0 v 0
+avril 29 17:28:40 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+avril 29 17:28:40 
+avril 29 17:28:40 Timing window tag: 286
+avril 29 17:28:40 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+avril 29 17:28:40 timing info mode:3
+avril 29 17:28:40 timing info period provided value:10
+avril 29 17:28:40 10282796447 [E] 1339835968: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
+avril 29 17:28:40 1714404520.839559 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+avril 29 17:28:40 [0m[32m1714404520.839562 [PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+avril 29 17:28:40 [0m1714404520.839564 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+avril 29 17:28:40 [0m[93m1714404520.839566 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+avril 29 17:28:40 [0m1714404520.839700 [PHY]   gNB 0 configured
+avril 29 17:28:40 [0m1714404520.839702 [PHY]   fp->scs=30000
+avril 29 17:28:40 [0m1714404520.839703 [PHY]   fp->ofdm_symbol_size=2048
+avril 29 17:28:40 [0m1714404520.839704 [PHY]   fp->nb_prefix_samples0=176
+avril 29 17:28:40 [0m1714404520.839705 [PHY]   fp->nb_prefix_samples=144
+avril 29 17:28:40 [0m1714404520.839706 [PHY]   fp->slots_per_subframe=2
+avril 29 17:28:40 [0m1714404520.839706 [PHY]   fp->samples_per_subframe_wCP=57344
+avril 29 17:28:40 [0m1714404520.839708 [PHY]   fp->samples_per_frame_wCP=573440
+avril 29 17:28:40 [0m1714404520.839708 [PHY]   fp->samples_per_subframe=61440
+avril 29 17:28:40 [0m1714404520.839709 [PHY]   fp->samples_per_frame=614400
+avril 29 17:28:40 [0m1714404520.839710 [PHY]   fp->dl_CarrierFreq=3619200000
+avril 29 17:28:40 [0m1714404520.839711 [PHY]   fp->ul_CarrierFreq=3619200000
+avril 29 17:28:40 [0m[PNF] CONFIG_REQUEST[num_tlv:151] TLVs processed:6
+avril 29 17:28:40 [PNF] Simulating PHY CONFIG
+avril 29 17:28:40 DL frequency 3619200000: band 48, UL frequency 3619200000
+avril 29 17:28:40 [PNF] 1 vnf p7 127.0.0.1:50011 timing 30 3 10
+avril 29 17:28:40 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+avril 29 17:28:40 10282796657 [I] 1339835968: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
+avril 29 17:28:40 [PNF] Received NFAPI_START_REQ phy_id:1
+avril 29 17:28:40 [PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
+avril 29 17:28:40 subframe_buffer_size configured using phy_info->timing_window:30
+avril 29 17:28:40 10282835922 [I] 1339835968: nr_start_request: [PNF] Creating P7 thread nr_start_request
+avril 29 17:28:40 10282838297 [I] 1339835968: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
+avril 29 17:28:40 1714404520.881415 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+avril 29 17:28:40 [0m10282838301 [I] 1331443264: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
+avril 29 17:28:40 1714404520.881420 [PHY]   Installing callbacks for IF_Module - UL_indication
+avril 29 17:28:40 [0m1714404520.881422 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+avril 29 17:28:40 [0mCalling sched_setscheduler(79)
+avril 29 17:28:40 10282838315 [I] 1339835968: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
+avril 29 17:28:40 10282838320 [I] 1331443264: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
+avril 29 17:28:40 10282838336 [I] 1331443264: pnf_nr_p7_message_pump: PNF P7 socket created (99)...
+avril 29 17:28:40 10282838344 [I] 1331443264: pnf_nr_p7_message_pump: PNF P7 binding 99 too 127.0.0.1:50010
+avril 29 17:28:40 10282838350 [I] 1331443264: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
+avril 29 17:28:40 1714404520.889248 [PHY]   RU GPIO control set as 'generic'
+avril 29 17:28:40 [0m1714404520.889254 [PHY]   Setting clock source to internal
+avril 29 17:28:40 [0m1714404520.889255 [PHY]   Setting time source to internal
+avril 29 17:28:40 [0m1714404520.889276 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 12
+avril 29 17:28:40 [0m1714404520.889278 [PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+avril 29 17:28:40 [0m1714404520.889586 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+avril 29 17:28:40 [0m1714404520.889589 [PHY]   RU Thread pool size 2
+avril 29 17:28:40 [0m1714404520.889590 [PHY]   RU thread-pool core string -1,-1
+avril 29 17:28:40 [0m1714404520.889597 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+avril 29 17:28:40 [0m1714404520.890788 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+avril 29 17:28:40 [0m1714404520.892944 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+avril 29 17:28:40 [0m1714404520.894213 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+avril 29 17:28:40 [0m1714404520.896584 [UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+avril 29 17:28:40 [0m1714404520.897774 [UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+avril 29 17:28:40 [0m1714404520.900124 [PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 2
+avril 29 17:28:40 [0m1714404520.900131 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+avril 29 17:28:40 [0m[93m1714404520.900133 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+avril 29 17:28:40 [0m1714404520.900135 [PHY]   fp->scs=30000
+avril 29 17:28:40 [0m1714404520.900136 [PHY]   fp->ofdm_symbol_size=2048
+avril 29 17:28:40 [0m1714404520.900137 [PHY]   fp->nb_prefix_samples0=176
+avril 29 17:28:40 [0m1714404520.900137 [PHY]   fp->nb_prefix_samples=144
+avril 29 17:28:40 [0m1714404520.900138 [PHY]   fp->slots_per_subframe=2
+avril 29 17:28:40 [0m1714404520.900138 [PHY]   fp->samples_per_subframe_wCP=57344
+avril 29 17:28:40 [0m1714404520.900139 [PHY]   fp->samples_per_frame_wCP=573440
+avril 29 17:28:40 [0m1714404520.900139 [PHY]   fp->samples_per_subframe=61440
+avril 29 17:28:40 [0m1714404520.900140 [PHY]   fp->samples_per_frame=614400
+avril 29 17:28:40 [0m1714404520.900140 [PHY]   fp->dl_CarrierFreq=3619200000
+avril 29 17:28:40 [0m1714404520.900141 [PHY]   fp->ul_CarrierFreq=3619200000
+avril 29 17:28:40 [0m1714404520.900141 [PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+avril 29 17:28:40 [0m1714404520.900741 [PHY]   [INIT] common.txdata[0] = 0x72474d367040 (2458880 bytes,sf_extension 320)
+avril 29 17:28:40 [0m1714404520.900745 [PHY]   [INIT] common.txdata[0] = 0x72474d367540 
+avril 29 17:28:40 [0m1714404520.901299 [PHY]   nb_tx 1
+avril 29 17:28:40 [0m1714404520.901507 [PHY]   rxdata_7_5kHz[0] 0x72474d01d040 for RU 0
+avril 29 17:28:40 [0m1714404520.902008 [PHY]   [INIT] common.txdata_BF= 0x724738000ac0 (8 bytes)
+avril 29 17:28:40 [0m1714404520.902063 [PHY]   txdataF_BF[0] 0x724750cb8040 for RU 0
+avril 29 17:28:40 [0m1714404520.902166 [PHY]   rxdataF[0] 0x724750c47040 for RU 0
+avril 29 17:28:40 [0m1714404520.906088 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+avril 29 17:28:40 [0m1714404520.906609 [PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+avril 29 17:28:40 [0m1714404520.906613 [PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+avril 29 17:28:40 [0m1714404520.906618 [PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3619200000 Hz
+avril 29 17:28:40 [0m1714404520.906619 [PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+avril 29 17:28:40 [0m[93m1714404520.906792 [HW]   sample_rate 61440000.000000
+avril 29 17:28:40 [0m1714404520.906795 [HW]   Running as server waiting opposite rfsimulators to connect
+avril 29 17:28:40 [0m1714404520.906867 [HW]   [RAU] has loaded RFSIMULATOR device.
+avril 29 17:28:40 [0m1714404520.906869 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+avril 29 17:28:40 [0m1714404520.906871 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 5
+avril 29 17:28:45 [0m1714404525.881438 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
+avril 29 17:28:45 [0m1714404525.881449 [PHY]   RC.nb_nr_CC[inst:0]:0x72474fdc5010
+avril 29 17:28:45 [0m1714404525.881451 [PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+avril 29 17:28:46 [0m1714404526.087692 [PHY]   Initialise nr transport
+avril 29 17:28:46 [0m1714404526.352504 [PHY]   Mapping RX ports from 1 RUs to gNB 0
+avril 29 17:28:46 [0m1714404526.352517 [PHY]   gNB->num_RU:1
+avril 29 17:28:46 [0m1714404526.352519 [PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+avril 29 17:28:46 [0m1714404526.352525 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.353708 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.355122 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.356142 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.357477 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.358400 [UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.359748 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.360668 [UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.361995 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.362881 [UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.364224 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.365106 [UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.366423 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.367292 [UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.368625 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.369492 [UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.370843 [UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.371735 [UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.373069 [UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+avril 29 17:28:46 [0m1714404526.373926 [UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+avril 29 17:28:46 [0m1714404526.382321 [UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+avril 29 17:28:46 [0m1714404526.383416 [UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+avril 29 17:28:46 [0m1714404526.384818 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+avril 29 17:28:46 [0m1714404526.384832 [PHY]   RUs configured
+avril 29 17:28:46 [0mgNB L1 are configured
+avril 29 17:28:46 About to Init RU threads RC.nb_RU:1
+avril 29 17:28:46 Initializing RU threads
+avril 29 17:28:46 configuring RU from file
+avril 29 17:28:46 [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (34 to default value)
+avril 29 17:28:46 Set RU mask to 1
+avril 29 17:28:46 Creating RC.ru[0]:0x61c10b0c44f0
+avril 29 17:28:46 Setting function for RU 0 to gNodeB_3GPP
+avril 29 17:28:46 [RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
+avril 29 17:28:46 [RU 0] Setting half-slot parallelization to 1
+avril 29 17:28:46 configuring ru_id 0 (start_rf 0x61c106fdcef0)
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 waiting for NFAPI PNF connection and population of global structure (main?)
+avril 29 17:28:46 [LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+avril 29 17:28:46 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+avril 29 17:28:46 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+avril 29 17:28:46 [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+avril 29 17:28:46 shlib_path librfsimulator.so
+avril 29 17:28:46 [LOADER] library librfsimulator.so successfully loaded
+avril 29 17:28:46 [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+avril 29 17:28:46 Initializing random number generator, seed 8241594140639228948
+avril 29 17:28:46 setup_RU_buffers: frame_parms = 0x7247502af010
+avril 29 17:28:46 waiting for sync (ru_thread,-1/0x61c107b830b4,0x61c108425fc0,0x61c108425f80)
+avril 29 17:28:46 [PNF] waiting for OAI to be configured (eNB/RU)
+avril 29 17:28:46 [PNF] OAI eNB/RU configured
+avril 29 17:28:46 [PNF] About to call init_eNB_afterRU()
+avril 29 17:28:46 [LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+avril 29 17:28:46 shlib_path libdfts.so
+avril 29 17:28:46 [LOADER] library libdfts.so successfully loaded
+avril 29 17:28:46 [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+avril 29 17:28:46 shlib_path libldpc.so
+avril 29 17:28:46 [LOADER] library libldpc.so successfully loaded
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 create a thread for core -1
+avril 29 17:28:46 waiting for sync (L1_stats_thread,-1/0x61c107b830b4,0x61c108425fc0,0x61c108425f80)
+avril 29 17:28:46 [PNF] Sending PNF_START_RESP
+avril 29 17:28:46 Sending NFAPI_START_RESPONSE config:0x61c10b0bf660 phy_id:1
+avril 29 17:28:46 NFAPI: got sync (main?)
+avril 29 17:28:46 wait RUs
+avril 29 17:28:46 [PNF] Sending first P7 slot indication
+avril 29 17:28:46 [PNF] Sent first P7 slot ind
+avril 29 17:28:46 ALL RUs READY!
+avril 29 17:28:46 RC.nb_RU:1
+avril 29 17:28:46 ALL RUs ready - init gNBs
+avril 29 17:28:46 NFAPI mode - DO NOT call init_gNB_afterRU()
+avril 29 17:28:46 ALL RUs ready - ALL gNBs ready
+avril 29 17:28:46 Sending sync to all threads
+avril 29 17:28:46 Entering ITTI signals handler
+avril 29 17:28:46 TYPE <CTRL-C> TO TERMINATE
+avril 29 17:28:46 got sync (L1_stats_thread)
+avril 29 17:28:46 got sync (ru_thread)
+avril 29 17:28:46 [93m1714404526.384874 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+avril 29 17:28:46 [0m[93m1714404526.385724 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+avril 29 17:28:46 [0m[93m1714404526.386363 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+avril 29 17:28:46 [0m[93m1714404526.386980 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+avril 29 17:28:46 [0m1714404526.387575 [PHY]   RU 0 rf device ready
+avril 29 17:28:46 [0m1714404526.387579 [PHY]   RU 0 RF started opp_enabled 0
+avril 29 17:28:46 [0m[93m1714404526.387582 [HW]   No connected device, generating void samples...
+avril 29 17:28:46 [0m10288381166 [N] 1331443264: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 42
+avril 29 17:28:46 10288382552 [N] 1331443264: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
+avril 29 17:28:46 1714404526.503919 [HW]   A client connects, sending the current time
+avril 29 17:29:23 [0m
+avril 29 17:29:23 ** Caught SIGTERM, shutting down
+avril 29 17:29:23 1714404563.250800 [PHY]   Killing gNB 0 processing threads
+avril 29 17:29:23 [0mReturned from ITTI signal handler
+avril 29 17:29:23 oai_exit=1
+avril 29 17:29:23 Exiting ru_thread 
+avril 29 17:29:23 10325227266 [W] 1339835968: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+avril 29 17:29:23 10325227280 [W] 1339835968: pnf_nr_read_dispatch_message: Disconnected socket
+avril 29 17:29:23 1714404563.396247 [PHY]   Stopping RU 0 processing threads
+avril 29 17:29:23 [0m1714404563.396324 [PHY]   RU 0 RF device stopped
+avril 29 17:29:23 [0m1714404563.396328 [PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 1
+avril 29 17:29:23 [0mBye.
