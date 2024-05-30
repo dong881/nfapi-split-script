@@ -1,0 +1,2 @@
+cd ~/openairinterface5g/cmake\_targets/ran\_build/build
+sudo LD_LIBRARY_PATH=./ NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.rfsim.2x2.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --log\_config.global\_log\_options wall\_clock --sa
