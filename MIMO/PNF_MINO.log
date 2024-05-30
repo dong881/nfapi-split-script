@@ -1,0 +1,427 @@
+1717081649.440858 [HW]   # /dev/cpu_dma_latency set to 2 us
+[0m1717081649.461394 [ENB_APP]   nfapi (1) running mode: PNF
+[0m1717081649.461436 [GNB_APP]   Getting GNBSParams
+[0m1717081650.461592 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m1717081650.461649 [ITTI]   Starting itti queue: TASK_TIMER as task 1
+[0m1717081650.461660 [ITTI]   Starting itti queue: TASK_L2L1 as task 2
+[0m1717081650.461670 [ITTI]   Starting itti queue: TASK_BM as task 3
+[0m1717081650.461679 [ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m1717081650.461687 [ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+[0m1717081650.461697 [ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m1717081650.461706 [ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m1717081650.461715 [ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m1717081650.461724 [ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+[0m1717081650.461733 [ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+[0m1717081650.461742 [ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+[0m1717081650.461752 [ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+[0m1717081650.461762 [ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+[0m1717081650.461772 [ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+[0m1717081650.461782 [ITTI]   Starting itti queue: TASK_S1AP as task 15
+[0m1717081650.461791 [ITTI]   Starting itti queue: TASK_NGAP as task 16
+[0m1717081650.461801 [ITTI]   Starting itti queue: TASK_X2AP as task 17
+[0m1717081650.461810 [ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+[0m1717081650.461820 [ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+[0m1717081650.461828 [ITTI]   Starting itti queue: TASK_M3AP as task 20
+[0m1717081650.461837 [ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+[0m1717081650.461845 [ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+[0m1717081650.461854 [ITTI]   Starting itti queue: TASK_SCTP as task 23
+[0m1717081650.461863 [ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+[0m1717081650.461873 [ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+[0m1717081650.461882 [ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+[0m1717081650.461891 [ITTI]   Starting itti queue: TASK_MME_APP as task 27
+[0m1717081650.461900 [ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+[0m1717081650.461909 [ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+[0m1717081650.461922 [ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+[0m1717081650.461930 [ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+[0m1717081650.461939 [ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+[0m1717081650.461947 [ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+[0m1717081650.461957 [ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+[0m1717081650.461966 [ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+[0m1717081650.461975 [ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+[0m1717081650.461986 [ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+[0m1717081650.461996 [ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+[0m1717081650.462005 [ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+[0m1717081650.462013 [ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+[0m1717081650.462022 [ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+[0m1717081650.462031 [ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+[0m1717081650.462040 [ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+[0m1717081650.462048 [ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+[0m1717081650.462057 [ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+[0m1717081650.462081 [OPT]   OPT disabled
+[0m1717081650.462094 [HW]   Version: Branch: nfapi-fixes-rebased Abrev. Hash: a2d6af5674 Date: Wed May 22 08:47:32 2024 +0200
+[0m1717081650.462105 [NR_PHY]   RC.gNB = 0x5a382763b260
+[0m1717081650.462758 [PHY]   L1_RX_THREAD_CORE -1 (15)
+[0m1717081650.462775 [PHY]   TX_AMP = 519 (-36 dBFS)
+[0m1717081650.462783 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+[0m1717081650.462796 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+[0m1717081650.462802 [PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+[0m1717081650.462810 [ENB_APP]   nfapi (1) running mode: PNF
+[0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.rfsim.2x2.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--log_config.global_log_options" "wall_clock" "--sa" 
+[CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.rfsim.2x2.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+[CONFIG] debug flags: 0x00000000
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 50/50 parameters successfully set, (48 to default value)
+[LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+log init done
+Reading in command-line options
+[LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+[LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.rfsim.2x2.conf 
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[CONFIG] parallel_conf is set to 0
+[CONFIG] worker_conf is set to 1
+Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
+[LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+configuring for RAU/RRU
+[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.rfsim.2x2.conf 
+[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
+configure_nr_nfapi_pnf() PNF
+
+
+
+
+
+configure_nr_nfapi_pnf() VNF:127.0.0.1:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.1:50011 rx:50010]
+90597415249 [I] 3525869568: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+90597415256 [I] 3525869568: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
+90597417380 [I] 3510388288: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
+90597417421 [I] 3510388288: nfapi_nr_pnf_start: nfapi_nr_pnf_start
+90597417431 [I] 3510388288: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
+1717081650.465017 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0m1717081650.465031 [PHY]   Installing callbacks for IF_Module - UL_indication
+[0m1717081650.465038 [MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5a3827644400
+[0m1717081650.465045 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0mInitializing northbound interface for L1
+90597417535 [N] 3510388288: pnf_connect: PNF Setting the SCTP_INITMSG
+90597417555 [I] 3510388288: pnf_connect: P5 socket created...
+90597417731 [I] 3510388288: pnf_connect: connect succeeded...
+90597417742 [N] 3510388288: pnf_connect: After connect loop
+90597417750 [I] 3510388288: pnf_connect: Association ID = 161
+90597417759 [I] 3510388288: pnf_connect: Receiver window size = 67108864
+90597417768 [I] 3510388288: pnf_connect: In Streams = 5
+90597417773 [I] 3510388288: pnf_connect: Out Streams = 5
+90597417778 [N] 3510388288: pnf_connect: Socket CONNECTED
+90597417922 [I] 3510388288: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
+[PNF] pnf param request
+90597418049 [I] 3510388288: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
+[PNF] pnf config request
+[PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+[PNF] Sent pnf_config_resp
+90597418131 [I] 3510388288: pnf_nr_handle_pnf_start_request: PNF_START.request Received
+1717081650.467711 [PHY]   Initializing gNB 0 single_thread_flag:1
+[0m1717081650.467746 [PHY]   Initializing gNB 0
+[0m1717081650.467755 [PHY]   Registering with MAC interface module (before 0x5a3827644400)
+[0m1717081650.467762 [PHY]   Installing callbacks for IF_Module - UL_indication
+[0m1717081650.467770 [PHY]   Registering with MAC interface module (after 0x5a3827644400)
+[0m1717081650.467778 [PHY]   Setting indication lists
+[0m1717081650.467786 [PHY]   [nr-gnb.c] gNB structure allocated
+[0mReceived NFAPI_PNF_START_REQUEST
+[PNF] Sent NFAPI_PNF_START_RESP
+NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+START MAIN THREADS
+RC.nb_nr_L1_inst:1
+Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+wait_gNBs()
+Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+90597420375 [I] 3510388288: pnf_nr_handle_param_request: PARAM.request received
+[PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+TAG value :2
+RUNNING pack_param_response
+[PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+90597420643 [I] 3510388288: pnf_nr_handle_config_request: CONFIG.request received
+f7 10 01 00 02 00 28 00 00 10 02 00 04 00 32 5c f8 10 03 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 04 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 05 00 02 00 02 00 00 10 06 00 02 00 28 00 00 10 07 00 04 00 32 5c f8 10 08 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 10 09 00 0a 00 00 00 6a 00 00 00 00 00 00 00 00 10 0a 00 02 00 02 00 00 10 0c 00 02 00 00 00 00 10 0d 00 01 01 00 00 00 10 0e 00 04 ff ff ff e7 10 0f 00 01 01 00 00 00 10 10 00 01 01 00 00 00 10 11 00 01 01 00 00 00 10 12 00 01 01 00 00 00 10 13 00 01 00 00 00 00 10 14 00 01 01 00 00 00 10 29 00 01 62 00 00 00 10 15 00 02 00 01 00 00 10 16 00 01 0d 00 00 00 10 17 00 02 00 00 00 00 10 18 00 01 0c 00 00 00 10 19 00 02 00 00 00 00 10 1b 00 01 02 00 00 00 10 1c 00 01 00 00 00 00 10 1d 00 02 00 56 00 00 10 1f 00 01 02 00 00 00 10 20 00 01 00 00 00 00 10 21 00 04 00 00 00 00 10 22 00 04 80 00 00 00 10 22 00 04 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 23 00 01 00 00 00 00 10 26 00 01 06 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 00 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 02 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 27 00 01 01 00 00 00 10 28 00 01 01 00 00 00 01 00 00 04 7f 00 00 01 01 02 00 02 c3 5b 00 00 01 1e 00 01 1e 00 00 00 01 1f 00 01 03 00 00 00 01 20 00 01 0a 00 00 00 f0 02 00 04 00 00 07 e0 
+*** have tag 1001, idx 0
+*** have tag 1002, idx 1
+*** have tag 1005, idx 4
+*** have tag 1006, idx 5
+*** have tag 1007, idx 6
+*** have tag 100a, idx 9
+*** have tag 100c, idx 11
+*** have tag 100d, idx 12
+*** have tag 100e, idx 13
+*** have tag 100f, idx 14
+*** have tag 1010, idx 15
+*** have tag 1011, idx 16
+*** have tag 1012, idx 17
+*** have tag 1013, idx 18
+*** have tag 1014, idx 19
+*** have tag 1029, idx 20
+*** have tag 101b, idx 27
+*** have tag 101c, idx 28
+*** have tag 101d, idx 29
+*** have tag 101f, idx 31
+*** have tag 1020, idx 32
+*** have tag 1021, idx 33
+*** have tag 1026, idx 38
+*** have tag 1028, idx 40
+*** have tag 100, idx 41
+*** have tag 102, idx 43
+*** have tag 11e, idx 44
+*** have tag 11f, idx 45
+*** have tag 120, idx 46
+[PNF] vnf p7 0.1.4.0:50011
+carrier_config
+  bw t 4097 l 2 v 40
+  freq t 4098 l 4 v 3300600
+  dl_k0[0] t 0 l 0 v 0
+  dl_k0[1] t 4099 l 10 v 0
+  dl_k0[2] t 0 l 0 v 0
+  dl_k0[3] t 0 l 0 v 0
+  dl_k0[4] t 0 l 0 v 0
+  dl_grid_size[0] t 0 l 0 v 0
+  dl_grid_size[1] t 4100 l 10 v 106
+  dl_grid_size[2] t 0 l 0 v 0
+  dl_grid_size[3] t 0 l 0 v 0
+  dl_grid_size[4] t 0 l 0 v 0
+  num_tx_ant t 4101 l 2 v 2
+  uplink_bandwidth t 4102 l 2 v 40
+  uplink_frequency t 4103 l 4 v 3300600
+  ul_k0[0] t 0 l 0 v 0
+  ul_k0[1] t 4104 l 10 v 0
+  ul_k0[2] t 0 l 0 v 0
+  ul_k0[3] t 0 l 0 v 0
+  ul_k0[4] t 0 l 0 v 0
+  ul_grid_size[0] t 0 l 0 v 0
+  ul_grid_size[1] t 4105 l 10 v 106
+  ul_grid_size[2] t 0 l 0 v 0
+  ul_grid_size[3] t 0 l 0 v 0
+  ul_grid_size[4] t 0 l 0 v 0
+  num_rx_ant t 4106 l 2 v 2
+  frequency_shift_7p5khz t 0 l 0 v 0
+prach_config
+  prach_sequence_length t 4113 l 1 v 1
+  prach_sub_c_spacing t 4114 l 1 v 1
+  restricted_set_config t 4115 l 1 v 0
+  num_prach_fd_occasions t 4116 l 1 v 1
+  prach_ConfigurationIndex t 4137 l 1 v 98
+    prach_root_sequence_index t 4117 l 2 v 1
+    num_root_sequences t 4118 l 1 v 13
+    k1 t 4119 l 2 v 0
+    prach_zero_corr_conf t 4120 l 1 v 12
+    num_unused_root_sequences t 4121 l 2 v 0
+  ssb_per_rach t 4123 l 1 v 2
+  prach_multiple_carriers_in_a_band t 4124 l 1 v 0
+[PNF] Received NFAPI_CONFIG_REQ phy_id:1
+
+Timing window tag: 286
+Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+timing info mode:3
+timing info period provided value:10
+90597420920 [E] 3510388288: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
+1717081650.468507 [PHY]   DL frequency 3319680000 Hz, UL frequency 3319680000 Hz: band 78, uldl offset 0 Hz
+[0m[32m1717081650.468518 [PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3319680000, UL freq 3319680000)
+[0m1717081650.468528 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[0m[93m1717081650.468538 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[0m1717081650.468725 [PHY]   gNB 0 configured
+[0m1717081650.468738 [PHY]   fp->scs=30000
+[0m1717081650.468748 [PHY]   fp->ofdm_symbol_size=2048
+[0m1717081650.468756 [PHY]   fp->nb_prefix_samples0=176
+[0m1717081650.468765 [PHY]   fp->nb_prefix_samples=144
+[0m1717081650.468773 [PHY]   fp->slots_per_subframe=2
+[0m1717081650.468781 [PHY]   fp->samples_per_subframe_wCP=57344
+[0m1717081650.468790 [PHY]   fp->samples_per_frame_wCP=573440
+[0m1717081650.468798 [PHY]   fp->samples_per_subframe=61440
+[0m1717081650.468807 [PHY]   fp->samples_per_frame=614400
+[0m1717081650.468815 [PHY]   fp->dl_CarrierFreq=3319680000
+[0m1717081650.468824 [PHY]   fp->ul_CarrierFreq=3319680000
+[0m1717081650.468832 [PHY]   fp->Nid_cell=0
+[0m1717081650.468841 [PHY]   fp->first_carrier_offset=1412
+[0m1717081650.468848 [PHY]   fp->ssb_start_subcarrier=0
+[0m[PNF] CONFIG_REQUEST[num_tlv:247] TLVs processed:6
+[PNF] Simulating PHY CONFIG
+DL frequency 3319680000: band 78, UL frequency 3319680000
+[PNF] 1 vnf p7 127.0.0.1:50011 timing 30 3 10
+[PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+90597421440 [I] 3510388288: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
+[PNF] Received NFAPI_START_REQ phy_id:1
+[PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
+subframe_buffer_size configured using phy_info->timing_window:30
+90597448245 [I] 3510388288: nr_start_request: [PNF] Creating P7 thread nr_start_request
+90597450287 [I] 3510388288: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
+90597450291 [I] 3501995584: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
+1717081650.497881 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0m1717081650.497901 [PHY]   Installing callbacks for IF_Module - UL_indication
+[0m1717081650.497908 [PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0m90597450340 [I] 3510388288: nr_start_request: 90597450341 [I] 3501995584: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
+[PNF] HACK - Set p7_config global ready for subframe indnr_start_request
+90597450362 [I] 3501995584: pnf_nr_p7_message_pump: PNF P7 socket created (99)...
+90597450373 [I] 3501995584: pnf_nr_p7_message_pump: PNF P7 binding 99 too 127.0.0.1:50010
+90597450382 [I] 3501995584: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
+1717081650.518421 [PHY]   RU GPIO control set as 'generic'
+[0m1717081650.518470 [PHY]   Setting clock source to internal
+[0m1717081650.518480 [PHY]   Setting time source to internal
+[0m1717081650.518536 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 12
+[0m1717081650.518552 [PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+[0m1717081650.518993 [PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+[0m1717081650.519006 [PHY]   RU Thread pool size 2
+[0m1717081650.519014 [PHY]   RU thread-pool core string -1,-1
+[0m1717081650.519027 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+[0m1717081650.520497 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+[0m1717081650.521998 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+[0m1717081650.523226 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+[0m1717081650.524800 [UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+[0m1717081650.526103 [UTIL]   threadCreate for ru_thread, affinity ffffffff, priority 97
+[0m1717081650.527659 [PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 0
+[0m1717081650.527680 [PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[0m[93m1717081650.527688 [PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[0m1717081650.527696 [PHY]   fp->scs=30000
+[0m1717081650.527702 [PHY]   fp->ofdm_symbol_size=2048
+[0m1717081650.527709 [PHY]   fp->nb_prefix_samples0=176
+[0m1717081650.527716 [PHY]   fp->nb_prefix_samples=144
+[0m1717081650.527723 [PHY]   fp->slots_per_subframe=2
+[0m1717081650.527729 [PHY]   fp->samples_per_subframe_wCP=57344
+[0m1717081650.527737 [PHY]   fp->samples_per_frame_wCP=573440
+[0m1717081650.527744 [PHY]   fp->samples_per_subframe=61440
+[0m1717081650.527751 [PHY]   fp->samples_per_frame=614400
+[0m1717081650.527758 [PHY]   fp->dl_CarrierFreq=3319680000
+[0m1717081650.527765 [PHY]   fp->ul_CarrierFreq=3319680000
+[0m1717081650.527773 [PHY]   fp->Nid_cell=0
+[0m1717081650.527780 [PHY]   fp->first_carrier_offset=1412
+[0m1717081650.527787 [PHY]   fp->ssb_start_subcarrier=0
+[0m1717081650.527795 [PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 2, nb_rx 2
+[0m1717081650.528387 [PHY]   [INIT] common.txdata[0] = 0x7e72d016a040 (2458880 bytes,sf_extension 320)
+[0m1717081650.528400 [PHY]   [INIT] common.txdata[0] = 0x7e72d016a540 
+[0m1717081650.528915 [PHY]   [INIT] common.txdata[1] = 0x7e72c121a040 (2458880 bytes,sf_extension 320)
+[0m1717081650.528927 [PHY]   [INIT] common.txdata[1] = 0x7e72c121a540 
+[0m1717081650.529953 [PHY]   nb_tx 2
+[0m1717081650.530163 [PHY]   rxdata_7_5kHz[0] 0x7e72d190f040 for RU 0
+[0m1717081650.530362 [PHY]   rxdata_7_5kHz[1] 0x7e72d0079040 for RU 0
+[0m1717081650.531312 [PHY]   [INIT] common.txdata_BF= 0x7e72bc000a80 (16 bytes)
+[0m1717081650.531389 [PHY]   txdataF_BF[0] 0x7e72d1c76040 for RU 0
+[0m1717081650.531462 [PHY]   txdataF_BF[1] 0x7e72d1c3d040 for RU 0
+[0m1717081650.531590 [PHY]   rxdataF[0] 0x7e72d189e040 for RU 0
+[0m1717081650.531700 [PHY]   rxdataF[1] 0x7e72d182d040 for RU 0
+[0m1717081650.541529 [PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+[0m1717081650.542137 [PHY]   Setting RF config for N_RB 106, NB_RX 2, NB_TX 2
+[0m1717081650.542157 [PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+[0m1717081650.542171 [PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3319680000 Hz
+[0m1717081650.542179 [PHY]   Channel 1: setting tx_gain offset 0, tx_freq 3319680000 Hz
+[0m1717081650.542186 [PHY]   Channel 0: setting rx_gain offset 75, rx_freq 3319680000 Hz
+[0m1717081650.542194 [PHY]   Channel 1: setting rx_gain offset 75, rx_freq 3319680000 Hz
+[0m[93m1717081650.542434 [HW]   sample_rate 61440000.000000
+[0m1717081650.542453 [HW]   Running as server waiting opposite rfsimulators to connect
+[0m1717081650.542552 [HW]   [RAU] has loaded RFSIMULATOR device.
+[0m1717081650.542562 [PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3300600, N_RB 106, mu 1)
+[0m1717081650.542571 [PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
+[0m1717081655.497943 [PHY]   init_eNB_afterRU() RC.nb_nr_inst:0
+[0m1717081655.497999 [PHY]   RC.nb_nr_CC[inst:0]:0x7e72d13c5010
+[0m1717081655.498014 [PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+[0m1717081655.642069 [PHY]   Initialise nr transport
+[0m1717081655.873737 [PHY]   Mapping RX ports from 1 RUs to gNB 0
+[0m1717081655.873791 [PHY]   gNB->num_RU:1
+[0m1717081655.873799 [PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+[0m1717081655.873806 [PHY]   Attaching RU 0 antenna 1 to gNB antenna 1
+[0m1717081655.873819 [UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+[0m1717081655.875452 [UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+[0m1717081655.877235 [UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+[0m1717081655.878627 [UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+[0m1717081655.880989 [UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+[0m1717081655.882454 [UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+[0m1717081655.884598 [UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+[0m1717081655.886016 [UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+[0m1717081655.888061 [UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+[0m1717081655.889420 [UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+[0m1717081655.891021 [UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+[0m1717081655.892249 [UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+[0m1717081655.893779 [UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+[0m1717081655.894980 [UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+[0m1717081655.896500 [UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+[0m1717081655.897612 [UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+[0m1717081655.899396 [UTIL]   Creating thread L1_rx_thread with affinity -1 and priority 97
+[0m1717081655.900522 [UTIL]   threadCreate for L1_rx_thread, affinity ffffffff, priority 97
+[0m1717081655.902477 [UTIL]   Creating thread L1_tx_thread with affinity -1 and priority 97
+[0m1717081655.903685 [UTIL]   threadCreate for L1_tx_thread, affinity ffffffff, priority 97
+[0m1717081655.925336 [UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+[0m1717081655.926920 [UTIL]   threadCreate for L1_stats, affinity ffffffff, priority 1
+[0m1717081655.929063 [PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+[0m1717081655.929096 [PHY]   RUs configured
+[0mgNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Initializing RU threads
+configuring RU from file
+[LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (32 to default value)
+Set RU mask to 1
+Creating RC.ru[0]:0x5a3827646e70
+Setting function for RU 0 to gNodeB_3GPP
+[RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
+[RU 0] Setting half-slot parallelization to 1
+configuring ru_id 0 (start_rf 0x5a3823562230)
+create a thread for core -1
+create a thread for core -1
+waiting for NFAPI PNF connection and population of global structure (main?)
+[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+[LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+shlib_path librfsimulator.so
+[LOADER] library librfsimulator.so successfully loaded
+[LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (4 to default value)
+Initializing random number generator, seed 867639885598880868
+setup_RU_buffers: frame_parms = 0x7e72d1caf010
+waiting for sync (ru_thread,-1/0x5a382414a0ac,0x5a3825a7b000,0x5a3825a7a300)
+[PNF] waiting for OAI to be configured (eNB/RU)
+[PNF] OAI eNB/RU configured
+[PNF] About to call init_eNB_afterRU()
+[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+shlib_path libdfts.so
+[LOADER] library libdfts.so successfully loaded
+[LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+shlib_path libldpc.so
+[LOADER] library libldpc.so successfully loaded
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+waiting for sync (L1_stats_thread,-1/0x5a382414a0ac,0x5a3825a7b000,0x5a3825a7a300)
+[PNF] Sending PNF_START_RESP
+Sending NFAPI_START_RESPONSE config:0x5a382763c180 phy_id:1
+NFAPI: got sync (main?)
+wait RUs
+ALL RUs READY!
+RC.nb_RU:1
+ALL RUs ready - init gNBs
+NFAPI mode - DO NOT call init_gNB_afterRU()
+ALL RUs ready - ALL gNBs ready
+Sending sync to all threads
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+got sync (ru_thread)
+[PNF] Sending first P7 slot indication
+[PNF] Sent first P7 slot ind
+got sync (L1_stats_thread)
+[93m1717081655.929171 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+[0m[93m1717081655.930397 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+[0m[93m1717081655.931281 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+[0m[93m1717081655.932152 [HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+[0m1717081655.933045 [PHY]   RU 0 rf device ready
+[0m1717081655.933061 [PHY]   RU 0 RF started opp_enabled 0
+[0m[93m1717081655.933073 [HW]   No connected device, generating void samples...
+[0m90602919305 [N] 3501995584: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 42
+90602920780 [N] 3501995584: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 193
+[32m1717081655.969914 [PHY]   Command line parameters for the UE: -C 3319680000 -r 106 --numerology 1 --ssb 516
+[0m1717081656.665413 [HW]   A client connects, sending the current time
+[0m1717081660.463610 [NR_PHY]   [RAPROC] 183.19 Initiating RA procedure with preamble 32, energy 52.7 dB (I0 0, thres 120), delay 0 start symbol 0 freq index 0
+[0m90607439089 [N] 3501995584: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 262
+90607628305 [N] 3501995584: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 278
+
+** Caught SIGTERM, shutting down
+1717081674.844031 [PHY]   Killing gNB 0 processing threads
+[0m1717081674.930329 [PHY]   Stopping RU 0 processing threads
+[0m1717081674.930666 [PHY]   RU 0 RF device stopped
+[0m1717081674.930690 [PHY]   Freeing RU signal buffers (if_south local RF) nb_tx 2
+[0mReturned from ITTI signal handler
+oai_exit=1
+Exiting ru_thread 
+Bye.

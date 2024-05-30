@@ -1,0 +1,396 @@
+90594.223423 [ENB_APP] I nfapi (0) running mode: MONOLITHIC
+90594.223498 [UTIL] I Creating thread Tpool0_-1 with affinity -1 and priority 97
+90594.224533 [UTIL] I threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+90594.224621 [UTIL] I Creating thread Tpool1_-1 with affinity -1 and priority 97
+90594.225866 [UTIL] I threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+90594.225944 [UTIL] I Creating thread Tpool2_-1 with affinity -1 and priority 97
+90594.227022 [UTIL] I threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+90594.227102 [UTIL] I Creating thread Tpool3_-1 with affinity -1 and priority 97
+90594.228474 [UTIL] I threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+90594.228568 [UTIL] I Creating thread Tpool4_-1 with affinity -1 and priority 97
+90594.229774 [UTIL] I threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+90594.229851 [UTIL] I Creating thread Tpool5_-1 with affinity -1 and priority 97
+90594.230709 [UTIL] I threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+90594.230771 [UTIL] I Creating thread Tpool6_-1 with affinity -1 and priority 97
+90594.231954 [UTIL] I threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+90594.232022 [UTIL] I Creating thread Tpool7_-1 with affinity -1 and priority 97
+90594.233268 [UTIL] I threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+90595.233435 [ITTI] I Starting itti queue: TASK_UNKNOWN as task 0
+90595.233507 [ITTI] I Starting itti queue: TASK_TIMER as task 1
+90595.233521 [ITTI] I Starting itti queue: TASK_L2L1 as task 2
+90595.233532 [ITTI] I Starting itti queue: TASK_BM as task 3
+90595.233542 [ITTI] I Starting itti queue: TASK_PHY_ENB as task 4
+90595.233551 [ITTI] I Starting itti queue: TASK_MAC_GNB as task 5
+90595.233562 [ITTI] I Starting itti queue: TASK_RLC_ENB as task 6
+90595.233572 [ITTI] I Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+90595.233584 [ITTI] I Starting itti queue: TASK_PDCP_ENB as task 8
+90595.233593 [ITTI] I Starting itti queue: TASK_PDCP_GNB as task 9
+90595.233602 [ITTI] I Starting itti queue: TASK_DATA_FORWARDING as task 10
+90595.233614 [ITTI] I Starting itti queue: TASK_END_MARKER as task 11
+90595.233623 [ITTI] I Starting itti queue: TASK_RRC_ENB as task 12
+90595.233634 [ITTI] I Starting itti queue: TASK_RRC_GNB as task 13
+90595.233643 [ITTI] I Starting itti queue: TASK_RAL_ENB as task 14
+90595.233651 [ITTI] I Starting itti queue: TASK_S1AP as task 15
+90595.233662 [ITTI] I Starting itti queue: TASK_NGAP as task 16
+90595.233671 [ITTI] I Starting itti queue: TASK_X2AP as task 17
+90595.233680 [ITTI] I Starting itti queue: TASK_M2AP_ENB as task 18
+90595.233689 [ITTI] I Starting itti queue: TASK_M2AP_MCE as task 19
+90595.233697 [ITTI] I Starting itti queue: TASK_M3AP as task 20
+90595.233706 [ITTI] I Starting itti queue: TASK_M3AP_MME as task 21
+90595.233715 [ITTI] I Starting itti queue: TASK_M3AP_MCE as task 22
+90595.233724 [ITTI] I Starting itti queue: TASK_SCTP as task 23
+90595.233735 [ITTI] I Starting itti queue: TASK_ENB_APP as task 24
+90595.233745 [ITTI] I Starting itti queue: TASK_GNB_APP as task 25
+90595.233756 [ITTI] I Starting itti queue: TASK_MCE_APP as task 26
+90595.233767 [ITTI] I Starting itti queue: TASK_MME_APP as task 27
+90595.233776 [ITTI] I Starting itti queue: TASK_PHY_UE as task 28
+90595.233786 [ITTI] I Starting itti queue: TASK_MAC_UE as task 29
+90595.284073 [ITTI] I Starting itti queue: TASK_RLC_UE as task 30
+90595.284139 [ITTI] I Starting itti queue: TASK_PDCP_UE as task 31
+90595.284153 [ITTI] I Starting itti queue: TASK_RRC_UE as task 32
+90595.284164 [ITTI] I Starting itti queue: TASK_RRC_NRUE as task 33
+90595.284173 [ITTI] I Starting itti queue: TASK_NAS_UE as task 34
+90595.284183 [ITTI] I Starting itti queue: TASK_RAL_UE as task 35
+90595.284192 [ITTI] I Starting itti queue: TASK_GTPV1_U as task 36
+90595.284200 [ITTI] I Starting itti queue: TASK_CU_F1 as task 37
+90595.284213 [ITTI] I Starting itti queue: TASK_DU_F1 as task 38
+90595.284222 [ITTI] I Starting itti queue: TASK_CUCP_E1 as task 39
+90595.284231 [ITTI] I Starting itti queue: TASK_CUUP_E1 as task 40
+90595.284242 [ITTI] I Starting itti queue: TASK_RRC_UE_SIM as task 41
+90595.284260 [ITTI] I Starting itti queue: TASK_RRC_GNB_SIM as task 42
+90595.284270 [ITTI] I Starting itti queue: TASK_RRC_NSA_UE as task 43
+90595.284279 [ITTI] I Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+90595.284290 [ITTI] I Starting itti queue: TASK_NAS_NRUE as task 45
+90595.284321 [OPT] I OPT disabled
+90595.284470 [HW] I Version: Branch: nfapi-fixes-rebased Abrev. Hash: a2d6af5674 Date: Wed May 22 08:47:32 2024 +0200
+90595.284655 [PDCP] I pdcp init,usegtp usenetlink
+90595.284963 [PDCP] I TUN: Opened socket oaitun_ue1 with fd nas_sock_fd[0]=97
+90595.284983 [PDCP] I UE pdcp will use tun interface
+90595.285062 [NR_MAC] I [UE0] Initializing MAC
+90595.286464 [NR_MAC] I Initializing dl and ul config_request. num_slots = 20
+90595.286556 [RLC] I Activated srb0 for UE 0
+90595.286582 [PHY] I Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+, chest-freq 0, chest-time 0
+90595.286592 [PHY] I Set UE nb_rx_antenna 2, nb_tx_antenna 2, threequarter_fs 0, ssb_start_subcarrier 516
+90595.286602 [PHY] I SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+90595.286609 [NR_MAC] I NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+90595.286615 [NR_MAC] I NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+90595.286625 [PHY] W Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+90595.286631 [PHY] W samples_per_subframe 61440/per second 61440000, wCP 57344
+90595.286643 [PHY] I Initializing UE vars for gNB TXant 2, UE RXant 2
+90595.438394 [PHY] I prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+90595.548988 [PHY] I UE 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3619200000, N_RB 106, mu 1)
+90595.549039 [PHY] I HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549059 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549069 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549077 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549084 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549092 [PHY] I HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549099 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549106 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549114 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549120 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549127 [PHY] I HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549134 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549141 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549149 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549155 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549162 [PHY] I HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549169 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549176 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549184 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549190 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549197 [PHY] I HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549213 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549221 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549228 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549236 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549243 [PHY] I HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549250 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549257 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549264 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549271 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549278 [PHY] I HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549285 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549292 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549299 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549306 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549312 [PHY] I HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 2/2, duplex_mode TDD
+90595.549319 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549326 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90595.549333 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549340 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_gain 0, rx_gain 110
+90595.549370 [HW] I # /dev/cpu_dma_latency set to 2 us
+90595.603659 [PHY] I Intializing UE Threads for instance 0 (0x56750a41b610,0x75676b8a3010)...
+90595.603741 [UTIL] I Creating thread UEthread with affinity -1 and priority 97
+90595.605144 [UTIL] I threadCreate for UEthread, affinity ffffffff, priority 97
+90595.607537 [UTIL] I Creating thread L1_UE_stats with affinity -1 and priority 1
+90595.607789 [HW] W sample_rate 61440000.000000
+90595.607815 [HW] I Running as client: will connect to a rfsimulator server side
+90595.607911 [HW] I [RRU] has loaded RFSIMULATOR device.
+90595.607937 [HW] W running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+90595.609049 [UTIL] I threadCreate for L1_UE_stats, affinity ffffffff, priority 1
+90595.609072 [HW] W running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+90595.611377 [NR_RRC] I create TASK_RRC_NRUE 
+90595.611400 [UTIL] I Creating thread TASK_RRC_NRUE with affinity -1 and priority 50
+90595.612431 [HW] W running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+90595.612774 [UTIL] I threadCreate for TASK_RRC_NRUE, affinity ffffffff, priority 50
+90595.613354 [HW] W running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+90595.615188 [ITTI] I Created Posix thread TASK_RRC_NRUE
+90595.615213 [UTIL] I Creating thread TASK_NAS_NRUE with affinity -1 and priority 50
+90595.616091 [HW] I Trying to connect to 127.0.0.1:4043
+90595.616184 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90595.616513 [UTIL] I threadCreate for TASK_NAS_NRUE, affinity ffffffff, priority 50
+90595.618783 [ITTI] I Created Posix thread TASK_NAS_NRUE
+90595.618873 [SIM] I UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=C42449363BBAD02B66D16BC975D77CC1, DNN=oai, SST=0x01, SD=0xffffff
+90596.616207 [HW] I Trying to connect to 127.0.0.1:4043
+90596.616303 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90597.616332 [HW] I Trying to connect to 127.0.0.1:4043
+90597.616429 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90598.616458 [HW] I Trying to connect to 127.0.0.1:4043
+90598.616559 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90599.616594 [HW] I Trying to connect to 127.0.0.1:4043
+90599.616686 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90600.616714 [HW] I Trying to connect to 127.0.0.1:4043
+90600.616840 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90601.616870 [HW] I Trying to connect to 127.0.0.1:4043
+90601.616994 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90602.617028 [HW] I Trying to connect to 127.0.0.1:4043
+90602.617151 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90603.617172 [HW] I Trying to connect to 127.0.0.1:4043
+90603.617304 [HW] I Connection to 127.0.0.1:4043 established
+90603.617327 [HW] I connect() to 127.0.0.1:4043 failed, errno(111)
+90604.651248 [PHY] I [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 0, rx_num_channels 2)
+90604.651312 [PHY] I [SCHED][UE] Check absolute frequency DL 3619200000.000000, UL 3619200000.000000 (RF card 0, oai_exit 0, channel 1, rx_num_channels 2)
+90604.651325 [NR_PHY] W Starting sync detection
+90604.651332 [PHY] I [UE thread Synch] Running Initial Synch 
+90604.955203 [PHY] I [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 0, val = 0 (0 dB power over signal avg 0 dB), ffo 0.000000
+90604.955262 [PHY] I PSS execution duration 303917 microseconds 
+90605.253690 [PHY] I [UE] nr_synchro_time: Sync source (nid2) = 0, Peak found at pos 114256, val = 9073714706 (99 dB power over signal avg 58 dB), ffo 0.000000
+90605.253748 [PHY] I PSS execution duration 298471 microseconds 
+90605.254911 [NR_PHY] W SSS detected, PCI: 0, ffo_pss 0.000000 (0 Hz), ffo_sss 0.000555 (16 Hz),  ffo_pss+ffo_sss 0.000555 (16 Hz), nid1: 0, nid2: 0
+90605.255486 [PHY] I [UE0] Initial sync: pbch decoded sucessfully, ssb index 0
+90605.256115 [PHY] I [UE0] In synch, rx_offset 109696 samples
+90605.256132 [PHY] I [UE 0] Measured Carrier Frequency offset 0 Hz
+90605.256140 [PHY] A Initial sync successful
+90605.256149 [PHY] I HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90605.256161 [PHY] I HW: Configuring channel 1 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+90605.256170 [PHY] I Got synch: hw_slot_offset 7, carrier off 0 Hz, rxgain 0.000000 (DL 3619200000.000000 Hz, UL 3619200000.000000 Hz)
+90605.280356 [PHY] A UE synchronized! decoded_frame_rx=36 UE->init_sync_frame=0 trashed_frames=36
+90605.280399 [PHY] I Resynchronizing RX by 109696 samples
+90605.304049 [NR_RRC] A SIB1 decoded
+90605.304106 [NR_MAC] I NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+90605.304118 [NR_MAC] I NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+90606.352822 [NR_PHY] I ============================================
+90606.352878 [NR_PHY] I Harq round stats for Downlink: 1/0/0
+90606.352889 [NR_PHY] I ============================================
+90607.400665 [NR_MAC] I NR band duplex spacing is 0 KHz (nr_bandtable[40].band = 78)
+90607.400721 [NR_MAC] I NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+90607.400731 [NR_MAC] I Initialization of 4-step contention-based random access procedure
+90607.413508 [NR_MAC] I PRACH scheduler: Selected RO Frame 183, Slot 19, Symbol 0, Fdm 0
+90607.413994 [PHY] I PRACH [UE 0] in frame.slot 183.19, placing PRACH in position 2828, msg1 frequency start 0 (k1 0), preamble_offset 6, first_nonzero_root_idx 0
+90607.427209 [NR_MAC] E Trying to process acknack for an inactive harq process (0)
+90607.427261 [NR_MAC] I [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
+90607.427269 [NR_MAC] I [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
+90607.427273 [NR_MAC] A [UE 0][RAPROC][184.10] Found RAR with the intended RAPID 32
+90607.427286 [MAC] W received TA command 31
+90607.427301 [PHY] I RAR-Msg2 decoded
+90607.432633 [NR_MAC] A [RAPROC][184.18] RA-Msg3 transmitted
+90607.448044 [MAC] I [UE 0]Frame 185 Contention resolution identity: 0x183dcc8f5306 Terminating RA procedure
+90607.448087 [MAC] A [UE 0][185.10][RAPROC] RA procedure succeeded. CB-RA: Contention Resolution is successful.
+90607.448123 [NR_RRC] I [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+90607.448277 [RLC] I Added srb 1 to UE 0
+90607.448298 [MAC] I Applying CellGroupConfig from gNodeB
+90607.448992 [NR_RRC] I State = NR_RRC_CONNECTED
+90607.449024 [NR_RRC] I [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+90607.577253 [NR_PHY] I ============================================
+90607.577309 [NR_PHY] I Harq round stats for Downlink: 4/0/0
+90607.577318 [NR_PHY] I ============================================
+90607.577487 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90607.731878 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90607.885761 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90608.045264 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90608.203512 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90608.366786 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90608.524568 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90608.691066 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90608.850252 [NR_PHY] I ============================================
+90608.850317 [NR_PHY] I Harq round stats for Downlink: 11/0/0
+90608.850328 [NR_PHY] I ============================================
+90608.850581 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.007991 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.164091 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.320956 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.481890 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.643392 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.817479 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90609.977031 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90610.138643 [NR_PHY] I ============================================
+90610.138710 [NR_PHY] I Harq round stats for Downlink: 17/0/0
+90610.138722 [NR_PHY] I ============================================
+90610.138936 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90610.298246 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90610.467737 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90610.625878 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90610.776450 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90610.930531 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90611.090155 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90611.249279 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90611.402530 [NR_PHY] I ============================================
+90611.402589 [NR_PHY] I Harq round stats for Downlink: 23/0/0
+90611.402599 [NR_PHY] I ============================================
+90611.402815 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90611.557028 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90611.710857 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90611.865766 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.015048 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.170794 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.321453 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.479335 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.627736 [NR_PHY] I ============================================
+90612.627808 [NR_PHY] I Harq round stats for Downlink: 30/0/0
+90612.627818 [NR_PHY] I ============================================
+90612.628018 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.784388 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90612.930929 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90613.080478 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90613.236222 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90613.393064 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90613.553521 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90613.710730 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90613.873015 [NR_PHY] I ============================================
+90613.873070 [NR_PHY] I Harq round stats for Downlink: 36/0/0
+90613.873080 [NR_PHY] I ============================================
+90613.873265 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.029738 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.182691 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.340109 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.497695 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.657357 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.817155 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90614.970073 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90615.124935 [NR_PHY] I ============================================
+90615.124996 [NR_PHY] I Harq round stats for Downlink: 43/0/0
+90615.125009 [NR_PHY] I ============================================
+90615.125204 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90615.286878 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90615.454099 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90615.623004 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90615.782935 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90615.950371 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90616.117494 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90616.285269 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90616.453532 [NR_PHY] I ============================================
+90616.453591 [NR_PHY] I Harq round stats for Downlink: 49/0/0
+90616.453602 [NR_PHY] I ============================================
+90616.453842 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90616.620705 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90616.785054 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90616.947312 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90617.110038 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90617.270598 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90617.429584 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90617.583687 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90617.738342 [NR_PHY] I ============================================
+90617.738402 [NR_PHY] I Harq round stats for Downlink: 55/0/0
+90617.738420 [NR_PHY] I ============================================
+90617.738660 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90617.893402 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.047406 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.201880 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.356493 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.513108 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.672644 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.831684 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90618.991303 [NR_PHY] I ============================================
+90618.991358 [NR_PHY] I Harq round stats for Downlink: 62/0/0
+90618.991368 [NR_PHY] I ============================================
+90618.991570 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90619.153259 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90619.307367 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90619.467396 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90619.623461 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90619.778479 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90619.934298 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90620.088552 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90620.244063 [NR_PHY] I ============================================
+90620.244117 [NR_PHY] I Harq round stats for Downlink: 68/0/0
+90620.244127 [NR_PHY] I ============================================
+90620.244381 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90620.399629 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90620.562145 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90620.721703 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90620.875258 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90621.035452 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90621.192034 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90621.354416 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90621.515063 [NR_PHY] I ============================================
+90621.515121 [NR_PHY] I Harq round stats for Downlink: 75/0/0
+90621.515132 [NR_PHY] I ============================================
+90621.515314 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90621.674010 [NR_PHY] I RSRP = -42 dBm, RI = 2 i1 = 0.0.0, i2 = 0, SINR = 36 dB, CQI = 15
+90621.882879 [HW] W Lost socket
+CMDLINE: "./nr-uesoftmodem" "-O" "../../../ci-scripts/conf_files/nrue.uicc.nfapi.conf" "--sa" "--rfsim" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--ue-nb-ant-tx" "2" "--uicc0.imsi" "001010000000001" "--ue-nb-ant-rx" "2" "--uecap_file" "/opt/oai-nr-ue/etc/uecap.xml" "--log_config.global_log_options" "level,nocolor,time" 
+[CONFIG] get parameters from libconfig ../../../ci-scripts/conf_files/nrue.uicc.nfapi.conf [LIBCONFIG] Path for include directive set to: ../../../ci-scripts/conf_files
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+[CONFIG] debug flags: 0x00000000
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (2 to default value)
+[LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+[LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+log init done
+[LIBCONFIG] (root): 31/31 parameters successfully set, (28 to default value)
+[LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+[LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+[LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+shlib_path libldpc.so
+[LOADER] library libldpc.so successfully loaded
+[LIBCONFIG] nas.noS1: 3/3 parameters successfully set, (3 to default value)
+[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+shlib_path libdfts.so
+[LOADER] library libdfts.so successfully loaded
+[LIBCONFIG] list PRSs not found in config file ../../../ci-scripts/conf_files/nrue.uicc.nfapi.conf 
+[LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+[LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+shlib_path librfsimulator.so
+[LOADER] library librfsimulator.so successfully loaded
+[LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (8 to default value)
+Initializing random number generator, seed 13376453101718286433
+UE threads created by 146972
+TYPE <CTRL-C> TO TERMINATE
+[LIBCONFIG] uicc0: 10/10 parameters successfully set, (5 to default value)
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+[ENB_APP]   nfapi (0) running mode: MONOLITHIC
+[0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool0_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool1_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool2_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool3_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool4_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool5_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool6_-1, affinity ffffffff, priority 97
+[0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 97
+[0m[UTIL]   threadCreate for Tpool7_-1, affinity ffffffff, priority 97
+[0m
