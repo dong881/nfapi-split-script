@@ -1,3 +1,4 @@
+#!/bin/bash
 source ./VARIABLE.sh
 cd $PATH_TO_openairinterface5g
 cd ./cmake\_targets/ran\_build/build

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Common path
 Target_PATH="."
 LOG_PATH="$Target_PATH/LOG"
