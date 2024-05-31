@@ -1,2 +1,4 @@
-cd ~/openairinterface5g/cmake\_targets/ran\_build/build
+source ./VARIABLE.sh
+cd $PATH_TO_openairinterface5g
+cd ./cmake\_targets/ran\_build/build
 sudo ./nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --sa --uicc0.imsi 001010000000001 --rfsim
