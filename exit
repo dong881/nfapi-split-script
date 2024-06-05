@@ -3,7 +3,7 @@ Target_PATH="."
 # kill $! 
 # ps aux | grep "nr-softmodem" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
 # ps aux | grep "nr-softmodem\|tcpdump" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
-ps aux | grep "nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+ps aux | grep "nr-uesoftmodem\|nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
 
 # 讀取PID檔案
 while read -r pid; do
