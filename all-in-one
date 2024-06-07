@@ -1,34 +1,46 @@
 #!/bin/bash
+#######################   For First time
+# sudo apt-get install moreutils
 
 # Common path
 Target_PATH="."
 LOG_PATH="$Target_PATH/LOG"
+LOCKFILE="$Target_PATH/tmp-build_run.lock"
 
-#######################   For First time
-# mkdir $LOG_PATH
-# sudo apt-get install moreutils
+mkdir -p "$Target_PATH"
+mkdir -p "$LOG_PATH"
 
-bash "$Target_PATH/exit"
-echo "Set ifconfig"
-./set-ifconfig
-# echo "execute OAI Core Network"
-# ./cn
-sudo echo "Start TCPdump..."
-sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump.pcap &
-echo "execute OAI VNF"
-stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
-echo "execute OAI PNF"
-stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
-echo "execute OAI UE"
-stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
-# bash "./ping-autoExecute" &
-# bash "./iperf-client-autoExecute" &
+# Check if the lock file exists
+if [ -e $LOCKFILE ]; then
+    echo "Another user is currently building and running the code. Please wait."
+    exit 1
+else
+    bash "$Target_PATH/exit"
+    # Create the lock file
+    touch $LOCKFILE
+    echo "Set ifconfig"
+    ./set-ifconfig
+    # echo "execute OAI Core Network"
+    # ./cn
+    sudo echo "Start TCPdump..."
+    sudo tcpdump -i any -nn -w $LOG_PATH/nFAPI_TCPdump.pcap &
+    echo "execute OAI VNF"
+    stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
+    echo "execute OAI PNF"
+    stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
+    echo "execute OAI UE"
+    stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
+    # bash "./ping-autoExecute" &
+    # bash "./iperf-client-autoExecute" &
 
- wait_sec=15
- echo "The script automatically closes after $wait_sec seconds..."
-####################### Wait for the specified number of seconds
- sleep $wait_sec
- bash "$Target_PATH/exit"
- echo "Time to $wait_sec seconds..."
-# kill $!
-echo "END"
+    wait_sec=20
+    echo "The script automatically closes after $wait_sec seconds..."
+    ####################### Wait for the specified number of seconds
+    sleep $wait_sec
+    bash "$Target_PATH/exit"
+    echo "Time to $wait_sec seconds..."
+    # kill $!
+    echo "END"
+    # # Remove the lock file
+    # rm $LOCKFILE
+fi

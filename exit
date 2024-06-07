@@ -14,3 +14,4 @@ done < $Target_PATH/pids.txt
 
 # 刪除PID檔案
 rm $Target_PATH/pids.txt
+rm $Target_PATH/tmp-build_run.lock
