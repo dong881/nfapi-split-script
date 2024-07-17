@@ -1,4 +1,6 @@
 #!/bin/bash
+source ./VARIABLE.sh
+
 #######################   For First time
 # sudo apt-get install moreutils
 

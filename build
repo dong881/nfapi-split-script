@@ -1,6 +1,9 @@
-cd ~/openairinterface5g/cmake_targets/ran_build/build
+#!/bin/bash
+
+source ./VARIABLE.sh
+cd $PATH_TO_openairinterface5g/cmake_targets/ran_build/build
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
 # sudo ./build_oai -c --ninja --nrUE --gNB
 
-cd ~/nfapi-split-script
+cd $PATH_TO_SCRIPT
 bash "./all-in-one"
