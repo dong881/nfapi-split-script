@@ -9,7 +9,6 @@ Target_PATH="."
 LOG_PATH="$Target_PATH/LOG"
 LOCKFILE="$Target_PATH/tmp-build_run.lock"
 
-mkdir -p "$Target_PATH"
 mkdir -p "$LOG_PATH"
 
 # Check if the lock file exists
@@ -35,7 +34,7 @@ else
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
-    wait_sec=20
+    wait_sec=50
     echo "The script automatically closes after $wait_sec seconds..."
     ####################### Wait for the specified number of seconds
     sleep $wait_sec
