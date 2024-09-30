@@ -34,7 +34,7 @@ else
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
-    wait_sec=50
+    wait_sec=30
     echo "The script automatically closes after $wait_sec seconds..."
     ####################### Wait for the specified number of seconds
     sleep $wait_sec

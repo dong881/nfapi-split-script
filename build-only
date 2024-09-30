@@ -2,3 +2,5 @@
 source ./VARIABLE.sh
 cd $PATH_TO_openairinterface5g/cmake_targets/ran_build/build
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+cd $PATH_TO_PNF/cmake_targets/ran_build/build
+sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
