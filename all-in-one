@@ -1,6 +1,6 @@
 #!/bin/bash
 source ./VARIABLE.sh
-
+wait_sec=25
 #######################   For First time
 # sudo apt-get install moreutils
 
@@ -23,8 +23,8 @@ else
     ./set-ifconfig
     # echo "execute OAI Core Network"
     # ./cn
-    sudo echo "Start TCPdump..."
-    sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
+    # sudo echo "Start TCPdump..."
+    # sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
     echo "execute OAI VNF"
     stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
     echo "execute OAI PNF"
@@ -34,7 +34,6 @@ else
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
-    wait_sec=30
     echo "The script automatically closes after $wait_sec seconds..."
     ####################### Wait for the specified number of seconds
     sleep $wait_sec
