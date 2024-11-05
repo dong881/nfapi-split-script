@@ -1,0 +1,5 @@
+# https://hackmd.io/@MingHung/NR_SA_Tutorial_OAI_nrUE
+#!/bin/bash
+source ./VARIABLE.sh
+cd $PATH_TO_openairinterface5g/cmake_targets/
+sudo ./build_oai -w USRP --ninja --nrUE --gNB --build-lib "nrscope" -C
