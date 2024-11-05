@@ -5,5 +5,9 @@ cd $PATH_TO_openairinterface5g/cmake_targets/ran_build/build
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
 # sudo ./build_oai -c --ninja --nrUE --gNB
 
+# Build OAI Layer1 source code
+cd /home/hpe/NTUST-script/Tools
+bash "./build-OAI-quick"
+
 cd $PATH_TO_SCRIPT
 bash "./all-in-one"
