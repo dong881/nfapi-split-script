@@ -1,0 +1,4 @@
+#!/bin/bash
+source ./VARIABLE.sh
+cd $PATH_TO_openairinterface5g
+sudo cmake_targets/ran_build/build/nr-softmodem --sa -O ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf
