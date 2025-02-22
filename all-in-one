@@ -1,6 +1,6 @@
 #!/bin/bash
 source ./VARIABLE.sh
-wait_sec=25
+wait_sec=13
 #######################   For First time
 # sudo apt-get install moreutils
 
@@ -19,28 +19,29 @@ else
     bash "$Target_PATH/exit"
     # Create the lock file
     touch $LOCKFILE
-    echo "Set ifconfig"
+    echo -e "Set ifconfig\r"
     ./set-ifconfig
-    # echo "execute OAI Core Network"
+    # echo -e "execute OAI Core Network\r"
     # ./cn
-    # sudo echo "Start TCPdump..."
+    sudo echo -e "Start TCPdump...\r"
     # sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
-    echo "execute OAI VNF"
+    # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
+    echo -e "execute OAI VNF\r"
     stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
-    echo "execute OAI PNF"
+    echo -e "execute OAI PNF\r"
     stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
-    echo "execute OAI UE"
+    echo -e "execute OAI UE\r"
     stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
-    echo "The script automatically closes after $wait_sec seconds..."
+    echo -e "The script automatically closes after $wait_sec seconds...\r"
     ####################### Wait for the specified number of seconds
     sleep $wait_sec
     bash "$Target_PATH/exit"
-    echo "Time to $wait_sec seconds..."
+    echo -e "Time to $wait_sec seconds...\r"
     # kill $!
-    echo "END"
+    echo -e "END\r"
     # # Remove the lock file
     # rm $LOCKFILE
 fi

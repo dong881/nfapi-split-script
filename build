@@ -11,3 +11,6 @@ bash "./build-OAI-quick"
 
 cd $PATH_TO_SCRIPT
 bash "./all-in-one"
+
+# cd /home/hpe/NTUST-script
+# bash "./00"
