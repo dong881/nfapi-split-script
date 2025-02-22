@@ -3,15 +3,26 @@ Target_PATH="."
 # kill $! 
 # ps aux | grep "nr-softmodem" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
 # ps aux | grep "nr-softmodem\|tcpdump" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
-ps aux | grep "nr-uesoftmodem\|nr-softmodem\|tcpdump\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+ps aux | grep "nr-uesoftmodem\|nr-softmodem\|ping 192.168.70.135 -I oaitun_ue1" | grep -v grep | awk '{print $2}' >> "$Target_PATH/pids.txt"
+# sudo pkill -INT tcpdump
+# 檢查PID檔案是否存在
+if [ -f "$Target_PATH/pids.txt" ]; then
+    # 讀取PID檔案
+    while read -r pid; do
+        # 關閉背景進程
+        sudo kill -15 "$pid"  # SIGTERM
+        echo -e "kill $pid\r"
+    done < "$Target_PATH/pids.txt"
 
-# 讀取PID檔案
-while read -r pid; do
-    # 關閉背景進程
-    sudo kill -15 "$pid"  # SIGTERM
-    echo "kill $pid"
-done < $Target_PATH/pids.txt
+    # 刪除PID檔案
+    rm "$Target_PATH/pids.txt"
+else
+    echo "PID file not found, skipping."
+fi
 
-# 刪除PID檔案
-rm $Target_PATH/pids.txt
-rm $Target_PATH/tmp-build_run.lock
+# 檢查tmp-build_run.lock檔案是否存在並刪除
+if [ -f "$Target_PATH/tmp-build_run.lock" ]; then
+    rm "$Target_PATH/tmp-build_run.lock"
+else
+    echo "Lock file not found, skipping."
+fi
