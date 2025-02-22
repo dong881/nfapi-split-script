@@ -1,0 +1,296 @@
+ 二  22 14:57:12 [UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+ 二  22 14:57:13 [0m[OPT]   OPT disabled
+ 二  22 14:57:13 [0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
+ 二  22 14:57:13 [0m[GNB_APP]   Initialized RAN Context: RC.nb_nr_inst = 1, RC.nb_nr_macrlc_inst = 1, RC.nb_nr_L1_inst = 0, RC.nb_RU = 0, RC.nb_nr_CC[0] = 0
+ 二  22 14:57:13 [0m[GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+ 二  22 14:57:13 [0m[1;31m[GNB_APP]   RU information not present in config file. Assuming physical antenna ports equal to logical antenna ports 1
+ 二  22 14:57:13 [0m[GNB_APP]   minTXRXTIME 6
+ 二  22 14:57:13 [0m[GNB_APP]   SIB1 TDA 1
+ 二  22 14:57:13 [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on, delta_MCS off, maxMIMO_Layers -1, HARQ feedback enabled, num DLHARQ:16, num ULHARQ:16
+ 二  22 14:57:13 [0m[GNB_APP]   sr_ProhibitTimer 0, sr_TransMax 64, sr_ProhibitTimer_v1700 0, t300 400, t301 400, t310 2000, n310 10, t311 3000, n311 1, t319 400
+ 二  22 14:57:13 [0m[NR_MAC]   Candidates per PDCCH aggregation level on UESS: L1: 0, L2: 2, L4: 0, L8: 0, L16: 0
+ 二  22 14:57:13 [0m[RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
+ 二  22 14:57:13 [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
+ 二  22 14:57:13 [0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
+ 二  22 14:57:13 [0m[UTIL]   threadCreate() for MAC_STATS: creating thread with affinity ffffffff, priority 2
+ 二  22 14:57:13 [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 200, PUCCH Failure 10, PUSCH Failure 10
+ 二  22 14:57:13 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-vnf-du.sa.band78.106prb.nfapi.conf" "--nfapi" "VNF" 
+ 二  22 14:57:13 [CONFIG] function config_libconfig_init returned 0
+ 二  22 14:57:13 785718.575729 [I] 4078100480: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+ 二  22 14:57:13 785718.575732 [I] 4078100480: configure_nr_nfapi_vnf: [VNF] configure_nr_nfapi_vnf() vnf.p7_vnfs[0].config:0x64b79b9f1b90 VNF ADDRESS:127.0.0.1:50001
+ 二  22 14:57:13 785718.575739 [I] 4078100480: configure_nr_nfapi_vnf: [VNF] Creating VNF NFAPI start thread configure_nr_nfapi_vnf
+ 二  22 14:57:13 785718.578497 [I] 4078100480: configure_nr_nfapi_vnf: [VNF] Created VNF NFAPI start thread configure_nr_nfapi_vnf
+ 二  22 14:57:13 [NR_PHY]   Copying 0 blacklisted PRB to L1 context
+ 二  22 14:57:13 [0m785718.578542 [I] 3946841664: vnf_nr_start_thread: [VNF] VNF NFAPI thread - nfapi_vnf_start()vnf_nr_start_thread
+ 二  22 14:57:13 785718.578561 [I] 3946841664: nfapi_nr_vnf_start: nfapi_nr_vnf_start()
+ 二  22 14:57:13 785718.578563 [I] 3946841664: nfapi_nr_vnf_start: Starting P5 VNF connection on port 50001
+ 二  22 14:57:13 785718.578584 [I] 3946841664: nfapi_nr_vnf_start: P5 socket created... 94
+ 二  22 14:57:13 785718.578591 [N] 3946841664: nfapi_nr_vnf_start: VNF Setting the SCTP_INITMSG
+ 二  22 14:57:13 785718.578594 [I] 3946841664: nfapi_nr_vnf_start: IPV4 binding to port 50001
+ 二  22 14:57:13 785718.578601 [I] 3946841664: nfapi_nr_vnf_start: bind succeeded..94.
+ 二  22 14:57:13 785718.578618 [I] 3946841664: nfapi_nr_vnf_start: listen succeeded...
+ 二  22 14:57:13 [NR_MAC]   Set TX antenna number to 1, Set RX antenna number to 1 (num ssb 1: 80000000,0)
+ 二  22 14:57:13 [0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
+ 二  22 14:57:13 [0m[NR_MAC]   Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
+ 二  22 14:57:13 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
+ 二  22 14:57:13 [0m[NR_PHY]   Set TDD Period Configuration: 2 periods per frame, 20 slots to be configured (8 DL, 3 UL)
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 0 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 1 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 2 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 3 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 4 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 5 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 6 is DOWNLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 7 is FLEXIBLE: DDDDDDFFFFUUUU
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 8 is UPLINK
+ 二  22 14:57:13 [0m[NR_PHY]   TDD period configuration: slot 9 is UPLINK
+ 二  22 14:57:13 [0m[NR_RRC]   SIB1 freq: offsetToPointA 86
+ 二  22 14:57:13 [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 3584, gNB_DU_name gNB-du-high, TAC 1 MCC/MNC/length 1/1/2 cellID 12345678
+ 二  22 14:57:13 [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+ 二  22 14:57:13 [0m[GNB_APP]   SDAP layer is disabled
+ 二  22 14:57:13 [0m[GNB_APP]   Data Radio Bearer count 1
+ 二  22 14:57:13 [0m[93m[RRC]   no preferred ciphering algorithm set in configuration file, applying default parameters (no security)
+ 二  22 14:57:13 [0m[93m[RRC]   no preferred integrity algorithm set in configuration file, applying default parameters (nia2)
+ 二  22 14:57:13 [0m[UTIL]   threadCreate() for TASK_SCTP: creating thread with affinity ffffffff, priority 50
+ 二  22 14:57:13 [0m[X2AP]   X2AP is disabled.
+ 二  22 14:57:13 [0m[UTIL]   threadCreate() for TASK_GNB_APP: creating thread with affinity ffffffff, priority 50
+ 二  22 14:57:13 [0m[UTIL]   threadCreate() for TASK_GTPV1_U: creating thread with affinity ffffffff, priority 50
+ 二  22 14:57:13 [0m[UTIL]   threadCreate() for TASK_DU_F1: creating thread with affinity ffffffff, priority 50
+ 二  22 14:57:13 [0m[F1AP]   Starting F1AP at DU
+ 二  22 14:57:13 [0m[F1AP]   F1-C DU IPaddr 192.168.130.81, connect to F1-C CU 192.168.130.83, binding GTP to 192.168.130.81
+ 二  22 14:57:13 [0m[GTPU]   Initializing UDP for local address 192.168.130.81 with port 2153
+ 二  22 14:57:13 [0m[GTPU]   Created gtpu instance id: 95
+ 二  22 14:57:13 [0m[1;31m[SCTP]   Connect failed: Connection refused
+ 二  22 14:57:13 [0m[93m[F1AP]   Received unsuccessful result for SCTP association (3), instance 0, cnx_id 0, retrying...
+ 二  22 14:57:13 [0m[93m[GNB_APP]   waiting for F1 Setup Response before activating radio
+ 二  22 14:57:15 [0m785720.569316 [I] 3946841664: nfapi_nr_vnf_start: Accepting connection from PNF...
+ 二  22 14:57:15 785720.569343 [I] 3946841664: nfapi_nr_vnf_start: PNF connection (fd:96) accepted from 127.0.0.1:57670 
+ 二  22 14:57:15 785720.569435 [I] 3946841664: nfapi_nr_vnf_start: MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x716fd0000b70
+ 二  22 14:57:15 785720.569438 [I] 3946841664: pnf_nr_connection_indication_cb: [VNF] pnf connection indication idx:0
+ 二  22 14:57:15 785720.569495 [I] 3946841664: nfapi_nr_vnf_start: VNF Association ID = 1534
+ 二  22 14:57:15 785720.569497 [I] 3946841664: nfapi_nr_vnf_start: VNF Receiver window size = 67108854
+ 二  22 14:57:15 785720.569498 [I] 3946841664: nfapi_nr_vnf_start: VNF In Streams = 5
+ 二  22 14:57:15 785720.569499 [I] 3946841664: nfapi_nr_vnf_start: VNF Out Streams = 5
+ 二  22 14:57:15 785720.569530 [I] 3946841664: vnf_nr_handle_pnf_param_response: Received PNF_PARAM.reponse
+ 二  22 14:57:15 785720.569534 [I] 3946841664: pnf_nr_param_resp_cb: [VNF] pnf param response idx:0 error:0
+ 二  22 14:57:15 785720.569535 [I] 3946841664: pnf_nr_param_resp_cb: [VNF] (PHY:0) phy_config_idx:0
+ 二  22 14:57:15 785720.569537 [I] 3946841664: nfapi_vnf_phy_info_list_add: Adding phy p5_idx:0 phy_id:1
+ 二  22 14:57:15 785720.569539 [I] 3946841664: pnf_nr_param_resp_cb: [VNF] (PHY:0) (RF0) 0
+ 二  22 14:57:15 785720.569541 [I] 3946841664: pnf_nr_param_resp_cb: [VNF] (PHY:0) (RF1) 0
+ 二  22 14:57:15 785720.569542 [I] 3946841664: pnf_nr_param_resp_cb: Hard coded num phy rf to 2
+ 二  22 14:57:15 785720.569581 [I] 3946841664: vnf_nr_handle_pnf_config_response: Received PNF_CONFIG_RESPONSE
+ 二  22 14:57:15 785720.569584 [I] 3946841664: pnf_nr_config_resp_cb: [VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:1]]
+ 二  22 14:57:15 785720.569627 [I] 3946841664: vnf_nr_handle_pnf_start_response: Received PNF_START_RESPONSE
+ 二  22 14:57:15 785720.569629 [I] 3946841664: pnf_nr_start_resp_cb: [VNF] pnf start response idx:0 config:0x64b79b9f1ce0 user_data:0x64b777e21600 p7_vnf[config:0x64b79b9f1b90 thread_started:0]
+ 二  22 14:57:15 [UTIL]   threadCreate() for vnf_p7_thread: creating thread with affinity ffffffff, priority 50
+ 二  22 14:57:15 [0m785720.572437 [I] 3946841664: pnf_nr_start_resp_cb: [VNF] Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
+ 二  22 14:57:15 785720.572469 [I] 3823109696: vnf_nr_p7_thread_start: [VNF] Creating VNF NFAPI P7 start thread vnf_nr_p7_thread_start
+ 二  22 14:57:15 785720.572513 [I] 3946841664: vnf_nr_handle_param_response: Received PARAM_RESPONSE
+ 二  22 14:57:15 785720.572526 [I] 3946841664: vnf_nr_handle_param_response: PNF P7 IPv4 address: 127.0.0.1
+ 二  22 14:57:15 785720.572528 [I] 3946841664: vnf_nr_handle_param_response: PNF P7 IPv6 address: ::
+ 二  22 14:57:15 785720.572529 [I] 3946841664: vnf_nr_handle_param_response: PNF P7 Port: 23235
+ 二  22 14:57:15 785720.572531 [I] 3946841664: nr_param_resp_cb: [VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
+ 二  22 14:57:15 785720.572534 [I] 3946841664: nr_param_resp_cb: [VNF] 0.1 pnf p7 127.0.0.1:23235 timing 30 1 0 1
+ 二  22 14:57:15 785720.572536 [I] 3946841664: nfapi_vnf_p7_add_pnf: nfapi_vnf_p7_add_pnf(config:0x64b79b9f1b90 phy_id:1 pnf_addr:127.0.0.1 pnf_p7_port:23235)
+ 二  22 14:57:15 785720.572539 [I] 3946841664: vnf_p7_connection_info_list_add: vnf_p7_connection_info_list_add()
+ 二  22 14:57:15 785720.572540 [I] 3946841664: nr_param_resp_cb: [VNF] Send NFAPI_CONFIG_REQUEST
+ 二  22 14:57:15 785720.572541 [I] 3946841664: nr_param_resp_cb: [VNF] Local_port:23491
+ 二  22 14:57:15 785720.572543 [I] 3946841664: nr_param_resp_cb: [VNF] Local_addr:127.0.0.1
+ 二  22 14:57:15 785720.572544 [I] 3946841664: nr_param_resp_cb: 
+ 二  22 14:57:15 [VNF]Timing window tag : 286 Timing window:30
+ 二  22 14:57:15 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:131
+ 二  22 14:57:15 785720.572781 [I] 3946841664: vnf_nr_handle_config_response: Received CONFIG_RESPONSE
+ 二  22 14:57:15 785720.572784 [I] 3946841664: nr_config_resp_cb: [VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+ 二  22 14:57:15 785720.572785 [I] 3946841664: nr_config_resp_cb: [VNF] Calling oai_enb_init()
+ 二  22 14:57:15 785720.575274 [I] 3812623936: vnf_nr_p7_start_thread: vnf_nr_p7_start_thread()
+ 二  22 14:57:15 785720.575283 [I] 3812623936: nfapi_nr_vnf_p7_start: nfapi_nr_vnf_p7_start()
+ 二  22 14:57:15 785720.575285 [I] 3812623936: nfapi_nr_vnf_p7_start: Initialising VNF P7 port:50011
+ 二  22 14:57:15 785720.575300 [I] 3812623936: nfapi_nr_vnf_p7_start: VNF P7 socket created...
+ 二  22 14:57:15 785720.575303 [I] 3812623936: nfapi_nr_vnf_p7_start: VNF P7 setsockopt succeeded...
+ 二  22 14:57:15 785720.575305 [I] 3812623936: nfapi_nr_vnf_p7_start: VNF P7 binding too 0.0.0.0:50011
+ 二  22 14:57:15 785720.575308 [I] 3812623936: nfapi_nr_vnf_p7_start: VNF P7 bind succeeded...
+ 二  22 14:57:16 [MAC]   received F1 Setup Response from CU cu-rfsim
+ 二  22 14:57:16 [0m[MAC]   CU uses RRC version 17.3.0
+ 二  22 14:57:16 [0m[MAC]   Clearing the DU's UE states before, if any.
+ 二  22 14:57:21 [0mTYPE <CTRL-C> TO TERMINATE
+ 二  22 14:57:21 785726.233598 [N] 3812623936: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 22
+ 二  22 14:57:21 785726.244096 [N] 3812623936: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 78
+ 二  22 14:57:21 785726.282554 [I] 3946841664: vnf_nr_handle_start_response: Received START_RESPONSE
+ 二  22 14:57:21 785726.282562 [I] 3946841664: nr_start_resp_cb: [VNF] Received NFAPI_START_RESP idx:0 phy_id:1
+ 二  22 14:57:22 [NR_MAC]   Frame.Slot 128.0
+ 二  22 14:57:22 
+ 二  22 14:57:23 [0m[NR_MAC]   Frame.Slot 256.0
+ 二  22 14:57:23 
+ 二  22 14:57:23 [0m785728.262948 [I] 3812623936: vnf_handle_nr_rach_indication: vnf_handle_nr_rach_indication: Handling RACH Indication
+ 二  22 14:57:23 [32m[NR_MAC]   279.19 UE RA-RNTI 010b TC-RNTI 0a3f: Activating RA process index 0
+ 二  22 14:57:23 [0m[NR_MAC]   UE 0a3f: Msg3 scheduled at 281.7 (280.17 TDA 3)
+ 二  22 14:57:23 [0m[32m[NR_MAC]   UE 0a3f: 280.17 Generating RA-Msg2 DCI, RA RNTI 0x10b, state 1, CoreSetType 0, preamble_index(RAPID) 32, timing_offset = 0 (estimated distance 0.0 [m])
+ 二  22 14:57:23 [0m[32m[NR_MAC]   280.17 Send RAR to RA-RNTI 010b
+ 二  22 14:57:23 [0m[NR_MAC]   Adding new UE context with RNTI 0x0a3f
+ 二  22 14:57:23 [0m[32m[NR_MAC]    281. 7 PUSCH with TC_RNTI 0x0a3f received correctly
+ 二  22 14:57:23 [0m[MAC]   [RAPROC] Received SDU for CCCH length 6 for UE 0a3f
+ 二  22 14:57:23 [0m[RLC]   Activated srb0 for UE 2623
+ 二  22 14:57:23 [0m[RLC]   Added srb 1 to UE 2623
+ 二  22 14:57:23 [0m[NR_MAC]   Activating scheduling Msg4 for TC_RNTI 0x0a3f (state WAIT_Msg3)
+ 二  22 14:57:23 [0m[93m[NR_MAC]   Unexpected ULSCH HARQ PID 0 (have -1) for RNTI 0x0a3f
+ 二  22 14:57:23 [0m[NR_MAC]   UE 0a3f Generate msg4: feedback at  282. 8, payload 153 bytes, next state WAIT_Msg4_ACK
+ 二  22 14:57:23 [0m[32m[NR_MAC]    283. 0 UE 0a3f: Received Ack of Msg4. CBRA procedure succeeded!
+ 二  22 14:57:23 [0m785728.291725 [N] 3812623936: vnf_nr_p7_read_dispatch_message: reallocing rx buffer 156
+ 二  22 14:57:24 [NR_MAC]   Frame.Slot 384.0
+ 二  22 14:57:24 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (12 meas)
+ 二  22 14:57:24 UE 0a3f: dlsch_rounds 3/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.09000 MCS (0) 9
+ 二  22 14:57:24 UE 0a3f: ulsch_rounds 11/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.03874 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:24 UE 0a3f: MAC:    TX            246 RX           1184 bytes
+ 二  22 14:57:24 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:24 
+ 二  22 14:57:24 [0m[NR_MAC]   Frame.Slot 512.0
+ 二  22 14:57:24 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:24 UE 0a3f: dlsch_rounds 4/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.08100 MCS (0) 9
+ 二  22 14:57:24 UE 0a3f: ulsch_rounds 24/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00985 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:24 UE 0a3f: MAC:    TX            369 RX           2692 bytes
+ 二  22 14:57:24 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:24 
+ 二  22 14:57:25 [0m[NR_MAC]   Frame.Slot 640.0
+ 二  22 14:57:25 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:25 UE 0a3f: dlsch_rounds 5/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.07290 MCS (0) 9
+ 二  22 14:57:25 UE 0a3f: ulsch_rounds 37/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00250 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:25 UE 0a3f: MAC:    TX            492 RX           4200 bytes
+ 二  22 14:57:25 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:25 
+ 二  22 14:57:26 [0m[NR_MAC]   Frame.Slot 768.0
+ 二  22 14:57:26 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:26 UE 0a3f: dlsch_rounds 6/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.06561 MCS (0) 9
+ 二  22 14:57:26 UE 0a3f: ulsch_rounds 50/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00064 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:26 UE 0a3f: MAC:    TX            615 RX           5708 bytes
+ 二  22 14:57:26 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:26 
+ 二  22 14:57:26 [0m[NR_MAC]   Frame.Slot 896.0
+ 二  22 14:57:26 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:26 UE 0a3f: dlsch_rounds 8/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.05314 MCS (0) 9
+ 二  22 14:57:26 UE 0a3f: ulsch_rounds 62/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00018 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:26 UE 0a3f: MAC:    TX            861 RX           7100 bytes
+ 二  22 14:57:26 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:26 
+ 二  22 14:57:27 [0m[NR_MAC]   Frame.Slot 0.0
+ 二  22 14:57:27 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:27 UE 0a3f: dlsch_rounds 9/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.04783 MCS (0) 9
+ 二  22 14:57:27 UE 0a3f: ulsch_rounds 75/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00005 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:27 UE 0a3f: MAC:    TX            984 RX           8608 bytes
+ 二  22 14:57:27 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:27 
+ 二  22 14:57:28 [0m[NR_MAC]   Frame.Slot 128.0
+ 二  22 14:57:28 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:28 UE 0a3f: dlsch_rounds 10/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.04305 MCS (0) 9
+ 二  22 14:57:28 UE 0a3f: ulsch_rounds 88/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00001 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:28 UE 0a3f: MAC:    TX           1107 RX          10116 bytes
+ 二  22 14:57:28 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:28 
+ 二  22 14:57:28 [0m[NR_MAC]   Frame.Slot 256.0
+ 二  22 14:57:28 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:28 UE 0a3f: dlsch_rounds 11/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.03874 MCS (0) 9
+ 二  22 14:57:28 UE 0a3f: ulsch_rounds 101/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:28 UE 0a3f: MAC:    TX           1230 RX          11624 bytes
+ 二  22 14:57:28 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:28 
+ 二  22 14:57:29 [0m[NR_MAC]   Frame.Slot 384.0
+ 二  22 14:57:29 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:29 UE 0a3f: dlsch_rounds 13/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.03138 MCS (0) 9
+ 二  22 14:57:29 UE 0a3f: ulsch_rounds 114/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:29 UE 0a3f: MAC:    TX           1476 RX          13132 bytes
+ 二  22 14:57:29 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:29 
+ 二  22 14:57:29 [0m[NR_MAC]   Frame.Slot 512.0
+ 二  22 14:57:29 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:29 UE 0a3f: dlsch_rounds 14/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02824 MCS (0) 9
+ 二  22 14:57:29 UE 0a3f: ulsch_rounds 126/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:29 UE 0a3f: MAC:    TX           1599 RX          14524 bytes
+ 二  22 14:57:29 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:29 
+ 二  22 14:57:30 [0m[NR_MAC]   Frame.Slot 640.0
+ 二  22 14:57:30 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:30 UE 0a3f: dlsch_rounds 15/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02542 MCS (0) 9
+ 二  22 14:57:30 UE 0a3f: ulsch_rounds 139/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:30 UE 0a3f: MAC:    TX           1722 RX          16032 bytes
+ 二  22 14:57:30 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:30 
+ 二  22 14:57:31 [0m[NR_MAC]   Frame.Slot 768.0
+ 二  22 14:57:31 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:31 UE 0a3f: dlsch_rounds 17/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02059 MCS (0) 9
+ 二  22 14:57:31 UE 0a3f: ulsch_rounds 152/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:31 UE 0a3f: MAC:    TX           1968 RX          17540 bytes
+ 二  22 14:57:31 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:31 
+ 二  22 14:57:31 [0m[NR_MAC]   Frame.Slot 896.0
+ 二  22 14:57:31 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:31 UE 0a3f: dlsch_rounds 18/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.01853 MCS (0) 9
+ 二  22 14:57:31 UE 0a3f: ulsch_rounds 165/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:31 UE 0a3f: MAC:    TX           2091 RX          19048 bytes
+ 二  22 14:57:31 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:31 
+ 二  22 14:57:32 [0m[NR_MAC]   Frame.Slot 0.0
+ 二  22 14:57:32 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:32 UE 0a3f: dlsch_rounds 19/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.01668 MCS (0) 9
+ 二  22 14:57:32 UE 0a3f: ulsch_rounds 178/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:32 UE 0a3f: MAC:    TX           2214 RX          20556 bytes
+ 二  22 14:57:32 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:32 
+ 二  22 14:57:33 [0m[NR_MAC]   Frame.Slot 128.0
+ 二  22 14:57:33 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:33 UE 0a3f: dlsch_rounds 20/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.01501 MCS (0) 9
+ 二  22 14:57:33 UE 0a3f: ulsch_rounds 190/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:33 UE 0a3f: MAC:    TX           2337 RX          21948 bytes
+ 二  22 14:57:33 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:33 
+ 二  22 14:57:33 [0m[NR_MAC]   Frame.Slot 256.0
+ 二  22 14:57:33 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:33 UE 0a3f: dlsch_rounds 22/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.01216 MCS (0) 9
+ 二  22 14:57:33 UE 0a3f: ulsch_rounds 203/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:33 UE 0a3f: MAC:    TX           2583 RX          23456 bytes
+ 二  22 14:57:33 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:33 
+ 二  22 14:57:34 [0m[NR_MAC]   Frame.Slot 384.0
+ 二  22 14:57:34 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:34 UE 0a3f: dlsch_rounds 23/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.01094 MCS (0) 9
+ 二  22 14:57:34 UE 0a3f: ulsch_rounds 216/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:34 UE 0a3f: MAC:    TX           2706 RX          24964 bytes
+ 二  22 14:57:34 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:34 
+ 二  22 14:57:35 [0m[NR_MAC]   Frame.Slot 512.0
+ 二  22 14:57:35 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:35 UE 0a3f: dlsch_rounds 24/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00985 MCS (0) 9
+ 二  22 14:57:35 UE 0a3f: ulsch_rounds 229/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:35 UE 0a3f: MAC:    TX           2829 RX          26472 bytes
+ 二  22 14:57:35 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:35 
+ 二  22 14:57:35 [0m[NR_MAC]   Frame.Slot 640.0
+ 二  22 14:57:35 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:35 UE 0a3f: dlsch_rounds 26/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00798 MCS (0) 9
+ 二  22 14:57:35 UE 0a3f: ulsch_rounds 242/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:35 UE 0a3f: MAC:    TX           3075 RX          27980 bytes
+ 二  22 14:57:35 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:35 
+ 二  22 14:57:36 [0m[NR_MAC]   Frame.Slot 768.0
+ 二  22 14:57:36 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:36 UE 0a3f: dlsch_rounds 27/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00718 MCS (0) 9
+ 二  22 14:57:36 UE 0a3f: ulsch_rounds 254/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:36 UE 0a3f: MAC:    TX           3198 RX          29372 bytes
+ 二  22 14:57:36 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:36 
+ 二  22 14:57:37 [0m[NR_MAC]   Frame.Slot 896.0
+ 二  22 14:57:37 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:37 UE 0a3f: dlsch_rounds 28/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00646 MCS (0) 9
+ 二  22 14:57:37 UE 0a3f: ulsch_rounds 267/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:37 UE 0a3f: MAC:    TX           3321 RX          30880 bytes
+ 二  22 14:57:37 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:37 
+ 二  22 14:57:37 [0m[NR_MAC]   Frame.Slot 0.0
+ 二  22 14:57:37 UE RNTI 0a3f CU-UE-ID 1 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (16 meas)
+ 二  22 14:57:37 UE 0a3f: dlsch_rounds 29/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00581 MCS (0) 9
+ 二  22 14:57:37 UE 0a3f: ulsch_rounds 280/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB
+ 二  22 14:57:37 UE 0a3f: MAC:    TX           3444 RX          32388 bytes
+ 二  22 14:57:37 UE 0a3f: LCID 1: TX              3 RX             41 bytes
+ 二  22 14:57:37 
+ 二  22 14:57:37 [0m
+ 二  22 14:57:37 ** Caught SIGTERM, shutting down
+ 二  22 14:57:37 Returned from ITTI signal handler
+ 二  22 14:57:37 Bye.

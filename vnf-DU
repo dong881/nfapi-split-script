@@ -1,0 +1,6 @@
+#!/bin/bash
+source ./VARIABLE.sh
+cd $PATH_TO_openairinterface5g
+cd ./cmake\_targets/ran\_build/build
+# sudo LD_LIBRARY_PATH=./ NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-vnf.sa.band78.106prb.nfapi.conf --nfapi VNF --sa --log\_config.global\_log\_options wall\_clock --emulate-l1 #--MACRLCs.[0].ulsch_max_frame_inactivity 0
+sudo NFAPI_TRACE_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-vnf-du.sa.band78.106prb.nfapi.conf --nfapi VNF

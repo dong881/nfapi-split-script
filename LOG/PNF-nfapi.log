@@ -1,0 +1,217 @@
+ 二  22 14:57:12 [UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+ 二  22 14:57:13 [0m[OPT]   OPT disabled
+ 二  22 14:57:13 [0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
+ 二  22 14:57:13 [0m[GNB_APP]   Initialized RAN Context: RC.nb_nr_inst = 0, RC.nb_nr_macrlc_inst = 0, RC.nb_nr_L1_inst = 1, RC.nb_RU = 1, RC.nb_nr_CC[0] = 1
+ 二  22 14:57:13 [0m[NR_PHY]   Initializing gNB RAN context: RC.nb_nr_L1_inst = 1 
+ 二  22 14:57:13 [0m[NR_PHY]   Registered with MAC interface module (0x5b208430b950)
+ 二  22 14:57:13 [0m[NR_PHY]   Initializing NR L1: RC.nb_nr_L1_inst = 1
+ 二  22 14:57:13 [0m[NR_PHY]   L1_RX_THREAD_CORE -1 (15)
+ 二  22 14:57:13 [0m[NR_PHY]   TX_AMP = 519 (-36 dBFS)
+ 二  22 14:57:13 [0mCMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-pnf.band78.rfsim.conf" "--nfapi" "PNF" "--rfsim" 
+ 二  22 14:57:13 [CONFIG] function config_libconfig_init returned 0
+ 二  22 14:57:13 configure_nr_nfapi_pnf() PNF
+ 二  22 14:57:13 
+ 二  22 14:57:13 
+ 二  22 14:57:13 
+ 二  22 14:57:13 
+ 二  22 14:57:13 
+ 二  22 14:57:13 configure_nr_nfapi_pnf() VNF:127.0.0.1:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.1:50011 rx:50010]
+ 二  22 14:57:13 785718.565762 [I] 1111838720: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+ 二  22 14:57:13 785718.565764 [I] 1111838720: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
+ 二  22 14:57:13 785718.568704 [I] 1096812096: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
+ 二  22 14:57:13 785718.568717 [I] 1096812096: nfapi_nr_pnf_start: nfapi_nr_pnf_start
+ 二  22 14:57:13 785718.568719 [I] 1096812096: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
+ 二  22 14:57:13 785718.568807 [N] 1096812096: pnf_connect: PNF Setting the SCTP_INITMSG
+ 二  22 14:57:13 785718.568813 [I] 1096812096: pnf_connect: P5 socket created...
+ 二  22 14:57:13 785718.568947 [E] 1096812096: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+ 二  22 14:57:15 785720.569039 [I] 1096812096: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
+ 二  22 14:57:15 785720.569087 [N] 1096812096: pnf_connect: PNF Setting the SCTP_INITMSG
+ 二  22 14:57:15 785720.569093 [I] 1096812096: pnf_connect: P5 socket created...
+ 二  22 14:57:15 785720.569318 [I] 1096812096: pnf_connect: connect succeeded...
+ 二  22 14:57:15 785720.569322 [N] 1096812096: pnf_connect: After connect loop
+ 二  22 14:57:15 785720.569326 [I] 1096812096: pnf_connect: Association ID = 1533
+ 二  22 14:57:15 785720.569328 [I] 1096812096: pnf_connect: Receiver window size = 67108864
+ 二  22 14:57:15 785720.569328 [I] 1096812096: pnf_connect: In Streams = 5
+ 二  22 14:57:15 785720.569329 [I] 1096812096: pnf_connect: Out Streams = 5
+ 二  22 14:57:15 785720.569330 [N] 1096812096: pnf_connect: Socket CONNECTED
+ 二  22 14:57:15 785720.569499 [I] 1096812096: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
+ 二  22 14:57:15 [PNF] pnf param request
+ 二  22 14:57:15 785720.569560 [I] 1096812096: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
+ 二  22 14:57:15 [PNF] pnf config request
+ 二  22 14:57:15 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
+ 二  22 14:57:15 [PNF] Sent pnf_config_resp
+ 二  22 14:57:15 785720.569607 [I] 1096812096: pnf_nr_handle_pnf_start_request: PNF_START.request Received
+ 二  22 14:57:15 Received NFAPI_PNF_START_REQUEST
+ 二  22 14:57:15 [PNF] Sent NFAPI_PNF_START_RESP
+ 二  22 14:57:15 785720.572483 [I] 1096812096: pnf_nr_handle_param_request: PARAM.request received
+ 二  22 14:57:15 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
+ 二  22 14:57:15 TAG value :2
+ 二  22 14:57:15 RUNNING pack_param_response
+ 二  22 14:57:15 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
+ 二  22 14:57:15 785720.572591 [I] 1096812096: pnf_nr_handle_config_request: CONFIG.request received
+ 二  22 14:57:15 [PNF] vnf p7 0.1.4.0:50011
+ 二  22 14:57:15 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
+ 二  22 14:57:15 
+ 二  22 14:57:15 Timing window tag: 286
+ 二  22 14:57:15 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+ 二  22 14:57:15 timing info mode:3
+ 二  22 14:57:15 timing info period provided value:10
+ 二  22 14:57:15 785720.572616 [E] 1096812096: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
+ 二  22 14:57:15 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+ 二  22 14:57:15 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 二  22 14:57:15 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 二  22 14:57:15 [0m[PHY]   fp->scs=30000
+ 二  22 14:57:15 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 二  22 14:57:15 [0m[PHY]   fp->nb_prefix_samples0=176
+ 二  22 14:57:15 [0m[PHY]   fp->nb_prefix_samples=144
+ 二  22 14:57:15 [0m[PHY]   fp->slots_per_subframe=2
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_subframe=61440
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_frame=614400
+ 二  22 14:57:15 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 二  22 14:57:15 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 二  22 14:57:15 [0m[PHY]   fp->Nid_cell=0
+ 二  22 14:57:15 [0m[PHY]   fp->first_carrier_offset=1412
+ 二  22 14:57:15 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 二  22 14:57:15 [0m[PHY]   fp->Ncp=0
+ 二  22 14:57:15 [0m[PHY]   fp->N_RB_DL=106
+ 二  22 14:57:15 [0m[PHY]   fp->numerology_index=1
+ 二  22 14:57:15 [0m[PHY]   fp->nr_band=48
+ 二  22 14:57:15 [0m[PHY]   fp->ofdm_offset_divisor=8
+ 二  22 14:57:15 [0m[PHY]   fp->threequarter_fs=0
+ 二  22 14:57:15 [0m[PHY]   fp->sl_CarrierFreq=0
+ 二  22 14:57:15 [0m[PHY]   fp->N_RB_SL=0
+ 二  22 14:57:15 [0m[PNF] CONFIG_REQUEST[num_tlv:131] TLVs processed:6
+ 二  22 14:57:15 [PNF] Simulating PHY CONFIG
+ 二  22 14:57:15 DL frequency 3619200000: band 48, UL frequency 3619200000
+ 二  22 14:57:15 [PNF] 1 vnf p7 127.0.0.1:50011 timing 30 3 10
+ 二  22 14:57:15 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+ 二  22 14:57:15 785720.572808 [I] 1096812096: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
+ 二  22 14:57:15 [PNF] Received NFAPI_START_REQ phy_id:1
+ 二  22 14:57:15 [PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
+ 二  22 14:57:15 subframe_buffer_size configured using phy_info->timing_window:30
+ 二  22 14:57:15 785720.621391 [I] 1096812096: nr_start_request: [PNF] Creating P7 thread nr_start_request
+ 二  22 14:57:15 [UTIL]   threadCreate() for pnf_p7_thread: creating thread with affinity ffffffff, priority 50
+ 二  22 14:57:15 [0m785720.624106 [I] 1086326336: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
+ 二  22 14:57:15 785720.624111 [I] 1086326336: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
+ 二  22 14:57:15 785720.624126 [I] 1086326336: pnf_nr_p7_message_pump: 785720.624126 [I] 1096812096: nr_start_request: PNF P7 socket created (95)...
+ 二  22 14:57:15 [PNF] Calling l1_north_init_eNB() nr_start_request
+ 二  22 14:57:15 785720.624131 [I] 1096812096: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
+ 二  22 14:57:15 785720.624140 [I] 1086326336: pnf_nr_p7_message_pump: PNF P7 binding 95 too 127.0.0.1:50010
+ 二  22 14:57:15 785720.624145 [I] 1086326336: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
+ 二  22 14:57:15 [PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
+ 二  22 14:57:15 [0m[PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+ 二  22 14:57:15 [0m[PHY]   RU thread-pool core string -1,-1 (size 2)
+ 二  22 14:57:15 [0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:15 [0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:15 [0m[UTIL]   threadCreate() for ru_thread: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:15 [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 0
+ 二  22 14:57:15 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+ 二  22 14:57:15 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+ 二  22 14:57:15 [0m[PHY]   fp->scs=30000
+ 二  22 14:57:15 [0m[PHY]   fp->ofdm_symbol_size=2048
+ 二  22 14:57:15 [0m[PHY]   fp->nb_prefix_samples0=176
+ 二  22 14:57:15 [0m[PHY]   fp->nb_prefix_samples=144
+ 二  22 14:57:15 [0m[PHY]   fp->slots_per_subframe=2
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_subframe_wCP=57344
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_frame_wCP=573440
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_subframe=61440
+ 二  22 14:57:15 [0m[PHY]   fp->samples_per_frame=614400
+ 二  22 14:57:15 [0m[PHY]   fp->dl_CarrierFreq=3619200000
+ 二  22 14:57:15 [0m[PHY]   fp->ul_CarrierFreq=3619200000
+ 二  22 14:57:15 [0m[PHY]   fp->Nid_cell=0
+ 二  22 14:57:15 [0m[PHY]   fp->first_carrier_offset=1412
+ 二  22 14:57:15 [0m[PHY]   fp->ssb_start_subcarrier=0
+ 二  22 14:57:15 [0m[PHY]   fp->Ncp=0
+ 二  22 14:57:15 [0m[PHY]   fp->N_RB_DL=106
+ 二  22 14:57:15 [0m[PHY]   fp->numerology_index=1
+ 二  22 14:57:15 [0m[PHY]   fp->nr_band=48
+ 二  22 14:57:15 [0m[PHY]   fp->ofdm_offset_divisor=8
+ 二  22 14:57:15 [0m[PHY]   fp->threequarter_fs=0
+ 二  22 14:57:15 [0m[PHY]   fp->sl_CarrierFreq=0
+ 二  22 14:57:15 [0m[PHY]   fp->N_RB_SL=0
+ 二  22 14:57:15 [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+ 二  22 14:57:15 [0m[PHY]   tune_offset 0 Hz, sample_rate 61440000 Hz
+ 二  22 14:57:15 [0m[PHY]   Channel 0: setting tx_gain offset 0, tx_freq 3619200000 Hz
+ 二  22 14:57:15 [0m[PHY]   Channel 0: setting rx_gain offset 125, rx_freq 3619200000 Hz
+ 二  22 14:57:15 [0m[HW]   Running as server waiting opposite rfsimulators to connect
+ 二  22 14:57:15 [0m[HW]   [RAU] has loaded RFSIMULATOR device.
+ 二  22 14:57:15 [0m[PHY]   RU 0 Setting N_TA_offset to 800 samples (UL Freq 3600120, N_RB 106, mu 1)
+ 二  22 14:57:15 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
+ 二  22 14:57:20 [0m[PHY]   L1 configured without analog beamforming
+ 二  22 14:57:21 [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool2_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool3_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool4_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool5_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for L1_rx_thread: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for L1_tx_thread: creating thread with affinity ffffffff, priority 97
+ 二  22 14:57:21 [0m[UTIL]   threadCreate() for L1_stats: creating thread with affinity ffffffff, priority 1
+ 二  22 14:57:21 [0m[PHY]   got sync (L1_stats_thread)
+ 二  22 14:57:21 [0m[PHY]   got sync (ru_thread)
+ 二  22 14:57:21 [0mInitializing random number generator, seed 10766892548903053436
+ 二  22 14:57:21 [PNF] waiting for OAI to be configured (eNB/RU)
+ 二  22 14:57:21 [PNF] OAI eNB/RU configured
+ 二  22 14:57:21 [PNF] About to call init_eNB_afterRU()
+ 二  22 14:57:21 TYPE <CTRL-C> TO TERMINATE
+ 二  22 14:57:21 [PHY]   RU 0 rf device ready
+ 二  22 14:57:21 [0m[PHY]   RU 0 RF started cpu_meas_enabled 0
+ 二  22 14:57:21 [0m[HW]   No connected device, generating void samples...
+ 二  22 14:57:21 [0m785726.263846 [N] 1086326336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 45
+ 二  22 14:57:21 785726.264862 [N] 1086326336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
+ 二  22 14:57:21 [32m[PHY]   Command line parameters for OAI UE: -C 3619200000 -r 106 --numerology 1 --ssb 516 
+ 二  22 14:57:21 [0m[PNF] waiting for OAI to be started
+ 二  22 14:57:21 [PNF] Sending PNF_START_RESP
+ 二  22 14:57:21 Sending NFAPI_START_RESPONSE config:0x5b208430c910 phy_id:1
+ 二  22 14:57:21 [PNF] Sending first P7 slot indication
+ 二  22 14:57:21 785726.282481 [I] 1096812096: pnf_p7_slot_ind: [P7:1] msgs ontime 3 thr DL 0.00 UL 0.00 msg late 0 (vtime)
+ 二  22 14:57:22 [HW]   A client connects, sending the current time
+ 二  22 14:57:22 [0m[93m[HW]   Not supported to send Tx out of order 23162880, 23162879
+ 二  22 14:57:22 [0m[PNF] Sent first P7 slot ind
+ 二  22 14:57:22 785727.475489 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 189 thr DL 0.06 UL 0.00 msg late 0 (vtime)
+ 二  22 14:57:23 785728.137530 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 192 thr DL 0.06 UL 0.00 msg late 0 (vtime)
+ 二  22 14:57:23 [32m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 32, energy 54.0 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
+ 二  22 14:57:23 [0m785728.271525 [N] 1086326336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 196
+ 二  22 14:57:24 785728.780648 [N] 1086326336: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 342
+ 二  22 14:57:24 785728.791685 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 428 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:24 785729.441883 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:25 785730.092648 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:26 785730.741976 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:26 785731.392691 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 486 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:27 785732.043932 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 485 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:28 785732.699875 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:28 785733.357397 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:29 785734.007323 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:29 785734.650244 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 486 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:30 785735.293128 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 485 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:31 785735.938131 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:31 785736.582309 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:32 785737.225889 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:33 785737.870204 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 486 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:33 785738.513667 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 485 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:34 785739.156916 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:35 785739.799430 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:35 785740.442594 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:36 785741.086796 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 486 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:37 785741.732191 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 485 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:37 785742.377210 [I] 3254781504: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+ 二  22 14:57:37 
+ 二  22 14:57:37 ** Caught SIGTERM, shutting down
+ 二  22 14:57:37 [GNB_APP]   stopping nr-softmodem
+ 二  22 14:57:37 [0m[PHY]   Killing gNB 0 processing threads
+ 二  22 14:57:37 [0mReturned from ITTI signal handler
+ 二  22 14:57:37 785742.600090 [W] 1096812096: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+ 二  22 14:57:37 785742.600100 [W] 1096812096: pnf_nr_read_dispatch_message: Disconnected socket
+ 二  22 14:57:37 
+ 二  22 14:57:37 ** Caught SIGTERM, shutting down
+ 二  22 14:57:37 
+ 二  22 14:57:37 ** Caught SIGTERM, shutting down
+ 二  22 14:57:38 [PHY]   Stopping RU 0 processing threads
+ 二  22 14:57:38 [0m[PHY]   RU 0 RF device stopped
+ 二  22 14:57:38 [0m[GNB_APP]   turned off RU rfdevice
+ 二  22 14:57:38 [0mBye.

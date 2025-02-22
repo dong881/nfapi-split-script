@@ -26,12 +26,16 @@ else
     sudo echo -e "Start TCPdump...\r"
     sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
     # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
-    echo -e "execute OAI VNF\r"
-    stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
+    echo -e "execute OAI VNF-CU\r"
+    stdbuf -oL ./cu-split2 2>&1 | ts &> "$LOG_PATH/VNF-CU-nfapi.log" &
+    echo -e "execute OAI VNF-DU\r"
+    stdbuf -oL ./vnf-DU 2>&1 | ts &> "$LOG_PATH/VNF-DU-nfapi.log" &
+    # echo -e "execute OAI VNF\r"
+    # stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi.log" &
     echo -e "execute OAI PNF\r"
-    stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi-fixes.log" &
+    stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi.log" &
     echo -e "execute OAI UE\r"
-    stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi-fixes.log" &
+    stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi.log" &
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
