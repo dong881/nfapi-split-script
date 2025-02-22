@@ -1,6 +1,6 @@
 #!/bin/bash
 source ./VARIABLE.sh
-wait_sec=13
+wait_sec=25
 #######################   For First time
 # sudo apt-get install moreutils
 
@@ -24,7 +24,7 @@ else
     # echo -e "execute OAI Core Network\r"
     # ./cn
     sudo echo -e "Start TCPdump...\r"
-    # sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
+    sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
     # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
     echo -e "execute OAI VNF\r"
     stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi-fixes.log" &
