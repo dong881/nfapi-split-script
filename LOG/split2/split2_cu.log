@@ -1,0 +1,265 @@
+[HW]   # /dev/cpu_dma_latency set to 2 us
+[0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+[1;31m[HW]   Can't set cpu frequency
+[0m[ENB_APP]   nfapi (0) running mode: MONOLITHIC
+[0m[GNB_APP]   Getting GNBSParams
+[0m[ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+[0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+[0m[ITTI]   Starting itti queue: TASK_BM as task 3
+[0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+[0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+[0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+[0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+[0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+[0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+[0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+[0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+[0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+[0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+[0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+[0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+[0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+[0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+[0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+[0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+[0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+[0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+[0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+[0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+[0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+[0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+[0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+[0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+[0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+[0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+[0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+[0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+[0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+[0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+[0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+[0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+[0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+[0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+[0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+[0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+[0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+[0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+[0m[OPT]   OPT disabled
+[0m[HW]   Version: Branch: nfapi-fixes-Ming-TDD-table Abrev. Hash: 74e7b44b93 Date: Mon Jun 3 11:09:45 2024 +0200
+[0m[PHY]   create_gNB_tasks() Task ready initialize structures
+[0m[NR_PHY]   RC.gNB = 0x5c3ead3090d0
+[0m[PHY]   No prs_config configuration found..!!
+[0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:0
+[0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+[0m[GNB_APP]   F1AP: gNB_CU_id[0] 3584
+[0m[GNB_APP]   F1AP: gNB_CU_name[0] cu-rfsim
+[0m[GNB_APP]   SDAP layer is disabled
+[0m[GNB_APP]   Data Radio Bearer count 1
+[0m[NR_RRC]   do_SIB23_NR, size 9 
+ [0mCMDLINE: "cmake_targets/ran_build/build/nr-softmodem" "--sa" "-O" "ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf" 
+[CONFIG] get parameters from libconfig ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf [LIBCONFIG] Path for include directive set to: ci-scripts/conf_files
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+[CONFIG] debug flags: 0x00000000
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 50/50 parameters successfully set, (46 to default value)
+[LIBCONFIG] log_config: 50/50 parameters successfully set, (50 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+log init done
+Reading in command-line options
+[LIBCONFIG] (root): 42/42 parameters successfully set, (39 to default value)
+[LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list L1s not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list RUs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list THREAD_STRUCT not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[CONFIG] parallel_conf is set to 2
+[CONFIG] worker_conf is set to 1
+Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+[LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+configuring for RAU/RRU
+[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list gNBs.[0].servingCellConfigCommon not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list L1s not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list RUs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list prs_config not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+NRRRC 0: Southbound Transport f1
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config [PDCP]   pdcp init,usegtp 
+[0m[GNB_APP]   default drx 0
+[0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+[0m[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+[0m[UTIL]   threadCreate for TASK_SCTP, affinity ffffffff, priority 50
+[0m[ITTI]   Created Posix thread TASK_SCTP
+[0m[X2AP]   X2AP is disabled.
+[0m[UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
+[0m[UTIL]   threadCreate for TASK_NGAP, affinity ffffffff, priority 50
+[0m[ITTI]   Created Posix thread TASK_NGAP
+[0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+[0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
+[0m[NGAP]   [gNB 0] check the amf registration state
+[0m[93m[SCTP]   sctp_bindx() SCTP_BINDX_ADD_ADDR failed: errno 99 Cannot assign requested address
+[0m[1;31m[SCTP]   could not open socket, no SCTP connection established
+[0m[UTIL]   threadCreate for TASK_GNB_APP, affinity ffffffff, priority 50
+[0m[ITTI]   Created Posix thread TASK_GNB_APP
+[0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+[0m[UTIL]   Creating thread TASK_CU_F1 with affinity -1 and priority 50
+[0m[UTIL]   threadCreate for TASK_CU_F1, affinity ffffffff, priority 50
+[0m[UTIL]   threadCreate for TASK_RRC_GNB, affinity ffffffff, priority 50
+[0m[F1AP]   Starting F1AP at CU
+[0m[ITTI]   Created Posix thread TASK_CU_F1
+[0m[ITTI]   Created Posix thread TASK_RRC_GNB
+[0m[F1AP]   F1AP_CU_SCTP_REQ(create socket) for 192.168.130.83 len 15
+[0m[GTPU]   Initializing UDP for local address 192.168.130.83 with port 2153
+[0m[GTPU]   Created gtpu instance id: 98
+[0m[GTPU]   Configuring GTPu
+[0m[NR_RRC]   Entering main loop of NR_RRC message task
+[0m[GTPU]   SA mode 
+[0m[GTPU]   Configuring GTPu address : 192.168.18.207, port : 2152
+[0m[GTPU]   Initializing UDP for local address 192.168.18.207 with port 2152
+[0m[93m[GTPU]   bind: Cannot assign requested address
+[0m[1;31m[GTPU]   failed to bind socket: 192.168.18.207 2152 
+[0m[1;31m[GTPU]   can't create GTP-U instance
+[0m[GTPU]   Created gtpu instance id: -1
+[0m[1;31m[E1AP]   Failed to create CUUP N3 UDP listener[0m[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
+[0m[NR_RRC]   Accepting new CU-UP ID 3584 name cu-rfsim (assoc_id -1)
+[0m[UTIL]   threadCreate for TASK_GTPV1_U, affinity ffffffff, priority 50
+[0m[ITTI]   Created Posix thread TASK_GTPV1_U
+[0m[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (du-rfsim) on assoc_id 1447
+[0m[RRC]   Accepting DU 3584 (du-rfsim), sending F1 Setup Response
+[0m[RRC]   DU uses RRC version 17.3.0
+[0m[NR_RRC]   Decoding CCCH: RNTI 1268, payload_size 6
+[0m[NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 4712 (rnti: 1268, random ue id 3a2cb57042000000)
+[0m[RRC]   activate SRB 1 of UE 1
+[0m[NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI 1268
+[0m[32m[NR_RRC]   UE 1 Processing NR_RRCSetupComplete from UE
+[0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] UE State = NR_RRC_CONNECTED 
+[0m[93m[NGAP]   No AMF is associated to the gNB
+[0m
+** Caught SIGTERM, shutting down
+file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 1/1 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (3 to default value)
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (3 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] list MACRLCs not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file ci-scripts/conf_files/gnb-cu.sa.band78.106prb.conf 
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 29/29 parameters successfully set, (16 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (3 to default value)
+START MAIN THREADS
+RC.nb_nr_L1_inst:0
+wait_gNBs()
+Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+gNB L1 are configured
+About to Init RU threads RC.nb_RU:0
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+Returned from ITTI signal handler
+oai_exit=1
+Bye.
