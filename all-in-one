@@ -8,7 +8,7 @@ wait_sec=25
 Target_PATH="."
 LOG_PATH="$Target_PATH/LOG"
 LOCKFILE="$Target_PATH/tmp-build_run.lock"
-
+TIME_STAMP="false"
 mkdir -p "$LOG_PATH"
 
 # Check if the lock file exists
@@ -24,18 +24,35 @@ else
     # echo -e "execute OAI Core Network\r"
     # ./cn
     sudo echo -e "Start TCPdump...\r"
-    sudo tcpdump -i lo -nn '(proto SCTP) or (proto UDP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
+    sudo tcpdump -i any -nn '(proto SCTP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
     # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
     echo -e "execute OAI VNF-CU\r"
-    stdbuf -oL ./cu-split2 2>&1 | ts &> "$LOG_PATH/VNF-CU-nfapi.log" &
+    if [ "$TIME_STAMP" = "true" ]; then
+        stdbuf -oL ./cu-split2 2>&1 | ts &> "$LOG_PATH/VNF-CU-nfapi.log" &
+    else
+        stdbuf -oL ./cu-split2 &> "$LOG_PATH/VNF-CU-nfapi.log" &
+    fi
     echo -e "execute OAI VNF-DU\r"
-    stdbuf -oL ./vnf-DU 2>&1 | ts &> "$LOG_PATH/VNF-DU-nfapi.log" &
+    if [ "$TIME_STAMP" = "true" ]; then
+        stdbuf -oL ./vnf-DU 2>&1 | ts &> "$LOG_PATH/VNF-DU-nfapi.log" &
+    else
+        stdbuf -oL ./vnf-DU &> "$LOG_PATH/VNF-DU-nfapi.log" &
+    fi
     # echo -e "execute OAI VNF\r"
     # stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi.log" &
     echo -e "execute OAI PNF\r"
-    stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi.log" &
+    if [ "$TIME_STAMP" = "true" ]; then
+        stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi.log" &
+    else
+        stdbuf -oL ./pnf &> "$LOG_PATH/PNF-nfapi.log" &
+    fi
     echo -e "execute OAI UE\r"
-    stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi.log" &
+    if [ "$TIME_STAMP" = "true" ]; then
+        stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi.log" &
+    else
+        stdbuf -oL ./ue &> "$LOG_PATH/UE-nfapi.log" &
+    fi
+
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
