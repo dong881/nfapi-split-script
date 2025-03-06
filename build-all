@@ -2,8 +2,8 @@
 source ./VARIABLE.sh
 cd $PATH_TO_openairinterface5g/cmake_targets
 # sudo ./build_oai -c --ninja --nrUE --gNB --sanitize
-sudo ./build_oai -c --ninja --nrUE --gNB -g
-
+sudo ./build_oai -c --ninja --nrUE --gNB -g -I
 ## IF execute first time in your PC you need to add `-I`
-cd $PATH_TO_SCRIPT
-bash "./all-in-one"
+
+# cd $PATH_TO_SCRIPT
+# bash "./all-in-one"
