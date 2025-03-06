@@ -1,2 +1,4 @@
+#!/bin/bash
 sudo ifconfig lo: 127.0.0.2 netmask 255.0.0.0 up
 sudo ifconfig lo:OAI_CU "192.168.130.83" netmask 255.255.255.0 up
+# sudo ip route add 192.168.70.128/26 via 192.168.8.90 dev ens1f3

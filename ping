@@ -1,2 +1,3 @@
+#!/bin/bash
 # sudo ip link set oaitun_ue1 up
 ping 192.168.70.135 -I oaitun_ue1 

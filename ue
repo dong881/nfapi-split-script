@@ -11,3 +11,4 @@ cd ./cmake\_targets/ran\_build/build
 # work
 # sudo ./nr-uesoftmodem --rfsim --rfsimulator.serveraddr 127.0.0.1 -r 106 --numerology 1 --band 78 -C 3619200000 -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf
 sudo ./nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --uicc0.imsi 001010000000001 --rfsim
+# --uicc0.imsi 001010000062653 --uicc0.key 8baf473f2f8fd09487cccbd7097c6862 --uicc0.opc 8e27b6af0e692e750f32667a3b14605d  --uicc0.dnn internet
