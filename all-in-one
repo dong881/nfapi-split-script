@@ -34,9 +34,9 @@ else
     fi
     echo -e "execute OAI VNF-DU\r"
     if [ "$TIME_STAMP" = "true" ]; then
-        stdbuf -oL ./vnf-DU 2>&1 | ts &> "$LOG_PATH/VNF-DU-nfapi.log" &
+        stdbuf -oL ./du-split2-6 2>&1 | ts &> "$LOG_PATH/VNF-DU-nfapi.log" &
     else
-        stdbuf -oL ./vnf-DU &> "$LOG_PATH/VNF-DU-nfapi.log" &
+        stdbuf -oL ./du-split2-6 &> "$LOG_PATH/VNF-DU-nfapi.log" &
     fi
     # echo -e "execute OAI VNF\r"
     # stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi.log" &

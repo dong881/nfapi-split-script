@@ -2,5 +2,6 @@
 source ./VARIABLE.sh
 cd $PATH_TO_PNF
 cd ./cmake\_targets/ran\_build/build
+sudo NFAPI_TRACE_LEVEL=info ./nr-softmodem -O $PATH_TO_SCRIPT/CONFIG/gnb-pnf.band78.rfsim.conf --nfapi PNF --rfsim 
 # sudo LD_LIBRARY_PATH=./ NFAPI\_TRACE\_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-pnf.band78.rfsim.conf --nfapi PNF --rfsim --rfsimulator.serveraddr server --log\_config.global\_log\_options wall\_clock --sa # -q
-sudo NFAPI_TRACE_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-pnf.band78.rfsim.conf --nfapi PNF --rfsim 
+# sudo NFAPI_TRACE_LEVEL=info ./nr-softmodem -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb-pnf.band78.rfsim.conf --nfapi PNF --rfsim 
