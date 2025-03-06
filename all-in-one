@@ -5,7 +5,7 @@ wait_sec=25
 # sudo apt-get install moreutils
 
 # Common path
-Target_PATH="."
+Target_PATH="$PATH_TO_SCRIPT"
 LOG_PATH="$Target_PATH/LOG"
 LOCKFILE="$Target_PATH/tmp-build_run.lock"
 TIME_STAMP="false"
@@ -24,15 +24,15 @@ else
     # echo -e "execute OAI Core Network\r"
     # ./cn
     sudo echo -e "Start TCPdump...\r"
-    sudo tcpdump -i any -nn '(proto SCTP)' -w $LOG_PATH/nFAPI_TCPdump.pcap &
+    sudo tcpdump -i any -nn '(proto SCTP)' -w $LOG_PATH/nFAPI_TCPdump.pcap 2>/dev/null &
     # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
-    echo -e "execute OAI VNF-CU\r"
+    echo -e "VNF-CU: $LOG_PATH/VNF-DU-nfapi.log\r"
     if [ "$TIME_STAMP" = "true" ]; then
-        stdbuf -oL ./cu-split2 2>&1 | ts &> "$LOG_PATH/VNF-CU-nfapi.log" &
+        stdbuf -oL ./cu-split2 2>&1 | ts &> "c" &
     else
         stdbuf -oL ./cu-split2 &> "$LOG_PATH/VNF-CU-nfapi.log" &
     fi
-    echo -e "execute OAI VNF-DU\r"
+    echo -e "VNF-DU: $LOG_PATH/VNF-DU-nfapi.log\r"
     if [ "$TIME_STAMP" = "true" ]; then
         stdbuf -oL ./du-split2-6 2>&1 | ts &> "$LOG_PATH/VNF-DU-nfapi.log" &
     else
@@ -40,29 +40,29 @@ else
     fi
     # echo -e "execute OAI VNF\r"
     # stdbuf -oL ./vnf 2>&1 | ts &> "$LOG_PATH/VNF-nfapi.log" &
-    echo -e "execute OAI PNF\r"
+    echo -e "PNF: $LOG_PATH/PNF-nfapi.log\r"
     if [ "$TIME_STAMP" = "true" ]; then
         stdbuf -oL ./pnf 2>&1 | ts &> "$LOG_PATH/PNF-nfapi.log" &
     else
         stdbuf -oL ./pnf &> "$LOG_PATH/PNF-nfapi.log" &
     fi
-    echo -e "execute OAI UE\r"
+    echo -e "UE: $LOG_PATH/UE-nfapi.log\r"
     if [ "$TIME_STAMP" = "true" ]; then
         stdbuf -oL ./ue 2>&1 | ts &> "$LOG_PATH/UE-nfapi.log" &
     else
         stdbuf -oL ./ue &> "$LOG_PATH/UE-nfapi.log" &
     fi
-
+    echo -e "Executing in background...\r"
     # bash "./ping-autoExecute" &
     # bash "./iperf-client-autoExecute" &
 
-    echo -e "The script automatically closes after $wait_sec seconds...\r"
+    # echo -e "The script automatically closes after $wait_sec seconds...\r"
     ####################### Wait for the specified number of seconds
-    sleep $wait_sec
-    bash "$Target_PATH/exit"
-    echo -e "Time to $wait_sec seconds...\r"
+    # sleep $wait_sec
+    # bash "$Target_PATH/exit"
+    # echo -e "Time to $wait_sec seconds...\r"
     # kill $!
-    echo -e "END\r"
+    # echo -e "END\r"
     # # Remove the lock file
     # rm $LOCKFILE
 fi
