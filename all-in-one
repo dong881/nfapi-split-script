@@ -26,7 +26,7 @@ else
     sudo echo -e "Start TCPdump...\r"
     sudo tcpdump -i any -nn '(proto SCTP)' -w $LOG_PATH/nFAPI_TCPdump.pcap 2>/dev/null &
     # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
-    echo -e "VNF-CU: $LOG_PATH/VNF-DU-nfapi.log\r"
+    echo -e "VNF-CU: $LOG_PATH/VNF-CU-nfapi.log\r"
     if [ "$TIME_STAMP" = "true" ]; then
         stdbuf -oL ./cu-split2 2>&1 | ts &> "c" &
     else
