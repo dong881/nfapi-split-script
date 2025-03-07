@@ -28,7 +28,7 @@ else
     # sudo tcpdump -i lo -nn -w $LOG_PATH/nFAPI_TCPdump.pcap -U&
     echo -e "VNF-CU: $LOG_PATH/VNF-CU-nfapi.log\r"
     if [ "$TIME_STAMP" = "true" ]; then
-        stdbuf -oL ./cu-split2 2>&1 | ts &> "c" &
+        stdbuf -oL ./cu-split2 2>&1 | ts &> "$LOG_PATH/VNF-CU-nfapi.log" &
     else
         stdbuf -oL ./cu-split2 &> "$LOG_PATH/VNF-CU-nfapi.log" &
     fi
