@@ -1,199 +1,317 @@
- 二  22 14:57:12 [UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool2_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool3_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool4_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool5_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:12 [0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[OPT]   OPT disabled
- 二  22 14:57:13 [0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
- 二  22 14:57:13 [0m[UTIL]   Opened socket oaitun_ue1 with fd nas_sock_fd[0]=93
- 二  22 14:57:13 [0m[PDCP]   UE pdcp will use tun interface
- 二  22 14:57:13 [0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
- 二  22 14:57:13 [0m[NR_MAC]   [UE0] Initializing MAC
- 二  22 14:57:13 [0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
- 二  22 14:57:13 [0m[RLC]   Activated srb0 for UE 0
- 二  22 14:57:13 [0m[93m[RLC]   SRB0 already exists for UE 0, do nothing
- 二  22 14:57:13 [0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
- 二  22 14:57:13 , chest-freq 0, chest-time 0
- 二  22 14:57:13 [0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
- 二  22 14:57:13 [0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
- 二  22 14:57:13 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
- 二  22 14:57:13 [0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
- 二  22 14:57:13 [0m[UTIL]   threadCreate() for SYNC__actor: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:13 [0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
- 二  22 14:57:14 [0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
- 二  22 14:57:14 [0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (UL Freq 3619200000, N_RB 106, mu 1)
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
- 二  22 14:57:14 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
- 二  22 14:57:14 [0m[PHY]   Intializing UE Threads for instance 0 ...
- 二  22 14:57:14 [0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
- 二  22 14:57:14 [0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
- 二  22 14:57:14 [0m[NR_RRC]   create TASK_RRC_NRUE 
- 二  22 14:57:14 [0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
- 二  22 14:57:14 [0m[HW]   Running as client: will connect to a rfsimulator server side
- 二  22 14:57:14 [0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
- 二  22 14:57:14 [0m[HW]   [RRU] has loaded RFSIMULATOR device.
- 二  22 14:57:14 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:14 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:15 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:15 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:16 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:16 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:17 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:17 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:18 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:18 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:19 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:19 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:20 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:20 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:21 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:21 [0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
- 二  22 14:57:22 [0m[HW]   Trying to connect to 127.0.0.1:4043
- 二  22 14:57:22 [0m[HW]   Connection to 127.0.0.1:4043 established
- 二  22 14:57:22 [0m[93m[PHY]   SSB position provided
- 二  22 14:57:22 [0m[93m[NR_PHY]   Starting sync detection
- 二  22 14:57:22 [0m[PHY]   [UE thread Synch] Running Initial Synch 
- 二  22 14:57:22 [0m[NR_PHY]   Starting cell search with center freq: 3619200000, bandwidth: 106. Scanning for 1 number of GSCN.
- 二  22 14:57:22 [0m[NR_PHY]   Scanning GSCN: 0, with SSB offset: 516, SSB Freq: 0.000000
- 二  22 14:57:23 [0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
- 二  22 14:57:23 [0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
- 二  22 14:57:23 [0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
- 二  22 14:57:23 [0m[PHY]   [UE0] In synch, rx_offset 215040 samples
- 二  22 14:57:23 [0m[PHY]   [UE 0] Measured Carrier Frequency offset 6 Hz
- 二  22 14:57:23 [0m[32m[PHY]   Initial sync successful, PCI: 0
- 二  22 14:57:23 [0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200006 Hz, rx_freq 3619200006 Hz, tune_offset 0
- 二  22 14:57:23 [0m[PHY]   Got synch: hw_slot_offset 14, carrier off 6 Hz, rxgain 0.000000 (DL 3619200006.000000 Hz, UL 3619200006.000000 Hz)
- 二  22 14:57:23 [0m[32m[PHY]   UE synchronized! decoded_frame_rx=138 UE->init_sync_frame=1 trashed_frames=32
- 二  22 14:57:23 [0m[PHY]   Resynchronizing RX by 215040 samples
- 二  22 14:57:23 [0m[HW]   received write reorder clear context
- 二  22 14:57:23 [0m[32m[NR_RRC]   SIB1 decoded
- 二  22 14:57:23 [0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
- 二  22 14:57:23 [0m[NR_MAC]   Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
- 二  22 14:57:23 [0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
- 二  22 14:57:23 [0m[MAC]   Initialization of 4-Step CBRA procedure
- 二  22 14:57:23 [0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
- 二  22 14:57:23 [0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 8, first_nonzero_root_idx 0, preambleIndex = 32
- 二  22 14:57:23 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
- 二  22 14:57:23 [0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
- 二  22 14:57:23 [0m[32m[NR_MAC]   [UE 0][RAPROC][280.17] Found RAR with the intended RAPID 32
- 二  22 14:57:23 [0m[93m[MAC]   received TA command 31
- 二  22 14:57:23 [0m[PHY]   RAR-Msg2 decoded
- 二  22 14:57:23 [0m[32m[NR_MAC]   [RAPROC][281.7] RA-Msg3 transmitted
- 二  22 14:57:23 [0m[MAC]   [UE 0]Frame 282 Contention resolution identity: 0x16d706c63e26 Terminating RA procedure
- 二  22 14:57:23 [0m[32m[MAC]   [UE 0][282.2][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
- 二  22 14:57:23 [0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
- 二  22 14:57:23 [0m[RLC]   Added srb 1 to UE 0
- 二  22 14:57:23 [0m[NR_RRC]   State = NR_RRC_CONNECTED
- 二  22 14:57:23 [0m[NAS]   Generate Initial NAS Message: Registration Request
- 二  22 14:57:23 [0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
- 二  22 14:57:23 [0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
- 二  22 14:57:24 [0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
- 二  22 14:57:24     DL harq: 3/0
- 二  22 14:57:24     Ul harq: 12/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.3)
- 二  22 14:57:24 [0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
- 二  22 14:57:24     DL harq: 4/0
- 二  22 14:57:24     Ul harq: 25/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.2)
- 二  22 14:57:25 [0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
- 二  22 14:57:25     DL harq: 5/0
- 二  22 14:57:25     Ul harq: 38/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.5)
- 二  22 14:57:26 [0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
- 二  22 14:57:26     DL harq: 6/0
- 二  22 14:57:26     Ul harq: 51/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 12.6)
- 二  22 14:57:26 [0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
- 二  22 14:57:26     DL harq: 8/0
- 二  22 14:57:26     Ul harq: 64/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.7)
- 二  22 14:57:27 [0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
- 二  22 14:57:27     DL harq: 9/0
- 二  22 14:57:27     Ul harq: 76/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.7)
- 二  22 14:57:28 [0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
- 二  22 14:57:28     DL harq: 10/0
- 二  22 14:57:28     Ul harq: 89/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.8)
- 二  22 14:57:28 [0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
- 二  22 14:57:28     DL harq: 11/0
- 二  22 14:57:28     Ul harq: 102/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.8)
- 二  22 14:57:29 [0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
- 二  22 14:57:29     DL harq: 13/0
- 二  22 14:57:29     Ul harq: 115/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.8)
- 二  22 14:57:29 [0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
- 二  22 14:57:29     DL harq: 14/0
- 二  22 14:57:29     Ul harq: 128/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.8)
- 二  22 14:57:30 [0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
- 二  22 14:57:30     DL harq: 15/0
- 二  22 14:57:30     Ul harq: 140/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:31 [0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
- 二  22 14:57:31     DL harq: 17/0
- 二  22 14:57:31     Ul harq: 153/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:31 [0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
- 二  22 14:57:31     DL harq: 18/0
- 二  22 14:57:31     Ul harq: 166/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:32 [0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
- 二  22 14:57:32     DL harq: 19/0
- 二  22 14:57:32     Ul harq: 179/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:33 [0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
- 二  22 14:57:33     DL harq: 20/0
- 二  22 14:57:33     Ul harq: 192/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:33 [0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
- 二  22 14:57:33     DL harq: 22/0
- 二  22 14:57:33     Ul harq: 204/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:34 [0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
- 二  22 14:57:34     DL harq: 23/0
- 二  22 14:57:34     Ul harq: 217/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:35 [0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
- 二  22 14:57:35     DL harq: 24/0
- 二  22 14:57:35     Ul harq: 230/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:35 [0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
- 二  22 14:57:35     DL harq: 26/0
- 二  22 14:57:35     Ul harq: 243/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:36 [0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
- 二  22 14:57:36     DL harq: 27/0
- 二  22 14:57:36     Ul harq: 256/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:37 [0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
- 二  22 14:57:37     DL harq: 28/0
- 二  22 14:57:37     Ul harq: 268/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:37 [0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
- 二  22 14:57:37     DL harq: 29/0
- 二  22 14:57:37     Ul harq: 281/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 12.9)
- 二  22 14:57:37 [0mPress ^C again to trigger immediate shutdown
- 二  22 14:57:37 [NAS]   [UE 0] Received NAS_DEREGISTRATION_REQ
- 二  22 14:57:37 [0m[93m[NAS]   No GUTI, cannot trigger deregistration request.
- 二  22 14:57:37 [0m[NR_RRC]   RRC moved into IDLE state
- 二  22 14:57:37 [0m[NAS]   [UE 0] Received NR_NAS_CONN_RELEASE_IND: cause 2
- 二  22 14:57:37 [0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--uicc0.imsi" "001010000000001" "--rfsim" 
- 二  22 14:57:37 UE threads created by 3101155
- 二  22 14:57:37 TYPE <CTRL-C> TO TERMINATE
- 二  22 14:57:37 Initializing random number generator, seed 1266528695023245729
- 二  22 14:57:37 Entering ITTI signals handler
- 二  22 14:57:37 TYPE <CTRL-C> TO TERMINATE
- 二  22 14:57:37 Returned from ITTI signal handler
- 二  22 14:57:37 oai_exit=1
+[UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+[0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool2_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool3_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool4_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool5_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
+[0m[OPT]   OPT disabled
+[0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
+[0m[UTIL]   Opened socket oaitun_ue1 with fd nas_sock_fd[0]=93
+[0m[PDCP]   UE pdcp will use tun interface
+[0m[SIM]   UICC simulation: IMSI=001010000000001, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=c42449363bbad02b66d16bc975d77cc1, DNN=oai, SST=0x01, SD=0xffffff
+[0m[NR_MAC]   [UE0] Initializing MAC
+[0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 20
+[0m[RLC]   Activated srb0 for UE 0
+[0m[93m[RLC]   SRB0 already exists for UE 0, do nothing
+[0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+, chest-freq 0, chest-time 0
+[0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 516
+[0m[PHY]   SA init parameters. DL freq 3619200000 UL offset 0 SSB numerology 1 N_RB_DL 106
+[0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[0m[93m[PHY]   samples_per_subframe 61440/per second 61440000, wCP 57344
+[0m[UTIL]   threadCreate() for SYNC__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
+[0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+[0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+[0m[PHY]   UE 0 Setting N_TA_offset to 800 samples (UL Freq 3619200000, N_RB 106, mu 1)
+[0m[PHY]   HW: Configuring card 0, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 1, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 2, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 3, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 4, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 5, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 6, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 7, sample_rate 61440000.000000, tx/rx num_channels 1/1, duplex_mode TDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   Intializing UE Threads for instance 0 ...
+[0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
+[0m[NR_RRC]   create TASK_RRC_NRUE 
+[0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
+[0m[HW]   Running as client: will connect to a rfsimulator server side
+[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
+[0m[HW]   [RRU] has loaded RFSIMULATOR device.
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   connect() to 127.0.0.1:4043 failed, errno(111)
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   Connection to 127.0.0.1:4043 established
+[0m[93m[PHY]   SSB position provided
+[0m[93m[NR_PHY]   Starting sync detection
+[0m[PHY]   [UE thread Synch] Running Initial Synch 
+[0m[NR_PHY]   Starting cell search with center freq: 3619200000, bandwidth: 106. Scanning for 1 number of GSCN.
+[0m[NR_PHY]   Scanning GSCN: 0, with SSB offset: 516, SSB Freq: 0.000000
+[0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
+[0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
+[0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 516, SSB Ref: 0.000000, PSS Corr peak: 99 dB, PSS Corr Average: 61
+[0m[PHY]   [UE0] In synch, rx_offset 491520 samples
+[0m[PHY]   [UE 0] Measured Carrier Frequency offset 7 Hz
+[0m[32m[PHY]   Initial sync successful, PCI: 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 3619200007 Hz, rx_freq 3619200007 Hz, tune_offset 0
+[0m[PHY]   Got synch: hw_slot_offset 32, carrier off 7 Hz, rxgain 0.000000 (DL 3619200007.000000 Hz, UL 3619200007.000000 Hz)
+[0m[32m[PHY]   UE synchronized! decoded_frame_rx=136 UE->init_sync_frame=1 trashed_frames=28
+[0m[PHY]   Resynchronizing RX by 491520 samples
+[0m[HW]   received write reorder clear context
+[0m[32m[NR_RRC]   SIB1 decoded
+[0m[NR_MAC]   TDD period index = 6, based on the sum of dl_UL_TransmissionPeriodicity from Pattern1 (5.000000 ms) and Pattern2 (0.000000 ms): Total = 5.000000 ms
+[0m[NR_MAC]   Set TDD configuration period to: 8 DL slots, 3 UL slots, 10 slots per period (NR_TDD_UL_DL_Pattern is 7 DL slots, 2 UL slots, 6 DL symbols, 4 UL symbols)
+[0m[NR_MAC]   Configured 1 TDD patterns (total slots: pattern1 = 10, pattern2 = 0)
+[0m[MAC]   Initialization of 4-Step CBRA procedure
+[0m[NR_MAC]   PRACH scheduler: Selected RO Frame 279, Slot 19, Symbol 0, Fdm 0
+[0m[PHY]   PRACH [UE 0] in frame.slot 279.19, placing PRACH in position 2828, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 7, first_nonzero_root_idx 0, preambleIndex = 29
+[0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 0005] Got BI RAR subPDU 267 ms
+[0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 010b] Got RAPID RAR subPDU
+[0m[32m[NR_MAC]   [UE 0][RAPROC][280.17] Found RAR with the intended RAPID 29
+[0m[93m[MAC]   received TA command 31
+[0m[PHY]   RAR-Msg2 decoded
+[0m[32m[NR_MAC]   [RAPROC][281.7] RA-Msg3 transmitted
+[0m[MAC]   [UE 0]Frame 282 Contention resolution identity: 0x1d11d2de90e6 Terminating RA procedure
+[0m[32m[MAC]   [UE 0][282.3][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+[0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+[0m[RLC]   Added srb 1 to UE 0
+[0m[NR_RRC]   State = NR_RRC_CONNECTED
+[0m[NAS]   Generate Initial NAS Message: Registration Request
+[0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes33)
+[0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
+[0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 42 , buffer 0x74607c005e80
+[0m[NAS]    nr_nas_msg.c:402  derive_kgnb  with count= 0
+[0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 21 , buffer 0x74607c006d80
+[0m[NAS]   Generate Initial NAS Message: Registration Request
+[0m[NR_RRC]   Received securityModeCommand (gNB 0)
+[0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing securityModeCommand
+[0m[NR_RRC]   Security algorithm is set to nea0
+[0m[NR_RRC]   Integrity protection algorithm is set to nia2
+[0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), encoding securityModeComplete, rrc_TransactionIdentifier: 0
+[0m[NR_RRC]   Received Capability Enquiry (gNB 0)
+[0m[NR_RRC]   Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry
+[0mCMDLINE: "./nr-uesoftmodem" "-r" "106" "--numerology" "1" "--band" "78" "-C" "3619200000" "--uicc0.imsi" "001010000000001" "--rfsim" 
+UE threads created by 1355543
+TYPE <CTRL-C> TO TERMINATE
+Initializing random number generator, seed 1552152148771342211
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+kgnb : cb 14 52 93 ad 56 e8 00 44 fa 56 88 69 cb a3 c6 b2 04 ca f7 4a 0e c8 ed 08 19 23 e8 6a 9c fa 8a 
+kausf:e3 e4 21 26 4d cb 8a 99 da 18 7b bc 19 38 c1 b1 fe c3 d0 e6 15 af 32 50 57 22 cb 6d ea a0 71 a3 
+kseaf:df b0 6e 85 cf 7f 4c 2b 1a 54 83 de 84 31 70 d1 5a 24 8a c7 5a 23 ee 2f 97 cb 5f ef f 5a f2 bf 
+kamf:8d 1c 53 8e 42 66 46 6a 96 f6 7b b1 7d 51 bf af 72 89 77 e5 ed ff e a3 93 e5 1a 92 d4 37 eb c8 
+knas_int: 23 81 62 72 ff 4c 4 ef 41 3e 8 37 ff 60 be ac 
+knas_enc: 3c 82 2a 9f f4 83 aa dd d 9a cd 83 1a 89 1 ee 
+mac 0 3 84 e2 
+[NR_RRC]   deriving kRRCenc, kRRCint from KgNB=cb 14 52 93 ad 56 e8 00 44 fa 56 88 69 cb a3 c6 b2 04 ca f7 4a 0e c8 ed 08 19 23 e8 6a 9c fa 8a [0m
+[NR_RRC]   securityModeComplete payload: 28 00 40 b9 ce 61 00 00 00 46 40 b9 ce 61 00 00 [0m
+<UE-NR-Capability>
+    <accessStratumRelease><rel15/></accessStratumRelease>
+    <pdcp-Parameters>
+        <supportedROHC-Profiles>
+            <profile0x0000><false/></profile0x0000>
+            <profile0x0001><false/></profile0x0001>
+            <profile0x0002><false/></profile0x0002>
+            <profile0x0003><false/></profile0x0003>
+            <profile0x0004><false/></profile0x0004>
+            <profile0x0006><false/></profile0x0006>
+            <profile0x0101><false/></profile0x0101>
+            <profile0x0102><false/></profile0x0102>
+            <profile0x0103><false/></profile0x0103>
+            <profile0x0104><false/></profile0x0104>
+        </supportedROHC-Profiles>
+        <maxNumberROHC-ContextSessions><cs2/></maxNumberROHC-ContextSessions>
+    </pdcp-Parameters>
+    <phy-Parameters>
+    </phy-Parameters>
+    <rf-Parameters>
+        <supportedBandListNR>
+            <BandNR>
+                <bandNR>1</bandNR>
+            </BandNR>
+        </supportedBandListNR>
+    </rf-Parameters>
+</UE-NR-Capability>
+[PHY]   [RRC]UE NR Capability encoded, 10 bytes (86 bits)
+[0m[NR_RRC]   UECapabilityInformation Encoded 106 bits (14 bytes)
+[0m[NAS]   [UE 0] Received NAS_DOWNLINK_DATA_IND: length 61 , buffer 0x74607c00bc70
+[0m[NAS]   [UE] Received REGISTRATION ACCEPT message
+[0m[NAS]   Send NAS_UPLINK_DATA_REQ message(RegistrationComplete)
+[0m[NAS]   Send NAS_UPLINK_DATA_REQ message(PduSessionEstablishRequest)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 12/0
+    Ul harq: 24/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.8, nb symbols 6.3)
+[0m[NR_RRC]   RRCReconfiguration includes radio Bearer Configuration
+[0m[PDCP]   added drb 1 to UE ID 0
+[0m[SDAP]   Default DRB for the created SDAP entity: 1 
+[0m[NR_RRC]   State = NR_RRC_CONNECTED
+[0m[RLC]   Added srb 2 to UE 0
+[0m[RLC]   Added drb 1 to UE 0
+[0m[RLC]   Added DRB to UE 0
+[0m[NR_RRC]   RRCReconfiguration includes Measurement Configuration
+[0m[NAS]   [UE 0] Received NAS_CONN_ESTABLI_CNF: errCode 1, length 98
+[0m[NR_RRC]   rrcReconfigurationComplete Encoded 10 bits (2 bytes)
+[0m[NR_RRC]    Logical Channel UL-DCCH (SRB1), Generating RRCReconfigurationComplete (bytes 2)
+[0m[NAS]   Received PDU Session Establishment Accept, UE IPv4: 10.0.0.4
+[0mUnknown IEI 129
+[OIP]   Interface oaitun_ue1 successfully configured, IPv4 10.0.0.4, IPv6 (null)
+[0m[1;31m[SDAP]   /home/hpe/OnlyOAI/openairinterface5g/openair2/SDAP/nr_sdap/nr_sdap.c:49:sdap_data_req: Entity not found with ue: 0x0 and pdusession id: 0
+[0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 15/0
+    Ul harq: 39/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.5, nb symbols 8.4)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 16/0
+    Ul harq: 52/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.4, nb symbols 9.5)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 17/0
+    Ul harq: 64/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 10.2)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 19/0
+    Ul harq: 77/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 10.7)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 20/0
+    Ul harq: 90/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 21/0
+    Ul harq: 103/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.3)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 23/0
+    Ul harq: 119/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.2)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 25/0
+    Ul harq: 131/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.3)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 26/0
+    Ul harq: 144/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 11.5)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 27/0
+    Ul harq: 157/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 11.6)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 30/0
+    Ul harq: 175/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.4)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 31/0
+    Ul harq: 188/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.5)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 33/0
+    Ul harq: 206/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.3)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 35/0
+    Ul harq: 224/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.2)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 37/0
+    Ul harq: 236/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.3)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 39/0
+    Ul harq: 254/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.2)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 41/0
+    Ul harq: 272/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.1)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 43/0
+    Ul harq: 285/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.2)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 45/0
+    Ul harq: 303/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.1)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 46/0
+    Ul harq: 316/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.2)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 49/0
+    Ul harq: 337/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 51/0
+    Ul harq: 350/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.1)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 52/0
+    Ul harq: 363/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.1)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 53/0
+    Ul harq: 376/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.2)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 54/0
+    Ul harq: 389/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.3, nb symbols 11.3)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 56/0
+    Ul harq: 401/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.3)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 57/0
+    Ul harq: 414/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.4)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 58/0
+    Ul harq: 427/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.4)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 60/0
+    Ul harq: 440/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.5)
+[0m[NR_MAC]   UE 0 stats sfn: 128.8, cumulated bad DCI 0
+    DL harq: 61/0
+    Ul harq: 453/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.5)
+[0m[NR_MAC]   UE 0 stats sfn: 256.8, cumulated bad DCI 0
+    DL harq: 62/0
+    Ul harq: 465/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.5)
+[0m[NR_MAC]   UE 0 stats sfn: 384.8, cumulated bad DCI 0
+    DL harq: 63/0
+    Ul harq: 478/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.6)
+[0m[NR_MAC]   UE 0 stats sfn: 512.8, cumulated bad DCI 0
+    DL harq: 65/0
+    Ul harq: 491/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.6)
+[0m[NR_MAC]   UE 0 stats sfn: 640.8, cumulated bad DCI 0
+    DL harq: 66/0
+    Ul harq: 504/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.7)
+[0m[NR_MAC]   UE 0 stats sfn: 768.8, cumulated bad DCI 0
+    DL harq: 67/0
+    Ul harq: 517/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.7)
+[0m[NR_MAC]   UE 0 stats sfn: 896.8, cumulated bad DCI 0
+    DL harq: 69/0
+    Ul harq: 529/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.7)
+[0m[NR_MAC]   UE 0 stats sfn: 0.8, cumulated bad DCI 0
+    DL harq: 70/0
+    Ul harq: 542/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.2, nb symbols 11.7)
+[0m[1;31m[PHY]   [UE 0] frame 76, nr_slot_rx 0, Error decoding PBCH!
+[0mPress ^C again to trigger immediate shutdown
+[NAS]   [UE 0] Received NAS_DEREGISTRATION_REQ
+[0mmac 74 1f 64 f2 
+mac 0 4 49 2f 
+mac 5d af 9b 6b 
+Returned from ITTI signal handler
+oai_exit=1
