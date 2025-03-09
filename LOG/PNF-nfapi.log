@@ -3,7 +3,7 @@
 [0m[HW]   Version: Branch: HEAD Abrev. Hash: 6d9c2c35b8 Date: Tue Feb 18 11:37:07 2025 +0000
 [0m[GNB_APP]   Initialized RAN Context: RC.nb_nr_inst = 0, RC.nb_nr_macrlc_inst = 0, RC.nb_nr_L1_inst = 1, RC.nb_RU = 1, RC.nb_nr_CC[0] = 1
 [0m[NR_PHY]   Initializing gNB RAN context: RC.nb_nr_L1_inst = 1 
-[0m[NR_PHY]   Registered with MAC interface module (0x568a9342c950)
+[0m[NR_PHY]   Registered with MAC interface module (0x5ceaba273950)
 [0m[NR_PHY]   Initializing NR L1: RC.nb_nr_L1_inst = 1
 [0m[NR_PHY]   L1_RX_THREAD_CORE -1 (15)
 [0m[NR_PHY]   TX_AMP = 519 (-36 dBFS)
@@ -16,39 +16,39 @@ configure_nr_nfapi_pnf() PNF
 
 
 configure_nr_nfapi_pnf() VNF:127.0.0.1:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.1:50011 rx:50010]
-105420.457024 [I] 1697615872: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
-105420.457029 [I] 1697615872: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
-105420.459729 [I] 1681917504: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
-105420.459741 [I] 1681917504: nfapi_nr_pnf_start: nfapi_nr_pnf_start
-105420.459744 [I] 1681917504: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
-105420.459819 [N] 1681917504: pnf_connect: PNF Setting the SCTP_INITMSG
-105420.459825 [I] 1681917504: pnf_connect: P5 socket created...
-105420.459907 [E] 1681917504: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
-105422.459940 [I] 1681917504: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
-105422.459982 [N] 1681917504: pnf_connect: PNF Setting the SCTP_INITMSG
-105422.459996 [I] 1681917504: pnf_connect: P5 socket created...
-105422.460313 [I] 1681917504: pnf_connect: connect succeeded...
-105422.460326 [N] 1681917504: pnf_connect: After connect loop
-105422.460335 [I] 1681917504: pnf_connect: Association ID = 279
-105422.460339 [I] 1681917504: pnf_connect: Receiver window size = 67108864
-105422.460343 [I] 1681917504: pnf_connect: In Streams = 5
-105422.460347 [I] 1681917504: pnf_connect: Out Streams = 5
-105422.460351 [N] 1681917504: pnf_connect: Socket CONNECTED
-105422.460643 [I] 1681917504: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
+259650.519085 [I] 2223316992: nfapi_trace_init: NFAPI_TRACE_LEVEL='info'
+259650.519088 [I] 2223316992: configure_nr_nfapi_pnf: [PNF] Creating PNF NFAPI start thread configure_nr_nfapi_pnf
+259650.521779 [I] 2208302656: pnf_nr_start_thread: [PNF] IN PNF NFAPI start thread pnf_nr_start_thread
+259650.521886 [I] 2208302656: nfapi_nr_pnf_start: nfapi_nr_pnf_start
+259650.521890 [I] 2208302656: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
+259650.521977 [N] 2208302656: pnf_connect: PNF Setting the SCTP_INITMSG
+259650.521984 [I] 2208302656: pnf_connect: P5 socket created...
+259650.522093 [E] 2208302656: pnf_connect: After connect (address:127.0.0.1 port:50001) errno: 111
+259652.522222 [I] 2208302656: pnf_connect: Starting P5 PNF connection to VNF at 127.0.0.1:50001
+259652.522278 [N] 2208302656: pnf_connect: PNF Setting the SCTP_INITMSG
+259652.522287 [I] 2208302656: pnf_connect: P5 socket created...
+259652.522497 [I] 2208302656: pnf_connect: connect succeeded...
+259652.522505 [N] 2208302656: pnf_connect: After connect loop
+259652.522508 [I] 2208302656: pnf_connect: Association ID = 370
+259652.522510 [I] 2208302656: pnf_connect: Receiver window size = 67108864
+259652.522512 [I] 2208302656: pnf_connect: In Streams = 5
+259652.522514 [I] 2208302656: pnf_connect: Out Streams = 5
+259652.522515 [N] 2208302656: pnf_connect: Socket CONNECTED
+259652.522664 [I] 2208302656: pnf_nr_handle_pnf_param_request: PNF_PARAM.request received
 [PNF] pnf param request
-105422.460704 [I] 1681917504: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
+259652.522749 [I] 2208302656: pnf_nr_handle_pnf_config_request: PNF_CONFIG.request received
 [PNF] pnf config request
 [PNF] pnf config request assigned phy_id 1 to phy_config_index 0
 [PNF] Sent pnf_config_resp
-105422.460746 [I] 1681917504: pnf_nr_handle_pnf_start_request: PNF_START.request Received
+259652.522810 [I] 2208302656: pnf_nr_handle_pnf_start_request: PNF_START.request Received
 Received NFAPI_PNF_START_REQUEST
 [PNF] Sent NFAPI_PNF_START_RESP
-105422.463579 [I] 1681917504: pnf_nr_handle_param_request: PARAM.request received
+259652.525647 [I] 2208302656: pnf_nr_handle_param_request: PARAM.request received
 [PNF] Received NFAPI_PARAM_REQUEST phy_id:1
 TAG value :2
 RUNNING pack_param_response
 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
-105422.463698 [I] 1681917504: pnf_nr_handle_config_request: CONFIG.request received
+259652.525795 [I] 2208302656: pnf_nr_handle_config_request: CONFIG.request received
 [PNF] vnf p7 0.1.4.0:50011
 [PNF] Received NFAPI_CONFIG_REQ phy_id:1
 
@@ -56,7 +56,7 @@ Timing window tag: 286
 Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
 timing info mode:3
 timing info period provided value:10
-105422.463723 [E] 1681917504: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
+259652.525819 [E] 2208302656: nr_config_request: nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:40
 [PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
@@ -87,26 +87,26 @@ timing info period provided value:10
 DL frequency 3619200000: band 48, UL frequency 3619200000
 [PNF] 1 vnf p7 127.0.0.1:50011 timing 30 3 10
 [PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
-105422.463934 [I] 1681917504: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
+259652.526087 [I] 2208302656: pnf_nr_handle_start_request: pnf_nr_handle_start_request() START.request received state:2
 [PNF] Received NFAPI_START_REQ phy_id:1
 [PNF] P7 remote:127.0.0.1:50011 local:127.0.0.1:50010
 subframe_buffer_size configured using phy_info->timing_window:30
-105422.513576 [I] 1681917504: nr_start_request: [PNF] Creating P7 thread nr_start_request
+259652.576697 [I] 2208302656: nr_start_request: [PNF] Creating P7 thread nr_start_request
 [UTIL]   threadCreate() for pnf_p7_thread: creating thread with affinity ffffffff, priority 50
 [0m[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 64
 [0m[PHY]   Initialized RU proc 0 (,synch_to_ext_device),
 [0m[PHY]   RU thread-pool core string -1,-1 (size 2)
 [0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
-[0m105422.516746 [I] 1671431744: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
-105422.516757 [I] 1671431744: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
-105422.516768 [I] 1671431744: pnf_nr_p7_message_pump: 105422.516769 [I] 1681917504: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
-105422.516777 [I] 1681917504: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
-PNF P7 socket created (95)...
-105422.516791 [I] 1671431744: pnf_nr_p7_message_pump: PNF P7 binding 95 too 127.0.0.1:50010
-105422.516796 [I] 1671431744: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
+[0m259652.580165 [I] 2197816896: pnf_nr_p7_thread_start: [NR_PNF] NR P7 THREAD pnf_nr_p7_thread_start
+259652.580179 [I] 2197816896: nfapi_nr_pnf_p7_start: nfapi_nr_pnf_p7_start
+259652.580188 [I] 2208302656: nr_start_request: [PNF] Calling l1_north_init_eNB() nr_start_request
+259652.580193 [I] 2208302656: nr_start_request: [PNF] HACK - Set p7_config global ready for subframe indnr_start_request
+259652.580193 [I] 2197816896: pnf_nr_p7_message_pump: PNF P7 socket created (94)...
+259652.580215 [I] 2197816896: pnf_nr_p7_message_pump: PNF P7 binding 94 too 127.0.0.1:50010
+259652.580221 [I] 2197816896: pnf_nr_p7_message_pump: PNF P7 bind succeeded...
 [UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
 [0m[UTIL]   threadCreate() for ru_thread: creating thread with affinity ffffffff, priority 97
-[0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 12
+[0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 15
 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
 [0m[PHY]   fp->scs=30000
@@ -154,7 +154,7 @@ PNF P7 socket created (95)...
 [0m[UTIL]   threadCreate() for L1_stats: creating thread with affinity ffffffff, priority 1
 [0m[PHY]   got sync (L1_stats_thread)
 [0m[PHY]   got sync (ru_thread)
-[0mInitializing random number generator, seed 947403677014017588
+[0mInitializing random number generator, seed 11069454288033191611
 [PNF] waiting for OAI to be configured (eNB/RU)
 [PNF] OAI eNB/RU configured
 [PNF] About to call init_eNB_afterRU()
@@ -162,68 +162,58 @@ TYPE <CTRL-C> TO TERMINATE
 [PHY]   RU 0 rf device ready
 [0m[PHY]   RU 0 RF started cpu_meas_enabled 0
 [0m[HW]   No connected device, generating void samples...
-[0m105428.165795 [N] 1671431744: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 45
-105428.166810 [N] 1671431744: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
+[0m259658.235770 [N] 2197816896: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 45
+259658.236784 [N] 2197816896: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 195
 [32m[PHY]   Command line parameters for OAI UE: -C 3619200000 -r 106 --numerology 1 --ssb 516 
 [0m[PNF] waiting for OAI to be started
 [PNF] Sending PNF_START_RESP
-Sending NFAPI_START_RESPONSE config:0x568a9342d910 phy_id:1
+Sending NFAPI_START_RESPONSE config:0x5ceaba274910 phy_id:1
 [PNF] Sending first P7 slot indication
-105428.183699 [I] 1681917504: pnf_p7_slot_ind: [P7:1] msgs ontime 3 thr DL 0.00 UL 0.00 msg late 0 (vtime)
+259658.254272 [I] 2208302656: pnf_p7_slot_ind: [P7:1] msgs ontime 3 thr DL 0.00 UL 0.00 msg late 0 (vtime)
 [HW]   A client connects, sending the current time
-[0m[93m[HW]   Not supported to send Tx out of order 21657600, 21657599
+[0m[93m[HW]   Not supported to send Tx out of order 21903360, 21903359
 [0m[PNF] Sent first P7 slot ind
-105429.376791 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 189 thr DL 0.06 UL 0.00 msg late 0 (vtime)
-105430.044136 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 192 thr DL 0.06 UL 0.00 msg late 0 (vtime)
-[32m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 29, energy 56.4 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
-[0m105430.177657 [N] 1671431744: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 196
-105430.249392 [N] 1671431744: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 342
-105430.698659 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 455 thr DL 0.07 UL 0.01 msg late 0 (vtime)
-105430.708824 [N] 1671431744: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 376
-105431.350099 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 493 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105432.006494 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 492 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105432.660541 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105433.312984 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 494 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105433.966277 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 492 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105434.615640 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 492 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105435.265272 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 495 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105435.917967 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105436.565927 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105437.220468 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105437.871612 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 497 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105438.522025 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 492 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105439.167013 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 496 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105439.813541 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 495 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105440.462280 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 492 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105441.108709 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 498 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105441.758378 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 499 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105442.409763 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105443.063017 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 497 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105443.714972 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 492 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105444.367532 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 500 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105445.020520 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 491 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105445.670494 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105446.328159 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105446.985128 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105447.638681 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105448.298042 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105448.950308 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105449.603215 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 491 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105450.260664 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105450.915500 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 487 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105451.571901 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105452.229967 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 491 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105452.885999 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105453.542977 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105454.199453 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
-105454.855025 [I] 3837789760: pnf_p7_slot_ind: [P7:1] msgs ontime 489 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259659.422720 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 189 thr DL 0.06 UL 0.00 msg late 0 (vtime)
+259660.082331 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 192 thr DL 0.06 UL 0.00 msg late 0 (vtime)
+[32m[NR_PHY]   [RAPROC] 279.19 Initiating RA procedure with preamble 30, energy 54.9 dB (I0 0, thres 150), delay 0 start symbol 0 freq index 0
+[0m259660.215799 [N] 2197816896: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 196
+259660.340236 [N] 2197816896: pnf_nr_nfapi_p7_read_dispatch_message: reallocing rx buffer 342
+259660.745575 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 456 thr DL 0.07 UL 0.01 msg late 0 (vtime)
+259661.406100 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259662.072828 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259662.734837 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259663.390820 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259664.044282 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259664.704028 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259665.358470 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259666.014797 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259666.667660 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259667.326967 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259667.985146 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259668.643252 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259669.303444 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259669.961212 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259670.625873 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259671.291219 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259671.953618 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259672.611095 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259673.271848 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259673.932719 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259674.597540 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259675.261488 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259675.920220 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259676.581710 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259677.240635 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 488 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259677.896296 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259678.554652 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
+259679.211226 [I] 4225762880: pnf_p7_slot_ind: [P7:1] msgs ontime 490 thr DL 0.06 UL 0.01 msg late 0 (vtime)
 
 ** Caught SIGTERM, shutting down
 [GNB_APP]   stopping nr-softmodem
 [0m[PHY]   Killing gNB 0 processing threads
 [0mReturned from ITTI signal handler
-105455.248185 [W] 1681917504: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
-105455.248198 [W] 1681917504: pnf_nr_read_dispatch_message: Disconnected socket
+259679.718328 [W] 2208302656: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+259679.718340 [W] 2208302656: pnf_nr_read_dispatch_message: Disconnected socket
 
 ** Caught SIGTERM, shutting down
 
