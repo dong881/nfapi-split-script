@@ -6,3 +6,4 @@ cd $PATH_TO_PNF/cmake_targets/ran_build/build
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
 cd $PATH_TO_UE/cmake_targets/ran_build/build
 sudo ninja nr-softmodem nr-uesoftmodem dfts ldpc params_libconfig rfsimulator
+echo -e "\r"
