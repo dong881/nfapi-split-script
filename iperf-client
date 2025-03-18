@@ -2,6 +2,9 @@
 UE_IP=$(bash "./iperf-client-autoExecute")
 echo "iperf3 -B $UE_IP -c 192.168.70.135 -t 5 -R"
 iperf3 -B $UE_IP -c 192.168.70.135 -t 5 -R
+sleep 1
+echo "iperf3 -B $UE_IP -c 192.168.70.135 -t 5 -R -b200M"
+iperf3 -B $UE_IP -c 192.168.70.135 -t 5 -R -b200M
 # echo "iperf3 -B $UE_IP -c 192.168.70.135 -t 10 -R -b100M # TCP, reverse -> TCP in DL from server to client"
 # iperf3 -B $UE_IP -c 192.168.70.135 -t 10 -R -b100M # TCP, reverse -> TCP in DL from server to client
 # iperf3 ... -t 40 -b1M -u # UDP in UL from client to server
