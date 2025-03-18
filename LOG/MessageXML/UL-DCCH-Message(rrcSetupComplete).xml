@@ -1,0 +1,18 @@
+<UL-DCCH-Message>
+    <message>
+        <c1>
+            <rrcSetupComplete>
+                <rrc-TransactionIdentifier>1</rrc-TransactionIdentifier>
+                <criticalExtensions>
+                    <rrcSetupComplete>
+                        <selectedPLMN-Identity>1</selectedPLMN-Identity>
+                        <dedicatedNAS-Message>
+                            7E 00 41 09 00 0D 01 00 F1 10 00 00 00 00 00 00 
+                            00 00 10 2E 08 E0 60 00 00 00 00 00 00
+                        </dedicatedNAS-Message>
+                    </rrcSetupComplete>
+                </criticalExtensions>
+            </rrcSetupComplete>
+        </c1>
+    </message>
+</UL-DCCH-Message>

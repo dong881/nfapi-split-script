@@ -1,0 +1,7 @@
+<RadioBearerConfig>
+    <srb-ToAddModList>
+        <SRB-ToAddMod>
+            <srb-Identity>1</srb-Identity>
+        </SRB-ToAddMod>
+    </srb-ToAddModList>
+</RadioBearerConfig>
