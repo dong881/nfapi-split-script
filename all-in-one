@@ -17,6 +17,7 @@ if [ -e $LOCKFILE ]; then
     exit 1
 else
     bash "$Target_PATH/exit"
+    bash "$Target_PATH/build-only"
     # Create the lock file
     touch $LOCKFILE
     echo -e "Set ifconfig\r"
