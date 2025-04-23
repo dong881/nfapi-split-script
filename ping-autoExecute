@@ -1,4 +1,4 @@
-sudo ip link set oaitun_ue1 up
+# sudo ip link set oaitun_ue1 up
 # Set the maximum number of attempts to search for the interface
 max_attempts=100
 attempts=0

@@ -1,4 +1,8 @@
 #!/bin/bash
 source ./VARIABLE.sh
 cd $PATH_TO_openairinterface5g/cmake_targets/ran_build/build
-sudo ./nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --uicc0.imsi 001010000000001 --rfsim
+# sudo ./nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --uicc0.imsi 001010000000001 --rfsim
+# sudo ./nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 -O $PATH_TO_SCRIPT/CONFIG/ue.conf --rfsim 
+
+# For BMW lab open5GS CN
+sudo ./nr-uesoftmodem -r 106 --numerology 1 --band 78 -C 3619200000 --ssb 516 --rfsim --uicc0.imsi 001010000000001 --uicc0.key fec86ba6eb707ed08905757b1bb44b8f --uicc0.opc C42449363BBAD02B66D16BC975D77CC1 --uicc0.dnn internet --rfsimulator.serveraddr 127.0.0.1
